@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: root
 ---
 
 {% include_relative header.md %}
