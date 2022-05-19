@@ -5,7 +5,7 @@ layout: root
 
 <div markdown="1" class="header">
 
-<div markdown="1" class="contact">
+<div markdown="1" class="contact" class="comment">
 
 	# @name   Michael John Decker, Ph.D.
 	# @office Hayes 242
