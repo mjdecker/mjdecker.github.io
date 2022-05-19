@@ -10,3 +10,5 @@ layout: root
 My research focus is in software engineering, including the exploration, analysis, and manipulation of source code, as well as, supporting the maintenance/evolution of software. I am a researcher with the Software DeveloMent Laboratory (SDML) where I aid in the development of [srcML](www.srcML.org) (an XML format representing source code) and its infrastruture. The srcML Infrastructure supports software evolution/engineering research and industry projects by providing support for the analysis and manipulation of source code (among other things). I am also a researcher with [ Source Code Analysis and Natural Language Lab (SCANL)](https://www.scanl.org) which focuses on natural language elements of source-code.  My dissertation work focused on the developed of rules for syntactic differencing that incorporates domain knowledge on how code changes and how developers perceive code changes to produce a fine-grained syntactical differencer that is more accurate, understandable, and scaleable than other existing approaches.
 
 </div>
+
+<address>Michael J. Decker / <a href="mailto:mdecke@bgsu.edu">mdecke@bgsu.edu</a> </address>
