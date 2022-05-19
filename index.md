@@ -9,7 +9,7 @@ layout: root
 
 	# @name   Michael John Decker, Ph.D.
 	# @office Hayes 242
-	g#@email  mdecke@bgsu.edu
+	# @email  mdecke@bgsu.edu
 
 </div>
 
