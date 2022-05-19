@@ -1,162 +1,162 @@
-- publications:
+papers:
   - type: journal
-    - authors:"Newman, C.D., AlSuhaibani, R.S., Decker, M.J., Peruma, A., Kaushik, D., Mkaouer, M.W., and Hill, E.",
-    - title: "On the Generation, Structure, and Semantics of Grammar Patterns in Source Code Identifiers",
-    - conference: "Journal of Systems and Software",
-    - date: "December, 2020",
-    - pages: 69,
-    - link: "https://doi.org/10.1016/j.jss.2020.110704"
+    authors: 'Newman, C.D., AlSuhaibani, R.S., Decker, M.J., Peruma, A., Kaushik, D., Mkaouer, M.W., and Hill, E.'
+    title: 'On the Generation, Structure, and Semantics of Grammar Patterns in Source Code Identifiers'
+    conference: 'Journal of Systems and Software'
+    date: 'December, 2020'
+    pages: 69
+    link: 'https://doi.org/10.1016/j.jss.2020.110704'
 
   - type: journal
-    - authors:"Peruma, A., Mkaouer, M.W., Decker M.J., and Newman, C.D.",
-    - title: "Contextualizing Rename Decisions using Refactorings, Commit Messages, and Data Types",
-    - conference: "Journal of Systems and Software",
-    - date: "November, 2020",
-    - pages: 22,
-    - link: "https://doi.org/10.1016/j.jss.2020.110704"
+    authors: 'Peruma, A., Mkaouer, M.W., Decker M.J., and Newman, C.D.'
+    title: 'Contextualizing Rename Decisions using Refactorings, Commit Messages, and Data Types'
+    conference: 'Journal of Systems and Software'
+    date: 'November, 2020'
+    pages: 22
+    link: 'https://doi.org/10.1016/j.jss.2020.110704'
 
   - type: conference 
-    - authors: "Newman, C.D., Decker, M.J., Alsuhaibani, R., Kaushik, D., Peruma, A., and Hill, E.",
-    - title: "An Open Dataset of Abbreviations and Expansions",
-    - conference: "35th IEEE International Conference on Software Maintenance and Evolution",
-    - location: "Cleveland, OH",
-    - date: "September 30-October 4, 2019",
-    - pages: 1,
-    - link: "https://ieeexplore.ieee.org/document/8919073"
+    authors: 'Newman, C.D., Decker, M.J., Alsuhaibani, R., Kaushik, D., Peruma, A., and Hill, E.'
+    title: 'An Open Dataset of Abbreviations and Expansions'
+    conference: '35th IEEE International Conference on Software Maintenance and Evolution'
+    location: 'Cleveland, OH'
+    date: 'September 30-October 4, 2019'
+    pages: 1
+    link: 'https://ieeexplore.ieee.org/document/8919073'
 
   - type: journal 
-    - authors: "Decker, M.J., Collard, M.L., Volkert, L.G., Maletic, J.I.",
-    - title: "srcDiff: A Syntactic Differencing Approach to Improve the Understandability of Deltas",
-    - conference: "Journal of Software: Evolution and Process",
-    - date: "April, 2020",
-    - volume: 32,
-    - issue: 4,
-    - pages: 37,
-    - link: "https://doi.org/10.1002/smr.2226"
+    authors: 'Decker, M.J., Collard, M.L., Volkert, L.G., Maletic, J.I.'
+    title: 'srcDiff: A Syntactic Differencing Approach to Improve the Understandability of Deltas'
+    conference: 'Journal of Software: Evolution and Process'
+    date: 'April, 2020'
+    volume: 32
+    issue: 4
+    pages: 37
+    link: 'https://doi.org/10.1002/smr.2226'
 
   - type: conference
-    - authors: "Peruma, A., Mkaouer M.W., Decker, M.K., Newman, C.D.",
-    - title: "Contextualizing Rename Decisions using Refactorings and Commit Messages",
-    - conference: "19th IEEE International Working Conference on Source Code Analysis and Manipulation",
-    - location: "Cleveland, OH",
-    - date: "September 30-October 1, 2019",
-    - pages: 12,
-    - link: "https://ieeexplore.ieee.org/abstract/document/8930840"
+    authors: 'Peruma, A., Mkaouer M.W., Decker, M.K., Newman, C.D.'
+    title: 'Contextualizing Rename Decisions using Refactorings and Commit Messages'
+    conference: '19th IEEE International Working Conference on Source Code Analysis and Manipulation'
+    location: 'Cleveland, OH'
+    date: 'September 30-October 1, 2019'
+    pages: 12
+    link: 'https://ieeexplore.ieee.org/abstract/document/8930840'
 
   - type: conference 
-    - authors: "Newman, C.D., Decker, M.J., Alsuhaibani, R., Kaushik, D., Peruma, A., and Hill, E.",
-    - title: "An Empirical Study of Abbreviations and Expansions in Software Artifacts",
-    - conference: "35th IEEE International Conference on Software Maintenance and Evolution",
-    - location: "Cleveland, OH",
-    - date: "September 30-October 4, 2019",
-    - pages: 11,
-    - link: "https://ieeexplore.ieee.org/abstract/document/8918962"
+    authors: 'Newman, C.D., Decker, M.J., Alsuhaibani, R., Kaushik, D., Peruma, A., and Hill, E.'
+    title: 'An Empirical Study of Abbreviations and Expansions in Software Artifacts'
+    conference: '35th IEEE International Conference on Software Maintenance and Evolution'
+    location: 'Cleveland, OH'
+    date: 'September 30-October 4, 2019'
+    pages: 11
+    link: 'https://ieeexplore.ieee.org/abstract/document/8918962'
 
   - type: conference 
-    - authors: "Guarnera, D.T., Collard, M.L., Dragan, N., Maletic, J.I., Newman, C.D., Decker, M.J.",
-    - title: "Automatically Redocumenting Source Code with Method and Class Stereotypes",
-    - conference: "Third International Workshop on Dynamic Software Documentation",
-    - location: "Madrid, Spain",
-    - date: "September 25, 2018",
-    - pages: 2,
-    - link: "https://ieeexplore.ieee.org/abstract/document/8530109",
-    award: "Best Challenge Entry Award",
+    authors: 'Guarnera, D.T., Collard, M.L., Dragan, N., Maletic, J.I., Newman, C.D., Decker, M.J.'
+    title: 'Automatically Redocumenting Source Code with Method and Class Stereotypes'
+    conference: 'Third International Workshop on Dynamic Software Documentation'
+    location: 'Madrid, Spain'
+    date: 'September 25, 2018'
+    pages: 2
+    link: 'https://ieeexplore.ieee.org/abstract/document/8530109'
+    award: 'Best Challenge Entry Award'
 
   - type: conference 
-    - authors: "Decker, M.J., Newman, C.D., Collard, M.L., Guarnera, D.T., Maletic, J.I.",
-    - title: "A Timeline Summarization of Code Changes",
-    - conference: "Third International Workshop on Dynamic Software Documentation",
-    - location: "Madrid, Spain",
-    - date: "September 25, 2018",
-    - pages: 2,
-    - link: "https://ieeexplore.ieee.org/abstract/document/8530112",
+    authors: 'Decker, M.J., Newman, C.D., Collard, M.L., Guarnera, D.T., Maletic, J.I.'
+    title: 'A Timeline Summarization of Code Changes'
+    conference: 'Third International Workshop on Dynamic Software Documentation'
+    location: 'Madrid, Spain'
+    date: 'September 25, 2018'
+    pages: 2
+    link: 'https://ieeexplore.ieee.org/abstract/document/8530112'
 
   - type: conference 
-    - authors: "Newman, C.D., Dragan, N., Collard, M.L., Maletic, J.I., Decker, M.J., Guarnera, D.T., Abid, N.",
-    - title: "Automatically Generating Natural Language Documentation for Methods",
-    - conference: "Third International Workshop on Dynamic Software Documentation",
-    - location: "Madrid, Spain",
-    - date: "September 25, 2018",
-    - pages: 2,
-    - link: "https://ieeexplore.ieee.org/abstract/document/8530108",
+    authors: 'Newman, C.D., Dragan, N., Collard, M.L., Maletic, J.I., Decker, M.J., Guarnera, D.T., Abid, N.'
+    title: 'Automatically Generating Natural Language Documentation for Methods'
+    conference: 'Third International Workshop on Dynamic Software Documentation'
+    location: 'Madrid, Spain'
+    date: 'September 25, 2018'
+    pages: 2
+    link: 'https://ieeexplore.ieee.org/abstract/document/8530108'
 
   - type: conference 
-    - authors: "Peruma, A., Mkaouer, M.W., Decker, M.J., Newman, C.D.",
-    - title: "An Empirical Investigation of How and Why Developers Rename Identifiers",
-    - conference: "2nd International Workshop on Refactoring",
-    - location: "Montpellier, France",
-    - date: "September 4, 2018",
-    - pages: 8,
-    - link: "https://dl.acm.org/citation.cfm?id=3242169",
+    authors: 'Peruma, A., Mkaouer, M.W., Decker, M.J., Newman, C.D.'
+    title: 'An Empirical Investigation of How and Why Developers Rename Identifiers'
+    conference: '2nd International Workshop on Refactoring'
+    location: 'Montpellier, France'
+    date: 'September 4, 2018'
+    pages: 8
+    link: 'https://dl.acm.org/citation.cfm?id=3242169'
 
   - type: conference 
-    - authors: "Decker, M.J., Newman, C.D., Dragan, N., Collard, M.L., Maletic, J.I., Kraft, N.A.",
-    - title: "Which Method-Stereotype Changes are Indicators of Code Smells?",
-    - conference: "18th IEEE International Working Conference on Source Code Analysis and Manipulation",
-    - location: "Madrid, Spain",
-    - date: "September 23-24, 2018",
-    - pages: 10,
-    - link: "https://ieeexplore.ieee.org/abstract/document/8530721",
+    authors: 'Decker, M.J., Newman, C.D., Dragan, N., Collard, M.L., Maletic, J.I., Kraft, N.A.'
+    title: 'Which Method-Stereotype Changes are Indicators of Code Smells?'
+    conference: '18th IEEE International Working Conference on Source Code Analysis and Manipulation'
+    location: 'Madrid, Spain'
+    date: 'September 23-24, 2018'
+    pages: 10
+    link: 'https://ieeexplore.ieee.org/abstract/document/8530721'
 
   - type: conference 
-    - authors: "DeLozier, G.S., Decker, M.J., Newman, C.D., Maletic, J.I.",
-    - title: "Leveraging the Agile Development Process for Selecting Invoking/Excluding Tests to Support Feature Location",
-    - conference: "26th IEEE/ACM International Conference on Program Comprehension",
-    - location: "Gothenburg, Sweden",
-    - date: "May 27-28, 2018",
-    - pages: 10,
-    - link: "https://dl.acm.org/citation.cfm?id=3196354",
+    authors: 'DeLozier, G.S., Decker, M.J., Newman, C.D., Maletic, J.I.'
+    title: 'Leveraging the Agile Development Process for Selecting Invoking/Excluding Tests to Support Feature Location'
+    conference: '26th IEEE/ACM International Conference on Program Comprehension'
+    location: 'Gothenburg, Sweden'
+    date: 'May 27-28, 2018'
+    pages: 10
+    link: 'https://dl.acm.org/citation.cfm?id=3196354'
 
   - type: conference 
-    - authors: "Decker, M.J., Newman, C.D., Dragan, N., Collard, M.L., Maletic, J.I., Kraft, N.A.",
-    - title: "Poster: A Taxonomy of how Method Stereotypes Change",
-    - conference: "40th IEEE/ACM International Conference on Software Engineering",
-    - location: "Gothenburg, Sweden",
-    - date: "May 27-Jun 3, 2018",
-    - pages: 2,
-    - link: "https://dl.acm.org/citation.cfm?id=3194998",
+    authors: 'Decker, M.J., Newman, C.D., Dragan, N., Collard, M.L., Maletic, J.I., Kraft, N.A.'
+    title: 'Poster: A Taxonomy of how Method Stereotypes Change'
+    conference: '40th IEEE/ACM International Conference on Software Engineering'
+    location: 'Gothenburg, Sweden'
+    date: 'May 27-Jun 3, 2018'
+    pages: 2
+    link: 'https://dl.acm.org/citation.cfm?id=3194998'
 
   - type: dissertation 
-    - authors: "Decker, M.J.",
-    - title: "srcDiff: Syntactic Differencing to Support Software Maintenance and Evolution",
-    - conference: "Dissertation",
-    - location: "Kent State University",
-    - date: "2017",
-    - pages: 308,
-    - link: "https://etd.ohiolink.edu/pg_10?0::NO:10:P10_ACCESSION_NUM:kent150074391000591",
+    authors: 'Decker, M.J.'
+    title: 'srcDiff: Syntactic Differencing to Support Software Maintenance and Evolution'
+    conference: 'Dissertation'
+    location: 'Kent State University'
+    date: '2017'
+    pages: 308
+    link: 'https://etd.ohiolink.edu/pg_10?0::NO:10:P10_ACCESSION_NUM:kent150074391000591'
 
   - type: conference 
-    - authors: "Decker, M.J., Swartz, K., Collard, M.L., Maletic, J.I.",
-    - title: "A Tool for Efficiently Reverse Engineering Accurate UML Class Diagrams",
-    - conference: "32nd IEEE International Conference on Software Maintenance and Evolution (ICSME'16)",
-    - location: "Raleigh, North Carolina",
-    - date: "Oct 2-10, 2016",
-    - pages: 2,
-    - link: "http://ieeexplore.ieee.org/abstract/document/7816518/",
+    authors: 'Decker, M.J., Swartz, K., Collard, M.L., Maletic, J.I.'
+    title: 'A Tool for Efficiently Reverse Engineering Accurate UML Class Diagrams'
+    conference: '32nd IEEE International Conference on Software Maintenance and Evolution (ICSME''16)'
+    location: 'Raleigh, North Carolina'
+    date: 'Oct 2-10, 2016'
+    pages: 2
+    link: 'http://ieeexplore.ieee.org/abstract/document/7816518/'
 
   - type: conference 
-    - authors: "Collard, M.L., Decker, M.J., Maletic, J.I.",
-    - title: "srcML: An Infrastructure for the Exploration, Analysis, and Manipulation of Source Code",
-    - conference: "29th IEEE International Conference on Software Maintenance (ICSM'13)",
-    - location: "Eindhoven, The Netherlands",
-    - date: "Sep 22-28 2013",
-    - pages: 4,
-    - link: "http://ieeexplore.ieee.org/document/6676946/",
+    authors: 'Collard, M.L., Decker, M.J., Maletic, J.I.'
+    title: 'srcML: An Infrastructure for the Exploration, Analysis, and Manipulation of Source Code'
+    conference: '29th IEEE International Conference on Software Maintenance (ICSM''13)'
+    location: 'Eindhoven, The Netherlands'
+    date: 'Sep 22-28 2013'
+    pages: 4
+    link: 'http://ieeexplore.ieee.org/document/6676946/'
+
+  - type: thesis 
+    authors: 'Decker, M.J.'
+    title: 'Structural Analysis of Source-Code Changes in Large Software through srcDiff and diffPath'
+    conference: 'Master''s Thesis'
+    location: 'The University of Akron'
+    date: '2012'
+    pages: 90
+    link: 'https://etd.ohiolink.edu/pg_10?0::NO:10:P10_ACCESSION_NUM:akron1342458121'
 
   - type: conference 
-    - authors: "Decker, M.J.",
-    - title: "Structural Analysis of Source-Code Changes in Large Software through srcDiff and diffPath",
-    - conference: "Master's Thesis",
-    - location: "The University of Akron",
-    - date: "2012",
-    - pages: 90,
-    - link: "https://etd.ohiolink.edu/pg_10?0::NO:10:P10_ACCESSION_NUM:akron1342458121",
-
-  - type: conference 
-    - authors: "Collard, M.L., Decker, M.J., Maletic, J.I.",
-    - title: "Lightweight Transformation and Fact Extraction with the srcML Toolkit",
-    - conference: "Eleventh IEEE International Working Conference on Source Code Analysis and Manipulation (SCAM'11)",
-    - location: "Williamsburg, VA",
-    - date: "Sep 25-26 2011",
-    - pages: 12,
-    - link: "http://ieeexplore.ieee.org/document/6065176/",
+    authors: 'Collard, M.L., Decker, M.J., Maletic, J.I.'
+    title: 'Lightweight Transformation and Fact Extraction with the srcML Toolkit'
+    conference: 'Eleventh IEEE International Working Conference on Source Code Analysis and Manipulation (SCAM''11)'
+    location: 'Williamsburg, VA'
+    date: 'Sep 25-26 2011'
+    pages: 12
+    link: 'http://ieeexplore.ieee.org/document/6065176/'

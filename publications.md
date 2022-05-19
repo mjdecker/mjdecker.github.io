@@ -10,7 +10,7 @@ layout: default
 
 <ol reversed>
 
-{% for paper in site.data.publications %}
+{% for paper in site.data.publications.papers %}
 
 {% if paper.type == "journal" %}
 
@@ -28,15 +28,3 @@ layout: default
 
 
 ## Refereed Conference Papers
-
-<ol reversed>
-
-{% for paper in site.data.conferences.published %}
-
-<li>{{paper.title}}</li>
-
-{% endfor %}
-
-</ol>
-
-</div>
