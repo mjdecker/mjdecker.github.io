@@ -14,9 +14,9 @@ layout: root
 
 {% if paper.type == "journal" %}
 
-<li class="reference">{{paper.authors}}, "{{paper.title}}". {{paper.journal}}, {{paper.date}}, {{paper.pages}}. 
-{% if user %}
- [link]{{paper.link}}
+<li class="reference">{{paper.authors}}, "{{paper.title}}". {{paper.journal}}, {{paper.date}}, {{paper.pages}} pages. 
+{% if paper.link %}
+ [link]({{paper.link}})
 {% endif %}
 </li>
 
@@ -28,3 +28,17 @@ layout: root
 
 
 ## Refereed Conference Papers
+
+{% for paper in site.data.publications.papers %}
+
+{% if paper.type == "conference" %}
+
+<li class="reference">{{paper.authors}}, "{{paper.title}}". Proceedings of the {{paper.conference}}, {{paper.date}}, {{paper.pages}} pages. 
+{% if paper.link %}
+ [link]({{paper.link}})
+{% endif %}
+</li>
+
+{% endif %}
+
+{% endfor %}
