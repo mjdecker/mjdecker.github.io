@@ -14,7 +14,11 @@ layout: default
 
 {% if paper.type == "journal" %}
 
-<li class="reference">{{paper.authors}}, {{paper.title}}, {{paper.pages}}</li>
+<li class="reference">{{paper.authors}}, "{{paper.title}}". {{paper.journal}}, {{paper.date}}, {{paper.pages}}. 
+{% if user %}
+ [link]{{paper.link}}
+{% endif %}
+</li>
 
 {% endif %}
 
