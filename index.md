@@ -3,8 +3,6 @@ title: Michael J. Decker, Ph.D.
 layout: root
 ---
 
-# Michael L. Collard, Ph.D.
-
 <div markdown="1" class="header">
 
 <div markdown="1" class="contact">
