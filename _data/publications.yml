@@ -1,4 +1,4 @@
-- publications
+- publications:
   - type: journal
     - authors:"Newman, C.D., AlSuhaibani, R.S., Decker, M.J., Peruma, A., Kaushik, D., Mkaouer, M.W., and Hill, E.",
     - title: "On the Generation, Structure, and Semantics of Grammar Patterns in Source Code Identifiers",
