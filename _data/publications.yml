@@ -2,7 +2,7 @@ papers:
   - type: journal
     authors: 'Newman, C.D., AlSuhaibani, R.S., Decker, M.J., Peruma, A., Kaushik, D., Mkaouer, M.W., and Hill, E.'
     title: 'On the Generation, Structure, and Semantics of Grammar Patterns in Source Code Identifiers'
-    conference: 'Journal of Systems and Software'
+    journal: 'Journal of Systems and Software'
     date: 'December, 2020'
     pages: 69
     link: 'https://doi.org/10.1016/j.jss.2020.110704'
@@ -10,7 +10,7 @@ papers:
   - type: journal
     authors: 'Peruma, A., Mkaouer, M.W., Decker M.J., and Newman, C.D.'
     title: 'Contextualizing Rename Decisions using Refactorings, Commit Messages, and Data Types'
-    conference: 'Journal of Systems and Software'
+    journal: 'Journal of Systems and Software'
     date: 'November, 2020'
     pages: 22
     link: 'https://doi.org/10.1016/j.jss.2020.110704'
@@ -27,7 +27,7 @@ papers:
   - type: journal 
     authors: 'Decker, M.J., Collard, M.L., Volkert, L.G., Maletic, J.I.'
     title: 'srcDiff: A Syntactic Differencing Approach to Improve the Understandability of Deltas'
-    conference: 'Journal of Software: Evolution and Process'
+    journal: 'Journal of Software: Evolution and Process'
     date: 'April, 2020'
     volume: 32
     issue: 4
