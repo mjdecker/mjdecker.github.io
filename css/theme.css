@@ -20,7 +20,8 @@ p {
 h1, h2, h3, h4, h5 {
 
     font-weight: bolder;
-    color: #F92672;
+    /*color: #C586C0;*/
+    color: #DCDCAA;
 
 }
 
