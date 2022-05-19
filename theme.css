@@ -1,0 +1,106 @@
+body {
+
+    font-family: Menlo, "Courier New", monospace;
+    margin: auto;
+    width: 75%;
+    min-width: 800px;
+
+    color: #F8F8F2;
+    background-color: #272822;
+
+}
+
+p {
+
+    word-wrap: normal;
+    width: 800px;
+
+}
+
+h1, h2, h3, h4, h5 {
+
+    font-weight: bolder;
+    color: #F92672;
+
+}
+
+.comment {
+
+	font-family: Menlo, "Courier New", monospace;
+	color: #75715E;
+
+}
+
+.comment::before {
+
+	content: "# ";
+
+}
+
+#template {
+
+	overflow: auto;
+
+}
+
+.contact {
+
+	margin: 0px 0px 0px 0px;
+	padding: 10px 0px 20px 0px;
+
+}
+
+.class {
+
+	margin: 0px 10px 0px 0px;
+	padding: 10px 0px 20px 0px;
+	float: right;
+
+}
+
+.links {
+
+	clear: right;
+
+}
+
+a {
+
+	color: #AE81FF;
+
+}
+
+a:hover {
+
+	color: #E6DB74;
+
+}
+
+.course_number {
+
+    display: inline-block;
+    width: 15ch;
+
+}
+
+.title {
+
+    display: inline-block;
+    width: 42ch;
+
+}
+
+.days {
+
+    display: inline-block;
+    white-space: pre;
+    width: 5ch;
+
+}
+
+.time {
+
+    display: inline-block;
+    width: 14ch;
+
+}
