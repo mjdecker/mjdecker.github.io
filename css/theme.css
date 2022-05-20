@@ -47,19 +47,29 @@ div {
 
 .contact {
 
+    vertical-align: top;
     float: left;
 	margin: 0px 0px 0px 0px;
-	padding: 10px 0px 20px 0px;
+	padding: 00px 0px 20px 0px;
     white-space: break-spaces;
 
 }
 
 .position, .class {
 
+    vertical-align: top;
     float: left;
 	margin: 0px 00px 0px 0px;
-	padding: 10px 0px 00px 50px;
+	padding: 0px 0px 00px 50px;
     white-space:  break-spaces;
+
+}
+
+.decker {
+
+    width: 120px;
+    float: left;
+    margin-left: 20px;
 
 }
 

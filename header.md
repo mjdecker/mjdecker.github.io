@@ -12,6 +12,8 @@
 \# @university Bowling Green State University
 </div>
 
+<img class="decker" src="/images/decker.jpg"/>
+
 </div>
 
 <div markdown="1" class="menu">
