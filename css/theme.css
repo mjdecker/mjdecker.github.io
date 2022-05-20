@@ -28,6 +28,10 @@ h1, h2, h3, h4, h5 {
     padding: 10px 0px 00px 0px;
 }
 
+div {
+    display:  block;
+}
+
 .comment {
 
 	font-family: Menlo, "Courier New", monospace;
@@ -51,14 +55,15 @@ h1, h2, h3, h4, h5 {
 
 .position, .class {
 
-	margin: 0px 10px 0px 0px;
-	padding: 10px 0px 20px 0px;
     float: left;
+	margin: 0px 00px 0px 0px;
+	padding: 10px 0px 00px 50px;
+
 }
 
 .menu {
 
-	clear: right;
+    clear: both;
 
 }
 

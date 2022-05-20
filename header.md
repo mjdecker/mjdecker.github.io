@@ -1,7 +1,7 @@
 
-<div markdown="1" class="header">
+<div markdown="1" class="info">
 
-<div markdown="1" class="contact" class="comment">
+<div markdown="1" class="contact comment">
 
 \# @name   Michael John Decker, Ph.D.<br/>
 \# @office Hayes 242<br/>
@@ -9,10 +9,12 @@
 
 </div>
 
-<div markdown="1" class="position" class="comment">
+<div markdown="1" class="position comment">
 
 \# @position   Assistant Professor<br/>
 \# @university Bowling Green State University<br/>
+
+</div>
 
 </div>
 
@@ -26,4 +28,3 @@
 
 </div>
 
-</div>
