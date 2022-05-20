@@ -175,7 +175,7 @@ papers:
     conference: '32nd IEEE International Conference on Software Maintenance and Evolution (ICSME''16)'
     location: 'Raleigh, North Carolina'
     date: 'Oct 2-10, 2016'
-    pages: 2
+    pages: 3
     link: 'http://ieeexplore.ieee.org/abstract/document/7816518/'
 
   - type: conference 
@@ -193,7 +193,7 @@ papers:
     conference: 'Master''s Thesis'
     location: 'The University of Akron'
     date: '2012'
-    pages: 90
+    pages: 81
     link: 'https://etd.ohiolink.edu/apexprod/rws_olink/r/1501/10?clear=10&p10_accession_num=akron1342458121'
 
   - type: conference 
