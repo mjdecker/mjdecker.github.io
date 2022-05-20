@@ -1,6 +1,7 @@
 body {
 
     font-family: Menlo, "Courier New", monospace;
+    font-size : 10pt;
     margin: auto;
     width: 75%;
     min-width: 800px;
@@ -94,13 +95,13 @@ a:hover {
 
 .class_number {
 
-    width:12ch;
+    width:14ch;
 
 }
 
 .title {
 
-    width: 30ch;
+    width: 42ch;
 
 }
 
