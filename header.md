@@ -3,16 +3,16 @@
 
 <div markdown="1" class="contact comment">
 
-\# @name   Michael John Decker, Ph.D.<br/>
-\# @office Hayes 242<br/>
-\# @email  [mdecke@bgsu.edu](mailto:mdecke@bgsu.edu)<br/>
+\# @name   Michael John Decker, Ph.D.
+\# @office Hayes 242
+\# @email  [mdecke@bgsu.edu](mailto:mdecke@bgsu.edu)
 
 </div>
 
 <div markdown="1" class="position comment">
 
-\# @position   Assistant Professor<br/>
-\# @university Bowling Green State University<br/>
+\# @position   Assistant Professor
+\# @university Bowling Green State University
 
 </div>
 
