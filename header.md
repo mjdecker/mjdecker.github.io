@@ -5,7 +5,7 @@
 
     # @name   Michael John Decker, Ph.D.
     # @office Hayes 242
-    # @email  [mdecke@bgsu.edu](mailto:mdecke@bgsu.edu)
+    # @email  <a href="mailto:mdecke@bgsu.edu">mdecke@bgsu.edu</a>
 
 </div>
 
