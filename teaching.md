@@ -13,18 +13,9 @@ layout: root
 
 ---
 
-<ul>
-
 {% for class in semester.classes %}
-
-<li><span  class=class_number>
-{%if class.url %}<a href={{class.url}}>{% endif %}
-{{class.number}}
-{%if class.url %}</a>{% endif %}
-</span> <span class=title>{{class.title}}</span> <span class=days>{{class.days}}</span> <span class=time>{{class.time}}</span> {{class.building}} {{class.room}}</li>
+<span class=class_number> {%if class.url %}<a href={{class.url}}>{% endif %} {{class.number}} {%if class.url %}</a>{% endif %}</span> <span class=title>{{class.title}}</span> <span class=days>{{class.days}}</span> <span class=time>{{class.time}}</span> <span class="location"> {{class.building}} {{class.room}}</span>
 {% endfor %}
-
-</ul>
 
 </div>
 

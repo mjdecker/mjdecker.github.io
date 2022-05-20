@@ -13,7 +13,7 @@ body {
 p {
 
     word-wrap: normal;
-    width: 800px;
+    width: 1080px;
 
 }
 
@@ -71,31 +71,49 @@ a:hover {
 
 }
 
-.course_number {
+.schedule { 
+    padding-top; 0px;
+    padding-bottom : 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
 
-    display: inline-block;
-    width: 15ch;
+.schedule p {
+   padding-top: 0px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+
+.schedule span { 
+    display : inline-block;
+    vertical-align: top;
+    padding-top: 4px;
+    padding-bottom : 1px;
+    margin-bottom: 0px;
+}
+
+.class_number {
+
+    width:14ch;
 
 }
 
 .title {
 
-    display: inline-block;
     width: 42ch;
 
 }
 
 .days {
 
-    display: inline-block;
-    white-space: pre;
-    width: 5ch;
+
+    width: 7ch;
 
 }
 
 .time {
 
-    display: inline-block;
+    text-align: right;
     width: 14ch;
 
 }
