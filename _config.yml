@@ -14,16 +14,16 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: "Michael J. Decker, Ph.D."
-classtitle: "Dr. Michael J. Decker"
-email: "mdecke@bgsu.edu"
-office_building: "Hayes Hall"
-office_room: "242"
-url: "mjdecker.github.io"
-homepage: "mjdecker.github.io"
-description: > # this means to ignore newlines until "baseurl:"
+title: 'Michael J. Decker, Ph.D.'
+classtitle: 'Dr. Michael J. Decker'
+email: 'mdecke@bgsu.edu'
+office_building: 'Hayes Hall'
+office_room: '242'
+url: 'mjdecker.github.io'
+homepage: 'mjdecker.github.io'
+description: > # this means to ignore newlines until 'baseurl:'
   Website for Michael J. Decker, Ph.D.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: '' # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  mjdecker
 
@@ -33,5 +33,4 @@ theme: minima
 highlighter: rouge
 
 kramdown:
-  smart_quotes: ["apos", "apos", "quot", "quot"]
-
+  smart_quotes: ['apos', 'apos', 'quot', 'quot']
