@@ -41,7 +41,7 @@ layout: root
 
 </ol>
 
-## Refereed Conference Papers
+## Other Papers
 
 <ol reversed>
 

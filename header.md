@@ -3,9 +3,9 @@
 
 <div markdown="1" class="contact" class="comment">
 
-    # @name   Michael John Decker, Ph.D.
-    # @office Hayes 242
-    # @email  <a href="mailto:mdecke@bgsu.edu">mdecke@bgsu.edu</a>
+\# @name   Michael John Decker, Ph.D.
+\# @office Hayes 242
+\# @email  [mdecke@bgsu.edu](mailto:mdecke@bgsu.edu)
 
 </div>
 
@@ -18,7 +18,5 @@
 [Teaching](teaching.html "Previous teaching")
 
 </div>
-
-
 
 </div>
