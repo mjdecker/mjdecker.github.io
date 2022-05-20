@@ -47,15 +47,15 @@ div {
 
 .contact {
 
-    height:  120px;
     float: left;
+    margin-top:  10px;
     white-space: break-spaces;
 
 }
 
 .position, .class {
 
-    height:  120px;
+    margin-top:  10px;
     margin-left:  50px;
     float: left;
     white-space:  break-spaces;
