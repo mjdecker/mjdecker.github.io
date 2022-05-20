@@ -47,20 +47,17 @@ div {
 
 .contact {
 
-    vertical-align: top;
+    height:  120px;
     float: left;
-	margin: 0px 0px 0px 0px;
-	padding: 0px 0px 20px 0px;
     white-space: break-spaces;
 
 }
 
 .position, .class {
 
-    vertical-align: top;
+    height:  120px;
+    margin-left:  50px;
     float: left;
-	margin: 0px 0px 0px 0px;
-	padding: 0px 0px 0px 50px;
     white-space:  break-spaces;
 
 }
@@ -70,7 +67,6 @@ div {
     width: 120px;
     float: left;
     margin-left: 20px;
-    vertical-align: bottom;
 
 }
 
