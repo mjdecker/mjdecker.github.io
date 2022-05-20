@@ -9,8 +9,6 @@ layout: root
 
 <div markdown="1" class="schedule">
 
-{% if semester.current %}
-
 ### {{semester.semester}}
 
 ---
@@ -28,10 +26,6 @@ layout: root
 
 </ul>
 
-{% endif %}
-
 </div>
 
 {% endfor %}
-
-{%include activities.md %}
