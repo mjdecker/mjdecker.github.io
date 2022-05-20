@@ -3,7 +3,7 @@ body {
     font-family: Menlo, "Courier New", monospace;
     margin: auto;
     width: 75%;
-    min-width: 1080px;
+    min-width: 800px;
 
     color: #d4d4d4;
     background-color: #1e1e1e;
@@ -13,7 +13,7 @@ body {
 p {
 
     word-wrap: normal;
-    width: 1080px;
+    width: 800px;
 
 }
 
@@ -94,26 +94,31 @@ a:hover {
 
 .class_number {
 
-    width:14ch;
+    width:12ch;
 
 }
 
 .title {
 
-    width: 42ch;
+    width: 34ch;
 
 }
 
 .days {
 
-
-    width: 7ch;
+    width: 5ch;
 
 }
 
 .time {
 
     text-align: right;
+    width: 14ch;
+
+}
+
+.location {
+
     width: 14ch;
 
 }
