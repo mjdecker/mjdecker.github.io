@@ -1,8 +1,8 @@
 semesters:
   - semester: "Spring 2022"
     current: true
-    start_date: "202-01-20"
-    end_date: "2020-04-22"
+    start_date: "2022-01-20"
+    end_date: "2022-04-22"
     classes: 
       - number: "SE 3540"
         title: "Introduction to Software Engineering"
@@ -17,10 +17,62 @@ semesters:
         session: "1st"
 
   - semester: "Fall 2021"
+    start_date: "2021-08-26"
+    end_date: "2021-12-17"
+    classes: 
+      - number: "CS 4/5050"
+        title: "Research Methods in Computer Science"
+        time: "18:00 - 19:15"
+        days: " T R "
+        building: "Math Sci"
+        room: "238"
+
+      - number: "SE 4/5550"
+        online: true
+        title: "Software Architecture & Design"
+        session: "1st"
+
+      - number: "SE 4/5560"
+        online: true
+        title: "Software Testing & Quality Assurance"
+        session: "2nd"
 
   - semester: "Spring 2021"
+    start_date: "2021-01-11"
+    end_date: "2021-04-23"
+    classes: 
+      - number: "CS 2020"
+        title: "Intermediate Programming"
+        time: "15:30 - 16:20"
+        days: "M W F"
+        building: "Zoom"
+        room: ""
+
+      - number: "SE 6640"
+        online: true
+        title: "Advanced Software Engineering"
+        session: "1st"
 
   - semester: "Fall 2020"
+    start_date: "2020-08-26"
+    end_date: "2020-12-11"
+    classes: 
+      - number: "CS 4/5050"
+        title: "Research Methods in Computer Science"
+        time: "16:00 - 17:15"
+        days: " T R "
+        building: "Zoom"
+        room: ""
+
+      - number: "SE 4/5550"
+        online: true
+        title: "Software Architecture & Design"
+        session: "1st"
+
+      - number: "SE 4/5560"
+        online: true
+        title: "Software Testing & Quality Assurance"
+        session: "2nd"
 
   - semester: "Spring 2020"
     start_date: "2020-01-27"
@@ -39,6 +91,11 @@ semesters:
         days: "M W F"
         building: "Hayes"
         room: "114/020"
+
+      - number: "CS 6640"
+        online: true
+        title: "Advanced Software Engineering"
+        session: "2nd"
 
   - semester: "Fall 2019"
     start_date: "2019-08-26"
