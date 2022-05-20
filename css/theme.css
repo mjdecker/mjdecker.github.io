@@ -23,6 +23,7 @@ h1, h2, h3, h4, h5 {
     font-weight: bolder;
     /*color: #C586C0;*/
     color: #DCDCAA;
+    margin: 10px 0px 0px 0px;
 
 }
 
@@ -70,6 +71,10 @@ a:hover {
 
 	color: #CE9178;
 
+}
+
+hr {
+        
 }
 
 .schedule { 
