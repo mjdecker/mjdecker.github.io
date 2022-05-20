@@ -1,9 +1,8 @@
 body {
 
     font-family: Menlo, "Courier New", monospace;
-    font-size : 10pt;
+    font-size : 12pt;
     margin: auto;
-    width: 75%;
     min-width: 800px;
 
     color: #d4d4d4;
