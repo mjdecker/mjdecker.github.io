@@ -1,6 +1,28 @@
 semesters:
-  - semester: "Spring 2020"
+  - semester: "Spring 2022"
     current: true
+    start_date: "202-01-20"
+    end_date: "2020-04-22"
+    classes: 
+      - number: "SE 3540"
+        title: "Introduction to Software Engineering"
+        time: "18:00 - 19:15"
+        days: "M W  "
+        building: "Hayes"
+        room: "117"
+
+      - number: "SE 6640"
+        online: true
+        title: "Advanced Software Engineering"
+        session: "1st"
+
+  - semester: "Fall 2021"
+
+  - semester: "Spring 2021"
+
+  - semester: "Fall 2020"
+
+  - semester: "Spring 2020"
     start_date: "2020-01-27"
     end_date: "2020-05-15"
     classes: 
