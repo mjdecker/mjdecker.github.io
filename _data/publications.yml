@@ -7,7 +7,6 @@ papers:
     location: 'Pittsburgh, PA'
     date: 'May 16-17, 2022'
     pages: 12
-    link: 'https://ieeexplore.ieee.org/abstract/document/9402609'
 
   - type: conference
     authors: 'Terry, M., Vela, V., Saxena, K., Pandy, M., Lee, J.K., and Decker, M.J.'
@@ -32,7 +31,7 @@ papers:
     conference: '43rd IEEE/ACM International Conference on Software Engineering (ICSE''21)'
     location: 'Madrid, Spain'
     date: 'May 23-29, 2021'
-    pages: 12
+    pages: 13
     link: 'https://ieeexplore.ieee.org/abstract/document/9401967'
 
   - type: journal
@@ -48,7 +47,7 @@ papers:
     title: 'On the Generation, Structure, and Semantics of Grammar Patterns in Source Code Identifiers'
     journal: 'Journal of Systems and Software'
     date: 'December, 2020'
-    pages: 22
+    pages: 21
     link: 'https://doi.org/10.1016/j.jss.2020.110740'
 
   - type: journal
@@ -75,7 +74,7 @@ papers:
     date: 'April, 2020'
     volume: 32
     issue: 4
-    pages: 37
+    pages: 31
     link: 'https://doi.org/10.1002/smr.2226'
 
   - type: conference
