@@ -1,4 +1,4 @@
-- semesters:
+semesters:
   - semester: "Spring 2020"
     current: true
     start_date: "2020-01-27"

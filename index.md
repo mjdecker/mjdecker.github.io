@@ -9,25 +9,28 @@ layout: root
 
 <div markdown="1" class="schedule">
 
+{% if semester.current %}
+
 ### {{semester.semester}}
 
 ---
-</div>
 
 <ul>
 
 {% for class in semester.classes %}
 
-<li><span  class={{class.class_number}}>
+<li><span  class=class_number>
 {%if class.url %}<a href={{class.url}}>{% endif %}
 {{class.number}}
 {%if class.url %}</a>{% endif %}
-</span> <span class={{class.title}}>{{class.title}}</span> <span class={{class.days}}>{{class.days}}</span> <span class={{class.time}}>{{class.time}}</span> {{class.building}} {{class.room}}</li>
-}
+</span> <span class=title>{{class.title}}</span> <span class=days>{{class.days}}</span> <span class=time>{{class.time}}</span> {{class.building}} {{class.room}}</li>
 {% endfor %}
 
 </ul>
 
+{% endif %}
+
+</div>
 
 {% endfor %}
 
