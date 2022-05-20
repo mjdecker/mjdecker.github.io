@@ -70,6 +70,7 @@ div {
     width: 120px;
     float: left;
     margin-left: 20px;
+    vertical-align: bottom;
 
 }
 
