@@ -1,11 +1,55 @@
 papers:
+
+  - type: conference
+    authors: 'AlSuhaibani, R.S., Newman, C.D., Decker, M.J., Collard, M.L., and Maletic, J.I.'
+    title: 'An Approach to Automatically Assess Method Names'
+    conference: '30th IEEE/ACM International Conference on Program Comprehension (ICPC''22)'
+    location: 'Pittsburgh, PA'
+    date: 'May 16-17, 2022'
+    pages: 12
+    link: 'https://ieeexplore.ieee.org/abstract/document/9402609'
+
+  - type: conference
+    authors: 'Terry, M., Vela, V., Saxena, K., Pandy, M., Lee, J.K., and Decker, M.J.'
+    title: 'Exploring the Correlation between COVID-19 Outbreaks and Social Media Patterns'
+    conference: '4International Symposium on Innovation in Information Technology and Applications'
+    location: 'Yeosu, Korea'
+    date: 'August 23-25, 2021'
+    pages: 2
+
+  - type: conference
+    authors: 'AlSuhaibani, R.S., Newman, C.D., Decker, M.J., Collard, M.L., and Maletic, J.I.'
+    title: 'A Survey on Method Naming Standards: Questions and Responses Artifact'
+    conference: '43rd IEEE/ACM International Conference on Software Engineering: Companion Proceedings (ICSE''21-Companion)'
+    location: 'Madrid, Spain'
+    date: 'May 23-29, 2021'
+    pages: 2
+    link: 'https://ieeexplore.ieee.org/abstract/document/9402609'
+
+  - type: conference
+    authors: 'AlSuhaibani, R.S., Newman, C.D., Decker, M.J., Collard, M.L., and Maletic, J.I.'
+    title: 'On the Naming of Methods: A Survey of Professional Developers'
+    conference: '43rd IEEE/ACM International Conference on Software Engineering (ICSE''21)'
+    location: 'Madrid, Spain'
+    date: 'May 23-29, 2021'
+    pages: 12
+    link: 'https://ieeexplore.ieee.org/abstract/document/9401967'
+
+  - type: journal
+    authors: 'Newman, C.D., Decker, M.J., AlSuhaibani, R.S.,, Peruma, A., Mkaouer, M.W., Mohapatra, S., Vishoi, T., Zampieri, M., and Hill, E.'
+    title: 'An Ensemble Approach for Annotating Source Code Identifiers with Part-of-speech Tags'
+    journal: 'Transactions on Software Engineering'
+    date: 'July, 2021'
+    pages: 18
+    link: 'https://doi.org/10.1109/TSE.2021.3098242'
+
   - type: journal
     authors: 'Newman, C.D., AlSuhaibani, R.S., Decker, M.J., Peruma, A., Kaushik, D., Mkaouer, M.W., and Hill, E.'
     title: 'On the Generation, Structure, and Semantics of Grammar Patterns in Source Code Identifiers'
     journal: 'Journal of Systems and Software'
     date: 'December, 2020'
-    pages: 69
-    link: 'https://doi.org/10.1016/j.jss.2020.110704'
+    pages: 22
+    link: 'https://doi.org/10.1016/j.jss.2020.110740'
 
   - type: journal
     authors: 'Peruma, A., Mkaouer, M.W., Decker M.J., and Newman, C.D.'
