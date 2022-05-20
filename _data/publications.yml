@@ -167,7 +167,7 @@ papers:
     location: 'Kent State University'
     date: '2017'
     pages: 308
-    link: 'https://etd.ohiolink.edu/pg_10?0::NO:10:P10_ACCESSION_NUM:kent150074391000591'
+    link: 'https://etd.ohiolink.edu/apexprod/rws_olink/r/1501/10?clear=10&p10_accession_num=kent150074391000591'
 
   - type: conference 
     authors: 'Decker, M.J., Swartz, K., Collard, M.L., Maletic, J.I.'
@@ -194,7 +194,7 @@ papers:
     location: 'The University of Akron'
     date: '2012'
     pages: 90
-    link: 'https://etd.ohiolink.edu/pg_10?0::NO:10:P10_ACCESSION_NUM:akron1342458121'
+    link: 'https://etd.ohiolink.edu/apexprod/rws_olink/r/1501/10?clear=10&p10_accession_num=akron1342458121'
 
   - type: conference 
     authors: 'Collard, M.L., Decker, M.J., Maletic, J.I.'
