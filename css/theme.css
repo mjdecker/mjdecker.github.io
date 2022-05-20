@@ -2,8 +2,11 @@ body {
 
     font-family: Menlo, "Courier New", monospace;
     font-size : 12pt;
+
     margin: auto;
-    min-width: 800px;
+    max-width: 1080px;
+    display: block;
+    padding: 20px;
 
     color: #d4d4d4;
     background-color: #1e1e1e;
@@ -13,7 +16,6 @@ body {
 p {
 
     word-wrap: normal;
-    width: 800px;
 
 }
 
@@ -41,6 +43,7 @@ h1, h2, h3, h4, h5 {
 
 .contact {
 
+    float: left;
 	margin: 0px 0px 0px 0px;
 	padding: 10px 0px 20px 0px;
 
@@ -50,8 +53,7 @@ h1, h2, h3, h4, h5 {
 
 	margin: 0px 10px 0px 0px;
 	padding: 10px 0px 20px 0px;
-	float: right;
-
+    float: left;
 }
 
 .menu {
