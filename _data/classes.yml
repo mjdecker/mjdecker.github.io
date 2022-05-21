@@ -152,7 +152,7 @@ semesters:
         room: "117"
     
       - number: "CS 4/5050"
-        title: "Research Methodology in Computer Science"
+        title: "Research Methods in Computer Science"
         time: "16:30 - 17:45"
         days: "M W  "
         building: "Hayes"
