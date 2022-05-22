@@ -153,7 +153,7 @@ papers:
   - type: conference 
     authors: 'Decker, M.J., Newman, C.D., Dragan, N., Collard, M.L., Maletic, J.I., Kraft, N.A.'
     title: 'Poster: A Taxonomy of how Method Stereotypes Change'
-    conference: '40th IEEE/ACM International Conference on Software Engineering'
+    conference: '40th IEEE/ACM International Conference on Software Engineering: Companion Proceedings'
     location: 'Gothenburg, Sweden'
     date: 'May 27-Jun 3, 2018'
     pages: 2
@@ -173,7 +173,7 @@ papers:
     title: 'A Tool for Efficiently Reverse Engineering Accurate UML Class Diagrams'
     conference: '32nd IEEE International Conference on Software Maintenance and Evolution (ICSME''16)'
     location: 'Raleigh, North Carolina'
-    date: 'Oct 2-10, 2016'
+    date: 'October 2-10, 2016'
     pages: 3
     link: 'http://ieeexplore.ieee.org/abstract/document/7816518/'
 
@@ -181,8 +181,8 @@ papers:
     authors: 'Collard, M.L., Decker, M.J., Maletic, J.I.'
     title: 'srcML: An Infrastructure for the Exploration, Analysis, and Manipulation of Source Code'
     conference: '29th IEEE International Conference on Software Maintenance (ICSM''13)'
-    location: 'Eindhoven, The Netherlands'
-    date: 'Sep 22-28 2013'
+    location: 'Eindhoven, Netherlands'
+    date: 'September 22-28 2013'
     pages: 4
     link: 'http://ieeexplore.ieee.org/document/6676946/'
 
@@ -200,6 +200,6 @@ papers:
     title: 'Lightweight Transformation and Fact Extraction with the srcML Toolkit'
     conference: 'Eleventh IEEE International Working Conference on Source Code Analysis and Manipulation (SCAM''11)'
     location: 'Williamsburg, VA'
-    date: 'Sep 25-26 2011'
+    date: 'September 25-26 2011'
     pages: 12
     link: 'http://ieeexplore.ieee.org/document/6065176/'
