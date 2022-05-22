@@ -21,7 +21,7 @@ papers:
     title: 'A Survey on Method Naming Standards: Questions and Responses Artifact'
     conference: '43rd IEEE/ACM International Conference on Software Engineering: Companion Proceedings (ICSE''21-Companion)'
     location: 'Madrid, Spain'
-    date: 'May 23-29, 2021'
+    date: 'May 23-28, 2021'
     pages: 2
     link: 'https://ieeexplore.ieee.org/abstract/document/9402609'
 
@@ -30,8 +30,8 @@ papers:
     title: 'On the Naming of Methods: A Survey of Professional Developers'
     conference: '43rd IEEE/ACM International Conference on Software Engineering (ICSE''21)'
     location: 'Madrid, Spain'
-    date: 'May 23-29, 2021'
-    pages: 13
+    date: 'May 23-28, 2021'
+    pages: 12
     link: 'https://ieeexplore.ieee.org/abstract/document/9401967'
 
   - type: journal
