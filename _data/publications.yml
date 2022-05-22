@@ -35,9 +35,9 @@ papers:
     link: 'https://ieeexplore.ieee.org/abstract/document/9401967'
 
   - type: journal
-    authors: 'Newman, C.D., Decker, M.J., AlSuhaibani, R.S., Peruma, A., Mkaouer, M.W., Mohapatra, S., Vishoi, T., Zampieri, M., and Hill, E.'
+    authors: 'Newman, C.D., Decker, M.J., AlSuhaibani, R.S., Peruma, A., Mkaouer, M.W., Mohapatra, S., Vishoi, T., Zampieri, M., Sheldon, T.J., and Hill, E.'
     title: 'An Ensemble Approach for Annotating Source Code Identifiers with Part-of-speech Tags'
-    journal: 'Transactions on Software Engineering'
+    journal: 'IEEE Transactions on Software Engineering'
     date: 'July, 2021'
     pages: 18
     link: 'https://doi.org/10.1109/TSE.2021.3098242'
