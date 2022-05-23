@@ -11,3 +11,4 @@ https://doi.org/10.1109/TSE.2021.3098242)
 * Presented Journal First Paper: *"srcDiff: A Syntactic Differencing Approach to Improve the Understandability of Deltas"* at [ICSME'20](https://icsme2020.github.io)
 * Session chair for the *Dependency Session* of 20th IEEE International Working Conference on Source Code Analysis and Manipulation [SCAM'20](http://www.ieee-scam.org/2020/)
 * Journal Publication: *"srcDiff: A Syntactic Differencing Approach to Improve the Understandability of Deltas"* in Journal of Software Evolution and Process, Oct 21, 2019, DOI [10.1002/smr.2226](https://doi.org/10.1002/smr.2226)
+* Awarded *Best Challenge Entry* at [DysDoc3](https://dysdoc.github.io/dysdoc3/) for *"Automatically Redocumenting Source Code with Method and Class Stereotypes"*
