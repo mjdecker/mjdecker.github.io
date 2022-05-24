@@ -198,7 +198,7 @@ papers:
   - type: conference 
     authors: 'Collard, M.L., Decker, M.J., Maletic, J.I.'
     title: 'Lightweight Transformation and Fact Extraction with the srcML Toolkit'
-    conference: 'Eleventh IEEE International Working Conference on Source Code Analysis and Manipulation (SCAM''11)'
+    conference: '11th IEEE International Working Conference on Source Code Analysis and Manipulation (SCAM''11)'
     location: 'Williamsburg, VA'
     date: 'September 25-26 2011'
     pages: 12
