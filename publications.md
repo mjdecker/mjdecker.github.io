@@ -31,8 +31,7 @@ layout: root
 
 {% if paper.type == "conference" %}
 
-<li markdown="1">{{paper.authors}}, "{{paper.title}}". Proceedings of the {{paper.conference}}, {{paper.location}}, {{paper.date}}, {{paper.pages}} pages.
-{% if paper.link %}[link]({{paper.link}}){% endif %}
+<li markdown="1">{{paper.authors}}, "{{paper.title}}". Proceedings of the {{paper.conference}}, {{paper.location}}, {{paper.date}}, {{paper.pages}} pages.{% if paper.award %} <strong>{{paper.award}}</strong>{% endif %}{% if paper.link %} [link]({{paper.link}}){% endif %}
 </li>
 
 {% endif %}
