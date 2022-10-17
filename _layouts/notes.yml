@@ -13,8 +13,11 @@
 
     <link rel="stylesheet" href="/js/reveal.js/dist/reset.css">
     <link rel="stylesheet" href="/js/reveal.js/dist/reveal.css">
-    <link rel="stylesheet" href="/js/reveal.js/dist/theme/sky.css" id="theme">
-  
+    <link rel="stylesheet" href="/js/reveal.js/dist/theme/white.css" id="theme">
+
+    <link rel="stylesheet" href="/css/gist.css">
+    <link rel="stylesheet" href="/css/reveal.css">
+
     <script src="/js/reveal.js/dist/reveal.js"></script>
     </head>
 

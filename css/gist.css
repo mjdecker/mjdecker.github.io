@@ -210,7 +210,7 @@ body div .wide .gist .gist-file {
 body .gist .gist-data {
     border-bottom: none;
     border-radius: 0;
-    background-color: rgb(252,246,232);
+    background-color: rgb(255,255,255);
 }
 
 body .gist .blob-wrapper {
@@ -255,7 +255,7 @@ body .gist .gist-meta {
 }
 
 body .gist .highlight {
-    background: rgb(252,246,232);
+    background: rgb(255,255,255);
 }
 body .gist .blob-num,
 body .gist .blob-code-inner,
