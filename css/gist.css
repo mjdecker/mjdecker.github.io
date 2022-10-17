@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans+Mono');
+
+/* Combine consectutive scripts */
+script.list + link + div.gist * {
+    margin-bottom: 0 !important;
+}
+
+section .gist .gist-data {
+/*    margin-left:  0 !important; */
+}
+
+section > script:only-of-type + link + div.gist, section > div.outer > div.quotes > script:only-of-type + link + div.gist {
+    margin-top:  -5vh;
+}
+
+body .gist .gist-file {
+    margin-bottom: 20px;
+    border: 0px solid #adb5bd;
+    border-radius: 0;
+/*    width: 80% !important;
+*/    
+/*    margin-left: auto;
+    margin-right: auto;
+*/    line-height: 1em;
+}
+
+body script.inline + link + div.gist .highlight {
+    display:  inline !important;
+    float: right;
+}
+
+body .inline .gist .highlight {
+    display:  inline !important;
+    float: right;
+}
+
+body div.quotes p, body div.quotes p img {
+    padding-top:  0;
+    margin-top:  0;
+}
+
+body script.left + link + div.gist {
+    margin-left:  0 !important;
+}
+
+body script.microscopic + link + div.gist .highlight {
+    font-size: 4pt !important;
+}
+
+body script.microscopic + link + div.gist .blob-code-inner {
+    font-size: 4pt !important;
+}
+
+body script.tiny + link + div.gist .highlight {
+    font-size: 9pt !important;
+}
+
+body script.tiny + link + div.gist .blob-code-inner {
+    font-size: 9pt !important;
+}
+
+body .tiny .gist .highlight {
+    font-size : 9pt !important;
+}
+
+body script.evensmaller + link + div.gist .highlight {
+    font-size: 10pt !important;
+}
+
+body script.evensmaller + link + div.gist {
+    font-size: 10pt !important;
+}
+
+body script.small + link + div.gist .highlight {
+    font-size: 11pt !important;
+}
+
+body script.small + link + div.gist {
+    font-size: 11pt !important;
+}
+
+body .small .gist .highlight {
+    font-size : 11pt !important;
+}
+
+body .small .gist {
+    font-size : 11pt !important;
+}
+
+body script.smaller + link + div.gist .highlight {
+    font-size: 14pt !important;
+}
+
+body .smaller .gist .highlight {
+    font-size : 14pt !important;
+}
+
+body script.mediumless + link + div.gist .highlight {
+    font-size: 12.5pt !important;
+}
+
+body .mediumless .gist .highlight {
+    font-size : 12.5pt !important;
+}
+
+
+body script.fs9 + link + div.gist .highlight {
+    font-size: 9pt !important;
+}
+
+body .fs9 .gist .highlight {
+    font-size : 9pt !important;
+}
+
+
+body script.fs9 + link + div.gist .highlight {
+    font-size: 9pt !important;
+}
+
+body .fs9 .gist .highlight {
+    font-size : 9pt !important;
+}
+
+body script.fs10 + link + div.gist .highlight {
+    font-size: 10pt !important;
+}
+
+body .fs10 .gist .highlight {
+    font-size : 10pt !important;
+}
+
+body script.fs11 + link + div.gist .highlight {
+    font-size: 11pt !important;
+}
+
+body .fs11 .gist .highlight {
+    font-size : 11pt !important;
+}
+
+body script.fs12 + link + div.gist .highlight {
+    font-size: 12pt !important;
+}
+
+body .fs12 .gist .highlight {
+    font-size : 12pt !important;
+}
+
+body script.fs13 + link + div.gist .highlight {
+    font-size: 13pt !important;
+}
+
+body .fs13 .gist .highlight {
+    font-size : 13pt !important;
+}
+
+body script.fs14 + link + div.gist .highlight {
+    font-size: 14pt !important;
+}
+
+body .fs14 .gist .highlight {
+    font-size : 14pt !important;
+}
+
+body script.fs15 + link + div.gist .highlight {
+    font-size: 15pt !important;
+}
+
+body .fs15 .gist .highlight {
+    font-size : 15pt !important;
+}
+
+body script.fs16 + link + div.gist .highlight {
+    font-size: 16pt !important;
+}
+
+body .fs16 .gist .highlight {
+    font-size : 16pt !important;
+}
+
+body script.mediumless + link + div.gist .highlight {
+    font-size: 12.5pt !important;
+}
+
+body .mediumless .gist .highlight {
+    font-size : 12.5pt !important;
+}
+
+body script.medium + link + div.gist .highlight {
+    font-size: 16pt !important;
+}
+
+body .medium .gist .highlight {
+    font-size : 16pt !important;
+}
+
+body script.large + link + div.gist .highlight {
+    font-size: 40pt !important;
+}
+
+body .large .gist .highlight {
+    font-size : 40pt !important;
+}
+
+body div .wide .gist .gist-file {
+    width: 200% !important;
+    margin-left: 0px !important;
+    margin-right: 0px;
+}
+
+body .gist .gist-data {
+    border-bottom: none;
+    border-radius: 0;
+    background-color: rgb(252,246,232);
+}
+
+body .gist .blob-wrapper {
+    border-radius: 0;
+}
+
+div .line-through body {
+    text-decoration: line-through;
+}
+
+body .gist .highlight {
+    background-color: transparent;
+    font-family: 'Droid Sans Mono', monospace;
+    font-size: 32px;
+}
+
+body .gist .highlight td {
+    padding: 5px 15px !important;
+    line-height: 1em;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+body .gist tr:first-child td {
+    padding-top: 15px !important;
+}
+
+body .gist tr:last-child td {
+    padding-bottom: 15px !important;
+}
+
+body .gist .blob-num {
+	display: none;
+    color: silver;
+/*    background-color: #495057; */
+    pointer-events: none;
+    width: 2px;
+}
+
+body .gist .gist-meta {
+    display: none;
+}
+
+body .gist .highlight {
+    background: rgb(252,246,232);
+}
+body .gist .blob-num,
+body .gist .blob-code-inner,
+body .gist .pl-s1 .pl-s2,
+body .gist .pl-smi,
+body .gist .pl-smp,
+body .gist .pl-stj,
+body .gist .pl-vo,
+body .gist .pl-vpf {
+    color: #657b83;
+}
+body .gist .pl-c,
+body .gist .pl-c span {
+    color: silver;
+    font-style: italic;
+}
+body .gist .pl-mb {
+    color: #2aa198;
+    font-weight: 700;
+}
+body .gist .pl-mh .pl-en {
+    color: #cb4b16;
+    font-weight: 700;
+}
+body .gist .pl-mi {
+    color: #859900;
+    font-style: italic;
+}
+body .gist .pl-c1,
+body .gist .pl-pds,
+body .gist .pl-s1,
+body .gist .pl-s1 .pl-pse .pl-s2,
+body .gist .pl-sv {
+    color: #2aa198;
+}
+body .gist .pl-e,
+body .gist .pl-en,
+body .gist .pl-ent,
+body .gist .pl-s,
+body .gist .pl-v {
+    color: #268bd2;
+}
+body .gist .pl-k,
+body .gist .pl-mdh,
+body .gist .pl-mdr,
+body .gist .pl-ml,
+body .gist .pl-mm,
+body .gist .pl-mo,
+body .gist .pl-mp,
+body .gist .pl-mr,
+body .gist .pl-ms,
+body .gist .pl-s1 .pl-v,
+body .gist .pl-s3 {
+    color: #859900;
+}
+body .gist .pl-mh,
+body .gist .pl-sc,
+body .gist .pl-sr .pl-cce {
+    color: #cb4b16;
+}
+body .gist .pl-mq,
+body .gist .highlight-source-css .pl-k {
+    color: #93a1a1;
+}
+body .gist .pl-sr,
+body .gist .pl-sr .pl-sra,
+body .gist .pl-sr .pl-sre,
+body .gist .pl-src {
+    color: #d30102;
+}
+body .gist .pl-st,
+body .gist .highlight-source-c\+\+ .pl-s {
+    color: #dc322f;
+}
+body .gist .pl-mi1,
+body .gist .pl-mdht {
+    color: #657b83;
+    background: rgba(0, 64, 0, .5);
+}
+body .gist .pl-md,
+body .gist .pl-mdhf,
+body .gist .pl-id,
+body .gist .pl-ii {
+    color: #657b83;
+    background: rgba(64, 0, 0, .5);
+}

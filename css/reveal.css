@@ -1,0 +1,443 @@
+:root {
+  --main-bg-color: rgb(253,246,227);
+  --main-selection-color: black;
+  --main-selection-bg-color: rgb(253,245,220);
+  --main-color: grey;
+}
+
+table.vertical th:not(:first-of-type) {
+    transform: rotate(-90deg);
+    height: 4em;
+    width: 1em;
+    max-width: 1em;
+}
+
+table.vertical th:first-of-type {
+    width: 10em;
+}
+section.fullimage > div.outer > div.images {
+    margin-top : -17vh !important;
+}
+
+section.narrow ul {
+/*    width: 50%; */
+}
+
+section.narrow h1 {
+/*    color : red; */
+}
+
+div.single {
+    margin-top : -10vh;
+}
+
+div.single > p  > img {
+    max-height:  80vh;
+}
+
+table.small {
+
+    font-size: 18pt;
+}
+
+section.twoside > ul {
+    /*flex-direction: row !important;*/
+}
+
+div.outer > div.images {
+    display: flex;
+    flex-direction: column;
+}
+
+div.outer > div.images img {
+    /*width:  100%;*/
+}
+
+.flex2 {
+    flex : 2;
+}
+
+.flex3 {
+    flex : 3;
+}
+
+.flex4 {
+    flex : 4;
+}
+
+.flex5 {
+    flex : 5;
+}
+
+/* Pause screen color */
+.reveal .pause-overlay {
+    background: var(--main-bg-color) !important;
+}
+
+ul > li {
+    /*flex:  1;*/
+}
+
+div.outer {
+    display: flex;
+}
+
+div > script {
+    max-width: 50%;
+    max-height: 50%;
+    height: 50%;
+    /*display:  none;*/
+    width:  50%;
+}
+
+div.outer > div.quotes, div.outer > div, div.outer > p {
+    max-width: 50%;
+    /*display:  none;*/
+    width:  50%;
+}
+
+section.quote70 > div.outer > div.quotes {
+    width:  70%;
+    /*font-size:  smaller; */
+}
+
+section.quote55 > div.outer > div.quotes {
+    width:  55%;
+    /*font-size:  smaller; */
+}
+
+div.outer > ul {
+    width:  50%;
+}
+
+section.quote70 > div.outer > ul {
+    width:  30%;
+}
+
+section.quote55 > div.outer > ul {
+    width:  45%;
+}
+
+div.outer img {
+/*  width: 300px;*/
+    width: 80%;
+}
+
+.smallestimg {
+  width:40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.reveal li.hide {
+    list-style-type: none;
+    /*color: blue;*/
+}
+
+.flexboxrow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  outline: none;
+  justify-content: space-around;
+}
+
+.viewcode {
+    display: block;
+    text-align:left;
+    /*unicode-bidi: embed;*/
+    font-family: monospace;
+    white-space: pre;
+}
+
+.highlight {
+    font-weight: bold;
+}
+
+span.yes {
+    color: black;
+    font-family: monospace;
+}
+
+span.no::after, span.yes::after {
+    content: "();";
+    color: grey;
+    font-family: monospace;
+    font-weight: 200;
+}
+
+span.no {
+    color: red;
+    font-family: monospace;
+}
+
+/* Header slide, main controls */
+
+/* Header slide */
+.header h1 {
+  padding-top : 5vh;
+  padding-bottom: 5vh;
+  font-size: 10vh !important;
+}
+.header h2 {
+  font-size: 15vh;
+}
+.header h3 {
+  font-size: 6vh;
+}
+.header h4 {
+  font-size: 4vh;
+}
+.reveal .header {
+  display:flex !important;
+  flex-flow: column nowrap;
+  flex-basis: auto;
+  align-self: stretch;
+  height: 75vh !important;
+  justify-content: center !important;
+}
+
+/* slide titles */
+.reveal section h1 {
+  padding-top : 5vh;
+  padding-bottom: 5vh;
+  font-size: 4vh;
+}
+
+/* Titles as normal text */
+.reveal h1, .reveal h2, .reveal h3, .reveal h4 {
+  font-variant: normal !important;
+  text-transform: none !important;
+}
+
+/* Slide number same background, and position on left */
+.reveal .slide-number {
+  left: 8px;
+  color: var(--main-color);
+  font-size: 24px;
+  background-color: var(--main-bg-color) !important;
+  z-index: 0;
+}
+
+/* Navigation arrows smaller */
+.reveal .controls {
+  z-index: 1;
+  font-size: 6px; 
+}
+
+/* Selection colors */
+::selection {
+  color : var(--main-selection-color);
+  background: var(--main-selection-bg-color);
+}
+::-moz-selection {
+  color : var(--main-selection-color);
+  background: var(--main-selection-bg-color);
+}
+
+/* Slide Items */
+
+.btn {
+    float: left;
+}
+/* Overall slide */
+.reveal section {
+  margin-left: 5vw;
+  margin-right: auto;
+  height: 93vh !important;
+  width: 90vw !important;
+}
+
+/* Text align blockquotes */
+.reveal blockquote {
+/*  margin-top: -5vh;
+*/  text-align: left;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+/* Remove any border or color around images and blockquotes */
+.reveal img, .reveal blockquote {
+  border: 0 !important;
+  outline-width: 8px;
+  outline-style: solid;
+  outline-offset: 0;
+  outline-color: var(--main-bg-color);
+}
+
+/* Sources indicated by a link with a title 
+   Effect is smaller font, super position, brackets */
+a[title] {
+  font-size: medium;
+  vertical-align: super;
+}
+a[title]::before {
+  content: "[";
+}
+a[title]::after {
+  content: "]";
+}      
+
+/* Lists in slide */
+.reveal section > ul, .reveal section > div > ul, .reveal section > ol, .reveal section > div > ol {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  height: 78vh !important;
+  font-size: 4vh;
+  max-width: 1400px;
+}
+/* Side-by-side */
+.reveal div.outer div ul {
+    /*color : red;*/
+  height: 80vh !important;
+}
+
+.reveal ul.twocolumn {
+    gap : 5px;
+    height: 60vh;
+    margin-left: 5em !important;
+    margin-right: initial !important;
+}
+.reveal ul, .reveal ol {
+  display:flex !important;
+  flex-flow: column wrap;
+  flex-basis: auto !important;
+  /*align-self: stretch;*/
+  justify-content: flex-start; !important;
+}
+
+.reveal .shrink ul {
+    justify-content: flex-start !important;
+    color: red;
+}
+.reveal section {
+  flex-flow: column nowrap;
+  flex-basis: auto;
+  justify-content: flex-start !important;
+}
+.reveal ul > li > ul, .reveal ol > li > ol {
+  height: 90%;
+}
+.reveal ul > li, .reveal ol > li {
+  margin-bottom: auto;
+}
+
+/* Center gists */
+section .gist .gist-data {
+  border-bottom: none;
+  border-radius: 0;
+  width: fit-content;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+section.left .gist .gist-data {
+    margin-left:  0 !important;
+}
+
+
+/* Table at top of slide */
+.reveal section table {
+  margin-top: 0;
+}
+
+/* Single image on slide at full size */
+section > p > img {
+  width: auto;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+/* Row flexbox of images */
+.reveal .rowflex > ul {
+  flex-flow: row nowrap;
+  align-items: top;
+  outline: none;
+  justify-content: space-around !important;
+  list-style: none;
+  height: fit-content !important;
+}
+.reveal .rowflex img {
+  width: 300px;
+}
+
+/* Layer Steps */
+.layer {
+  padding-top : 0.5em !important;
+  padding-bottom : 0.5em !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  font-size: 150%;
+  width: 50%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  --layer-border-size: 5px solid black;
+  border: var(--layer-border-size);
+  border-top: 0;
+  text-align : center
+}
+p.layer:first-of-type {
+  border: var(--layer-border-size);
+}
+
+/* Special Classes */
+
+/* Reduce font size for a long list */
+.reveal .longlist ul li, .reveal .longlist ol li {
+  font-size: 70%;
+}
+
+.reveal .longlist ul li, .reveal .longlist ol li {
+  justify-content: flex-start;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+/* Center */
+.center {
+
+}
+
+.reveal div.slides.center > section > ul, .reveal div.slides.center > section > ol, section.center > ul, section.center > ol {
+    width: 60%;
+}
+
+/* Experimental */
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  {
+/* Multiple blockquotes on iPad */
+section blockquote:first-of-type:nth-last-of-type(n + 2),
+section blockquote:first-of-type:nth-last-of-type(n + 2) ~ blockquote {
+  color : red !important;
+  font-size: 50%;
+}
+}
+
+/* Blockquote followed by list */
+blockquote ~ ul, blockquote ~ ol {  
+  padding-top: 0vh;
+  width: 60vw;
+}
+
+ul > li > ul > li:first-child {
+ /*padding-top: 2%;*/
+}
+
+/* Single list item with sublist of 2 or more */
+section > ul > li:first-child:nth-last-child(n + 1) > ul >
+               li:first-child:nth-last-child(n + 2), 
+section > ul > li:first-child:nth-last-child(n + 1) > ul >
+               li:first-child:nth-last-child(n + 2) ~ li {
+/*  color : red;
+*/}
+
+section > ul > li:first-child:nth-last-child(n + 2) > ul >
+               li:first-child:nth-last-child(n + 2), 
+section > ul > li:first-child:nth-last-child(n + 2) > ul >
+               li:first-child:nth-last-child(n + 2) ~ li {
+/*  color : green;
+}
+*/
+
