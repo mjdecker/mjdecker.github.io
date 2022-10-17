@@ -1,12 +1,12 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+    <title>{{ page.title }}</title>
+ 
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></meta>
     <meta name="apple-mobile-web-app-capable" content="yes"></meta>
     <meta name="viewport" content="user-scalable=no, width=device-width"></meta>
     <meta name="format-detection" content="telephone=no"></meta>
-
-    <title>{{ page.title | default: page.subtitle }}</title>
 
     <link href="css/theme.css" rel="stylesheet" type="text/css"></link>
     <link rel="manifest" href="/site.webmanifest">
@@ -23,23 +23,15 @@
 
     <body>
 
-        {% assign present = false %}
-        {% for item in site.data.present %}
-            {% if item == page.title %}
-              {% assign present = true %}
-            {% endif %}
-        {% endfor %}
-
-        <div class="reveal{% if present == true %} present{% endif %}">
-            <div class="slides{% if page.class %} {{ page.class }}{% endif %}">
+        <div class="reveal">
+            <div class="slides">
 
                 <section class="header" markdown="1">
+                    <h2>{{page.title}}</h2>
+                    <h3>{{site.title}}</h3>
+                    <h4>{{site.affiliation}}</h4>
 
-                    <h1>{{page.course}}</h1>
-                    <h2>{{ page.title | default: page.subtitle }}</h2>
-                    <h3>{{page.author}}</h3>
-                    <h4>{{page.affiliation}}</h4>
-                    {{ page.content | replace: "<h1", "</section><section><h1" }}
+                {{ page.content | replace: "<h1", "</section><section><h1" }}
 
                 </section>
 

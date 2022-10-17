@@ -1,6 +1,9 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
+
+    <title>{{site.title}}</title>
+
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></meta>
     <meta name="apple-mobile-web-app-capable" content="yes"></meta>
     <meta name="viewport" content="user-scalable=no, width=device-width"></meta>
@@ -8,9 +11,6 @@
     <link href="css/theme.css" rel="stylesheet" type="text/css"></link>
 
     <link rel="manifest" href="/site.webmanifest">
-
-    <title>Michael J. Decker, Ph.D.</title>
-
 </head>
 <body>
 
