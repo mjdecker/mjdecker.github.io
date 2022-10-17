@@ -34,3 +34,7 @@ highlighter: rouge
 
 kramdown:
   smart_quotes: ['apos', 'apos', 'quot', 'quot']
+
+collections:
+  notes:
+    output: true
