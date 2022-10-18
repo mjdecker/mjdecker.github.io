@@ -84,8 +84,8 @@ layout: notes
 # Adapter: Object Adapter Consequences
 ![][objectstructure]
 
-* Adapts Adaptee to Target by committing to a concrete Adaptee class, which does not allow adaptation of a class and its subclasses
-* Since Adapter is a subclass of Adaptee, the Adapter can override some of Adaptee's behavior
+* Adapter works with many Adaptees (i.e., Adaptee and all of its subclasses) adding functionality to all Adaptees at once
+* Harder to override adaptee behavior, requires subclassing Adaptee and making Adaptor refer to subclass
 * Introduces an additional object, with a further pointer indirection
     
 # Adapter: Questions
