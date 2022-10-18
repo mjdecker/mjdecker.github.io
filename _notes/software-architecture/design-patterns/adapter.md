@@ -8,6 +8,8 @@ layout: notes
 [motivation]: /images/design-patterns/adapter/motivation.svg
 [classstructure]: /images/design-patterns/adapter/class-structure.svg
 [objectstructure]: /images/design-patterns/adapter/object-structure.svg
+[implementation1]: /images/design-patterns/adapter/implementation1.svg
+[implementation2]: /images/design-patterns/adapter/implementation2.svg
 
 # Adapter
 > Convert the interface of a class into another interface clients expect
@@ -93,6 +95,17 @@ layout: notes
 * Pluggable adapters
 * Two-way adapters
 * Note: Avoid class adapters in C++ unless necessary
+
+# Implementation 1
+![][implementation1]
+
+# Implementation 2
+![][implementation2]
+
+# Implementation Comparison
+![][implementation1]
+
+![][implementation2]
 
 # Related Patterns
 * *Bridge*
