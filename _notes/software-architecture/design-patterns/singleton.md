@@ -47,7 +47,7 @@ layout: notes
 # Thread-Safe Implementation
 <script class="smaller" src="https://gist.github.com/mjdecker/7b3bcce938d6d4e5c557ba95e2ed6120.js?file=PatternSingleton2.hpp"></script>
 
-# DCL (Double-Checked Locking) Pattern
+# [DCL (Double-Checked Locking) Pattern](https://en.wikipedia.org/wiki/Double-checked_locking)
 <script class="smaller" src="https://gist.github.com/mjdecker/7b3bcce938d6d4e5c557ba95e2ed6120.js?file=PatternSingleton3.hpp"></script>
 
 # Related Patterns
