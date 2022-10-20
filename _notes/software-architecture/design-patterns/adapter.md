@@ -3,7 +3,7 @@ title: "Design Pattern - Adapter"
 layout: notes
 ---
 
-[structuralpatterns]: https://www.cs.bgsu.edu/mdecke/classes/software_architecture/notes/design_patterns.html#/20
+[structural]: https://www.cs.bgsu.edu/mdecke/classes/software_architecture/notes/design_patterns.html#/20
 
 [motivation]: /images/design-patterns/adapter/motivation.svg
 [classstructure]: /images/design-patterns/adapter/class-structure.svg
@@ -16,7 +16,7 @@ layout: notes
 
 > Adapter lets classes work together with incompatible interfaces
 
-* [Structural Pattern][structuralpatterns]
+* [Structural Pattern][structural]
 * AKA: Wrapper
 
 # Adapter: Motivation

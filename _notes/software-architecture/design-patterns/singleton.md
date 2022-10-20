@@ -3,14 +3,14 @@ title: "Design Pattern - Singleton"
 layout: notes
 ---
 
-[structuralpattern]: https://www.cs.bgsu.edu/mdecke/classes/software_architecture/notes/design_patterns.html#/20
+[structural]: https://www.cs.bgsu.edu/mdecke/classes/software_architecture/notes/design_patterns.html#/20
 [singleton]: /images/design-patterns/singleton/singleton.svg
 [structure]: /images/design-patterns/singleton/singleton.svg
 
 # Singleton
 > Ensure a class only has one instance and provide a global point of access to it
 
-* [Structural Pattern][structuralpattern]
+* [Structural Pattern][structural]
 
 # Singleton
 ![singleton]

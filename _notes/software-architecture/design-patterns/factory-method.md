@@ -3,11 +3,14 @@ title: "Design Pattern - Factory Method"
 layout:notes
 ---
 
+
+[creational]: https://www.cs.bgsu.edu/mdecke/classes/software_architecture/notes/design_patterns.html#/18
+
 [motivation]: /images/design-patterns/template-method-gof-update.svg
 [structure]:  /images/design-patterns/factory-method.svg
 [parallel]:   /images/design-patterns/factory-method-parallel-hierarchy.svg
 [mazegame]:   /images/design-patterns/maze-game.svg
-[classcreationalpattern]: https://www.cs.bgsu.edu/mdecke/classes/software_architecture/notes/design_patterns.html#/18
+
 
 # Factory Method
 <script src="https://gist.github.com/mjdecker/1aabd0ce4bd678eab81a0c2bcdaeed43.js?file=FactorySort.cpp"></script>
@@ -15,7 +18,7 @@ layout:notes
 # Factory Method
 > A class pattern that defines an interface for creating an object, but let subclasses decide which class to instantiate, lets a class defer instantiation to subclasses.
 
-* [Class Creational Pattern][classcreationalpattern]
+* [Class Creational Pattern][creational]
 * AKA: Virtual Constructor
 
 # Factory Method
