@@ -1,6 +1,6 @@
 ---
-title: "Design Pattern Command"
-class: "center"
+title: "Design Pattern - Command"
+layout: notes
 ---
 
 [behavioral]: https://www.cs.bgsu.edu/mdecke/classes/software_architecture/notes/design_patterns.html#/23
