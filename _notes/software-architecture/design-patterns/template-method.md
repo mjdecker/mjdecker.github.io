@@ -25,9 +25,6 @@ layout: notes
 * Control subclass extensions with "hook" operations
 
 # Template Method: Structure (GOF Example)
-<img style="width: 80%" src="https://learning.oreilly.com/api/v2/epubs/urn:orm:book:0201633612/files/graphics/pg325fig01.jpg"/>
-
-# Template Method: Structure (GOF Example)
 ![][motivation]
 
 # Template Method: Structure
