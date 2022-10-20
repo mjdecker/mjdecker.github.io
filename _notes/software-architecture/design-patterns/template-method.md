@@ -28,10 +28,10 @@ layout: notes
 <img style="width: 80%" src="https://learning.oreilly.com/api/v2/epubs/urn:orm:book:0201633612/files/graphics/pg325fig01.jpg"/>
 
 # Template Method: Structure (GOF Example)
-[motivation]
+![][motivation]
 
 # Template Method: Structure
-[structure]
+![][structure]
 
 # Template Method: Participants
 * AbstractClass (e.g., `Application`)
@@ -68,7 +68,7 @@ layout: notes
 <script class="medium" src="https://gist.github.com/mjdecker/0ebc4a6dfddaf87332b357beb079c075.js?file=FilenameParser.hpp"></script>
 
 # UML
-[parser]
+![][parser]
 
 # MemoryParser.hpp
 <script src="https://gist.github.com/mjdecker/0ebc4a6dfddaf87332b357beb079c075.js?file=MemoryParser.hpp"></script>
