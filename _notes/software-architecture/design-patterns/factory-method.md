@@ -6,7 +6,7 @@ layout: notes
 
 [creational]: https://www.cs.bgsu.edu/mdecke/classes/software_architecture/notes/design_patterns.html#/18
 
-[motivation]: /images/design-patterns/factory-method/template-method-gof-update.svg
+[motivation]: /images/design-patterns/template-method/template-method-gof-update.svg
 [structure]:  /images/design-patterns/factory-method/factory-method.svg
 [parallel]:   /images/design-patterns/factory-method/factory-method-parallel-hierarchy.svg
 [mazegame]:   /images/design-patterns/factory-method/maze-game.svg
