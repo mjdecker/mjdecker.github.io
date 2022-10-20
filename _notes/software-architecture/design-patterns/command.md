@@ -27,9 +27,6 @@ layout: notes
 ![open]
 
 # Macro Command
-![macro2]
-
-# Macro Command (GOF Diagram)
 ![macro]
 
 # Command: Applicability
