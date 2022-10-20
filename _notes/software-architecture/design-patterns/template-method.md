@@ -3,9 +3,9 @@ title: "Design Pattern - Template Method"
 layout: notes
 ---
 
-[motivation]: /images/design-patterns/factory-method/template-method-gof-update.svg
-[structure]:  /images/design-patterns/factory-method/template-method.svg
-[parser]:     /images/design-patterns/factory-method/template-parser.svg
+[motivation]: /images/design-patterns/template-method/template-method-gof-update.svg
+[structure]:  /images/design-patterns/template-method/template-method.svg
+[parser]:     /images/design-patterns/template-method/template-parser.svg
 
 # Template Method
 > A class pattern that defines the skeleton of an algorithm as an abstract class, allowing its subclasses to provide concrete behavior
