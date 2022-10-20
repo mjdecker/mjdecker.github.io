@@ -1,6 +1,6 @@
 ---
 title: "Design Pattern - Factory Method"
-layout:notes
+layout: notes
 ---
 
 
