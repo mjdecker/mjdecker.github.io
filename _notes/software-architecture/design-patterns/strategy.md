@@ -51,7 +51,7 @@ layout: notes
 * Composition class - maintains and updates line breaks of text
 * Line-breaking strategies are implemented by subclasses of the (abstract) Compositor class
 * SimpleCompositor - a simple strategy for determining line breaks
-* TeXCompositor - implements the[ T<sub>E</sub>X][tex] algorithm that optimizes line breaks an entire paragraph at a time
+* TeXCompositor - implements the[ T<sub>E</sub>X][tex] algorithm that optimizes line breaks on entire paragraph at a time
 * ArrayCompositor - implements a strategy so that each row has a fixed number of items
 
 # Strategy: Structure
