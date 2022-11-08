@@ -88,7 +88,7 @@ layout: notes
 * Large set of classes for a broad set of purposes
 * E.g., MFC, Qt 
 * Client code is integrated into classes
-* Control: Heavy use of *inversion of control*
+* Control: Heavy use of *[inversion of control](https://en.wikipedia.org/wiki/Inversion_of_control)*
 
 # Platform
 {: .center }
