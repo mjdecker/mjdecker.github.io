@@ -1,5 +1,6 @@
 ---
 title: "Free-Function Stereotypes"
+layout: notes
 ---
 
 # UML Stereotypes
@@ -31,7 +32,7 @@ title: "Free-Function Stereotypes"
 # Mutator::command
 {: .quote55 }
 
-<script src="hhttps://gist.github.com/mjdecker/8f6c77c5b7c5391eda2d99e28f63cd20.js?file=function_stereotypes_command_collaborator.cpp"></script>
+<script src="https://gist.github.com/mjdecker/8f6c77c5b7c5391eda2d99e28f63cd20.js?file=function_stereotypes_command_collaborator.cpp"></script>
 
 * Executes a change based on the IN/OUT parameters
 * For things it changes, parameters are IN/OUT or OUT
@@ -41,7 +42,7 @@ title: "Free-Function Stereotypes"
 # Accessor::property
 {: .quote55 }
 
-<script src="hhttps://gist.github.com/mjdecker/8f6c77c5b7c5391eda2d99e28f63cd20.js?file=function_stereotypes_accessor_property.cpp"></script>
+<script src="https://gist.github.com/mjdecker/8f6c77c5b7c5391eda2d99e28f63cd20.js?file=function_stereotypes_accessor_property.cpp"></script>
 
 * Returns information derived from the IN parameters
 * Parameters are *pass by value* or *pass by const reference*
@@ -50,7 +51,7 @@ title: "Free-Function Stereotypes"
 # Accessor::predicate
 {: .quote70 }
 
-<script src="hhttps://gist.github.com/mjdecker/8f6c77c5b7c5391eda2d99e28f63cd20.js?file=function_stereotypes_accessor_predicate.cpp"></script>
+<script src="https://gist.github.com/mjdecker/8f6c77c5b7c5391eda2d99e28f63cd20.js?file=function_stereotypes_accessor_predicate.cpp"></script>
 
 * Returns a Boolean result derived from the IN parameter
 * Parameters are all IN
@@ -61,13 +62,13 @@ title: "Free-Function Stereotypes"
 # Accessor::predicate
 {: .quote70 }
 
-<script src="hhttps://gist.github.com/mjdecker/8f6c77c5b7c5391eda2d99e28f63cd20.js?file=function_stereotypes_predicate_if.cpp"></script>
+<script src="https://gist.github.com/mjdecker/8f6c77c5b7c5391eda2d99e28f63cd20.js?file=function_stereotypes_predicate_if.cpp"></script>
 
 * Often extracted from code with complex conditional statements
 * Anywhere to hide details on how the predicate is determined
 
 # Accessor::predicate naming
-<script src="hhttps://gist.github.com/mjdecker/8f6c77c5b7c5391eda2d99e28f63cd20.js?file=function_stereotypes_predicate_naming.cpp"></script>
+<script src="https://gist.github.com/mjdecker/8f6c77c5b7c5391eda2d99e28f63cd20.js?file=function_stereotypes_predicate_naming.cpp"></script>
 
 * Set of standard terms that everyone knows means a predicate
 * If not a standard term, then verb form is often starts with `is`
