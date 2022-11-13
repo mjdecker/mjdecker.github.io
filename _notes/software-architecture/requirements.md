@@ -10,7 +10,7 @@ layout: notes
 * Software is judged as successful if it meets its purpose
 
 # RE Process
-[re-process]
+![][re-process]
 
 
 # RE Process
@@ -20,3 +20,4 @@ layout: notes
 
 # References
 * Bashar Nuseibeh and Steve Easterbrook. "Requirements engineering: a roadmap." in Proceedings of the Conference on the Future of Software Engineering, pp. 35-46. 2000.
+* Sommerville, Ian. Software Engineering, 9/E. Pearson Education, 2011.
