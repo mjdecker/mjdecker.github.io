@@ -12,12 +12,18 @@ layout: notes
 # RE Process
 ![][re-process]
 
-
 # RE Process
 * Requirements Elicitation
 * Requirements Specification
 * Requirements Validation
 
+# Elicitation Techniques
+* Traditional
+* Group Elicitation
+* Prototyping
+* Cognitive
+* Contextual
+
 # References
 * Bashar Nuseibeh and Steve Easterbrook. "Requirements engineering: a roadmap." in Proceedings of the Conference on the Future of Software Engineering, pp. 35-46. 2000.
-* Sommerville, Ian. Software Engineering, 9/E. Pearson Education, 2011.
+* Sommerville, Ian. Software Engineering, 10/E. Pearson Education, 2016.
