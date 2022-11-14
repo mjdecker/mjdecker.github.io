@@ -7,6 +7,7 @@ layout: notes
 [Laddering]: https://en.wikipedia.org/wiki/Ladder_interview
 [Ethnomethodology]: https://en.wikipedia.org/wiki/Ethnomethodology
 [Coversational Analysis]: https://en.wikipedia.org/wiki/Conversation_analysis
+[Prototyping]: https://en.wikipedia.org/wiki/Software_prototyping
 
 # Requirements Engineering (RE)
 > Process of discovering a software system's purpose, by identifying stakeholders and their needs, and documenting these in a form that is amenable to analysis, communication, and subsequent implementation [Nuseibeh '00]
@@ -49,11 +50,12 @@ layout: notes
 * [Ethnomethodology] - Study of how social order is produced in and through processes of social interaction
 * [Coversational Analysis] - Study of social interaction through both verbal and non-verbal conduct
 
-# Prototyping
-* Throwaway
-* Evolutionary
+# [Prototyping]
+* Throwaway - Rapidly made prototype of poorly understood requirements; thrown away
+* Evolutionary - Quality prototype of known requirements meant to uncover unknown requirements; kept and evolved
 
 # References
 * Bashar Nuseibeh and Steve Easterbrook. "Requirements engineering: a roadmap." in Proceedings of the Conference on the Future of Software Engineering, pp. 35-46. 2000.
-* Sommerville, Ian. Software Engineering, 10/E. Pearson Education, 2016.
+* Ian Sommerville. Software Engineering, 10/E. Pearson Education, 2016.
 * Ranjit Kumar. "Research Methodology: A Step-by-Step Guide for Beginners", 4th Ed., 2014. ISBN: 978-1446269978
+* Alan M. Davis.  "Operational prototyping: A new development approach." IEEE software 9, no. 5 (1992): 70-78.
