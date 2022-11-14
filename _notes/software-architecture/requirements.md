@@ -12,12 +12,7 @@ layout: notes
 # RE Process
 ![][re-process]
 
-# RE Process
-* Requirements Elicitation
-* Requirements Specification
-* Requirements Validation
-
-# Elicitation Techniques
+# Elicitation Techniques \[Nuseibeh '00]
 * Traditional
 * Group Elicitation
 * Cognitive
@@ -27,12 +22,12 @@ layout: notes
 # Traditional Techniques
 > Generic data-gathering techniques
 
-* Survey/questionnaire
-* Interviews
-* Document Analysis - existing charts, process models/standards, and manuals
+* Survey/questionnaire - Written list of questions completed by the respondent
+* Interviews - Verbal exchange (often face-to-face) where interviewer elicits information
+* Document Analysis - Existing charts, process models/standards, and manuals
 
 # Group Elicitation Techniques
-> Foster stakeholder agreement and buy-in, while exploiting team dynamics to elicit richer understanding of needs
+> Foster stakeholder agreement and buy-in, while exploiting team dynamics to elicit a richer understanding of needs
 
 * Brainstorming
 * Focus Group
@@ -59,3 +54,4 @@ layout: notes
 # References
 * Bashar Nuseibeh and Steve Easterbrook. "Requirements engineering: a roadmap." in Proceedings of the Conference on the Future of Software Engineering, pp. 35-46. 2000.
 * Sommerville, Ian. Software Engineering, 10/E. Pearson Education, 2016.
+* Ranjit Kumar. "Research Methodology: A Step-by-Step Guide for Beginners", 4th Ed., 2014. ISBN: 978-1446269978
