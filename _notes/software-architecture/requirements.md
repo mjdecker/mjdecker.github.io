@@ -29,9 +29,9 @@ layout: notes
 # Group Elicitation Techniques
 > Foster stakeholder agreement and buy-in, while exploiting team dynamics to elicit a richer understanding of needs
 
-* Brainstorming
-* Focus Group
-* Workshops
+* Brainstorming  - Group discussion to produce spontaneous ideas
+* Focus Group - Group interview of similar people
+* Workshop - Organized group discussion(s) on specific topic(s)
 
 # Cognitive Techniques
 > Knowledge acquisition techniques
