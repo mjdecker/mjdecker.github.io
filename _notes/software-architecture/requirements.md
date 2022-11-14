@@ -4,6 +4,9 @@ layout: notes
 ---
 
 [re-process]: /images/requirements/requirements-engineering-process.png
+[Laddering]: https://en.wikipedia.org/wiki/Ladder_interview
+[Ethnomethodology]: https://en.wikipedia.org/wiki/Ethnomethodology
+[Coversational Analysis]: https://en.wikipedia.org/wiki/Conversation_analysis
 
 # Requirements Engineering (RE)
 > Process of discovering a software system's purpose, by identifying stakeholders and their needs, and documenting these in a form that is amenable to analysis, communication, and subsequent implementation [Nuseibeh '00]
@@ -36,16 +39,15 @@ layout: notes
 # Cognitive Techniques
 > Knowledge acquisition techniques
 
-* Protocol analysis/Think-aloud
-* Laddering
-* Card Sorting
-* Repertory Grids
+* Protocol analysis/Think-aloud - participant thinks aloud while peformaing a task
+* [Laddering] - Continuous probe to elicit structure and content of stakeholder knowledge
+* Card Sorting - Stakeholders sort cards in groups of which each has the name of a domain entity
+* Repertory Grids -  Highly structured interview tool where responses are set out in a grid
 
 # Contextual Techniques
-* Participant Observation
-* Ethnography
-* Ethnomethodology
-* Conversation Analysis
+* Ethnography - Participant observation, where the investigator involves themselves with a group of interest
+* [Ethnomethodology] - Study of how social order is produced in and through processes of social interaction
+* [Coversational Analysis] - Study of social interaction through both verbal and non-verbal conduct
 
 # Prototyping
 * Throwaway
