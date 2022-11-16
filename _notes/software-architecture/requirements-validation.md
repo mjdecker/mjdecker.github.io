@@ -7,6 +7,7 @@ layout: notes
 [Software Review]: https://www.cs.bgsu.edu/mdecke/classes/software_testing/notes/code_review.html#/
 [Prototyping]: https://en.wikipedia.org/wiki/Software_prototyping
 [Acceptance Testing]: https://en.wikipedia.org/wiki/Acceptance_testing
+[Requirements Traceability]: https://en.wikipedia.org/wiki/Requirements_traceability
 
 # Requirements Engineering (RE)
 > Process of discovering a software system's purpose, by identifying stakeholders and their needs, and documenting these in a form that is amenable to analysis, communication, and subsequent implementation [Nuseibeh '00]
@@ -50,10 +51,11 @@ layout: notes
 
 * Often specified by the customer
 
-
-# Traceability
+# Requirements Traceability
+> The ability to describe and follow the life of a requirement, in both a forwards and backwards direction.
 
 # References
 * Bashar Nuseibeh and Steve Easterbrook. "Requirements Engineering: A Roadmap." in Proceedings of the Conference on the Future of Software Engineering, pp. 35-46. 2000.
 * Ian Sommerville. Software Engineering, 10/E. Pearson Education, 2016.
 * Craig Larman. Applying UML and Patterns: An Introduction to Object Oriented Analysis and Design and Interative development. Pearson Education, 2012.
+* Orlena CZ Gotel, , and C. W. Finkelstein. "An Analysis of the Requirements Traceability P	roblem." In Proceedings of ieee international conference on requirements engineering, pp. 94-101. IEEE, 1994.
