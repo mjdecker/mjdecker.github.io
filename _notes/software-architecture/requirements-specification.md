@@ -25,6 +25,14 @@ layout: notes
 * Organizational Requirements - Broad system requirements derived from the developer's and customer's organization's policies and procedures, e.g., programming language
 * External Requirements - All requirements derived from external factors, e.g., legal requirements
 
+# Software Requirements Specification (SRS)
+
+# Capturing Requirements
+
+# User Stories
+
+# Use Casesd
+
 # References
 * Bashar Nuseibeh and Steve Easterbrook. "Requirements engineering: a roadmap." in Proceedings of the Conference on the Future of Software Engineering, pp. 35-46. 2000.
 * Ian Sommerville. Software Engineering, 10/E. Pearson Education, 2016.
