@@ -4,6 +4,7 @@ layout: notes
 ---
 
 [re-process]: /images/requirements/requirements-engineering-process.png
+[non-functional]: /images/requirements/non-functional-requirements.png
 
 # Requirements Engineering (RE)
 > Process of discovering a software system's purpose, by identifying stakeholders and their needs, and documenting these in a form that is amenable to analysis, communication, and subsequent implementation [Nuseibeh '00]
@@ -12,8 +13,17 @@ layout: notes
 # RE Process
 ![][re-process]
 
-# Specification Techniques \[Nuseibeh '00]
+# Functional vs Non-Functional Requirements
+* Functional Requirements - Describe the system's functions , its inputs and outputs, exceptions, etc., in detail (i.e., what a system should do)
+* Non-functional Requirements - Describe an overall characteristic of the system
 
+# Non-functional Requirement Types
+![][non-functional]
+
+# Product vs Organizational vs External
+* Product Requirements - Constraints on the behavior of the software, e.g., performance
+* Organizational Requirements - Broad system requirements derived from the developer's and customer's organization's policies and procedures, e.g., programming language
+* External Requirements - All requirements derived from external factors, e.g., legal requirements
 
 # References
 * Bashar Nuseibeh and Steve Easterbrook. "Requirements engineering: a roadmap." in Proceedings of the Conference on the Future of Software Engineering, pp. 35-46. 2000.
