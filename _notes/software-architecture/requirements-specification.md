@@ -32,10 +32,30 @@ layout: notes
 * Example [structure]
 
 # Capturing Requirements
-* User Stories
-* Use Cases
+* Glossary
 * Domain Modeling
 * System Sequence Diagrams
+* User Stories
+* Use Cases
+
+# Glossary
+* Data dictionary
+* Capture domain terms and definitions
+* Forms vernacular from which artifacts pull terms from
+* Used to investigate an unknown domain
+* Shared across projects in the same domain
+
+# Domain Modeling
+* AKA Conceptual model, visual dictionary
+* Modeling of a system's domain
+* Uses UML Class Diagrams, but at the domain level instead of code-level
+* Used to investigate an unknown domain
+* Shared across projects in the same domain 
+
+# System Sequence Diagrams
+* Diagram showing interactions for one particular scenario of a use case
+* Uses UML Sequence Diagrams, but at domain/use-case level instead of code-level
+* May use natural language for messages
 
 # User Story
 > An informal natural language description of a software feature
@@ -60,7 +80,7 @@ layout: notes
 
 # Use Case Example (continued)
 * Extensions:
-	* 3a: Replace only first occurence
+	* 3a: Replace only first occurrence
 		1. User indicates that only the first occurrence is to be replaced.
 		2. Software finds the first occurrence of the search term in the document being edited and replaces it with the replacement text.
 		3. Use case ends with postcondition state being only the first occurrence is replaced
@@ -71,7 +91,6 @@ layout: notes
 *  **Postconditions**: All occurrences of the search term have been replaced with the replacement text.
 
 # References
-* Bashar Nuseibeh and Steve Easterbrook. "Requirements engineering: a roadmap." in Proceedings of the Conference on the Future of Software Engineering, pp. 35-46. 2000.
+* Bashar Nuseibeh and Steve Easterbrook. "Requirements Engineering: A Roadmap." in Proceedings of the Conference on the Future of Software Engineering, pp. 35-46. 2000.
 * Ian Sommerville. Software Engineering, 10/E. Pearson Education, 2016.
-* Ranjit Kumar. "Research Methodology: A Step-by-Step Guide for Beginners", 4th Ed., 2014. ISBN: 978-1446269978
-* Alan M. Davis.  "Operational prototyping: A new development approach." IEEE software 9, no. 5 (1992): 70-78.
+* Craig Larman. Applying UML and Patterns: An Introduction to Object Oriented Analysis and Design and Interative development. Pearson Education, 2012.

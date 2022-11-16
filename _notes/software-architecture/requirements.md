@@ -55,7 +55,7 @@ layout: notes
 * Evolutionary - Quality prototype of known requirements meant to uncover unknown requirements; kept and evolved
 
 # References
-* Bashar Nuseibeh and Steve Easterbrook. "Requirements engineering: a roadmap." in Proceedings of the Conference on the Future of Software Engineering, pp. 35-46. 2000.
+* Bashar Nuseibeh and Steve Easterbrook. "Requirements Engineering: A Roadmap." in Proceedings of the Conference on the Future of Software Engineering, pp. 35-46. 2000.
 * Ian Sommerville. Software Engineering, 10/E. Pearson Education, 2016.
 * Ranjit Kumar. "Research Methodology: A Step-by-Step Guide for Beginners", 4th Ed., 2014. ISBN: 978-1446269978
-* Alan M. Davis.  "Operational prototyping: A new development approach." IEEE software 9, no. 5 (1992): 70-78.
+* Alan M. Davis.  "Operational Prototyping: A New Development Approach." IEEE software 9, no. 5 (1992): 70-78.
