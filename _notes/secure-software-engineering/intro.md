@@ -5,7 +5,7 @@ layout: notes
 
 [Software Engineering]: https://en.wikipedia.org/wiki/Software_engineering
 [quality]: /images/secure-software-engineering/quality.png
-[ISO 25000]: https://iso25000.com/index.php/en/iso-25000-standards/iso-25010
+[Quality Characteristics]: https://iso25000.com/index.php/en/iso-25000-standards/iso-25010
 [Security Characteristic]: https://iso25000.com/index.php/en/iso-25000-standards/iso-25010?start=6
 
 # [Software Engineering]
@@ -74,10 +74,10 @@ layout: notes
 <table style="width: 40%; border: 1px solid black"><tr><th style="background-color: white; text-align: center">Methods</th></tr></table>
 <table style="width: 20%; border: 1px solid black"><tr><th style="background-color: white; text-align: center">Tools</th></tr></table>
 
-# Quality Characteristics
+# [Quality Characteristics]
 ![quality]
 
-# Quality Characteristics Purpose
+# [Quality Characteristics] Purpose
 * I.e.,  Quality Focus
 
 > The quality of a system is the degree to which the system satisfies the stated and implied needs [including quality characteristics] of its various stakeholders, and thus provides value [ISO 25010]
