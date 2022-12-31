@@ -5,7 +5,8 @@ layout: notes
 
 [Software Engineering]: https://en.wikipedia.org/wiki/Software_engineering
 [quality]: /images/secure-software-engineering/quality.png
-
+[ISO 25000]: https://iso25000.com/index.php/en/iso-25000-standards/iso-25010
+[Security Characteristic]: https://iso25000.com/index.php/en/iso-25000-standards/iso-25010?start=6
 
 # [Software Engineering]
 * Software engineering 
@@ -81,13 +82,24 @@ layout: notes
 
 > The quality of a system is the degree to which the system satisfies the stated and implied needs [including quality characteristics] of its various stakeholders, and thus provides value [ISO 25010]
 
-# Security Characteristic
+# [Security Characteristic]
 * Primary focus of this course
-* Must be part of the Quality Focus
-* Involved in every part of SE process
+* Must be made part of the Quality Focus
+
+> Degree to which a product or system protects information and data so that persons or other products or systems have the degree of data access appropriate to their types and levels of authorization [ISO 25010]
+
+# [Security Characteristic] - Sub-characteristics
+* Confidentiality - Degree to which a product or system ensures that data are accessible only to those authorized to have access.
+* Integrity - Degree to which a system, product or component prevents unauthorized access to, or modification of, computer programs or data.
+* Non-repudiation - Degree to which actions or events can be proven to have taken place so that the events or actions cannot be repudiated later.
+* Accountability - Degree to which the actions of an entity can be traced uniquely to the entity.
+* Authenticity - Degree to which the identity of a subject or resource can be proved to be the one claimed.
+
+> Degree to which a product or system protects information and data so that persons or other products or systems have the degree of data access appropriate to their types and levels of authorization [ISO 25010]
 
 # Security & Process
-* Requirements - security is non-functional requirement(s)
-* Design/Analysis - the system must be designed with security in mind
-* Code - secure programming practices must be followed
-* Test - the code must be tested to make sure it meets security requirements
+* Involved in every part of SE process
+	* Requirements - security is non-functional requirement(s)
+	* Design/Analysis - the system must be designed with security in mind
+	* Code - secure programming practices must be followed
+	* Test - the code must be tested to make sure it meets security requirements
