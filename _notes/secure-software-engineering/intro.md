@@ -4,6 +4,7 @@ layout: notes
 ---
 
 [Software Engineering]: https://en.wikipedia.org/wiki/Software_engineering
+[quality]: /images/secure-software-engineering/quality.png
 
 
 # [Software Engineering]
@@ -20,11 +21,12 @@ layout: notes
 * Testing - determining that the software is fit for its operational environment
 
 # Software Engineering as a Layered Technology
-	
+<div>
 <table style="width: 80%; border: 1px solid black"><tr><th style=" background-color: white; text-align: center">Quality Focus</th></tr></table>
 <table style="width: 60%; border: 1px solid black"><tr><th style="background-color: white; text-align: center">Process</th></tr></table>
 <table style="width: 40%; border: 1px solid black"><tr><th style="background-color: white; text-align: center">Methods</th></tr></table>
 <table style="width: 20%; border: 1px solid black"><tr><th style="background-color: white; text-align: center">Tools</th></tr></table>
+</div>
 
 # Quality Focus
 * Foundation of software engineering
@@ -62,11 +64,30 @@ layout: notes
 <table style="width: 20%; border: 1px solid black"><tr><th style="background-color: white; text-align: center">Tools</th></tr></table>
 
 # Tools
-	* The semi-automated and automated tools that is framework for project
-	* What is used to carry out/support methods
-	* E.g., OS, Selenium for testing, choosing an IDE
+* The semi-automated and automated tools that is framework for project
+* What is used to carry out/support methods
+* E.g., OS, Selenium for testing, choosing an IDE
 
 <table style="width: 80%; border: 1px solid black"><tr><th style=" background-color: white; text-align: center">Quality Focus</th></tr></table>
 <table style="width: 60%; border: 1px solid black"><tr><th style="background-color: white; text-align: center">Process</th></tr></table>
 <table style="width: 40%; border: 1px solid black"><tr><th style="background-color: white; text-align: center">Methods</th></tr></table>
 <table style="width: 20%; border: 1px solid black"><tr><th style="background-color: white; text-align: center">Tools</th></tr></table>
+
+# Quality Characteristics
+![quality]
+
+# Quality Characteristics Purpose
+* I.e.,  Quality Focus
+
+> The quality of a system is the degree to which the system satisfies the stated and implied needs [including quality characteristics] of its various stakeholders, and thus provides value [ISO 25010]
+
+# Security Characteristic
+* Primary focus of this course
+* Must be part of the Quality Focus
+* Involved in every part of SE process
+
+# Security & Process
+* Requirements - security is non-functional requirement(s)
+* Design/Analysis - the system must be designed with security in mind
+* Code - secure programming practices must be followed
+* Test - the code must be tested to make sure it meets security requirements
