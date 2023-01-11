@@ -199,6 +199,11 @@ variable = 1
 
 ---
 
+# Pointers (C++)
+<script src="https://gist.github.com/mjdecker/c599381b6728a40f0de1b0da3d48ad88.js?unsafe_pointers.cpp"></script>
+
+
+
 # Lifetime
 * Time for which a variable is bound to a specific memory location
 	* Static
@@ -273,33 +278,15 @@ delete data;
 ---
 
 # Static Scope Example
-
-```C++
-void subroutine(std::istream & in) {
-	int count = 0;
-	data_t data;
-	while (in >> data) {
-		process_data(data);
-		++count;
-	}
-	std::cout << "count: " << count << '\n';
-}
-```
+<script src="https://gist.github.com/mjdecker/74759d38d6f43ce2dc4a662b7a4a7e8d.js?file=static_scope.cpp"></script>
 
 ---
 
 # Hiding 
+<script src="https://gist.github.com/mjdecker/74759d38d6f43ce2dc4a662b7a4a7e8d.js?file=hiding.cpp"></script>
 * An ancestor variable may be hidden if a descendant declares a variable with the same name
 * Legal in some languages (e.g., C++), illegal in others (e.g., Java/C#)
 
-```C++
-    int var = 0;
-    {
-        std::cout << var << '\n';
-        int var = 1;
-        std::cout << var << '\n';
-    }
-```
 
 ---
 
@@ -311,8 +298,7 @@ void subroutine(std::istream & in) {
 
 ---
 
-# For-statements
-* Are declarations allowed in for-initialization?
+# Declaration in For-statement?
 
 ```bash
 [mdecke@voyager ~]$ gcc --pedantic main.c
@@ -323,72 +309,35 @@ main.c:13:5: error: 'for' loop initial declarations are only allowed in C99 or C
     main.c:13:5: note : use option -std=c99, -std=gnu99, -std=c11 or -std=gnu11 to compile your code
 ```
 
+
 ---
 
 # if-declaration?
-* The following is valid C++
+<script src="https://gist.github.com/mjdecker/a6eea34144f3d184246a7d6e02cd7c47.js?declaration_in_if.cpp"></script>
 
-```C++
-if(int a = 1) {
-    std::cout << "Continue\n";
-} else {
-    std::cout << "Error\n";
-}
-```
 
 ---
 
 # For-statements Scope
+<script src="https://gist.github.com/mjdecker/3badcdf63b7eea824f9c40dd58466c1e.js?file=for.cpp"></script>
 * When a language allows declarations in for-initialization, what is the scope?
-
-```C++
-size_t string_length(const char * str ) {
-	for(size_t pos = 0; str[pos]; ++pos) {
-	} // does it end here?
-	return pos; 
-} // does it end here?
-```
-
-<!-- Early versions of C++ ended at parent scope, current end at end of for-statement -->
+* Early C++ was end of parent scope
+* Current C++ is end of for-statement
 
 ---
 
 # Global Scope 
+<script src="https://gist.github.com/mjdecker/3badcdf63b7eea824f9c40dd58466c1e.js?file=global.cpp"></script>
 * Some languages allow the declaration of variables outside functions, etc. (i.e., file-level)
 
-```C++
-std::string question 
-	= "What is the answer to the life, universe, and everything?";
-int answer = 42;
-int main() {
-
-    int answer = 0;
-    std::cout << "question: " << question << '\n';
-    std::cout << "local : " << answer << '\n';
-    std::cout << "global: " << ::answer << '\n';
-
-    return 0;
-}
-```
 
 ---
 
 # More on C++ Globals
+<script src="https://gist.github.com/mjdecker/3badcdf63b7eea824f9c40dd58466c1e.js?file=modifying_global.cpp"></script>
 * Can only be defined once
 * Can be declared many other files with external linkage
 * *Avoid using mutable globals, as they typically make code hard to understand/maintain*
-
-```C++
-// foobar.cpp
-int foobar = 42;
-
-// main.cpp (requires foobar.cpp to compile)
-extern int foobar;
-int main() {
-    std::cout << "foobar: " << foobar << '\n';
-    return 0;
-}
-```
 
 ---
 
@@ -401,19 +350,8 @@ int main() {
 ---
 
 # C/C++ Macro
+<script src="https://gist.github.com/mjdecker/9bfdec4ce13e03fdda14ac406260ed10.js?file=macros.cpp"></script>
 * Employ de facto dynamic scoping (does not directly do name resolution)
-
-```C++
-#define ADD_A(x) x + a
-void add_one(int * x) {
-	const int a = 1;
-	*x = ADD_A(*X);
-}
-void add_two(int * x) {
-	const int a = 2;
-	*x = ADD_A(*X);
-}
-```
 
 ---
 
@@ -429,40 +367,23 @@ void add_two(int * x) {
 ---
 
 # Scope and Lifetime
+<script src="https://gist.github.com/mjdecker/b80e7a91396c2aa87765bd94514e577a.js?file=same_lifetime.cpp"></script>
 * Scope and lifetime are similar concepts, but scope != lifetime
-* Example:
-
-```C++
-void length(const std::string & str) { // start lifetime of len
-	std::cout << str << '\n';
-	int len = str.size(); // start scope of len
-	return len;
-} // end scope/lifetime of len
-```
 
 ---
 
 # Another Example
+<script src="https://gist.github.com/mjdecker/b80e7a91396c2aa87765bd94514e577a.js?file=different_lifetime.cpp"></script>
 * What is the lifetime and scope of `id`?
-
-```C++
-int unique_id() {
-	static int id = 0;
-	return id++;
-}
-```
 
 ---
 
 # Named Constants
+<script src="https://gist.github.com/mjdecker/94e6cf7e7bed130bde12eec024a85846.js?file=constant.cpp"></script>
 * A variable bound to a value only once
 * C++ const, Java final, C# const/readonly
-
-<!-- A const field can only be initialized at the declaration of the field. A readonly field can be initialized either at the declaration or in a constructor, and thus have different values -->
-
-```C++
-const int MAX_INT = 2147483647;
-```
+	* const field - must be initialized with declaration
+	* readonly can both be initialized at declaration or in the constructor
 
 * *Use name constants instead of magic numbers*
 	* Maintainability - one place to change
