@@ -3,6 +3,8 @@ title: Unix
 layout: notes
 ---
 
+[Compilation]: /notes/programming-languages/intro.html#/8
+
 # Discussion
 * Login `voyager.cs.bgsu.edu`
 	* Unix: command line
@@ -26,6 +28,7 @@ layout: notes
 |cd|change directory (~, ., and ..)|
 
 # Basic Unix Commands (continued)
+
 |command|description|
 |---|---|
 |clear|clear screen or (ctrl-l)|
@@ -35,6 +38,7 @@ layout: notes
 |who|who is logged on|
 
 # emacs [filename]
+
 |command|description|
 |---|---|
 |ctrl x ctrl s|save|
@@ -45,29 +49,21 @@ layout: notes
 |ctrl z| put to background, use fg to get back|
 
 # Programs
-* [Compilation](../notes/compiling.html)
+* [Compilation]
 * Infinite loop: ctrl-c to quit
 * Use path to run a program
 * < & > are file redirction
 
-# Setup
+# Setup Repository
+<script src="https://gist.github.com/mjdecker/fe8a2a05db380dfd57d49de759862887.js?file=clone.sh"></script>
+
 * Use GitHub classroom link on Canvas to create Lab 1 repository
 * Clone repository
 
-```
-git clone <Repo URL from GitHub> lab-1-unix
-```
+# Directory Creation
+<script src="https://gist.github.com/mjdecker/fe8a2a05db380dfd57d49de759862887.js?file=check_directory.sh"></script>
 
 * Create directory for assignment (# are comments)
-
-```
-cd                    # Go to your home directory
-cd lab-1-unix         # Go into the working copy of your programs
-pwd                   # Print working directory, just to show where you're at
-ls                    # No my_name_is
-mkdir my_name_is      # USE THIS NAME EXACTLY
-ls                    # my_name_is now present
-``` 
 
 # My Name Is - Overview
 1. View repository directory via web browser
@@ -80,22 +76,10 @@ ls                    # my_name_is now present
 * Navigate to view files/folders
 
 # File Manipulation
+<script src="https://gist.github.com/mjdecker/fe8a2a05db380dfd57d49de759862887.js?file=add_file.sh"></script>
+
 * Log onto `voyager` if you are not already
 * Type the following (then verify on GitHub):
-
-```
-cd                       # Go to your home directory
-cd lab-1-unix            # Change directory into your working copy
-ls                       # List files and directories, you should see my_name_is
-cd my_name_is            # Change directory
-touch my_name_is.cpp     # Create the .cpp file for your program
-ls                       # You should see my_name_is.cpp
-git status               # Notice my_name_is.cpp is not tracked yet
-git add my_name_is.cpp   # Notify Git to track changes to my_name_is.cpp
-# Records version of the file to the repository (local)
-git commit -m "Adds empty program file for my_name_is lab"
-git push                 # Send commits to server (GitHub)
-```
 
 # Write My Name Is
 * Implement `my_name_is` in `my_name_is.cpp`
