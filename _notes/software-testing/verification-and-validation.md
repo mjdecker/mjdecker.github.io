@@ -30,8 +30,7 @@ layout: notes
 	* We will get to this later
 
 # Software Testing
-* Goal of testing: Cause failures to
-uncover faults and errors
+* Goal of testing: Cause failures to uncover faults and errors
 
 # [is_perfect](https://en.wikipedia.org/wiki/Perfect_number) Example
 ```
