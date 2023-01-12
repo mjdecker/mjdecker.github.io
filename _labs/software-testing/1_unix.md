@@ -1,3 +1,8 @@
+---
+title: Unix
+layout: notes
+---
+
 # Discussion
 * Login `voyager.cs.bgsu.edu`
 	* Unix: command line
