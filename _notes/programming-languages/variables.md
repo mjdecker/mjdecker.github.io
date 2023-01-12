@@ -3,7 +3,12 @@ title: Variables
 layout: notes
 ---
 
-# [Stored-program Computer](https://en.wikipedia.org/wiki/Stored-program_computer)
+ [Stored-program Computer]: https://en.wikipedia.org/wiki/Stored-program_computer
+ [Hungarian Notation]: https://en.wikipedia.org/wiki/Hungarian_notation
+[stack-layout]: https://upload.wikimedia.org/wikipedia/commons/d/d3/Call_stack_layout.svg
+[contextual keywords]: https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/
+
+# [Stored-program Computer]
 * One that stores program instructions in memory
 	* Princeton (von Neumann) Architecture - data & instructions in same memory
 	* Harvard Architecture - data & instructions in separate memory 
@@ -24,7 +29,7 @@ layout: notes
 # Name
 >  The most difficult part of programming is coming up with good variable names - Jonathan I. Maletic, Ph.D.
 * A string of characters used to identify some entity in a program
-* Exists for programmer, either helping or hindering program comprehension
+* Exists for programmers, either helping or hindering program comprehension
 
 # Describe this code:
 <script src="https://gist.github.com/mjdecker/8c0ad7103af933ca2c22fae158b31869.js?file=variable_naming_example_worst.cpp"></script>
@@ -51,7 +56,7 @@ layout: notes
 * under_score
 * cameCase
 * PascalCase
-* [Hungarian Notation](https://en.wikipedia.org/wiki/Hungarian_notation) - start with lowercase letter(s) which are mnemonics for the type or purpose of variable
+* [Hungarian Notation] - start with lowercase letter(s) which are mnemonics for the type or purpose of variable
 	* rString, pnNumber, m_data
 
 # Special words
@@ -64,7 +69,7 @@ layout: notes
 		Integer = 4
 	```
 	
-	* C# [contextual keywords](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/) can have different meanings in different contexts
+	* C# [contextual keywords] can have different meanings in different contexts
 
 # Unnamed Variables
 * A variable need not always have a name
@@ -113,23 +118,16 @@ layout: notes
 	* Perl: Begins with $ is scalar, @ is array, % is  hash structure
 
 # Type inference
-* Ability to automatically deduce a variables type
+<script src="https://gist.github.com/mjdecker/6b279723b7eea15097f693b0e2583018.js?file=type_inference.cpp"></script>
+
+* Ability to automatically deduce the type of a variable
 * C++11
 
-```C++
-auto iter = data.begin();
-```
 
 # Dynamic Type Binding
+<script src="https://gist.github.com/mjdecker/b2e96d8be09bac79c24229695d8d24fd.js?file=dynamic_type_binding.py"></script>
 * Type bound when first assigned a value
 
-```Python
-# first occurrence bind to a string
-variable = "foobar"
-
-# second binds it to integer
-variable = 1
-```
 
 # Advantages/Disadvantages
 * Static type binding 
@@ -165,42 +163,26 @@ variable = 1
 	* Implicit heap-dynamic
 
 # Static
+<script src="https://gist.github.com/mjdecker/d88b344eac68ed7f2283f834935c5cdc.js?file=static.cpp"></script>
 * Variables bound before program execution and remains bound until program terminates
-
-```C++
-global variable;
-
-int unique_id() {
-	static int id = 0;
-	return id++;
-}
-```
 
 # Stack-dynamic
 * Variables whose storage bindings created when declarations statements elaborated
 	* elaboration - storage allocation and binding process indicated by declaration (run-time)
 * Allocated on stack
 
-![](https://upload.wikimedia.org/wikipedia/commons/d/d3/Call_stack_layout.svg)
+![stack-layout]
 
 # Explicit heap-dynamic
+<script src="https://gist.github.com/mjdecker/d88b344eac68ed7f2283f834935c5cdc.js?file=explicit_heap_dynamic.cpp"></script>
 * Nameless (abstract) memory cells allocated and deallocated (from heap) by explicit instructions
 *  What is the explicit heap-dynamic variable?
 
-```C++
-int * data = nullptr;
-data = new int[128];
-...
-delete data;
-```
-
 # Implicit heap-dynamic
+<script src="https://gist.github.com/mjdecker/d88b344eac68ed7f2283f834935c5cdc.js?file=implicit_heap_dynamic.cpp"></script>
 *  Bound to heap storage when assigned values
 * Javascript
 
-	```Javascript
-	values = [42, 12, 7, 9, 3];
-	```
 
 # Scope
 * Range of statements for which the variable is visible (can be referenced)
