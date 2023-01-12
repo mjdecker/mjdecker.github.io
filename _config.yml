@@ -39,3 +39,5 @@ kramdown:
 collections:
   notes:
     output: true
+  labs:
+    output: true
