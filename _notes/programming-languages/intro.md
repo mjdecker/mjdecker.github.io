@@ -48,15 +48,17 @@ layout: notes
 
 # Compilation (C/C++)
 * Take a program in high-level language and produce machine language executable by computer
-* Stages
-	* Preprocessor (-E) - preprocesses the code (still valid C++). Includes:
-		* `#includes` are processed (replaced with code in include file).  
-		* Comments are removed
-		* Preprocessor statement expanded
-	* Compiler (-S) - C/C++ statements are converted into assembly language (AL) statements
-	* Assembler (-c) - AL statements coverted into machine language (ML) known as *object code*
-	* Linker - Object code from one or more sources is combined to form *executable program*
 * [Online Compiler]
+
+# Compilation Stages (C/C++)
+* Preprocessor (-E) - preprocesses the code (still valid C++). Includes:
+	* `#includes` are processed (replaced with code in include file).  
+	* Comments are removed
+	* Preprocessor statement expanded
+* Compiler (-S) - C/C++ statements are converted into assembly language (AL) statements
+* Assembler (-c) - AL statements coverted into machine language (ML) known as *object code*
+* Linker - Object code from one or more sources is combined to form *executable program*
+
 
 # Interpreted and Hybrid Languages
 * Interpreted Language
