@@ -80,7 +80,6 @@ layout: notes
 
 ![worst-case]
 
-
 # Robust worst-case
 * Test both invalid inputs and all combinations of variables
 
