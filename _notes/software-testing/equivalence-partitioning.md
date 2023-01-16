@@ -3,18 +3,18 @@ title: Equivalence Partitioning
 layout: notes
 ---
 
-[weak-normal]: /images/equivalence-partitioning-types/equivalence-partitioning-types-weak-normal.png )
-[pure-weak-robust]: /images/equivalence-partitioning-types/equivalence-partitioning-types-pure-weak-robust.png )
-[revised-weak-robust]: /images/equivalence-partitioning-types/equivalence-partitioning-types-revised-weak-robust.png )
-[strong-normal]: /images/equivalence-partitioning-types/equivalence-partitioning-types-strong-normal.png )
-[strong-robust]: /images/equivalence-partitioning-types/equivalence-partitioning-types-strong-robust.png )
+[weak-normal]: /images/software-testing/equivalence-partitioning-types/equivalence-partitioning-types-weak-normal.png
+[pure-weak-robust]: /images/software-testing/equivalence-partitioning-types/equivalence-partitioning-types-pure-weak-robust.png
+[revised-weak-robust]: /images/software-testing/equivalence-partitioning-types/equivalence-partitioning-types-revised-weak-robust.png
+[strong-normal]: /images/software-testing/equivalence-partitioning-types/equivalence-partitioning-types-strong-normal.png
+[strong-robust]: /images/software-testing/equivalence-partitioning-types/equivalence-partitioning-types-strong-robust.png
 
 # Motivating Example 1
-* The following is a function `is_palindrome` which return if the string argument is a palindrome:
 ```
 is_palindrome(string) : bool
 ```
 
+* `is_palindrome` is a function which returns if the string argument is a palindrome:
 * Take the following tests:
 	* "kayak"
 	* "level"
@@ -22,11 +22,11 @@ is_palindrome(string) : bool
 * Are all of these necessary?
 
 # Motivating Example 1
-* The following is a function `is_palindrome` which return if the string argument is a palindrome:
 ```
 is_palindrome(string) : bool
 ```
 
+* `is_palindrome` is a function which returns if the string argument is a palindrome:
 * Take the following tests:
 	* "kayak"
 	* "level"
@@ -35,40 +35,76 @@ is_palindrome(string) : bool
 	* No, they are equivalent
 
 # Motivating Example 2
-* The following is a method of a *date* class (holds a calendar date).   The method increments the date held by the object and returns a reference to the object.
-
 ```
 next() : date
 ```
 
+* `next` is a method of a *date* class (holds a calendar date).   The method increments the date held by the object and returns a reference to the object.
 * Ranges
 	* 1 <= day <= 31, 1 <= month <= 12, & 1970 <= year <= 2000
 
-* Some boundary-value tests are: <table><tr><td>February 30, 1970</td><td>February 31, 1970</td></tr></table>
-
-* Others are: <table><tr><td>June 15, 1970</td><td>June 15, 1971</td><td>June 15, 1985</td></tr>
-<tr><td>June 15, 1999</td><td>June 15, 2000</td><td></td></tr></table>
+* Some boundary-value tests are:
 
 * Are all of these necessary or valid?
 
-# Motivating Example 2
-* The following is a method of a *date* class (holds a calendar date).   The method increments the date held by the object and returns a reference to the object.
+|Boundary-value Tests|
+|---|---|---|
+|February 30, 1970|February 31, 1970||
 
+# Motivating Example 2
 ```
 next() : date
 ```
 
+* `next` is a method of a *date* class (holds a calendar date).   The method increments the date held by the object and returns a reference to the object.
 * Ranges
 	* 1 <= day <= 31, 1 <= month <= 12, & 1970 <= year <= 2000
 
-* Some boundary-value tests are: <table><tr><td>February 30, 1970</td><td>February 31, 1970</td></tr></table>
-
-* Others are: <table><tr><td>June 15, 1970</td><td>June 15, 1971</td><td>June 15, 1985</td></tr>
-<tr><td>June 15, 1999</td><td>June 15, 2000</td><td></td></tr></table>
+* Some boundary-value tests are:
 
 * Are all of these necessary or valid?
 	* February 30th and 31st are invalid
+
+|Boundary-value Tests|
+|---|---|---|
+|February 30, 1970|February 31, 1970||
+
+# Motivating Example 2
+```
+next() : date
+```
+
+* `next` is a method of a *date* class (holds a calendar date).   The method increments the date held by the object and returns a reference to the object.
+* Ranges
+	* 1 <= day <= 31, 1 <= month <= 12, & 1970 <= year <= 2000
+
+* Other boundary-value tests are:
+
+* Are all of these necessary or valid?
+
+|Boundary-value Tests|
+|---|---|---|
+|June 15, 1970|June 15, 1971|June 15, 1985|
+|June 15, 1999|June 15, 2000||
+
+# Motivating Example 2
+```
+next() : date
+```
+
+* `next` is a method of a *date* class (holds a calendar date).   The method increments the date held by the object and returns a reference to the object.
+* Ranges
+	* 1 <= day <= 31, 1 <= month <= 12, & 1970 <= year <= 2000
+
+* Other boundary-value tests are:
+
+* Are all of these necessary or valid?
 	* All June 15th tests are equivalent
+
+|Boundary-value Tests|
+|---|---|---|
+|June 15, 1970|June 15, 1971|June 15, 1985|
+|June 15, 1999|June 15, 2000||
 
 # Equivalence Partitioning
 * AKA Equivalence Class Testing
@@ -156,12 +192,11 @@ next() : date
 * May create multiple sets of equivalent classes and test each
 
 # Partitioning Alternatives
-* The following is a method of a *date* class (holds a calendar date: day/month/year).   The method increments the date held by the object and returns a reference the object.
-
 ```
 next() : date
 ```
 
+* `next` is a method of a *date* class (holds a calendar date).   The method increments the date held by the object and returns a reference to the object.
 * Consider the following partitions on the month:
 	* Month has 30 days
 	* Month has 31 days
@@ -170,12 +205,11 @@ next() : date
 * Can we partition it better?
 
 # Partitioning Alternatives
-* The following is a method of a *date* class (holds a calendar date: day/month/year).   The method increments the date held by the object and returns a reference the object.
-
 ```
 next() : date
 ```
 
+* `next` is a method of a *date* class (holds a calendar date).   The method increments the date held by the object and returns a reference to the object.
 * Consider the following partitions on the month:
 	* Month has 30 days
 	* Month has 31 days
@@ -185,12 +219,11 @@ next() : date
 * Can we partition it better?
 
 # Partitioning Alternatives
-* The following is a method of a *date* class (holds a calendar date: day/month/year).   The method increments the date held by the object and returns a reference the object.
-
 ```
 next() : date
 ```
 
+* `next` is a method of a *date* class (holds a calendar date).   The method increments the date held by the object and returns a reference to the object.
 * Is this better:
 	* Month has 30 days
 	* Month has 31 days (except December)
@@ -200,7 +233,7 @@ next() : date
 * Do all months need all day partitions tested?
 
 # With Boundary Value testing
-* Equilavent partitioning is commonly paired with boundary value testing
+* Equilavence partitioning is commonly paired with boundary value testing
 	* Break down into equivalence classes
 	* Test boundary (and a typical) value of equivalence classes
 
