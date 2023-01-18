@@ -14,6 +14,8 @@ layout: notes
 # Paradigm
 * [Merriam-Webster] - a philosophical and theoretical framework of a scientific school or discipline within which theories, laws, and generalizations and the experiments performed in support of them are formulated
 * [Wikipedia] - a distinct set of concepts or thought patterns, including theories, research methods, postulates, and standards for what constitutes legitimate contributions to a field
+
+# Paradigm (continued)
 * Google Dictionary - 
 	1. a typical example or pattern of something; a pattern or model.
 	2. (LINGUISTICS) a set of linguistic items that form mutually exclusive choices in particular syntactic roles.
@@ -56,6 +58,8 @@ layout: notes
 	* Data
 	* Operations on data
 	* Rules of usage
+
+# Object Oriented Programming (continued)
 * Object-oriented decomposition
 	* A problem/program is decomposed into a set of classes
 	* Classes are combined and collaborate to solve problems/complete the program 
