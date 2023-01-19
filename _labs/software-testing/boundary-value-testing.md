@@ -1,0 +1,47 @@
+---
+title: Boundary-value Testing
+layout: notes
+---
+
+[std::initializer_list]: https://en.cppreference.com/w/cpp/utility/initializer_list
+
+# Discussion
+* Using CMake
+* std::initializer_list
+
+# Lab Grading Policy
+* Labs are worth 10 points
+	* 6 points for attending
+	* 4 points for completing 
+* Labs are due before the following Friday
+
+# Clone Lab
+* Accept lab from URL on Canvas
+* Clone repository
+
+# CMake
+* Build system generator
+* Encode project build info in `CMakeLists.txt` file
+* Generate build using `cmake`
+
+# Example Useage
+<script src="https://gist.github.com/mjdecker/02b6e403407d2b7ece6a542d3c7260b0.js?file=cmake.sh"></script>
+
+# std::initializer_list
+<script src="https://gist.github.com/mjdecker/d4ad62727ebe9a49b7b9b81547efc248.js?file=initializer_list.cpp"></script>
+
+* `std::initializer_list<T>`  - a lightweight proxy object that provides access to an array of objects of type const T
+* Used to allow other objects to use array initialization syntax (i.e,`{ }`)
+
+# Test Set ADT
+1. Lab repo contains code for a Set ADT
+2. This Set only works for integers in the range of [0-7]
+3. Test each of the following using boundary-value testing:
+	1. `set(initializer_list)`
+	2. `operator[]`
+	3. `operator+`
+
+# Completion Requirements
+* You have correctly applied boundary-value testing for each of the three constructors/methods
+* Each is tested in its own file
+* You have committed and pushed all code to GitHub
