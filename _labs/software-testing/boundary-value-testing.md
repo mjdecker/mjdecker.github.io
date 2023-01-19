@@ -24,6 +24,9 @@ layout: notes
 * Encode project build info in `CMakeLists.txt` file
 * Generate build using `cmake`
 
+# Example CMakeLists.txt
+<script src="https://gist.github.com/mjdecker/99fececba24f26b104d339ab955b06d2.js?file=CMakeLists.txt"></script>
+
 # Example Useage
 <script src="https://gist.github.com/mjdecker/02b6e403407d2b7ece6a542d3c7260b0.js?file=cmake.sh"></script>
 
