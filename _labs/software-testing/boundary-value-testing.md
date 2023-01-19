@@ -27,10 +27,10 @@ layout: notes
 # Example CMakeLists.txt
 <script src="https://gist.github.com/mjdecker/99fececba24f26b104d339ab955b06d2.js?file=CMakeLists.txt"></script>
 
-# Example Useage
+# Example Usage
 <script src="https://gist.github.com/mjdecker/02b6e403407d2b7ece6a542d3c7260b0.js?file=cmake.sh"></script>
 
-# std::initializer_list
+# [std::initializer_list]
 <script src="https://gist.github.com/mjdecker/d4ad62727ebe9a49b7b9b81547efc248.js?file=initializer_list.cpp"></script>
 
 * `std::initializer_list<T>`  - a lightweight proxy object that provides access to an array of objects of type const T
