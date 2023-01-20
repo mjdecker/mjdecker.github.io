@@ -44,6 +44,15 @@ layout: notes
 	2. `operator[](int num)` - check if `num` is in set
 	3. `operator+(set a, set b)` - perform set union of `a` and `b` 
 
+# Example `set(std::initializer_list<int> a)` Test
+<script src="https://gist.github.com/mjdecker/fada6c1f03badcb9d874025b149767ad.js?file=test_initializer_list.cpp"></script>
+
+# Example `operator[](int num)` Test
+<script src="https://gist.github.com/mjdecker/fada6c1f03badcb9d874025b149767ad.js?file=test_subscript.cpp"></script>
+
+# Example `operator+(set a, set b)` Test
+<script src="https://gist.github.com/mjdecker/fada6c1f03badcb9d874025b149767ad.js?file=test_union.cpp"></script>
+
 # Completion Requirements
 * You have correctly applied boundary-value testing for each of the three constructors/methods
 * Each is tested in its own file
