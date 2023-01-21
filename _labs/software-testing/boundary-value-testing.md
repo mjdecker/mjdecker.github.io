@@ -38,7 +38,7 @@ layout: notes
 
 # Test Set ADT
 1. Lab repo contains code for a Set ADT
-2. This Set only works for integers in the range of [0-7]
+2. This Set only works for integers in the range of [0-7]. Internally, an array of booleans is used to indicate integer membership, where a true at position `i` in the array denotes that the integer `i` is in the set.
 3. Test each of the following using boundary-value testing:
 	1. `set(std::initializer_list<int> a)` - specify values in set e.g., `{1, 4, 7}`
 	2. `operator[](int num)` - check if `num` is in set
