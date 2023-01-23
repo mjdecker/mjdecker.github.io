@@ -95,6 +95,9 @@ layout: notes
 * physical memory cell: nybble, bytes, words, etc.
 	* Endianness?
 * abstract memory cell: size required by type
+* E.g., double 
+	* 64-bit physical memory cell
+	* 1 abstract memory cell
 * address (lvalue) = value (rvalue)
 
 # Binding
