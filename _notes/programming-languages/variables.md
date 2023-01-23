@@ -137,7 +137,7 @@ layout: notes
 * Static type binding 
 	* Can reliably find type error at compile time
 	* Usually results in faster executing code
-	* Can serve an additional documentation for developer
+	* Can serve as additional documentation for developer
 * Dynamic type binding 
 	* Allows constructs typically illegal in static type checking, e.g. eval function to execute arbitrary data as code
 	* Typically allows [duck typing](https://en.wikipedia.org/wiki/Duck_typing) for code reuse
@@ -207,6 +207,7 @@ layout: notes
 
 # Hiding 
 <script src="https://gist.github.com/mjdecker/74759d38d6f43ce2dc4a662b7a4a7e8d.js?file=hiding.cpp"></script>
+
 * An ancestor variable may be hidden if a descendant declares a variable with the same name
 * Legal in some languages (e.g., C++), illegal in others (e.g., Java/C#)
 
@@ -243,7 +244,7 @@ main.c:13:5: error: 'for' loop initial declarations are only allowed in C99 or C
 # More on C++ Globals
 <script src="https://gist.github.com/mjdecker/3badcdf63b7eea824f9c40dd58466c1e.js?file=modifying_global.cpp"></script>
 * Can only be defined once
-* Can be declared many other files with external linkage
+* Can be declared in other files with external linkage
 * *Avoid using mutable globals, as they typically make code hard to understand/maintain*
 
 # Dynamic Scope
