@@ -78,6 +78,7 @@ layout: notes
 # Address
 * Machine address with which it is associated
 * Same variable may be associated with different addresses at different times
+	* E.g., with multiple calls to function, parameters and local variables may have different addresses
 * Multiple variables can have same address (alias), how?
 * Address (lvalue) = Value (rvalue)
 
