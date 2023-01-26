@@ -15,7 +15,6 @@ layout: notes
 * You specify *rules* (which are more like *recipes*) in a file `Makefile` and the tool `make` uses these to build a program
 
 # make
-* Uses `Makefile` to build a program or perform some other operation
 
 |command|description|
 |---|---|
@@ -23,10 +22,11 @@ layout: notes
 |make target|Build specified target with Makefile in current directory|
 |make -f file|Build using file, running top rule|
 
-# Common Makefile Rules/Targets
-* clean - remove generated build files
-* test or tests - run test suite
-* install - install the application
+* Uses `Makefile` to build a program or perform some other operation
+* Common Makefile Rules/Targets
+	* clean - remove generated build files
+	* test or tests - run test suite
+	* install - install the application
 
 # Setup
 * Use the link provided on Canvas, to create and clone the repository for the lab.
