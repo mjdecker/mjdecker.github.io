@@ -1,3 +1,8 @@
+---
+title: "Boost.Test"
+layout: notes
+---
+
 # Discussion
 * Sign attendance sheet
 * Hidden files and `.profile`
