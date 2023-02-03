@@ -25,9 +25,7 @@ layout: notes
 	* `operator==(const String&)`
 * Put everything in an appropriate test suite: `BOOST_AUTO_TEST_SUITE`.
 * You may use `BOOST_AUTO_TEST_CASE` or `BOOST_DATA_TEST_CASE` for each test
-* Extra credit (2 points) rigorously test `operator+(const String &)`
-	* In a comment at the top of the file, list the black-box testing techniques you applied and the tests you derived from them
-	* Write the tests using Boost.Test
+* Extra credit (2 points) for using `BOOST_DATA_TEST_CASE`
 
 # Completion Requirements
 * You have converted the tests to use Boost.Test and committed them
