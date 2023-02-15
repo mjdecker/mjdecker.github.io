@@ -1,10 +1,10 @@
 ---
-title: Graphs
+title: Program Graphs
 layout: notes
 ---
 
-[conditionals]: /images/program-graphs/conditionals.png
-[binary-search]: /images/program-graphs/binary-search.png
+[conditionals]: /images/software-testing/program-graphs/conditionals.png
+[binary-search]: /images/software-testing/program-graphs/binary-search.png
 
 # Why Graphs
 * Programs can be represented as graphs
@@ -23,37 +23,17 @@ layout: notes
 ![conditionals]
 
 # Binary Search
+<script src="https://gist.github.com/mjdecker/e2e51207f20a31d4e60f4e77824b4d82.js?file=binary-search.cpp"></script>
 
-```
-int search(int key, int elemArray[]) {
-    int bottom = 0;
-    int top = elemArray.length - 1;
-
-    while(bottom <= top) {
-
-        int mid = (top + bottom) / 2;
-        if(elemArray [mid] == key)       {
-            return mid;
-        } else if(elemArray [mid] < key)
-            bottom = mid + 1;
-        } else
-            top = mid - 1;
-        }
-    }
-    return -1;
-}
-```
-
-# 
+# Binary-search Graph
 ![binary-search]
 
 # Cyclomatic Complexity
-> Cyclomatic complexity of a graph G is given by V(G) = E - N + P, where<br/>
-> * E = number of edges in G<br/>
-> * N = number of nodes in G<br/>
-> * P = number of components in G<br/>
-
 * AKA McCabe Complexity [1976] or Cyclomatic Number
+* Cyclomatic complexity of a graph G is given by V(G) = E - N + P, where
+	* E = number of edges in G
+	* N = number of nodes in G
+	* P = number of components in G
 
 # Cyclomatic Complexity (continued)
 * For a single program, method, etc.  P is always 2
