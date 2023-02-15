@@ -4,6 +4,11 @@ layout: notes
 ---
 
 [infeasible]: /images/software-testing/path-testing/infeasible.png
+[dd-paths]: /images/software-testing/path-testing/dd-paths.png
+[sales-commission]: /images/software-testing/path-testing/sales-commission.png
+[sales-commission-dd-path]: /images/software-testing/path-testing/sales-commission-dd-path.png
+[loop-types]: /images/software-testing/path-testing/loop-types.png
+[basis-path]: /images/software-testing/path-testing/basis-path.png
 
 # Recap Black-box vs White-box
 * Black-box testing - test to specification
@@ -42,8 +47,6 @@ layout: notes
 ![infeasible]
 *  If loop runs up to 18 times, then 4.77 trillion paths [Schach]
 
-
-
 #  Pairing Down
 * Choose a set of paths that cover:
 	* Every node
@@ -68,7 +71,7 @@ layout: notes
 * Simplifies graphs for testing
 * Basis for some test covering metrics
 
-![](http://www.cs.bgsu.edu/mdecke/classes/software_testing/notes/path_testing/dd_paths.png)
+![dd-paths]
 
 # DD-Paths Definition (formal)
 * A DD-Path (decision-to-decision) is a path in program graph such that
@@ -87,12 +90,10 @@ layout: notes
 * Merge sequential statements into a DD-Path
 
 # Create the DD-Path Graph
-
-![](http://www.cs.bgsu.edu/mdecke/classes/software_testing/notes/path_testing/sales_commission.png)
+![sales-commission]
 
 # Create the DD-Path Graph (answer)
-
-![](http://www.cs.bgsu.edu/mdecke/classes/software_testing/notes/path_testing/sales_commission_dd_path.png)
+![sales-commission-dd-path]
 
 # Cyclomatic Complexity
 * What is the cyclomatic complexity of each of both graphs?
@@ -139,7 +140,6 @@ layout: notes
 # General and Miller's
 * Are there similarities?
 
-
 # General and Miller's
 * Are there similarities?
 *  C<sub>∞</sub> = Every path
@@ -159,37 +159,34 @@ layout: notes
 # Concatenated, Nested, & Knotted Loops
 * From left to right: Concatenated, Nested, & Knotted
 
-![](http://www.cs.bgsu.edu/mdecke/classes/software_testing/notes/path_testing/loop_types.png)
+![loop-types]
 
 # Concatenated Loop Example
-* [Concatenated Loop](http://www.cs.bgsu.edu/mdecke/classes/software_testing/notes/path_testing/concatenated_loop.cpp)
-
-
----
+<script src="https://gist.github.com/mjdecker/418c966d501baa41420a27415fe7f286.js?file=concatenated-loop.cpp"></script>
 
 # Nested Loop Example
-* [Nested Loop](http://www.cs.bgsu.edu/mdecke/classes/software_testing/notes/path_testing/nested_loop.cpp)
+<script src="https://gist.github.com/mjdecker/418c966d501baa41420a27415fe7f286.js?file=nested-loop.cpp"></script>
 
 # Knotted Loop Example
-* [Knotted Loop](http://www.cs.bgsu.edu/mdecke/classes/software_testing/notes/path_testing/knotted_loop.cpp)
+<script src="https://gist.github.com/mjdecker/418c966d501baa41420a27415fe7f286.js?file=knotted-loop.cpp"></script>
 
 # Loop Testing
 * At least 2 are required (Huang's theorem), in reality, use judgment to see if more are required
 * Concatenated loops - Use Huang's theorem/judgment
-* Nested loops - test innermost first, condense into single node, and repeat working towards outermost loop
+* Nested loops - test the innermost first, condense into a single node, and repeat testing until reach the outermost loop
 * Knotted loops - rewrite the code...
 
 # Testing Procedure
-* Start with tests generated from appropriate black-box test method
+* Start with tests generated from the appropriate black-box test method
 * Inspect coverage
 	* If appropriate, done
-	* otherwise, add more tests
+	* Otherwise, add more tests
 
 # Test Coverage Tools
 * Instrument the code to add code to collect statistics on what executed
 * Run a set of test cases and obtain the test coverage
-* Instrumented code is not quite the same as running on original code
-	* Safety critical applications require tests on actual non-instrumented code
+* Instrumented code is not quite the same as running on the original code
+	* Safety-critical applications require tests on actual non-instrumented code
 	* Usually addressed by mandated testing standards
 
 # Basis Path Testing
@@ -201,24 +198,24 @@ layout: notes
 	* (1, 0, 0)
 	* (0, 1, 0)
 	* (0, 0, 1)
-* Testing implication: treat program as a vector space and derive a set of basis vectors (paths)
+* Testing implication: treat the program as a vector space and derive a set of basis vectors (paths)
 
 # Basis Path Testing (continued)
-* Require a set of base paths that spans program and all other paths can be derived from
+* Require a set of base paths that spans the program and all other paths can be derived from
 * Cyclomatic complexity is number of linearly independent paths
 * V(G) = P + 1
 * As all paths are a combination of the basis paths, test the basis paths
 
 # Generating Basis Paths
 * Pick a "baseline" path that corresponds to normal execution (should have as many decisions as possible) 
-*  Retrace baseline, and flip a decision (take another alternative) and continue as much of the baseline as possible 
+*  Retrace baseline, flip a decision (take another alternative), and continue as much of the baseline as possible 
 * Repeat this until all decisions have been flipped
-* If not  enough decisions in baseline path, find a second baseline and repeat steps 2 and 3
+* If not enough decisions in the baseline path, find a second baseline and repeat steps 2 and 3
 
 # Cyclomatic Example
 * Compute the cyclomatic complexity and a set of basis paths
 
-![](http://www.cs.bgsu.edu/mdecke/classes/software_testing/notes/path_testing/basis_path.png)
+![basis-path]
 
 # Cyclomatic Example (answers)
 * Initial(p<sub>1</sub>):  A, B, C, G
