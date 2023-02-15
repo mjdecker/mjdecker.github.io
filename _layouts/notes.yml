@@ -31,7 +31,7 @@
                     <h3>{{site.title}}</h3>
                     <h4>{{site.affiliation}}</h4>
 
-                {{ page.content | replace: "<h1", "</section><section separator=\"^---$\"><h1" }}
+                {{ page.content | replace: "<h1", "</section><section separator='^---$'><h1" }}
 
                 </section>
 
