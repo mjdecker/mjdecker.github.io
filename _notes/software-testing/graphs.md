@@ -2,6 +2,20 @@
 title: Graphs
 layout: notes
 ---
+[linked-list]: /images/software-testing/graphs/linked-list.png
+[binary-tree]: /images/software-testing/graphs/binary-tree.png
+[general-tree]: /images/software-testing/graphs/general-tree.png
+[graph]: /images/software-testing/graphs/graph.png
+
+[konigsberg-bridges]: https://upload.wikimedia.org/wikipedia/commons/5/5d/Konigsberg_bridges.png
+[seven-bridges]: https://upload.wikimedia.org/wikipedia/commons/9/91/7_bridges.svg
+
+[undirected-graph]: /images/software-testing/graphs/undirected-graph.png
+[condensation-graph]: /images/software-testing/graphs/condensation-graph.png
+
+[directed-graph]: /images/software-testing/graphs/directed-graph.png
+[cycle]: /images/software-testing/graphs/cycle.png
+[directed-condensation]: /images/software-testing/graphs/directed-condensation.png
 
 # Why Graph Theory
 * Programs can be represented as graphs
@@ -14,17 +28,17 @@ layout: notes
 
 # Graph Example
 
-![](graphs/graphs.004.png)
+![graph]
 
 # Seven Bridges of Königsberg
 * 1735: Graphs developed by Leonhard Euler as way to solve Bridges of Königsberg puzzle
 * Problem: Take a walk round city, traversing each bridge exactly once
 
-![](https://upload.wikimedia.org/wikipedia/commons/5/5d/Konigsberg_bridges.png)
+![konigsberg-bridges]
 
 # Seven Bridges of Königsberg (continued)
 
-![](https://upload.wikimedia.org/wikipedia/commons/9/91/7_bridges.svg)
+![seven-bridges]
 
 # Seven Bridges of Königsberg (continued again)
 
@@ -40,17 +54,17 @@ layout: notes
 * What is a tree?
 * What is the difference between a tree and a Graph?
 
-# 
-![](graphs/graphs.001.png)
+# Linked List
+![linked-list]
 
-# 
-![](graphs/graphs.002.png)
+# Binary Tree
+![binary-tree]
 
-# 
-![](graphs/graphs.003.png)
+# General Tree
+![general-tree]
 
-# 
-![](graphs/graphs.004.png)
+# Graph
+![graph]
 
 # Example Graphs
 * FileSystems
@@ -62,8 +76,8 @@ layout: notes
 * V = { n1, n2, n3, n4, n5, n6, n7 }
 * E = { (n1, n2), (n1, n4), (n3, n4), (n2, n5), (n4, n6) }
 
-#
-![](graphs/graphs.005.png)
+# Example Graph
+![directed-graph]
 
 # Degree of a Node
 > A degree of a node deg(n) is the number of edges that have an endpoint on that node
@@ -93,8 +107,8 @@ deg(n7) = 0
 # Adjacency Matrix
 > An adjacency matrix of a graph G = (V, E) with M nodes is an M x M matrix where the element in a row i, column j is 1 iff an edge exists between node i and node j, otherwise, the element is 0
 
-#
-![](graphs/graphs.005.png)
+# Example Graph
+![undirected-graph]
 
 # Adjacency Matrix Example
 | |n1|n2|n3|n4|n5|n6|n7|
@@ -153,7 +167,7 @@ n7 = {}
 * Can also be expressed as a sequence of nodes
 
 # Example Paths
-![](graphs/graphs.005.png)
+![undirected-graph]
 
 * n1 to n5 (n1->n2->n5)
 * n5 to n6 (n5->n2->n1->n4->n6)
@@ -171,8 +185,8 @@ n7 = {}
 * How does this relate to connectedness?
 * What are the components of the example graph?
 
-#
-![](graphs/graphs.005.png)
+# Example Graph
+![undirected-graph]
 
 # Components in Example
 * Two components
@@ -186,8 +200,8 @@ n7 = {}
 * What do you notice about this graph (what must be true)?
 * What value does this have for testing?
 
-# 
-![](graphs/graphs.006.png)
+# Condensation Graph
+![condensation-graph]
 
 # Condensation Graph (answers)
 > A condensation graph of a graph G = (V, E) is formed by replacing each component of G with a condensing node
@@ -209,8 +223,8 @@ n7 = {}
 * V = { n1, n2, n3, n4, n5, n6, n7 }
 * E = { &lt;n1, n2&gt;, &lt;n1, n4&gt;, &lt;n3, n4&gt;, &lt;n2, n5&gt;, &lt;n4, n6&gt; }
 
-# 
-![](graphs/graphs.007.png)
+# Example Graph
+![directed-graph]
 
 # Indegree & Outdegree
 > Indegree of a node, indeg(n), in a directed graph is number of distinct edges that have that node as an endpoint
@@ -249,9 +263,8 @@ indeg(n7) = 0    outdeg(n7) = 0
 * Generally not symmetric
 * Undirected edge can be thought of as two directed edges (one going both directions)
 
-
-#
-![](graphs/graphs.007.png)
+# Example Graph
+![directed-graph]
 
 # Adjacency Matrix Directed Example
 | |n1|n2|n3|n4|n5|n6|n7|
@@ -286,8 +299,8 @@ indeg(n7) = 0    outdeg(n7) = 0
 	* Semipaths
 	* Cycles
 
-#
-![](graphs/graphs.007.png)
+# Example Graph
+![directed-graph]
 
 # Path (directed, continued)
 * In example, list some
@@ -326,5 +339,5 @@ indeg(n7) = 0    outdeg(n7) = 0
 * Directed Acyclic Graph (DAG)
 * Supports excellent view of testing with loops
 
-# 
-![](graphs/graphs.009.png)
+# Example Directed Condensation Graph
+![directed-condensation]
