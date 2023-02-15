@@ -3,6 +3,9 @@ title: Graphs
 layout: notes
 ---
 
+[conditionals]: /images/program-graphs/conditionals.png
+[binary-search]: /images/program-graphs/binary-search.png
+
 # Why Graphs
 * Programs can be represented as graphs
 * This representation is used in white-box testing
@@ -17,7 +20,7 @@ layout: notes
 	* End of conditional: Paths merge back to single node
 
 # Graphs of Conditionals
-![](http://www.cs.bgsu.edu/mdecke/classes/software_testing/notes/conditionals.png)
+![conditionals]
 
 # Binary Search
 
@@ -42,7 +45,7 @@ int search(int key, int elemArray[]) {
 ```
 
 # 
-![](graphs/graphs.010.png)
+![binary-search]
 
 # Cyclomatic Complexity
 > Cyclomatic complexity of a graph G is given by V(G) = E - N + P, where<br/>
