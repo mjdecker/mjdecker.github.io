@@ -15,7 +15,7 @@ layout: notes
 
 [directed-graph]: /images/software-testing/graphs/directed-graph.png
 [cycle]: /images/software-testing/graphs/cycle.png
-[directed-condensation]: /images/software-testing/graphs/directed-condensation.png
+[directed-condensation-graph]: /images/software-testing/graphs/directed-condensation-graph.png
 
 # Why Graph Theory
 * Programs can be represented as graphs
@@ -77,7 +77,7 @@ layout: notes
 * E = { (n1, n2), (n1, n4), (n3, n4), (n2, n5), (n4, n6) }
 
 # Example Graph
-![directed-graph]
+![undirected-graph]
 
 # Degree of a Node
 > A degree of a node deg(n) is the number of edges that have an endpoint on that node
@@ -89,16 +89,13 @@ layout: notes
 
 # Node Degrees in Running Example
 * Calculate the degrees for the running example
-
-```
-deg(n1) = 2
-deg(n2) = 2
-deg(n3) = 1
-deg(n4) = 3
-deg(n5) = 1
-deg(n6) = 1
-deg(n7) = 0
-```
+	* deg(n1) = 2
+	* deg(n2) = 2
+	* deg(n3) = 1
+	* deg(n4) = 3
+	* deg(n5) = 1
+	* deg(n6) = 1
+	* deg(n7) = 0
 
 # Program Representations of Graphs
 * Adjacency Matrix
@@ -111,6 +108,8 @@ deg(n7) = 0
 ![undirected-graph]
 
 # Adjacency Matrix Example
+* What pattern/property do you see about the matrix?
+
 | |n1|n2|n3|n4|n5|n6|n7|
 |---|---|---|---|---|---|---|
 |**n1**|0|1|0|1|0|0|0|
@@ -120,10 +119,11 @@ deg(n7) = 0
 |**n5**|0|1|0|0|0|0|0|
 |**n6**|0|0|0|1|0|0|0|
 |**n7**|0|0|0|0|0|0|0|
-
-* What pattern/property do you see about the matrix?
 
 # Adjacency Matrix Example
+* What pattern/property do you see about the matrix?
+	* Column sum and Row sum is degree
+
 | |n1|n2|n3|n4|n5|n6|n7|
 |---|---|---|---|---|---|---|
 |**n1**|0|1|0|1|0|0|0|
@@ -133,9 +133,6 @@ deg(n7) = 0
 |**n5**|0|1|0|0|0|0|0|
 |**n6**|0|0|0|1|0|0|0|
 |**n7**|0|0|0|0|0|0|0|
-
-* What pattern/property do you see about the matrix?
-	* Column sum and Row sum is degree
 
 # Adjacency Matrix Useage
 * Useful for:
@@ -150,16 +147,13 @@ deg(n7) = 0
 * Memory linear (# of edges)
 
 # Adjacency List Example
-
-```
-n1 = {n2, n4}
-n2 = {n1, n5}
-n3 = {n4}
-n4 = {n1, n3, n6}
-n5 = {n2}
-n6 = {n4}
-n7 = {}
-```
+* n1 = {n2, n4}
+* n2 = {n1, n5}
+* n3 = {n4}
+* n4 = {n1, n3, n6}
+* n5 = {n2}
+* n6 = {n4}
+* n7 = {}
 
 # Paths in a Graph
 > A path is a sequence of edges such that, for any adjacent pair of edges e<sub>i</sub>, e<sub>j</sub> in the sequence, the edges share a common endpoint (node)
@@ -235,15 +229,15 @@ n7 = {}
 
 # Indegree & Outdegree (answer)
 
-```
-indeg(n1) = 0    outdeg(n1) = 2
-indeg(n2) = 1    outdeg(n2) = 1
-indeg(n3) = 0    outdeg(n3) = 1
-indeg(n4) = 2    outdeg(n4) = 1
-indeg(n5) = 1    outdeg(n5) = 0
-indeg(n6) = 1    outdeg(n6) = 0
-indeg(n7) = 0    outdeg(n7) = 0
-```
+|Node|Indegree|Outdegree|
+|---|---|---|
+|n1|i0|2|
+|n2|1|1|
+|n3|0|1|
+|n4|2|1|
+|n5|1|0|
+|n6|1|0|
+|n7|0|0|
 
 # Node Types
 * indeg(n<sub>i</sub>) = 0, i is a source node
@@ -267,6 +261,7 @@ indeg(n7) = 0    outdeg(n7) = 0
 ![directed-graph]
 
 # Adjacency Matrix Directed Example
+
 | |n1|n2|n3|n4|n5|n6|n7|
 |---|---|---|---|---|---|---|
 |**n1**|0|1|0|1|0|0|0|
@@ -316,8 +311,8 @@ indeg(n7) = 0    outdeg(n7) = 0
   	* 3-connected iff a path exists exists from n<sub>i</sub> to n<sub>j</sub> and n<sub>j</sub> to n<sub>i</sub>
 * Add edge: n6->n3
 
-# 
-![](graphs/graphs.008.png)
+# Graph with Cycle
+![cycle]
 
 # Strong component
 > A strong component of a directed raph is a maximal set of 3-connected nodes
@@ -340,4 +335,4 @@ indeg(n7) = 0    outdeg(n7) = 0
 * Supports excellent view of testing with loops
 
 # Example Directed Condensation Graph
-![directed-condensation]
+![directed-condensation-graph]
