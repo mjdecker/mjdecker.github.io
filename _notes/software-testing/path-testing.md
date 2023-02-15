@@ -1,7 +1,9 @@
 ---
-title: Graphs
+title: Path Testing
 layout: notes
 ---
+
+[infeasible]: /images/software-testing/path-testing/infeasible.png
 
 # Recap Black-box vs White-box
 * Black-box testing - test to specification
@@ -16,7 +18,7 @@ layout: notes
 	* From the structure of the program
 	* By utilizing knowledge (inner workings) of the program
 * Good for assessing test quality 
-* But, not as helpful for identifing the test cases
+* But, not as helpful for identifying the test cases
 
 # White-box Testing (continued)
 * Goal is to insure all the code is exercised 
@@ -37,9 +39,10 @@ layout: notes
 	* Executing every path does not guarantee correctness 
 
 # Infeasibility
+![infeasible]
 *  If loop runs up to 18 times, then 4.77 trillion paths [Schach]
 
-![](http://www.cs.bgsu.edu/mdecke/classes/software_testing/notes/path_testing/infeasible.png)
+
 
 #  Pairing Down
 * Choose a set of paths that cover:
@@ -49,9 +52,8 @@ layout: notes
 	* Condition of loop is false (no looping)
 
 #  Name the Paths?
+![infeasible]
 * Every node/edge and loop condition true/false
-
-![](http://www.cs.bgsu.edu/mdecke/classes/software_testing/notes/path_testing/infeasible.png)
 
 # Sample Paths
 * First-A-B-C-F-G-Last
