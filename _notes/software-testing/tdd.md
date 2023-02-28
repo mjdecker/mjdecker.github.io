@@ -36,7 +36,7 @@ layout: notes
 
 # Make it work
 * Implement code to cause test to pass
-* May be inperfect, inelegant
+* May be imperfect, inelegant
 * Do not implement behavior beyond the scope of the test 
 
 # Green Phase
