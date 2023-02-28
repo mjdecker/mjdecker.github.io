@@ -46,7 +46,7 @@ layout: notes
 # Refactor
 * Improve the design and implementation of the code
 * Do not modify behavior, test suite must still pass
-* Code may have been inelegent or inperfect
+* Code may have been inelegent or imperfect
 * Several interations of TDD can compound this
 
 # Repeat
