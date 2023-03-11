@@ -46,9 +46,10 @@ much state
 * Main Refactorings: Extract Class, Extract Subclass many times
 * Supporting Refactoring: Extract Interface
 
-# Primitive Obsession Example
+# Example: Primitive Obsession (before)
 <script src="https://gist.github.com/mjdecker/fb3c10b769d46c468e1c2e25639694ab.js?file=car-primitives.hpp"></script>
 
+# Example: Primitive Obsession (after)
 <script src="https://gist.github.com/mjdecker/fb3c10b769d46c468e1c2e25639694ab.js?file=car-color-type.hpp"></script>
 
 # Primitive Obsession
