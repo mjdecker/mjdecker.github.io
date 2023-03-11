@@ -1,5 +1,5 @@
 ---
-title: "Code Smells
+title: "Code Smells"
 layout: notes
 ---
 
