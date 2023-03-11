@@ -59,11 +59,11 @@ layout: notes
 * Views design as an evolving process
 * Strong testing support to preserve behavioral aspects
 
-# Example:  Rename Method
-
+# Example:  Rename Method (before)
 <script src="https://gist.github.com/mjdecker/ee50eeb88bce122cee97c0e187d23b4e.js?file=rename-method-before.hpp"></script>
 
-<script src="https://gist.github.com/mjdecker/ee50eeb88bce122cee97c0e187d23b4e.js?file=rename-method-before.cpp"></script>
+# Example:  Rename Method (after)
+<script src="https://gist.github.com/mjdecker/ee50eeb88bce122cee97c0e187d23b4e.js?file=rename-method-after.cpp"></script>
 
 # Example: Rename Method Timeline
 1. Copy the declaration/definition of the old method to the new method
