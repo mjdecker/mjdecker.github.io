@@ -3,7 +3,7 @@ title: "Code Smells"
 layout: notes
 ---
 
- [Taxonomy]: http://mikamantyla.eu/BadCodeSmellsTaxonomy.html
+ [Taxonomy]: https://mmantyla.github.io/BadCodeSmellsTaxonomy
 
 # Code Smell
 * Indicates the need for a refactoring
