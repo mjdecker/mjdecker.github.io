@@ -67,9 +67,11 @@ layout: notes
 * Nodes:  statements
 * Edges:  control flow
 
-# Example
-* Standard forms
-* [Binary Search](https://mlcollard.net/cs421S21/notes/GeneralizingFunctions.html#/9)
+# Example: Binary Search
+<script src="https://gist.github.com/mjdecker/d6058119ca64882ceddbcb334fc7c8cb.js?file=binary-search.cpp"></script>
+
+# Example  Binary Search (Dot)
+<script src="https://gist.github.com/mjdecker/d6058119ca64882ceddbcb334fc7c8cb.js?file=binary-search.dot"></script>
 
 
 
