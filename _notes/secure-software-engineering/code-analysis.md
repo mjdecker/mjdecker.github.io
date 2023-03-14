@@ -27,7 +27,8 @@ layout: notes
 * {: .fragment } Program Correctness
 
 # Source Code Granularity/Levels
-* [Example](https://raw.githubusercontent.com/mlcollard/OOPS21-Rainfall/51d36774886ce271229ef3546af20949e698f729/rainfall.cpp)
+<script src="https://gist.github.com/mjdecker/b5ba25cfea629f315c376ed45149c7d1.js"></script>
+
 * {: .fragment } Tokens
 * {: .fragment } Statements
 * {: .fragment } Methods/functions
