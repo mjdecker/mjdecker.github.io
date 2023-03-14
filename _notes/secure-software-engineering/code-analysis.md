@@ -27,7 +27,7 @@ layout: notes
 * {: .fragment } Program Correctness
 
 # Source Code Granularity/Levels
-<script src="https://gist.github.com/mjdecker/b5ba25cfea629f315c376ed45149c7d1.js"></script>
+<script src="https://gist.github.com/mjdecker/b5ba25cfea629f315c376ed45149c7d1.js?file=rainfall.cpp"></script>
 
 * {: .fragment } Tokens
 * {: .fragment } Statements
@@ -53,7 +53,7 @@ layout: notes
 * {: .fragment } Incomplete set of files
 
 # Regular Expressions
-* Example: `^((From|To)|Subject): ((?(2)\w+@\w+\.[a-z]+|.+))`
+* Example: `^(From|To|Subject): (\w+@\w+\.[a-z]+)`
 * {: .fragment } `grep`
 * {: .fragment } Fast, faster, fastest
 * {: .fragment } API's in most languages
