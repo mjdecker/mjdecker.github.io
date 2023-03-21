@@ -9,12 +9,12 @@ layout: notes
 * Used to determine, predict, and improve product or process
 * Characteristics (ISO 25010):
 
-|                                      |                                          |
-|----------------------|------------------------|
+|                        |                        |
+|------------------------|------------------------|
 | Functional suitability | Performance efficiency |
-| Compatibility              | Usability                          |
-| Reliability                    | Security                           |
-| Maintainability           | Portability                        |
+| Compatibility          | Usability              |
+| Reliability            | Security               |
+| Maintainability        | Portability            |
 
 # Software Quality Measurement 
 * Quantifying to what extent a system or software possesses desirable characteristics
@@ -132,16 +132,16 @@ layout: notes
 # FP and Langauges
 
 | Language | LOC/FP |
-|------------|-------:|
-| Assembly   | 320     |
-| C                 | 128      |
-| COBOL       | 106     |
-| FORTRAN  | 106      |
-| Pascal         | 90       |
-| C++             | 64       |
-| Ada              | 53       |
-| VB                | 32       |
-| SQL              | 12       |
+|----------|-------:|
+| Assembly | 320    |
+| C        | 128    |
+| COBOL    | 106    |
+| FORTRAN  | 106    |
+| Pascal   | 90     |
+| C++      | 64     |
+| Ada      | 53     |
+| VB       | 32     |
+| SQL      | 12     |
 
 # Using FP
 * FP and LOC based metrics have been found to be relatively accurate predictors of effort and cost
