@@ -1,4 +1,3 @@
-
 ---
 title: "Software Quality"
 layout: notes
