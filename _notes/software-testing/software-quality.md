@@ -158,10 +158,7 @@ layout: notes
 	- N<sub>2</sub> - total number of operands
 
 # Example Halstead Complexity Measures
-		if (k < 2) {
-  			if (k > 3)
-    			x = x * k;
-		}
+<script src="https://gist.github.com/mjdecker/5cf15061a98fe2ca6c24ccce8cd27b56.js?file=halstead.c"></script>
 
 * Distinct operators: if ( ) { } > < = * ;
 * Distinct operands: k 2 3 x
