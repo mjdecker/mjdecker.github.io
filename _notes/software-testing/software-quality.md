@@ -1,4 +1,9 @@
 
+---
+title: "Software Quality"
+layout: notes
+---
+
 # Software Quality
 * Definition: How well software satisfies its functional and non-functional requirements
 * Used to determine, predict, and improve product or process
