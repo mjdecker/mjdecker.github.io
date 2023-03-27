@@ -1,8 +1,33 @@
 semesters:
-  - semester: "Fall 2022"
+  - semester: "Spring 2023"
     current: true
-    start_date: "2022-01-20"
-    end_date: "2022-04-22"
+    start_date: "2023-01-09"
+    end_date: "2023-04-21"
+    classes: 
+      - number: "SE 4/5560"
+        title: "Software Testing & Quality Assurance"
+        time: "11:30 - 12:20"
+        days: "M W F"
+        building: "Hayes"
+        room: "117"
+
+      - number: "CS 3060"
+        title: "Programming Languages"
+        time: "18:00 - 19:15"
+        days: "M W  "
+        building: "Hayes"
+        room: "117"
+
+      - number: "SE 6640"
+        title: "Secure Software Engineering"
+        time: "19:30 - 20:45"
+        days: "M W  "
+        building: "Hayes"
+        room: "117"
+
+  - semester: "Fall 2022"
+    start_date: "2022-08-22"
+    end_date: "2022-12-09"
     classes: 
       - number: "CS 4/5050"
         title: "Research Methods in Computer Science"
@@ -19,7 +44,6 @@ semesters:
         room: "1011"
 
   - semester: "Spring 2022"
-    current: false
     start_date: "2022-01-20"
     end_date: "2022-04-22"
     classes: 
