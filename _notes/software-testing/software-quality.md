@@ -4,6 +4,69 @@ layout: notes
 ---
 
 [IEEE Std 730-2014]: http://ieeexplore.ieee.org/document/6835311/
+[quality]: /images/secure-software-engineering/quality.png
+[Quality Characteristics]: https://iso25000.com/index.php/en/iso-25000-standards/iso-25010
+
+# Software Engineering as a Layered Technology
+<div>
+<table style="width: 80%; border: 1px solid black"><tr><th style=" background-color: white; text-align: center">Quality Focus</th></tr></table>
+<table style="width: 60%; border: 1px solid black"><tr><th style="background-color: white; text-align: center">Process</th></tr></table>
+<table style="width: 40%; border: 1px solid black"><tr><th style="background-color: white; text-align: center">Methods</th></tr></table>
+<table style="width: 20%; border: 1px solid black"><tr><th style="background-color: white; text-align: center">Tools</th></tr></table>
+</div>
+
+# Quality Focus
+* Foundation of software engineering
+* Software should meet expectations
+* What level/kinds of quality do you require?
+	* Customer: efficiency, reliability, etc.
+	* Developer: maintainability, reusability, etc.
+	* Users: usability, efficiency, etc.
+* Microsoft Word vs. Autonomous Car
+
+<table style="width: 80%; border: 1px solid black"><tr><th style=" background-color: white; text-align: center">Quality Focus</th></tr></table>
+<table style="width: 60%; border: 1px solid black"><tr><th style="background-color: white; text-align: center">Process</th></tr></table>
+<table style="width: 40%; border: 1px solid black"><tr><th style="background-color: white; text-align: center">Methods</th></tr></table>
+<table style="width: 20%; border: 1px solid black"><tr><th style="background-color: white; text-align: center">Tools</th></tr></table>
+
+# Process
+* Framework for how you develop/deliver software on time and on budget
+* Defines tasks and order performed
+* How one achieves the quality focus
+
+<table style="width: 80%; border: 1px solid black"><tr><th style=" background-color: white; text-align: center">Quality Focus</th></tr></table>
+<table style="width: 60%; border: 1px solid black"><tr><th style="background-color: white; text-align: center">Process</th></tr></table>
+<table style="width: 40%; border: 1px solid black"><tr><th style="background-color: white; text-align: center">Methods</th></tr></table>
+<table style="width: 20%; border: 1px solid black"><tr><th style="background-color: white; text-align: center">Tools</th></tr></table>
+
+# Methods
+* Methods
+	* Methods of developing software including technical knowledge and resources required for development
+	* Techniques for performing tasks of the process
+	* E.g, methods for communication, analysis, modeling, program construction, testing, and support
+
+<table style="width: 80%; border: 1px solid black"><tr><th style=" background-color: white; text-align: center">Quality Focus</th></tr></table>
+<table style="width: 60%; border: 1px solid black"><tr><th style="background-color: white; text-align: center">Process</th></tr></table>
+<table style="width: 40%; border: 1px solid black"><tr><th style="background-color: white; text-align: center">Methods</th></tr></table>
+<table style="width: 20%; border: 1px solid black"><tr><th style="background-color: white; text-align: center">Tools</th></tr></table>
+
+# Tools
+* The semi-automated and automated tools that is framework for project
+* What is used to carry out/support methods
+* E.g., OS, Selenium for testing, choosing an IDE
+
+<table style="width: 80%; border: 1px solid black"><tr><th style=" background-color: white; text-align: center">Quality Focus</th></tr></table>
+<table style="width: 60%; border: 1px solid black"><tr><th style="background-color: white; text-align: center">Process</th></tr></table>
+<table style="width: 40%; border: 1px solid black"><tr><th style="background-color: white; text-align: center">Methods</th></tr></table>
+<table style="width: 20%; border: 1px solid black"><tr><th style="background-color: white; text-align: center">Tools</th></tr></table>
+
+# [Quality Characteristics]
+![quality]
+
+# [Quality Characteristics] Purpose
+* I.e.,  Quality Focus
+
+> The quality of a system is the degree to which the system satisfies the stated and implied needs [including quality characteristics] of its various stakeholders, and thus provides value [ISO 25010]
 
 # Testing & Quality Assurance
 * Software Quality Assurance (SQA) [IEEE Std 730-2014]
@@ -31,12 +94,3 @@ layout: notes
 * Planning should start early in the development process
 * Test planning is about defining standards for the testing process rather than describing product tests
 * The plan should identify the balance between static verification and testing
-
-# A Software Test Plan
-* The testing process
-* Requirements traceability
-* Tested items
-* Testing schedule
-* Test recording procedures
-* Hardware and software requirements
-* Constraints
