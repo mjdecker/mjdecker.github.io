@@ -1,9 +1,9 @@
 ### Activities
 ---
-* Session chair for the *Human Aspects, Testing, and Logs* of 31st IEEE/ACM International Conference on Program Comprehension[ICPC'23](https://conf.researchr.org/home/icpc-2023)
+* Session chair for the *Human Aspects, Testing, and Logs* of 31st IEEE/ACM International Conference on Program Comprehension [ICPC'23](https://conf.researchr.org/home/icpc-2023)
 * Awarded $750K NSF grant: *Collaborative Research: CCRI: New: Syntactic Differencing Infrastructure for Software Evolution Research*
 * Tenure & Promotion to Associate Professor at BGSU
-* Tool track co-chair for 31st IEEE/ACM International Conference on Program Comprehension[ICPC'23](https://conf.researchr.org/home/icpc-2023)
+* Tool track co-chair for 31st IEEE/ACM International Conference on Program Comprehension [ICPC'23](https://conf.researchr.org/home/icpc-2023)
 * Session chair for the *Program Comprehension III* of 29th IEEE International Conference on Software Analysis, Evolution and Reengineering [SANER'22](https://saner2022.uom.gr)
 * Awarded [Most Influential Paper (MIP)](http://www.ieee-scam.org/2021/#mip) at the [21st IEEE International Working Conference on Source Code Analysis and Manipulation (SCAM'21)](http://www.ieee-scam.org/2021/) to Michael L. Collard, Michael J. Decker and Jonathan I. Maletic for the SCAM 2011 paper "Lightweight Transformation and Fact Extraction with the
 srcML Toolkit".
