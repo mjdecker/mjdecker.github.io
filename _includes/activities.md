@@ -1,7 +1,7 @@
 ### Activities
 ---
 * Session chair for the *Human Aspects, Testing, and Logs* of 31st IEEE/ACM International Conference on Program Comprehension[ICPC'23](https://conf.researchr.org/home/icpc-2023)
-* Awarded $750K grant: *Collaborative Research: CCRI: New: Syntactic Differencing Infrastructure for Software Evolution Research*
+* Awarded $750K NSF grant: *Collaborative Research: CCRI: New: Syntactic Differencing Infrastructure for Software Evolution Research*
 * Tenure & Promotion to Associate Professor at BGSU
 * Tool track co-chair for 31st IEEE/ACM International Conference on Program Comprehension[ICPC'23](https://conf.researchr.org/home/icpc-2023)
 * Session chair for the *Program Comprehension III* of 29th IEEE International Conference on Software Analysis, Evolution and Reengineering [SANER'22](https://saner2022.uom.gr)
