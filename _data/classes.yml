@@ -1,8 +1,26 @@
 semesters:
-  - semester: "Spring 2023"
+  - semester: "Fall 2023"
     current: true
+    start_date: "2023-08-21"
+    end_date: "2023-12-08"
+    classes: 
+      - number: "SE 4/5540"
+        title: "Software Architecture & Design"
+        time: "19:30 - 20:45"
+        days: "M W  "
+        building: "Hayes"
+        room: "117"
+
+      - number: "CS 4/5050"
+        title: "Research Methods in Computer Science"
+        time: "19:30 - 20:45"
+        days: "T R  "
+        building: "Hayes"
+        room: "117"
+
+  - semester: "Spring 2023"
     start_date: "2023-01-09"
-    end_date: "2023-04-21"
+    end_date: "2023-04-28"
     classes: 
       - number: "SE 4/5560"
         title: "Software Testing & Quality Assurance"
