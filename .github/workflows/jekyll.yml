@@ -47,7 +47,7 @@ jobs:
       - name: Build with Jekyll
         run: |
           cp -r _notes _markdowns
-          find _markdowns -name "*.md" | sed "s/.md$//" | xargs -I% bash -c "tail +3 %.md > %.txt" 
+          find _markdowns -name "*.md" | sed "s/.md$//" | xargs -I% bash -c "tail +5 %.md > %.txt" 
           find _markdowns -name "*.md" | xargs rm
           # Outputs to the './_site' directory by default
           bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
