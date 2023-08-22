@@ -44,9 +44,8 @@ jobs:
         uses: actions/configure-pages@v3
       - name: Build with Jekyll
         run: |
-          find _notes -type d | sed "s/_notes/_texts/" | xargs -I% mkdir -p %
-          find _notes -name "*.md" | sed "s/^_notes//" | sed "s/.md$//" | xargs -I% cp "_notes%.md" "_texts%.txt"
-          find _texts -name "*.txt" | xargs -I% sed -i="" "s/layout: notes/layout: texts/" % 
+          cp -r _notes _markdowns
+          find _markdowns -name "*.md" | xargs -I% sed -i="" "s/layout: notes/layout: markdown/" % 
           # Outputs to the './_site' directory by default
           bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
