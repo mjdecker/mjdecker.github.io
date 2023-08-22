@@ -46,6 +46,7 @@ jobs:
         run: |
           find _notes -type d | sed "s/_notes/_texts/" | xargs -I% mkdir -p %
           find _notes -name "*.md" | sed "s/^_notes//" | sed "s/.md$//" | xargs -I% cp "_notes%.md" "_texts%.txt"
+          find _texts -name "*.txt" | xargs -I% sed -i "" "s/layout: notes/layout: texts/" % 
           # Outputs to the './_site' directory by default
           bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
