@@ -1,5 +1,5 @@
 ---
-title: Git
+title: "Git"
 layout: notes
 ---
 
