@@ -10,8 +10,7 @@ layout: notes
 * Differ in methods of data collection, data processing, analyzing, reporting, and disseminating 
 
 # Scientific Method
-* [Wikipedia](https://en.wikipedia.org/wiki/Scientific_method#Process)
-* Steps
+* An Example 5-Step 
 	* Formulate a question
 	* Form a hypothesis
 	* Make a prediction
@@ -20,7 +19,19 @@ layout: notes
 * Steps are guidelines
 	* All steps are not always needed
 	* Order can vary
-* Compare with [Elements of Scientific Method](https://en.wikipedia.org/wiki/Scientific_method#Elements_of_the_scientific_method)
+
+# ChatGPT 
+* What are the steps to the scientific method/Summarize further
+1. Observe: Notice something and ask a question.
+2. Research: Learn what's known and what's not.
+3. Hypothesize: Make an educated guess about the answer.
+4. Experiment: Test your guess with a controlled test.
+5. Collect Data: Gather information during the test.
+6. Analyze: Examine the data for patterns and meaning.
+7. Conclude: Decide if your guess was right or wrong.
+8. Communicate: Share your findings with others.
+9. Review and Repeat: Let others check and repeat your work.
+10. Learn and Improve: Use your results to ask new questions.
 
 # Kumar's Phases & Steps
 * Can be broken down into 3 phases and 8 steps
