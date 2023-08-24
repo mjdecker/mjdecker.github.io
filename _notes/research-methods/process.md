@@ -47,8 +47,8 @@ layout: notes
 	* Step VII: Processing and displaying data
 	* Step VIII: Writing a research report
 
-# Phase I: Deciding - Step 1
-**Formulating a research problem**
+# Phase I: Deciding - Step 1 
+> **Formulating a research problem**
 
 * What do I want to investigate?
 	* Enough funds?
@@ -61,7 +61,7 @@ layout: notes
 * Basis for all following steps
 
 # Phase II: Planning - Step II
-**Conceptualizing a research design**
+> **Conceptualizing a research design**
 
 * Findings depend on the design of the research study
 * Will you use qualitative, quantitative, or mixed methods?
@@ -83,7 +83,7 @@ layout: notes
 * [Occam's Razor & the Scientific Method](https://en.wikipedia.org/wiki/Occam's_razor#Science_and_the_scientific_method)
 
 # Phase II: Planning - Step III
-**Constructing an instrument for data collection**
+> **Constructing an instrument for data collection**
 
 * Do you already have access to data?
 * If not, what means will you use to collect the data?
@@ -92,7 +92,8 @@ layout: notes
 * Valuable to pre-test tool in pilot study to identify areas of improvement
 
 # Phase II: Planning - Step IV
-**Selecting a sample**
+> **Selecting a sample**
+
 * Selection of who/what the study will be performed on
 * Avoid bias in subject selection
 * Sample/participants need to be representative and appropriate to study
@@ -101,7 +102,7 @@ layout: notes
 * Justify selection 
 
 # Phase II: Planning - Step V
-**Writing a research proposal**
+> **Writing a research proposal**
 
 * A detailed plan about the research you are planning
 * Motivation
@@ -111,7 +112,7 @@ layout: notes
 * May need approval to collect the data?
 
 # Phase III: Planning - Step VI
-**Collecting data**
+> **Collecting data**
 
 * Gather the data with your research tool
 	* Survey
@@ -123,7 +124,7 @@ layout: notes
 	* Data privacy?
 
 # Phase III: Planning - Step VII
-**Processing and displaying data**
+> **Processing and displaying data**
 
 * Making sense of the data
 * How you analyze data is related to how you present findings
@@ -139,7 +140,7 @@ layout: notes
 	* Etc.
 
 # Phase III: Planning - Step VIII
-**Write a research report**
+> **Write a research report**
 
 * People need to know your awesome work
 * What did you do, what conclusions/contributions you make
