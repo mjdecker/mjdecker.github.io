@@ -7,18 +7,15 @@ layout: notes
 * UML Class Diagram shows overview of important classes in a system, and (more importantly) the relationship between them
 
 # Properties: Attributes & Association
-
-![](http://yuml.me/diagram/class/[Student|+%20name%20:%20Name|])
-
-<img src="http://yuml.me/diagram/class/[Student]1-˖name%201%3E[Name]" >
+![](http://yuml.me/diagram/class/[Student%7C+%20name%20:%20Name%7C])
+![](http://yuml.me/diagram/class/[Student]1-˖name%201%3E[Name])
 
 * Another notation for property (alternative to attribute)
 * Use attributes for properties that are types, e.g., primitive types, or whatever is considered a type in your design
 * Use associations for types that will be implemented as classes, and   whose methods are of interest at the design level
 
 # Classes
-
-<img src="http://yuml.me/diagram/class/[Student],[Name]" >
+![](http://yuml.me/diagram/class/[Student],[Name])
 
 # Class Relationships
 * Relationships between classes form a coupling between the classes
@@ -35,20 +32,11 @@ layout: notes
 * Composition
 
 # Code: Association (Directional)
-
-```
-class Student {
-public:
-	// ...
-private:
-	Name firstname;
-	Name lastname;
-};
-```
+<script src="https://gist.github.com/mjdecker/04e5857841ec88a8fa0ef9a48040acaf.js?file=directional.hpp"></script>
 
 # UML: Association
 
-<img src="http://yuml.me/diagram/class/[Student]1-%20˖names%20*>[Name]" >
+![](http://yuml.me/diagram/class/[Student]1-%20˖names%20*>[Name])
 
 * In association, a class (e.g., Student) uses another class as a field type (e.g., Name)
 * This is a [has-a](http://en.wikipedia.org/wiki/Has-a) relationship and has
@@ -57,46 +45,20 @@ private:
 	* labels
 
 # Code:  Association (Bidirectional)
-
-```
-class Student {
-public:
-	// ...
-private:
-	Course course;
-};
-
-class Course {
-public:
-	// ...
-private:
-	Student student;
-};
-```
+<script src="https://gist.github.com/mjdecker/04e5857841ec88a8fa0ef9a48040acaf.js?file=bidirectional.hpp"></script>
 
 * Note:  Have to be careful to implement correctly for compiling
 
 # UML:  Association (Bidirectional)
 
-<img src="http://yuml.me/diagram/class/[Student]-[Course]" >
+![](http://yuml.me/diagram/class/[Student]-[Course])
 
 * Implementation and testing of class Course requires class Student, and vice-versa
 * Classes Student and Course cannot be used independently
 * Bidirectional associations are problematic, and should be avoided
 
 # Code:  Inheritance
-
-```
-class Student {};
-
-class UndergradStudent : public Student {};
-
-class GradStudent : public Student {};
-
-class TA: public GradStudent {};
-
-class RA: public GradStudent {};
-```
+<script src="https://gist.github.com/mjdecker/04e5857841ec88a8fa0ef9a48040acaf.js?file=inheritance.hpp"></script>
 	
 * Permits specialization of behavior, and additions to interface
 * Permits common handling, e.g., a container of Students
@@ -113,40 +75,22 @@ class RA: public GradStudent {};
 * Often overused: The purpose of generalization (inheritance) is to  solve design problems. If you don't have a design problem, don't use generalization (inheritance) \[Collard\].
 
 # Code:  Dependency
-
-```
-class Student {
-public:
-	// ...
-	void setName(Name&);
-private:
-    String firstname;
-    String lastname;
-};
-```
+<script src="https://gist.github.com/mjdecker/04e5857841ec88a8fa0ef9a48040acaf.js?file=dependency.hpp"></script>
 
 # UML: Dependency
 
-<img src="http://yuml.me/diagram/class/[Student]%20-.->[Name]">
+![](http://yuml.me/diagram/class/[Student]%20-.->[Name])
 
 * Changes to the definition of the supplier/source may cause changes to the client/target
 * Code: Class used as a parameter or local variable only (**not** a data member/field) results in a dependency
 * Dependencies are weaker than Associations, and therefore preferred due to decreased coupling
 
 # Code:  Aggregation
-
-```
-class Club {
-public:
-	// ...
-private:
-	std::list<Person*> members;
-};
-```
+<script src="https://gist.github.com/mjdecker/04e5857841ec88a8fa0ef9a48040acaf.js?file=aggregation.hpp"></script>
 
 # UML: Aggregation
 
-<img src="http://yuml.me/diagram/class/[Club]<>-*>[Person]" >
+![](http://yuml.me/diagram/class/[Club]<>-*>[Person])
 
 * *part of* relationship
 * Special kind of association
@@ -156,19 +100,11 @@ private:
 * So how does this differ from association?
 
 # Code:  Composition
-
-```
-class Shape {
-public:
-	// ...
-private:
-	std::vector<Point*> points;
-};
-```
+<script src="https://gist.github.com/mjdecker/04e5857841ec88a8fa0ef9a48040acaf.js?file=composition.hpp"></script>
 
 # UML: Composition
 
-<img src="http://yuml.me/diagram/class/[Shape]++-*>[Point]" >
+![](http://yuml.me/diagram/class/[Shape]++-*>[Point])
 
 * Often confused with aggregation
 * Target belongs only to the source
@@ -188,7 +124,7 @@ stereotype
 
 # Abstract Classes/Methods
 
-![](http://yuml.me/diagram/class/[｛abstract｝;Event||+getDescription%28%29｛abstract｝]^-[DateEvent])
+![](http://yuml.me/diagram/class/[｛abstract｝;Event%7C%7C+getDescription%28%29｛abstract｝]^-[DateEvent])
 
 * Abstract classes do not support direct instantiation. I.e., you can't create an object from that class, you have to create an object of a derived class. E.g., you can create a *DateEvent* object, but not an *Event* object.
 * An abstract class has one or more abstract methods. An abstract method is one that is declared, but not defined, and must be defined in a derived class.
@@ -214,7 +150,7 @@ stereotype
 
 # Products
 
-<img src="http://yuml.me/diagram/class/[note%3A%20Current%20design%20for%20Order%20Project{bg:cornsilk}],[Customer]<>1-orders%200..*>[Order],%20[Order]++*-*>[LineItem],%20[Order]-1>[DeliveryMethod],%20[Order]*-*>[Product],%20[Category]<->[Product],%20[DeliveryMethod]^[National],%20[DeliveryMethod]^[International]">
+![](http://yuml.me/diagram/class/[note%3A%20Current%20design%20for%20Order%20Project{bg:cornsilk}],[Customer]<>1-orders%200..*>[Order],%20[Order]++*-*>[LineItem],%20[Order]-1>[DeliveryMethod],%20[Order]*-*>[Product],%20[Category]<->[Product],%20[DeliveryMethod]^[National],%20[DeliveryMethod]^[International])
 
 # Role in Process
 * Forward Engineering:
