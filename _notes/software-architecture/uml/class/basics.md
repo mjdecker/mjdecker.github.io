@@ -13,11 +13,13 @@ layout: notes
 * Properties: Attributes & Associations
 * Operations (methods)
 
+# UML Class Examples
 ![](http://yuml.me/diagram/class/[Project])
 ![](http://yuml.me/diagram/class/[Project|%20|%20])
 ![](http://yuml.me/diagram/class/[Project|-%20name%20:%20Name|])
 ![](http://yuml.me/diagram/class/[Project|%20|+%20view%28%29])
 ![](http://yuml.me/diagram/class/[Project|-%20name%20:%20Name|+%20view%28%29])
+
 
 # Visibility
 * `+` public
@@ -26,7 +28,7 @@ layout: notes
 * `~` package
 
 # Attributes
-visibility name:type multiplicity = default {property-string}
+> visibility name:type multiplicity = default {property-string}
 
 * `+ name`
 * `- name`
@@ -50,7 +52,7 @@ visibility name:type multiplicity = default {property-string}
 * Multivalued `0..2` or `0..*`
 
 # Operations
-visibility name(parameter-list) : return-type {property-string}
+> visibility name(parameter-list) : return-type {property-string}
 
 * `+ draw()`
 * `- draw()`
@@ -60,7 +62,8 @@ visibility name(parameter-list) : return-type {property-string}
 * `+ draw() : boolean {command}`
 
 # Parameters
-direction name:type = default
+> direction name:type = default<br/>
+> *Directions: `in` (default), `out`, `inout`*
 
 * `+ draw(: Shape)`
 * `+ draw(s: Shape)`
@@ -68,17 +71,13 @@ direction name:type = default
 * `+ draw(out picture : Picture)`
 * `+ draw(inout picture : Picture)`
 
-Directions: `in` (default), `out`, `inout`
-
 # Alternate Diagrams
-
-![](http://yuml.me/diagram/class/[Student|-%20name%20:%20Name|+Student%28name%20:%20Name%29;+getName%28%29%20:%20Name;+setName%28name%20:%20Name%29])
-![](http://yuml.me/diagram/class/[Student|+%20name%20:%20Name|])
+![](http://yuml.me/diagram/class/[Student%7C-%20name%20:%20Name%7C+Student%28name%20:%20Name%29;+getName%28%29%20:%20Name;+setName%28name%20:%20Name%29])
+![](http://yuml.me/diagram/class/[Student%7C+%20name%20:%20Name%7C])
 
 # Guideline
-
-![](http://yuml.me/diagram/class/[Student|-%20name%20:%20Name|+Student%28name%20:%20Name%29;+getName%28%29%20:%20Name;+setName%28name%20:%20Name%29])
-![](http://yuml.me/diagram/class/[Student|+%20name%20:%20Name|])
+![](http://yuml.me/diagram/class/[Student%7C-%20name%20:%20Name%7C+Student%28name%20:%20Name%29;+getName%28%29%20:%20Name;+setName%28name%20:%20Name%29])
+![](http://yuml.me/diagram/class/[Student%7C+%20name%20:%20Name%7C])
 
 * Attributes show the state of the objects
 * Attribute types may not map directly into types in the implementation language
@@ -87,7 +86,7 @@ Directions: `in` (default), `out`, `inout`
 
 #  Guideline (continued)
 
-![](http://yuml.me/diagram/class/[Student|+%20name%20:%20Name|])
+![](http://yuml.me/diagram/class/[Student%7C+%20name%20:%20Name%7C])
 
 * In a high-level view, avoid *get()*/*set()* operations (methods) for attributes
 * In a high-level view, avoid constructors
