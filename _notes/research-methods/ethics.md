@@ -4,7 +4,7 @@ layout: notes
 ---
 
 # Research Ethics
-* > Ethics- the rules of conduct recognized in respect to a particular class of human actions or a particular group, culture, etc. [dictionary.com]
+> Ethics- the rules of conduct recognized in respect to a particular class of human actions or a particular group, culture, etc. [dictionary.com]
 * Code for how research is conducted properly
 	* Evolves and changes over time
 	* May differ based on discipline
