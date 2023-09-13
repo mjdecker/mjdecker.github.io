@@ -17,15 +17,7 @@ layout: notes
 * Develop in parallel with UML Class Diagrams
 
 # Participants
-	name : Class
-
-* Alternate Forms
-
-```
-aclient
-: Client
-aclient : Client
-```
+<script src="https://gist.github.com/mjdecker/db7e31dd069e3fb048aa670ab5f0b9fe.js?file=particpants.md"></script>
 
 * [src](http://www.websequencediagrams.com/?lz=cGFydGljaXBhbnQgImFjbGllbnQgOiBDAAQFIiBhcyAADgcK&s=default)
 
