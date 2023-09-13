@@ -17,8 +17,13 @@ layout: notes
 * Develop in parallel with UML Class Diagrams
 
 # Participants
-<script src="https://gist.github.com/mjdecker/db7e31dd069e3fb048aa670ab5f0b9fe.js?file=particpants-forms.md"></script>
 ![](http://www.websequencediagrams.com/cgi-bin/cdraw?lz=cGFydGljaXBhbnQgImFjbGllbnQgOiBDAAQFIiBhcyAADgcK&s=default)
+
+* Forms:
+	* `name : Class`
+	* `aclient`
+	* `: Client`
+	* `aclient : Client`
 
 * [src](http://www.websequencediagrams.com/?lz=cGFydGljaXBhbnQgImFjbGllbnQgOiBDAAQFIiBhcyAADgcK&s=default)
 
@@ -31,9 +36,9 @@ layout: notes
 
 
 # Message
-> name(param_name : param_type)
 ![](http://www.websequencediagrams.com/cgi-bin/cdraw?lz=cGFydGljaXBhbnQgImFjbGllbnQgOiBDAAQFIiBhcyAADgcKAB0NbGlic3JjbWwgOiBMaWJyYXJ5ACcFAA8ICgoARActPisAIwg6IAAtBV9hcmNoaXZlX2NoZWNrX2V4dGVuc2lvbigAEQcgABkPLCBmaWxlbmFtABUFdHJpbmcpCgB3CC0tPj4AgS4HOiBsYW5ndWFnZQ&s=default)
 
+* `name(param_name : param_type)`
 * Invoke a message on a participant
 * Activation bar shows when a participant is active during the interaction (optional)
 * Can indicate return and emphasize what was returned
