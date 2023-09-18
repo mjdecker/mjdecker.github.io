@@ -88,18 +88,15 @@ layout: notes
 * Client should pass data and leave control path decisions private to  a module
 
 # Stamp Coupling
-
-* One module passes more data than needed to another module
 <script src="https://gist.github.com/mjdecker/86a386138adc62a8e401018e54327885.js?file=stamp_coupling.cpp"></script>
 
-  
+* One module passes more data than needed to another module
 * Often involves records (structs) with lots of fields
 * Entire record passed, but only a few fields are used
 * Efficiency considerations?
 
 # Data Coupling
 <script src="https://gist.github.com/mjdecker/86a386138adc62a8e401018e54327885.js?file=data_coupling.cpp"></script>
-
 
 * Only required data passed from one module to another
 *  All arguments are homogenous data items
