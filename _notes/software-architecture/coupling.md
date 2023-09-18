@@ -81,7 +81,7 @@ layout: notes
 * Function is exposed to more data than is needed
 
 # Control Coupling
-<script src="https://gist.github.com/mjdecker/86a386138adc62a8e401018e54327885.js?file=control_coupling.hpp"></script>
+<script src="https://gist.github.com/mjdecker/86a386138adc62a8e401018e54327885.js?file=control_coupling.cpp"></script>
 
 * Client passes a flag or command that explicitly controls what the called code is doing
 * Independent reuse is not possible
@@ -90,7 +90,7 @@ layout: notes
 # Stamp Coupling
 
 * One module passes more data than needed to another module
-<script src="https://gist.github.com/mjdecker/86a386138adc62a8e401018e54327885.js?file=stamp_coupling.hpp"></script>
+<script src="https://gist.github.com/mjdecker/86a386138adc62a8e401018e54327885.js?file=stamp_coupling.cpp"></script>
 
   
 * Often involves records (structs) with lots of fields
@@ -98,7 +98,7 @@ layout: notes
 * Efficiency considerations?
 
 # Data Coupling
-<script src="https://gist.github.com/mjdecker/86a386138adc62a8e401018e54327885.js?file=data_coupling.hpp"></script>
+<script src="https://gist.github.com/mjdecker/86a386138adc62a8e401018e54327885.js?file=data_coupling.cpp"></script>
 
 
 * Only required data passed from one module to another
