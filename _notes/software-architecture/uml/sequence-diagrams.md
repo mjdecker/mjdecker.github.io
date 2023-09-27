@@ -41,7 +41,6 @@ layout: notes
 * `name(argument_one, argument_two, ...)`
 * or (depends on what you want to emphasize/show)
 * `name(param_name : param_type)`
-* 
 * Invoke a message on a participant
 * Activation bar shows when a participant is active during the interaction (optional)
 * Can indicate return and emphasize what was returned
