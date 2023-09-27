@@ -39,11 +39,14 @@ layout: notes
 ![](https://www.websequencediagrams.com/cgi-bin/cdraw?lz=cGFydGljaXBhbnQgImFjbGllbnQgOiBDAAQFIiBhcyAADgcKAB0NbGlic3JjbWwgOiBMaWJyYXJ5ACcFAA8ICgoARActPisAIwg6IAAtBV9hcmNoaXZlX2NoZWNrX2V4dGVuc2lvbigAEQcsIGZpbGVuYW1lKQoAXggtLT4-AIEVBzogbGFuZ3VhZ2U&s=default)
 
 * `name(argument_one, argument_two, ...)`
+* or (depends on what you want to emphasize/show)
+* `name(param_name : param_type)`
+* 
 * Invoke a message on a participant
 * Activation bar shows when a participant is active during the interaction (optional)
 * Can indicate return and emphasize what was returned
 * Note - Only show return when adds something to diagram to avoid clutter
-* [src](https://www.websequencediagrams.com/?lz=cGFydGljaXBhbnQgImFjbGllbnQgOiBDAAQFIiBhcyAADgcKAB0NbGlic3JjbWwgOiBMaWJyYXJ5ACcFAA8ICgoARActPisAIwg6IAAtBV9hcmNoaXZlX2NoZWNrX2V4dGVuc2lvbigAEQcgABkPLCBmaWxlbmFtABUFdHJpbmcpCgB3CC0tPj4AgS4HOiBsYW5ndWFnZQ&s=default)
+* [src](https://www.websequencediagrams.com/?lz=cGFydGljaXBhbnQgImFjbGllbnQgOiBDAAQFIiBhcyAADgcKAB0NbGlic3JjbWwgOiBMaWJyYXJ5ACcFAA8ICgoARActPisAIwg6IAAtBV9hcmNoaXZlX2NoZWNrX2V4dGVuc2lvbigAEQcsIGZpbGVuYW1lKQoAXggtLT4-AIEVBzogbGFuZ3VhZ2U&s=default)
 
 # Found Message
 ![](http://www.websequencediagrams.com/cgi-bin/cdraw?lz=cGFydGljaXBhbnQgU291cmNlCgoACAwiYWNsaWVudCA6IEMABAUiIGFzIAAOBwoKAC0GLT4rACAHOiBzdGFydCgp&s=default)
