@@ -1,5 +1,5 @@
 ---
-title: "Presenting"
+title: "How to Present"
 layout: notes
 ---
 
