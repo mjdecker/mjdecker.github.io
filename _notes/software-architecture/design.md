@@ -4,9 +4,7 @@ layout: notes
 ---
 
 # Software Design
-> Software design is the process of defining software methods, functions, objects, and the overall structure and interaction of your code so that the resulting functionality will satisfy user requirements
-
-[src](https://sea.ucar.edu/best-practices/design)
+> Software design is the process of defining software methods, functions, objects, and the overall structure and interaction of your code so that the resulting functionality will satisfy user requirements [UCAR](https://sea.ucar.edu/best-practices/design)
 
 # Explanation
 
