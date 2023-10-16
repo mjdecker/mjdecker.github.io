@@ -9,7 +9,7 @@ layout: notes
 # Explanations
 * > Software design is the process by which an agent creates a specification of a software artifact, intended to accomplish goals, using a set of primitive components and subject to constraints [Ralph & Wand(https://link.springer.com/chapter/10.1007%2F978-3-540-92966-6_6).
 
-* >Software design may refer to either "all the activity involved in conceptualizing, framing, implementing, commissioning, and ultimately modifying complex systems" or "the activity following requirements specification and before programming, as ... [in] a stylized software engineering process"[Freedman & Hart](https://dl.acm.org/doi/10.1145/1012037.1012054).
+* >Software design may refer to either "all the activity involved in conceptualizing, framing, implementing, commissioning, and ultimately modifying complex systems" or "the activity following requirements specification and before programming, as ... [in] a stylized software engineering process" [Freedman & Hart](https://dl.acm.org/doi/10.1145/1012037.1012054).
 
 * > Software design usually involves problem solving and planning a software solution. This includes both a low-level component and algorithm design and a high-level, architecture design [Wikipedia](https://en.wikipedia.org/wiki/Software_design).
 
