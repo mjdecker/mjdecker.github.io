@@ -33,7 +33,7 @@ layout: notes
 # SRP - Multiple Responsibilities
 ![](http://yuml.me/diagram/class/[spaceship|%20+name%20:%20string|%20+takeoff%28%29;+fly%28%29;+land%28%29;+approve_landing%28%29])
 
-#SRP - Single Responsibility
+# SRP - Single Responsibility
 ![](http://yuml.me/diagram/class/[spaceship|%20+name%20:%20string|%20+takeoff%28%29;+fly%28%29;+land%28%29;],%20[spaceport|%20|%20+approve_landing%28:spaceship%29;],%20[spaceport]-.-%3E[spaceship])
 
 # Open/closed Principle
