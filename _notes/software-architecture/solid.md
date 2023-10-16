@@ -1,3 +1,8 @@
+---
+title: "SOLID Design Principles"
+layout: notes
+---
+
 # SOLID Principles for Object-Oriented Design
 * Five basic principles (guidelines) for object-oriented programming and design
 * Leads to system that are:
@@ -7,16 +12,12 @@
 	* creating designs from scratch
 	* improving existing designs
 
----
-
 # SOLID Principles
 * **S**ingle Responsibility Principle (SRP)
 * **O**pen/closed Principle (OCP)
 * **L**iskov Substitution Principle (LSP)
 * **I**nterface Segregation Principle (ISP)
 * **D**ependency Inversion Principle (DIP)
-
----
 
 # Single Responsibility Principle
 	Every class should have a single responsibility
@@ -28,8 +29,6 @@
 	* Easier to understand
 	* Easier to maintain
 
----
-
 # SRP Examples
 * Multiple Responsibilities
 
@@ -39,8 +38,6 @@
 
 ![](http://yuml.me/diagram/class/[spaceship|%20+name%20:%20string|%20+takeoff%28%29;+fly%28%29;+land%28%29;],%20[spaceport|%20|%20+approve_landing%28:spaceship%29;],%20[spaceport]-.-%3E[spaceship])
 
----
-
 # Open/closed Principle
 	Software entities (classes, function, etc.) should be open for extension, but closed for modification
 * Closed - as can be compiled, stored in a library, and used by client classes
@@ -49,8 +46,6 @@
  	* Client code dependent on base (closed) class unaffected
 	* Less testing
 	* Less code to review
-
----
 
 # OCP Types & Examples
 * Meyer's open/close principle
@@ -63,8 +58,6 @@
 
 ![](http://yuml.me/diagram/class/[&laquo;abstract&raquo;%20parser||+parse%28%29;],%20[&laquo;abstract&raquo;%20parser]^-[parser_impl||+parse%28%29;],%20[&laquo;abstract&raquo;%20parser]^-[new_parser_impl||+parse%28%29;])
 
----
-
 # Liskov Substitution Principle
 	Object in a program should be replaceable with instance of subtypes without affecting program correctness
 * [Preconditions](https://en.wikipedia.org/wiki/Precondition) cannot be strengthened in a subtype
@@ -76,8 +69,6 @@
 	* Easier to understand
 	* Easier to maintain
 
----
-
 # LSP Examples
 * Not substitutable
 
@@ -86,8 +77,6 @@
 * Substitutable
 
 ![](http://yuml.me/diagram/class/[immutable_point|%20-x%20:%20int;%20-y%20:%20int|%20+get_x%28%29%20:%20int;%20+get_y%28%29%20:%20int]^-[fixed_circle|%20+radius%20:%20int|%20])
-
----
 
 # Interface Segregation Principle
 	Many client specific interfaces are better than one general-purpose interface
@@ -98,8 +87,6 @@
 	* Easier to understand
 	* Easier to maintain
 
----
-
 # ISP Examples
 * General Interface
 
@@ -108,8 +95,6 @@
 * Multiple Specific Interfaces
 
 ![](http://yuml.me/diagram/plain/class/[xerox_print_job||+print%28%29;],%20[xerox_staple_job||+staple%28%29;])
-
----
 
 # Dependency Inversion Principle
 	Depend upon abstractions not concretions
@@ -123,8 +108,6 @@
 	* Easer to understand
 	* Easier to maintain
 
----
-
 # DIP Examples
 * Traditional Layered Architecture (violates principle)
 
@@ -133,8 +116,6 @@
 * Ownership Inversion (upholds principle)
 
 ![](http://yuml.me/diagram/plain/class/[Policy%20Layer]-.-%3E[&laquo;interface&raquo;%20Policy%20Service%20Interface],%20[&laquo;interface&raquo;%20Policy%20Service%20Interface]^-[Mechanism%20Layer])
-
----
 
 # Ending Remarks
 * Meant to be applied together
