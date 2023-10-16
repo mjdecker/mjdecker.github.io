@@ -20,7 +20,8 @@ layout: notes
 * **D**ependency Inversion Principle (DIP)
 
 # Single Responsibility Principle
-	Every class should have a single responsibility
+> Every class should have a single responsibility
+
 * Responsibility - a reason to change
 * Responsibility should be entirely encapsulated by the class
 * All class services should be focused on that single responsibility
@@ -36,7 +37,8 @@ layout: notes
 ![](http://yuml.me/diagram/class/[spaceship|%20+name%20:%20string|%20+takeoff%28%29;+fly%28%29;+land%28%29;],%20[spaceport|%20|%20+approve_landing%28:spaceship%29;],%20[spaceport]-.-%3E[spaceship])
 
 # Open/closed Principle
-	Software entities (classes, function, etc.) should be open for extension, but closed for modification
+> Software entities (classes, function, etc.) should be open for extension, but closed for modification
+
 * Closed - as can be compiled, stored in a library, and used by client classes
 * Open - as any new class can inherit and add new features
 * Why?
@@ -57,7 +59,8 @@ layout: notes
 
 
 # Liskov Substitution Principle
-	Object in a program should be replaceable with instance of subtypes without affecting program correctness
+> Object in a program should be replaceable with instance of subtypes without affecting program correctness
+
 * [Preconditions](https://en.wikipedia.org/wiki/Precondition) cannot be strengthened in a subtype
 * [Postconditions](https://en.wikipedia.org/wiki/Postcondition) cannot be weakened in a subtype
 * [Invariants](https://en.wikipedia.org/wiki/Class_invariant) of supertype must be preserved in subtype
@@ -74,7 +77,8 @@ layout: notes
 ![](http://yuml.me/diagram/class/[immutable_point|%20-x%20:%20int;%20-y%20:%20int|%20+get_x%28%29%20:%20int;%20+get_y%28%29%20:%20int]^-[fixed_circle|%20+radius%20:%20int|%20])
 
 # Interface Segregation Principle
-	Many client specific interfaces are better than one general-purpose interface
+> Many client specific interfaces are better than one general-purpose interface
+
 * A client should not be forced to depend on methods it does not use
 * Why?
 	* More cohesive
@@ -89,7 +93,8 @@ layout: notes
 ![](http://yuml.me/diagram/plain/class/[xerox_print_job||+print%28%29;],%20[xerox_staple_job||+staple%28%29;])
 
 # Dependency Inversion Principle
-	Depend upon abstractions not concretions
+> Depend upon abstractions not concretions
+
 * Abstractions should not depend on details, but details on abstractions
 * High-level modules should not depend on low-level modules
 	* high-level modules independent of low-level modules
