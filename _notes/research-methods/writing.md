@@ -112,9 +112,9 @@ layout: notes
 # Types of Papers
 * Journal - [Example1](http://www.cs.kent.edu/~jmaletic/cs63902/Papers/Kraft11.pdf) & [Example2](https://onlinelibrary.wiley.com/doi/pdf/10.1002/smr.2226)
 * Conference
-	* [Full Research Track](https://icsme2020.github.io/cfp/ResearchTrackCFP.html) - [Example1](https://www.computer.org/csdl/pds/api/csdl/proceedings/download-article/1sEXofTmB4k/pdf), [Example2](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.187.2678&rep=rep1&type=pdf), & [Example3](http://dig.cs.illinois.edu/papers/codoban-icsme15.pdf)
+	* [Full Research Track](https://conf.researchr.org/track/icsme-2023/icsme-2023-papers?) - [Example1](https://www.computer.org/csdl/pds/api/csdl/proceedings/download-article/1sEXofTmB4k/pdf), [Example2](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.187.2678&rep=rep1&type=pdf), & [Example3](http://dig.cs.illinois.edu/papers/codoban-icsme15.pdf)
 	* Short Paper Track
-	* [Early Research Achievement (ERA)](https://conf.researchr.org/track/icpc-2021/icpc-2021-era?#program) - [Example](https://emaiannone.github.io/download/papers/c2.pdf)
+	* [Early Research Achievement (ERA)](https://arxiv.org/abs/2103.13614) - [Example](https://emaiannone.github.io/download/papers/c2.pdf)
 	* [NIER](https://icsme2021.github.io/cfp/NIERTrack.html) - [Example](http://cs.drew.edu/~mhassan/papers/ICSME18.pdf)
 	* [Tool Track](https://icsme2021.github.io/cfp/Tool-Demo-Track.html) - [Example1](https://www.computer.org/csdl/proceedings/scam/2011/0932/00/06065176.pdf), [Example2](https://www.computer.org/csdl/proceedings/icsm/2013/4981/00/4981a516.pdf), & [Example3](http://www.cs.kent.edu/~jmaletic/papers/ICSME16-UML.pdf)
 	* [Industry Track](https://icsme2021.github.io/cfp/IndustryTrack.html) - [Example](http://delivery.acm.org/10.1145/3200000/3196354/p370-delozier.pdf?ip=129.1.64.161&id=3196354&acc=ACTIVE%20SERVICE&key=1D8E1CA5B8D7D8DD%2EF38DDEB4673866AA%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&__acm__=1557334019_4329b5877eb6f8ddb0be338e60ebcd04)
