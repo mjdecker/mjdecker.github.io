@@ -126,7 +126,7 @@ layout: notes
 
 # Use Case: Search and Replace
 
-* **Search and Replace**
+* **Title:**  Search and Replace
 * **Preconditions**: A document is loaded and being edited
 * Main Success Scenario:
 	1. The user indicates that the software is to perform a Search and Replace in the document.
@@ -148,7 +148,7 @@ layout: notes
 
 # Use Case: Setting Time and Date
 
-* **Setting Time and Date**
+* **Title:** Setting Time and Date
 * Main Success Scenario:
 	1.  User presses Select key
 	2. System displays selecting
@@ -161,7 +161,7 @@ layout: notes
 
 # Use Case:  Fix Invalid Date
 
-* **Fix Invalid Date**
+* **Title:** Fix Invalid Date
 * Extends Setting Time and Date
 * 6a. User entered an invalid date or time
 	1. System does not change time or date
