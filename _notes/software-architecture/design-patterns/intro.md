@@ -2,6 +2,9 @@
 title: "Design Pattern"
 layout: notes
 ---
+
+[design-patterns]: /images/design-patterns/design-patterns.png
+
 # Background
 * Well ("good enough") designed system leads to easier and more successful development
 * Poor designed systems leads to slower and unsuccessful development
@@ -124,7 +127,7 @@ layout: notes
 * Some patterns apply to both scopes
 
 # Design Patterns
-![](design_patterns.png)
+![Design Patterns][design-patterns]
 
 # Creational Patterns
 * How the program creates and configures classes and objects
