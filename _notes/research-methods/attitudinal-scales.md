@@ -48,17 +48,19 @@ layout: notes
 * [Example](https://en.wikipedia.org/wiki/Guttman_scale)
 
 # In-class
+|Style|Extremely unreadable|Unreadable|Neither Readable or Unreadable|Readable|Extremely readable|
+|---|---|---|---|---|---|
+|under_score| | | | | |
+|camelCase| | | | | |
+|Hungarian| | | | | |
+
 * Class picks a topic of study
 * Split into groups of 4-5
 * Each group develop 3 Likert scale questions on selected topic
 * We will discuss, answer, and analyze each as a class
 * Example: Rate each of the following based on how easy each identifier style is to read
 
-|Style|Extremely unreadable|Unreadable|Neither Readable or Unreadable|Readable|Extremely readable|
-|---|---|---|---|---|---|
-|under_score| | | | | |
-|camelCase| | | | | |
-|Hungarian| | | | | |
+
 		
 # References
 * Based on: Research Methodology: A Step-by-Step Guide for Beginners  4th Ed. by Ranjit Kumar, 2014. ISBN: 978-1446269978
