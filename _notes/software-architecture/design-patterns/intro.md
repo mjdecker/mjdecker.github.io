@@ -120,7 +120,7 @@ layout: notes
 	* E.g., *Template Method*
 
 # Pattern Scope
-* Scope is the domin over which a pattern applies
+* Scope is the domain over which a pattern applies
 	* Class - relationships between base classes and their subclasses (static semantics)
 	* Object -  relationships between peer objects (composition)
 		* Most powerful form of reuse via variation of composition
