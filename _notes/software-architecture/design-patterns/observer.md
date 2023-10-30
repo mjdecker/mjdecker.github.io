@@ -1,7 +1,9 @@
 ---
-title: "Observer Design Pattern"
+title: "Design Pattern - Observer"
 layout: notes
 ---
+
+[motivation]: /images/architecture/MVC.png
 
 # Observer
 * [Behavioral Object Pattern](https://www.cs.bgsu.edu/mdecke/classes/software_architecture/notes/design_patterns.html#/23)
@@ -10,7 +12,7 @@ layout: notes
 * AKA: Dependents, Publish-Subscribe
 
 # Observer: Motivation
-![](images/MVC.png)
+![][motivation]
 
 # Observer: Applicability
 * When an abstraction has two aspects, one dependent on the other. As separate objects allows you to vary and reuse independently
