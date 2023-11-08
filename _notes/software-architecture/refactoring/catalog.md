@@ -24,50 +24,17 @@ layout: notes
 * Dealing with Generalization
 * Big Refactorings
 
-# Extract Function
+# Extract Function - Before
+<script src="https://gist.github.com/mjdecker/ee50eeb88bce122cee97c0e187d23b4e.js?file=extract-function-before.cpp"></script>
 
-```
-// before
-void print_owing(double amount) {
-    print_banner();
+# Extract Function - After
+<script src="https://gist.github.com/mjdecker/ee50eeb88bce122cee97c0e187d23b4e.js?file=extract-function-after.cpp"></script>
 
-    //print details
-    std::cout << "name:" << name << '\n';
-    std::cout << "amount" << amount << '\n';
-}”
-```
+# Replace Conditional with Polymorphism - Before
+<script src="https://gist.github.com/mjdecker/ee50eeb88bce122cee97c0e187d23b4e.js?file=replace-conditional-with-polymorphism-before.cpp"></script>
 
-```
-// after
-void print_owing(double amount) {
-    print_banner();
-    print_details(amount);
-}
-
-void print_details(double amount) {
-    std::cout << "name:" << name << '\n';
-    std::cout << "amount" << amount << '\n';x
-}
-```
-
-# Replace Conditional with Polymorphism (before)
-
-```
-double get_speed() {
-    switch (type) {
-        case EUROPEAN:
-           return get_base_speed();
-        case AFRICAN:
-           return get_base_speed() - get_load_factor() * number_of_coconuts;
-        case NORWEGIAN_BLUE:
-           return (is_nailed) ? 0 : get_base_speed(voltage);
-    }
-    throw runtime_exception("Should be unreachable");
-}
-```
 
 # Replace Conditional with Polymorphism (after)
-
 <img src="http://yuml.me/diagram/class/[｛abstract｝bird|%20|%20+%20get_speed():number｛abstract｝],[european|%20|%20+%20get_speed():real],[african|%20|%20+%20get_speed():real],[norwegian_blue|%20|%20+%20get_speed():real],[｛abstract｝bird]^-[european],[｛abstract｝bird]^-[african],[｛abstract｝bird]^-[norwegian_blue]" alt="Replace Conditional with Polymorphism example"/>
 
 # Change Bidirectional Association to Unidirectional
@@ -110,7 +77,6 @@ double get_speed() {
 * After
 
 <img src="http://yuml.me/diagram/class/[billable|%20|%20+%20get_rate()%20:%20integer｛abstract｝;%20+%20has_special_skill()%20:%20boolean｛abstract｝]^-.-[employee|%20|%20+%20get_rate()%20:%20integer;%20+%20has_special_skill()%20:%20boolean;%20+%20get_name()%20:%20string;%20+%20get_department()%20:%20department]" alt="Extract Interface after example"/>
-
 
 # Composing Methods
 * [Extract Function](http://www.refactoring.com/catalog/extractMethod.html)
