@@ -59,30 +59,13 @@ layout: notes
 * Views design as an evolving process
 * Strong testing support to preserve behavioral aspects
 
-# RE:  Rename Method
+# Example:  Rename Method (before)
+<script src="https://gist.github.com/mjdecker/ee50eeb88bce122cee97c0e187d23b4e.js?file=rename-method-before.hpp"></script>
 
-```
-class Memos {
-    public: int length() const;
-};
+# Example:  Rename Method (after)
+<script src="https://gist.github.com/mjdecker/ee50eeb88bce122cee97c0e187d23b4e.js?file=rename-method-after.hpp"></script>
 
-int Memos::length() const { return 0; }
-
-Memos m;
-std::cout << m.length() << '\n';
-```
-```
-class Memos {
-    public: int size() const;
-};
-
-int Memos::size() const { return 0; }
-
-Memos m;
-std::cout << m.size() << '\n';
-```
-
-# RE: Rename Method Timeline
+# Example: Rename Method Timeline
 1. Copy the declaration/definition of the old method to the new method
 1. Compile.  Can also commit at this point.
 1. Change the body of the old method to call the new method
@@ -101,24 +84,14 @@ std::cout << m.size() << '\n';
 * Remove Parameter
 * Extract Hierarchy
 
-# Re: Split Temporary Variable
-```
-// original code
-double temp = 2 * (_height + _width); 
-System.out.println(temp);
-temp = _height * _width;  
-System.out.println(temp); 
-```
 
-# Re: Split Temporary Variable (continued)
+# Example: Split Temporary Variable (before)
+<script src="https://gist.github.com/mjdecker/ee50eeb88bce122cee97c0e187d23b4e.js?file=split-temporary-variable-before.cpp"></script>
 
-```
-// refactored code
-final double perimeter = 2 * (_height + _width);
-System.out.println(perimeter);
-final double area = _height * _width;
-System.out.println(area);
-```
+
+# Example: Split Temporary Variable (after)
+<script src="https://gist.github.com/mjdecker/ee50eeb88bce122cee97c0e187d23b4e.js?file=split-temporary-variable-after.cpp"></script>
+
 
 # Re:  Pull-Up Method
 
@@ -128,6 +101,7 @@ System.out.println(area);
 
 * *Methods with identical results in subclasses*
 * **Move them to the superclass**
+
 
 # Re:  Replace Superclass with Delegation
 
@@ -157,6 +131,86 @@ System.out.println(area);
 * Simplifying Method Calls
 * Dealing with Generalization
 * Big Refactorings
+
+# Composing Methods
+* [Extract Method](http://www.refactoring.com/catalog/extractMethod.html)
+* [Inline Function](http://www.refactoring.com/catalog/inlineMethod.html)
+* [Inline Variable](http://www.refactoring.com/catalog/inlineTemp.html)
+* [Replace Temp with Query](http://www.refactoring.com/catalog/replaceTempWithQuery.html)
+* [Extract Variable](https://refactoring.com/catalog/extractVariable.html)
+* [Split Variable](https://refactoring.com/catalog/splitVariable.html)
+* [Replace Function with Command](https://refactoring.com/catalog/replaceFunctionWithCommand.html)
+* [Substitute Algorithm](http://www.refactoring.com/catalog/substituteAlgorithm.html)
+
+# Simplifying Conditional Expr.
+* [Decompose Conditional](http://www.refactoring.com/catalog/decomposeConditional.html)
+* [Consolidate Conditional Expression](http://www.refactoring.com/catalog/consolidateConditionalExpression.html)
+* [Consolidate Duplicate Conditional Fragments](http://www.refactoring.com/catalog/consolidateDuplicateConditionalFragments.html)
+* [Replace Control Flag with Break](https://refactoring.com/catalog/replaceControlFlagWithBreak.html)
+* [Replace Nested Conditional with Guard Clauses](http://www.refactoring.com/catalog/replaceNestedConditionalWithGuardClauses.html)
+* [Replace Conditional with Polymorphism](http://www.refactoring.com/catalog/replaceConditionalWithPolymorphism.html)
+* [Introduce Special Case](https://refactoring.com/catalog/introduceSpecialCase.html)
+* [Introduce Assertion](http://www.refactoring.com/catalog/introduceAssertion.html)
+
+# Organizing Data I
+* [Replace Primitive with Object](https://refactoring.com/catalog/replacePrimitiveWithObject.html)
+* [Change Value to Reference](http://www.refactoring.com/catalog/changeValueToReference.html)
+* [Change Reference to Value](http://www.refactoring.com/catalog/changeReferenceToValue.html)
+* [Replace Array with Object](http://www.refactoring.com/catalog/replaceArrayWithObject.html)
+* [Duplicate Observed Data](http://www.refactoring.com/catalog/duplicateObservedData.html)
+* [Change Unidirectional Association to Bidirectional](http://www.refactoring.com/catalog/changeUnidirectionalAssociationToBidirectional.html)
+* [Change Bidirectional Association to Unidirectional](http://www.refactoring.com/catalog/changeBidirectionalAssociationToUnidirectional.html)
+
+# Organizing Data II
+* [Replace Magic Literal](https://refactoring.com/catalog/replaceMagicLiteral.html)
+* [Encapsulate Variable](https://refactoring.com/catalog/encapsulateVariable.html)
+* [Encapsulate Collection](http://www.refactoring.com/catalog/encapsulateCollection.html)
+* [Encapsulate Record](https://refactoring.com/catalog/encapsulateRecord.html)
+* [Replace Type Code with Subclasses](http://www.refactoring.com/catalog/replaceTypeCodeWithSubclasses.html)
+* [Remove Subclass](https://refactoring.com/catalog/removeSubclass.html)
+
+# Moving Object Features
+* [Move Function](http://www.refactoring.com/catalog/moveFunction.html)
+* [Move Field](http://www.refactoring.com/catalog/moveField.html)
+* [Extract Class](http://www.refactoring.com/catalog/extractClass.html)
+* [Inline Class](http://www.refactoring.com/catalog/inlineClass.html)
+* [Hide Delegate](http://www.refactoring.com/catalog/hideDelegate.html)
+* [Remove Middle Man](http://www.refactoring.com/catalog/removeMiddleMan.html)
+* [Introduce Foreign Method](http://www.refactoring.com/catalog/introduceForeignMethod.html)
+* [Introduce Local Extension](http://www.refactoring.com/catalog/introduceLocalExtension.html)
+
+# Simplifying Method Calls I
+
+* [Change Function Declaration](https://refactoring.com/catalog/changeFunctionDeclaration.html)
+* [Separate Query from Modifier](http://www.refactoring.com/catalog/separateQueryFromModifier.html)
+* [Parameterize Method](http://www.refactoring.com/catalog/parameterizeMethod.html)
+* [Remove Flag Argument](https://refactoring.com/catalog/removeFlagArgument.html)
+* [Preserve Whole Object](http://www.refactoring.com/catalog/preserveWholeObject.html)
+* [Replace Parameter with Query](http://www.refactoring.com/catalog/replaceParameterWithQuery.html)
+
+# Simplying Method Calls II
+* [Introduce Parameter Object](http://www.refactoring.com/catalog/introduceParameterObject.html)
+* [Remove Setting Method](http://www.refactoring.com/catalog/removeSettingMethod.html)
+* [Hide Method](http://www.refactoring.com/catalog/hideMethod.html)
+* [Replace Constructor with Factory Function](http://www.refactoring.com/catalog/replaceConstructorWithFactoryFunction.html)
+* [Encapsulate Downcast](http://www.refactoring.com/catalog/encapsulateDowncast.html)
+* [Replace Error Code with Exception](http://www.refactoring.com/catalog/replaceErrorCodeWithException.html)
+* [Replace Exception with Precheck](https://refactoring.com/catalog/replaceExceptionWithPrecheck.html)
+
+# Dealing with Generalization
+* [Pull Up Field](http://www.refactoring.com/catalog/pullUpField.html)
+* [Pull Up Method](http://www.refactoring.com/catalog/pullUpMethod.html)
+* [Pull Up Constructor Body](http://www.refactoring.com/catalog/pullUpConstructorBody.html)
+* [Push Down Method](http://www.refactoring.com/catalog/pushDownMethod.html)
+* [Push Down Field](http://www.refactoring.com/catalog/pushDownField.html)
+* [Extract Superclass](http://www.refactoring.com/catalog/extractSuperclass.html)
+* [Extract Interface](http://www.refactoring.com/catalog/extractInterface.html)
+
+# Dealing with Generalization II
+* [Collapse Hierarchy](http://www.refactoring.com/catalog/collapseHierarchy.html)
+* [Form Template Method](http://www.refactoring.com/catalog/formTemplateMethod.html)
+* [Replace Superclass with Delegate](https://refactoring.com/catalog/replaceSuperclassWithDelegate.html)
+* [Replace Delegation with Inheritance](http://www.refactoring.com/catalog/replaceDelegationWithInheritance.html)
 
 # Why: Design Preservation
 * Code changes often lead to a loss of the original design

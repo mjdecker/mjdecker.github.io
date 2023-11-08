@@ -3,14 +3,14 @@ title: "Code Smells"
 layout: notes
 ---
 
+ [Taxonomy]: https://mmantyla.github.io/BadCodeSmellsTaxonomy
+
 # Code Smell
 * Indicates the need for a refactoring
 * Typically based on developer intuition
 * Code smells [Fowler, Beck]
-* [Taxonomy](https://mmantyla.github.io/BadCodeSmellsTaxonomy)
-[Mantlya]
-* Mäntylä, M. V. and Lassenius, C. "Subjective Evaluation of Software
-Evolvability Using Code Smells: An Empirical Study". Journal of
+* [Taxonomy] \[Mantlya]
+	* Mäntylä, M. V. and Lassenius, C. "Subjective Evaluation of Software Evolvability Using Code Smells: An Empirical Study". Journal of
 Empirical Software Engineering, vol. 11, no. 3, 2006, pp. 395-431
 
 # Smells: The Bloaters
@@ -46,32 +46,11 @@ much state
 * Main Refactorings: Extract Class, Extract Subclass many times
 * Supporting Refactoring: Extract Interface
 
-# Primitive Obsession Ex
+# Example: Primitive Obsession (before)
+<script src="https://gist.github.com/mjdecker/fb3c10b769d46c468e1c2e25639694ab.js?file=car-primitives.hpp"></script>
 
-```
-class Car {
-public:
-	void paint(int redValue, int greenValue, int blueValue) {
-		red = redValue;
-		green = greenValue;
-		blue = blueValue;
-	}
-private:
-	int red, green, blue;
-};
-```
-```
-class Car {
-public:
-	void paint(const Color& otherColor) {
-		color = otherColor;
-	}
-private:
-	Color color;
-};
-```
-
-Motivated by example [slide 39](http://www.slideshare.net/mariosangiorgio/clean-code-and-code-smells) 
+# Example: Primitive Obsession (after)
+<script src="https://gist.github.com/mjdecker/fb3c10b769d46c468e1c2e25639694ab.js?file=car-color-type.hpp"></script>
 
 # Primitive Obsession
 
@@ -124,7 +103,7 @@ design
     State/Strategy}, Replace Conditional with Polymorphism
 * When polymorphism is overkill: Replace Parameter with Explicit
     Methods
-* Case is Null: Introduce Null Object
+* Case is Null: Introduct Null Object
 
 # Temporary Field
 
@@ -179,7 +158,7 @@ performed in many classes.
 
 # Parallel Inheritance Hierarchies
 
-> Every time you create a subclass in one hierarchy, you have to create a
+> Every time you create a subclass one hierarchy, you have to create a
 subclass in another hierarchy
 
 * Often common prefix names
@@ -260,12 +239,11 @@ variable) that is unused in the system.
 > A class needs data from another class, and has to go through a long
 chain of calls to get to it
 
-a.getB().getC().getD().getData()
+<script src="https://gist.github.com/mjdecker/fb3c10b769d46c468e1c2e25639694ab.js?file=message-chain.hpp"></script>
 
 * Hinders: comprehension, maintenance
 
 # Middle Man
-> A class that is doing too much simple delegation instead of really contributing to the application
 
 * Hinders: comprehension, maintenance
 
