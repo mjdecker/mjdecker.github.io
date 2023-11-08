@@ -37,45 +37,28 @@ layout: notes
 # Replace Conditional with Polymorphism (after)
 <img src="http://yuml.me/diagram/class/[｛abstract｝bird|%20|%20+%20get_speed():number｛abstract｝],[european|%20|%20+%20get_speed():real],[african|%20|%20+%20get_speed():real],[norwegian_blue|%20|%20+%20get_speed():real],[｛abstract｝bird]^-[european],[｛abstract｝bird]^-[african],[｛abstract｝bird]^-[norwegian_blue]" alt="Replace Conditional with Polymorphism example"/>
 
-# Change Bidirectional Association to Unidirectional
-
-* Before
-
+# Change Bidirectional Association to Unidirectional - Before
 ![](http://yuml.me/diagram/class/[order]<*-1%3e[customer])
 
-* After
-
+# Change Bidirectional Association to Unidirectional - After
 ![](http://yuml.me/diagram/class/[order]<*-1[customer])
 
-# Extract Class
-
-* Before
-
+# Extract Class - Before
 ![](http://yuml.me/diagram/class/[person|%20+name:string;%20office_area_code:integer;%20office_number:integer|%20])
 
-* After
-
+# Extract Class - After
 ![](http://yuml.me/diagram/class/[person|%20+name:string|%20]office_telephone-1%3e[telephone_number|%20area_code:integer;%20number:integer])
 
-# Separate Query from Modifier
-
-* Before
-
+# Separate Query from Modifier - Before
 <img src="http://yuml.me/diagram/class/[customer|%20|%20+%20get_total_outstanding_and_set_ready_for_summaries()%20:%20integer]" alt="Separate Query from Modifier before example"/>
 
-
-* After
-
+# Separate Query from Modifier - After
 <img src="http://yuml.me/diagram/class/[customer|%20|%20+%20get_total_outstanding()%20:%20integer;%20+%20set_ready_for_summaries()%20:%20integer]" alt="Separate Query from Modifier after example"/>
 
-# Extract Interface
-
-* Before
-
+# Extract Interface - Before
 <img src="http://yuml.me/diagram/class/[employee|%20|%20+%20get_rate()%20:%20integer;%20+%20has_special_skill()%20:%20boolean;%20+%20get_name()%20:%20string;%20+%20get_department()%20:%20department]" alt="Extract Interface before example"/>
 
-* After
-
+# Extract Interface - Before
 <img src="http://yuml.me/diagram/class/[billable|%20|%20+%20get_rate()%20:%20integer｛abstract｝;%20+%20has_special_skill()%20:%20boolean｛abstract｝]^-.-[employee|%20|%20+%20get_rate()%20:%20integer;%20+%20has_special_skill()%20:%20boolean;%20+%20get_name()%20:%20string;%20+%20get_department()%20:%20department]" alt="Extract Interface after example"/>
 
 # Composing Methods
