@@ -93,7 +93,7 @@ layout: notes
 <script src="https://gist.github.com/mjdecker/ee50eeb88bce122cee97c0e187d23b4e.js?file=split-temporary-variable-after.cpp"></script>
 
 
-# Re:  Pull-Up Method
+# Example:  Pull-Up Method
 
 <img src="http://yuml.me/diagram/class/[Employee]^[Salesman||+getName()],[Employee]^[Engineer||+getName()]"/>
 
@@ -103,8 +103,7 @@ layout: notes
 * **Move them to the superclass**
 
 
-# Re:  Replace Superclass with Delegation
-
+# Example:  Replace Superclass with Delegation
 <img src="http://yuml.me/diagram/class/[Vector||+empty()]^[Stack]"/>
 
 <img src="http://yuml.me/diagram/class/[Vector||+empty()]<-[Stack||+empty()]"/>
