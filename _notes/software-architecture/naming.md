@@ -4,7 +4,7 @@ layout: notes
 ---
 
 # Wise Words
-	> The most difficult part of programming is coming up with good variable names [Maletic '85]
+> The most difficult part of programming is coming up with good variable names [Maletic '85]
 
 # Naming Importance
 * Critical issue for software engineering
