@@ -36,6 +36,7 @@ layout: notes
 * Paper refers to methods, but results also apply to free functions
 
 # List of Standards
+
 | | | |
 |---|---|---|
 |Naming Style|Grammatical Structure|Verb Phrase|
@@ -50,6 +51,7 @@ layout: notes
 * Be consistent
 
 # Naming Style - Adherence
+
 |||
 |---|---|
 |`getFullName()`||
@@ -59,6 +61,7 @@ layout: notes
 |`check_static_allocation_size()`||
 
 # Naming Style - Violation
+
 |||
 |---|---|
 |`getfullName()`||
@@ -69,6 +72,7 @@ layout: notes
 > The method names with multiple words should be in a grammatically correct sentence structure.
 
 # Grammatical Structure - Adherence
+
 |||
 |---|---|
 |`registerManagedResource()`|verb phrase|
@@ -76,6 +80,7 @@ layout: notes
 |`nextArea()`|noun phrase|
 
 # Grammatical Structure - Violation
+
 |||
 |---|---|
 |`managedResourceRegister()`|NM N V|
@@ -87,6 +92,7 @@ layout: notes
 * Possibly exception for getter, setter, property, and predicate
 
 # Verb Phrase - Adherence
+
 |||
 |---|---|
 |`manage_caching_sizes()`||
@@ -94,6 +100,7 @@ layout: notes
 |`get_cached_node()`||
 
 # Verb Phrase - Violation
+
 |||
 |---|---|
 |`x_cached_node()`|PRE NM N|
@@ -105,11 +112,13 @@ layout: notes
 * Non-dictionary words make an otherwise high-quality identifier hard to understand
 
 # Dictionary Terms - Adherence
+
 |||
 |---|---|
 |`FindLength()`||
 
 # Dictionary Terms - Violation
+
 |||
 |---|---|
 |`abcdefg()`||
@@ -122,11 +131,13 @@ layout: notes
 * Research clearly shows improved comprehension with full-word identifiers instead of single-letter names
 
 # Dictionary Terms - Adherence
+
 |||
 |---|---|
 |`startConnection()`||
 
 # Dictionary Terms - Violation
+
 |||
 |---|---|
 |`c()`||
@@ -139,11 +150,13 @@ layout: notes
 * Choose clarity over entertainment value
 
 # Idioms and Slang - Adherence
+
 |||
 |---|---|
 |`get_airspeed_velocity()`||
 
 # Idioms and Slang - Violation
+
 |||
 |---|---|
 |`fido()`|personal name|
@@ -156,6 +169,7 @@ layout: notes
 * evil abbreviations - unfamiliar abbreviations that are very hard for programmers to understand
 
 # Abbreviations - Adherence
+
 |||
 |---|---|
 |`getStr()`|Str == String|
@@ -163,6 +177,7 @@ layout: notes
 |`close_db_connection()`|db == database|
 
 # Abbreviations - Violation
+
 |||
 |---|---|
 |`getProtoNameNode()`|prototype or protocol|
@@ -171,6 +186,7 @@ layout: notes
 > The method name should contain only known or standard (i.e., recognized by others in the company) acronyms. A poor acronym is one that has multiple possible expansions, interpretations, or is not typically used within the system domain.
 
 # Acronyms - Adherence
+
 |||
 |---|---|
 |`GUI_interface()`||
@@ -179,6 +195,7 @@ layout: notes
 |`DOM_tree()`||
 
 # Acronyms - Violation
+
 |||
 |---|---|
 |`get_QWE()`||
@@ -191,12 +208,14 @@ layout: notes
 * Hungarian notation is useless in today's development environments [Martin'08]
 
 # Prefix/Suffix - Adherence
+
 |||
 |---|---|
 |`srcml_unit_parse_memory()`|C API - srcml_unit acts as namespace|
 
 
 # Prefix/Suffix - Violation
+
 |||
 |---|---|
 |`gimpItemGetPath()`|gimp is system name|
@@ -211,12 +230,14 @@ layout: notes
 * Exception with test method names where 15+
 
 # Length - Adherence
+
 |||
 |---|---|
 |`get_quest()`|2 words|
 
 
 # Length - Violation
+
 |||
 |---|---|
 |`returnfalseifnosetterwasfoundandifreportnosetterfoundisfalse()`||
