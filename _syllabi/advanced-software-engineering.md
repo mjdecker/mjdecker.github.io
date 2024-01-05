@@ -44,7 +44,6 @@ layout: syllabus
 **Discord:** [Discord][]<br/>
 **Email:** [mdecke@bgsu.edu][]<br/>
 **Office Hours:** MW 16:20-17:20 and by appointment
----
 
 ### Course Description: ###
 A seminar style course covering advanced topics related to the analysis, design, development, maintenance, and evolution of large software projects through the critical examination of seminal and recent research in the field of software engineering. Approved for distance learning.
@@ -81,8 +80,6 @@ The objectives of the course are for students to read, synthesize, and understan
 * Software engineering background
 * Strong programming skills
 
----
-
 ### Course Assessment: ###
 * 30%	Discussion Participation
 * 20%	Paper Presentations
@@ -91,6 +88,7 @@ The objectives of the course are for students to read, synthesize, and understan
 * 10%	Final Exam (May 14, 18:00-20:30)
 
 #### Grading Scale (cutoffs): ####
+
 | A | B | C | D | F |
 |---|---|---|---|---|
 |90%|80%|70%|60%|0%|
@@ -131,8 +129,6 @@ A final exam covering all the papers assigned in class will be held during final
 * There will be no make up exams.
 * Any modifications to the syllabus will be made on this page and noted.
 
----
-
 ### Course Timetable ###
 * The following is a sample 15 week timetable for the course
 * Week 1 is presentation will be provided by instructor.  Student presentations begin in Week 2.  
@@ -155,8 +151,6 @@ A final exam covering all the papers assigned in class will be held during final
 |13|Static and Dynamic Analysis|
 |14|Static and Dynamic Analysis|
 |15|Project Presentations|
-
----
 
 ### University Requirements ###
 
