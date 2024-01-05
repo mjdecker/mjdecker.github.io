@@ -37,6 +37,8 @@ kramdown:
   smart_quotes: ['apos', 'apos', 'quot', 'quot']
 
 collections:
+  syllabi:
+    output: true
   notes:
     output: true
   markdowns:
