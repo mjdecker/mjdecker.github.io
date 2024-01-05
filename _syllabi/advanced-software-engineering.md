@@ -35,9 +35,9 @@ notes: syllabus
 
 [Emergency Cancellation Delay and Closing Policy and Procedures]: https://www.bgsu.edu/content/dam/BGSU/general-counsel/policies/governance/emergency-cancellation-delay-and-closing-policy.pdf
 
-#CS 6640: Advanced Software Engineering#
-##Term: Spring 2024##
-##[Department of Computer Science][]##
+# CS 6640: Advanced Software Engineering #
+## Term: Spring 2024 ##
+## [Department of Computer Science][] ##
 
 ---
 **Instructor:** [Dr. Michael John Decker][]<br/>
