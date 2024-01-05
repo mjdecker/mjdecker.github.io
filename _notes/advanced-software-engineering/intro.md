@@ -49,13 +49,6 @@ layout: notes
 * [Software Engineering](http://en.wikipedia.org/wiki/Software_engineering)
 * [Software Crisis](https://en.wikipedia.org/wiki/Software_crisis)
 
-# Layers of Software Engineering
-* Software Engineering is a layered technology
-<p style="font-size : 200%; height : 100px; margin-top : 0px; margin-bottom : 0px; padding-top : 0px; padding-bottom : 0px; margin-left : auto; margin-right : auto; height : 1.5; width : 50%; border-style : solid; text-align : center">Goals</p>
-<p style="font-size : 200%; height : 100px; margin-top : 0px; margin-bottom : 0px; padding-top : 0px; padding-bottom : 0px; margin-left : auto; margin-right : auto; height : 1.5; width : 50%; border-style : solid; text-align : center">Process</p>
-<p style="font-size : 200%; height : 100px; margin-top : 0px; margin-bottom : 0px; padding-top : 0px; padding-bottom : 0px; margin-left : auto; margin-right : auto; height : 1.5; width : 50%; border-style : solid; text-align : center">Methods</p>
-<p style="font-size : 200%; height : 100px; margin-top : 0px; margin-bottom : 0px; padding-top : 0px; padding-bottom : 0px; margin-left : auto; margin-right : auto; height : 1.5; width : 50%; border-style : solid; text-align : center">Tools</p>
-
 # Software Engineering as a Layered Technology
 <div>
 <table style="width: 80%; border: 1px solid black"><tr><th style=" background-color: white; text-align: center">Quality Focus</th></tr></table>
