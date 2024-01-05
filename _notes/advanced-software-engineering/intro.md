@@ -26,7 +26,8 @@ layout: notes
 * Research Question(s)
 * Motivation
 * Background and Approach
-* Study/Experiment/Results/Discussion
+* ***Study/Experiment/Results/Discussion***
+	* Spent the most time on this
 * Contributions/Conclusions/Future Work
 * Ending Remarks (if any)
 * References
