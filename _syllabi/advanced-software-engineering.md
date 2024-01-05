@@ -20,13 +20,13 @@ layout: syllabus
 [Academic Conduct]: https://www.bgsu.edu/dean-of-students/academic-honesty-policy.html
 [Student Conduct]: https://www.bgsu.edu/dean-of-students/rights-and-responsibilities/student-conduct.html
 
-[Title IX]: https://www.bgsu.edu/equity-diversity-and-inclusion/title-ix/title-ix-at-bgsu.html
+[Title IX]: https://www.bgsu.edu/title-ix.html
 
 [Accessibility Services]: https://www.bgsu.edu/accessibility-services.html
 [access@bgsu.edu]: mailto:access@bgsu.edu
 
 [holidays]: https://www.bgsu.edu/registration-records/academic-calendars/accomodated-religious-holidays-and-festivals.html
-[Student Religious Accommodations]: https://www.bgsu.edu/registration-records/academic-calendars/accomodated-religious-holidays-and-festivals.html
+[Student Religious Accommodations]: https://www.bgsu.edu/content/dam/BGSU/general-counsel/policies/academic-affairs/ohio-public-policy-on-student-religious-accommodations.pdf
 
 [Freedom of Expression]: https://www.bgsu.edu/dean-of-students/free-speech.html
 [See It. Hear It. Report It.]: https://www.bgsu.edu/report-incident.html
@@ -203,4 +203,4 @@ BGSU educators recognize student veterans’ rights when entering and exiting th
 In most cases, the University will not close for winter conditions unless the Wood County Sheriff’s Department declares a Level 3 emergency. Once the decision is made to delay, cancel or close, individuals will be notified through AlertBG, email, the BGSU homepage, BGSU social media channels and the news media (see the [Emergency Cancellation Delay and Closing Policy and Procedures][] document for a list of radio and television stations).
 
 #### Non-Discrimination in Employment and Education ####
-Bowling Green State University is committed to maintaining an employment and educational environment that is free from unlawful discrimination, harassment, and retaliation. The University prohibits discrimination and harassment on the basis of protected class. Retaliation against any person for asserting their legal rights to be free from discrimination or harassment, for reporting discrimination or harassment, or for participating in activities is strictly prohibited. You may review BGSU’s Non-Discrimination in Employment and Education policy for more information. To report concerns, please visit the [See It. Hear It. Report It.][] page.
+Bowling Green State University is committed to maintaining an employment and educational environment that is free from unlawful discrimination, harassment, and retaliation. The University prohibits discrimination and harassment on the basis of protected class. Retaliation against any person for asserting their legal rights to be free from discrimination or harassment, for reporting discrimination or harassment, or for participating in activities is strictly prohibited. You may review BGSU’s Non-Discrimination in Employment and Education policy for more information. To report concerns, please visit the [See It. Hear It. Report It.][]  page.
