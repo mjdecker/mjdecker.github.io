@@ -4,7 +4,7 @@ layout: notes
 ---
 
 [waterfall-model]: http://upload.wikimedia.org/wikipedia/commons/0/06/Waterfall_model_%281%29.svg
-[sprial-model]: http://upload.wikimedia.org/wikipedia/commons/e/ec/Spiral_model_%28Boehm%2C_1988%29.svg
+[spiral-model]: http://upload.wikimedia.org/wikipedia/commons/e/ec/Spiral_model_%28Boehm%2C_1988%29.svg
 
 # Prerequisites
 * Software engineering background
@@ -126,7 +126,7 @@ layout: notes
 * Predominant process model for other engineering disciplines
 * Handles maintenance very differently then initial development
 
-# [Prototype/Spiral Model]
+# Prototype/Spiral Model
 ![spiral-model]
 
 # Prototype/Spiral Model (continued)
