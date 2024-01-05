@@ -40,12 +40,10 @@ layout: syllabus
 ## [Department of Computer Science][] ##
 
 ---
-
 **Instructor:** [Dr. Michael J. Decker][]<br/>
 **Discord:** [Discord][]<br/>
 **Email:** [mdecke@bgsu.edu][]<br/>
 **Office Hours:** MW 16:20-17:20 and by appointment
-
 ---
 
 ### Course Description: ###
