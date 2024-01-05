@@ -55,27 +55,58 @@ layout: notes
 <p style="font-size : 200%; height : 100px; margin-top : 0px; margin-bottom : 0px; padding-top : 0px; padding-bottom : 0px; margin-left : auto; margin-right : auto; height : 1.5; width : 50%; border-style : solid; text-align : center">Methods</p>
 <p style="font-size : 200%; height : 100px; margin-top : 0px; margin-bottom : 0px; padding-top : 0px; padding-bottom : 0px; margin-left : auto; margin-right : auto; height : 1.5; width : 50%; border-style : solid; text-align : center">Tools</p>
 
-# Quality Focus & Process
-* Quality Focus 
-	* Foundation of software engineering
-	* Software should meet expectations
-	* What level/kinds of quality do you require?
-		* Customer: efficiency, reliability, etc.
-		* Developer: maintainability, reusability, etc.
-		* Users: usability, efficiency, etc.
-	* Microsoft Word vs. Autonomous Car
-* Process
-	* Framework for how you develop/deliver software on time and on budget
-	* Defines tasks and order performed
-	* How you achieve quality focus
+# Software Engineering as a Layered Technology
+<div>
+<table style="width: 80%; border: 1px solid black"><tr><th style=" background-color: white; text-align: center">Quality Focus</th></tr></table>
+<table style="width: 60%; border: 1px solid black"><tr><th style="background-color: white; text-align: center">Process</th></tr></table>
+<table style="width: 40%; border: 1px solid black"><tr><th style="background-color: white; text-align: center">Methods</th></tr></table>
+<table style="width: 20%; border: 1px solid black"><tr><th style="background-color: white; text-align: center">Tools</th></tr></table>
+</div>
 
-# Methods & Tools
+# Quality Focus
+* Foundation of software engineering
+* Software should meet expectations
+* What level/kinds of quality do you require?
+	* Customer: efficiency, reliability, etc.
+	* Developer: maintainability, reusability, etc.
+	* Users: usability, efficiency, etc.
+* Microsoft Word vs. Autonomous Car
+
+<table style="width: 80%; border: 1px solid black"><tr><th style=" background-color: white; text-align: center">Quality Focus</th></tr></table>
+<table style="width: 60%; border: 1px solid black"><tr><th style="background-color: white; text-align: center">Process</th></tr></table>
+<table style="width: 40%; border: 1px solid black"><tr><th style="background-color: white; text-align: center">Methods</th></tr></table>
+<table style="width: 20%; border: 1px solid black"><tr><th style="background-color: white; text-align: center">Tools</th></tr></table>
+
+# Process
+* Framework for how you develop/deliver software on time and on budget
+* Defines tasks and order performed
+* How one achieves the quality focus
+
+<table style="width: 80%; border: 1px solid black"><tr><th style=" background-color: white; text-align: center">Quality Focus</th></tr></table>
+<table style="width: 60%; border: 1px solid black"><tr><th style="background-color: white; text-align: center">Process</th></tr></table>
+<table style="width: 40%; border: 1px solid black"><tr><th style="background-color: white; text-align: center">Methods</th></tr></table>
+<table style="width: 20%; border: 1px solid black"><tr><th style="background-color: white; text-align: center">Tools</th></tr></table>
+
+# Methods
 * Methods
+	* Methods of developing software including technical knowledge and resources required for development
 	* Techniques for performing tasks of the process
-	* Multiple techniques to accomplish same task
+	* E.g, methods for communication, analysis, modeling, program construction, testing, and support
 
-* Tools
-	* What is used to carry out/support methods
+<table style="width: 80%; border: 1px solid black"><tr><th style=" background-color: white; text-align: center">Quality Focus</th></tr></table>
+<table style="width: 60%; border: 1px solid black"><tr><th style="background-color: white; text-align: center">Process</th></tr></table>
+<table style="width: 40%; border: 1px solid black"><tr><th style="background-color: white; text-align: center">Methods</th></tr></table>
+<table style="width: 20%; border: 1px solid black"><tr><th style="background-color: white; text-align: center">Tools</th></tr></table>
+
+# Tools
+* The semi-automated and automated tools that is framework for project
+* What is used to carry out/support methods
+* E.g., OS, Selenium for testing, choosing an IDE
+
+<table style="width: 80%; border: 1px solid black"><tr><th style=" background-color: white; text-align: center">Quality Focus</th></tr></table>
+<table style="width: 60%; border: 1px solid black"><tr><th style="background-color: white; text-align: center">Process</th></tr></table>
+<table style="width: 40%; border: 1px solid black"><tr><th style="background-color: white; text-align: center">Methods</th></tr></table>
+<table style="width: 20%; border: 1px solid black"><tr><th style="background-color: white; text-align: center">Tools</th></tr></table>
 
 # Software Process Models
 
