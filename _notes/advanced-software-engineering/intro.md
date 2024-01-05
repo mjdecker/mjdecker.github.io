@@ -4,7 +4,7 @@ layout: notes
 ---
 
 [waterfall-model]: /images/process-models/waterfall-model.svg
-[spiral-model]: /images/process-models/waterfall-model/spiral-model.svg
+[spiral-model]: /images/process-models/spiral-model.svg
 
 # Prerequisites
 * Software engineering background
