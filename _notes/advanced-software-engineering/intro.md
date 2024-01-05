@@ -115,7 +115,7 @@ layout: notes
 * Agile
 
 # Waterfall Model
-[waterfall-model]
+![waterfall-model]
 
 # Waterfall Model (continued)
 * Paradigm from around the time of the NATA conference to deal with the "Software Crisis"
@@ -127,7 +127,7 @@ layout: notes
 * Handles maintenance very differently then initial development
 
 # Prototype/Spiral Model
-[spiral-model]
+![spiral-model]
 
 # Prototype/Spiral Model (continued)
 * Initial implementation produces prototype, which is refined through many iterations
