@@ -3,8 +3,8 @@ title: "Advanced Software Evolution"
 layout: notes
 ---
 
-[waterfall-model]: http://upload.wikimedia.org/wikipedia/commons/0/06/Waterfall_model_%281%29.svg
-[spiral-model]: http://upload.wikimedia.org/wikipedia/commons/e/ec/Spiral_model_%28Boehm%2C_1988%29.svg
+[waterfall-model]: /images/process-models/waterfall-model.svg
+[spiral-model]: /images/process-models/waterfall-model/spiral-model.svg
 
 # Prerequisites
 * Software engineering background
