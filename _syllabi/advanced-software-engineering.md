@@ -40,10 +40,12 @@ notes: syllabus
 ## [Department of Computer Science][] ##
 
 ---
+
 **Instructor:** [Dr. Michael John Decker][]<br/>
 **Discord:** [Discord][]<br/>
 **Email:** [mdecke@bgsu.edu][]<br/>
 **Office Hours:** MW 16:20-17:20 and by appointment
+
 ---
 
 ### Course Description: ###
@@ -80,6 +82,8 @@ The objectives of the course are for students to read, synthesize, and understan
 ### Course Prerequisites ###
 * Software engineering background
 * Strong programming skills
+
+---
 
 ### Course Assessment: ###
 * 30%	Discussion Participation
@@ -129,6 +133,8 @@ A final exam covering all the papers assigned in class will be held during final
 * There will be no make up exams.
 * Any modifications to the syllabus will be made on this page and noted.
 
+---
+
 ### Course Timetable ###
 * The following is a sample 15 week timetable for the course
 * Week 1 is presentation will be provided by instructor.  Student presentations begin in Week 2.  
@@ -151,6 +157,8 @@ A final exam covering all the papers assigned in class will be held during final
 |13|Static and Dynamic Analysis|
 |14|Static and Dynamic Analysis|
 |15|Project Presentations|
+
+---
 
 ### University Requirements ###
 
