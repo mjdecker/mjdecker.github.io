@@ -1,6 +1,6 @@
 ---
 title: "Syllabus"
-notes: syllabus
+layout: syllabus
 ---
 
 [Dr. Michael J. Decker]: https://mjdecker.github.io 'Instructor Website'
@@ -198,7 +198,7 @@ In addition to participation/attendance/absence policies already listed, you may
 #### Freedom of Expression: ####
 Bowling Green State University, as a public institution, is committed to freedom of expression and the rights protected by the First Amendment. First Amendment rights have implications inside the classroom as well. Review the Office of the Dean of Students page regarding [Freedom of Expression][]  at Bowling Green State University for more information including the policy. To report concerns please visit the [See It. Hear It. Report It.][]  
 
-####Student veteran-friendly campus: ####
+#### Student veteran-friendly campus: ####
 BGSU educators recognize student veterans’ rights when entering and exiting the university system. If you are a student veteran, please communicate with your instructor so reasonable accommodations can be made for absence when drilling or being called to active duty. Refer to the [Veterans][] page. 
 
 #### University Closure: ####
