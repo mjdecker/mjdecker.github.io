@@ -3,6 +3,9 @@ title: "Advanced Software Evolution"
 layout: notes
 ---
 
+[waterfall-model]: http://upload.wikimedia.org/wikipedia/commons/0/06/Waterfall_model_%281%29.svg
+[sprial-model]: http://upload.wikimedia.org/wikipedia/commons/e/ec/Spiral_model_%28Boehm%2C_1988%29.svg
+
 # Prerequisites
 * Software engineering background
 * Strong programming background
@@ -111,7 +114,10 @@ layout: notes
 * Component-based
 * Agile
 
-# [Waterfall Model](http://upload.wikimedia.org/wikipedia/commons/0/06/Waterfall_model_%281%29.svg)
+# Waterfall Model
+![waterfall-model]
+
+# Waterfall Model (continued)
 * Paradigm from around the time of the NATA conference to deal with the "Software Crisis"
 * Each phase is completed and verified before another phase is started
 * Requirements are gathered first, design is made to support requirements, and the design is used throughout the development process
@@ -120,7 +126,10 @@ layout: notes
 * Predominant process model for other engineering disciplines
 * Handles maintenance very differently then initial development
 
-# [Prototype/Spiral Model](http://upload.wikimedia.org/wikipedia/commons/e/ec/Spiral_model_%28Boehm%2C_1988%29.svg)
+# [Prototype/Spiral Model]
+![spiral-model]
+
+# Prototype/Spiral Model (continued)
 * Initial implementation produces prototype, which is refined through many iterations
 * Allows for chances for validation/verification of requirements
 * Could include maintenance as extended development
