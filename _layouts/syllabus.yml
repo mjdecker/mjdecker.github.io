@@ -3,7 +3,7 @@
   <head>
     <title>{{ page.title }}</title>
 
-    <link rel="stylesheet" href="/js/reveal.js/dist/theme/white.css" id="theme">
+    <link rel="stylesheet" href="/css/theme.css">
   </head>
 
   <body>

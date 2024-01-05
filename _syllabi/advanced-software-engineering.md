@@ -3,7 +3,7 @@ title: "Syllabus"
 notes: syllabus
 ---
 
-[Dr. Michael John Decker]: https://mjdecker.github.io 'Instructor Website'
+[Dr. Michael J. Decker]: https://mjdecker.github.io 'Instructor Website'
 
 [mdecke@bgsu.edu]: mailto:mdecke@bgsu.edu 'Professor Email'
 [Discord]: FIXME
@@ -41,7 +41,7 @@ notes: syllabus
 
 ---
 
-**Instructor:** [Dr. Michael John Decker][]<br/>
+**Instructor:** [Dr. Michael J. Decker][]<br/>
 **Discord:** [Discord][]<br/>
 **Email:** [mdecke@bgsu.edu][]<br/>
 **Office Hours:** MW 16:20-17:20 and by appointment
