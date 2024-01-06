@@ -1,6 +1,6 @@
 ---
 title: "Syllabus"
-layout: syllabus
+layout: markdown
 ---
 
 [Dr. Michael J. Decker]: https://mjdecker.github.io 'Instructor Website'
@@ -54,10 +54,9 @@ Introduction to object-oriented programming techniques. Constructors, destructor
 The objectives of the course are for students to continue to progress in learning programming language concepts with a primary focus on memory management, object-oriented programming, and data structures.
 
 ### Learning Objectives: ###
-1. I can explain basic and advanced topics in software engineering.
-2. I can critically evaluate research papers in software engineering.
-3. I can develop a research topic in software engineering based on known literature.
-4. I can effectively present and defend a research proposal orally.
+* I can implement programs using arrays and linked lists.
+* I can use dynamic memory techniques in implementing programming design.
+* I can use fundamental object-oriented programming techniques, including encapsulation, inheritance, polymorphism, and virtual functions.
 
 ### Textbook(s)/Readings: ###
 * To purchase the e-book, you will be asked to register for the book when clicking on the first reading assignment in Module 1 on Canvas. Note:
@@ -66,8 +65,21 @@ The objectives of the course are for students to continue to progress in learnin
 	* Subscribe
 * A subscription is $89. Students may begin subscribing on Dec 18, 2023 and the cutoff to subscribe is Apr 29, 2024. Subscriptions will last until Jun 01, 2024.
 
+### Student Outcomes: ###
+* CS 1 Analyze a complex computing problem and to apply principles of computing and other relevant disciplines to identify solutions 
+* CS 2 Design, implement, and evaluate a computing-based solution to meet a given set of computing requirements in the context of the program’s discipline 
+* CS 6 Apply computer science theory and software development fundamentals to produce computing-based solutions 
+* SE 1 An ability to identify, formulate, and solve complex engineering problems by applying principles of engineering, science, and mathematics 
+
 ### Course Delivery/Organization Overview: ###
-*
+* Office hours will be available in person and via Discord.
+* Announcements will be made via Discord.
+* Course will employ a flipped model
+	* Students will be required to read and finish book sections before class.
+	* Class consists of additional in-class exercises and labs designed to reinforce topics from readings and to add essential material missing from readings.
+	* Instructure and Learning Assistants will be present to help students
+* Assessment will consist of reading participation & exercises, in-class exercises, labs, projects, a midterm, and a final.
+
 ### Course Prerequisites ###
 * Corequisite of MATH 1260 or MATH 1280 or MATH 1300 (Precalculus) or higher
 * C or better in CS 2010.
@@ -83,7 +95,11 @@ Students looking for more in depth assistance with computer technology needed fo
 Everything you need to know about accessing the BGSU library resources from a distance can be found on the Jerome Library Distance Education Resources Guide page. The main page for the BGSU Library includes mobile access. If you need research assistance, visit the Ask Us page.
 
 ### Course Assessment: ###
-* 
+* 10% zyBook Participation & Challenge Activities
+* 30% Lab Exercises
+* 20% Projects
+* 20% Midterm (~8th week)
+* 20% Final (TBD)
 
 #### Grading Scale (cutoffs): ####
 
@@ -92,21 +108,30 @@ Everything you need to know about accessing the BGSU library resources from a di
 |90%|80%|70%|60%|0%|
 
 #### zyBook Participation & Challenge Activities ####
+* It is required that the required reading and activities are finished before the designated class for credit.
+* You will be graded on correctness, but you may retry as many times as necessary before due date.
 
-#### In-class Exercises ####
-
-#### ZyLabs ####
+#### Lab Exercises ####
+* A typical class will consist of in-class coding exercises.  This may consist of additional readings, coding problems, etc., and they are designed to reinforce and supplement the readings and activities.
+* In general, these are designed to be finished during the class period, however, they will be due before the next class period.
 
 #### Projects ####
+* A number of projects (about 3–5), both programming and written, will be given to further reinforce the concepts covered in class and link multiple topics. 
+* Details on each project and the requirements for that project will be given when assigned.
+* Projects will be assigned at the beginning of the week and be given two weeks for completion. Projects are due before the end of the second week.
 
-#### Exams ####
-
+#### Midterm & Final: ####
+* A midterm and comprehensive final will be given over the material covered in class.
+* Material will come from readings, exercises, and projects.
+* The midterm and final will be in person.
 
 #### Other Notes: ####
-* Participation is mandatory and a critical component of the course grade.
-* In order that work can be graded and returned promptly and discussions held, late submissions will not be accepted without a valid excuse.
-* Make-ups of any work for this class will only be given in the case of an excused absence or a documented, valid emergency. I encourage you to contact me if an emergency arises.
-* There will be no make-up exams.
+* It is the student’s responsibility to make sure all files are in the repository or Canvas (as required) and thusly, properly submitted by the due date. Files not in the repository/Canvas are not accessible by the instructor and thus are not turned in.
+* When a version control system is required to be used for an exercise/project, good practices are required (i.e., incrementally developed, committing each increment, and writing good commit messages).
+* All programs must compile and run correctly as specified with the exercise/project. This may require running on a remote machine.
+* In order that work can be graded and returned promptly, late work will not be accepted without a valid excuse. It is up to the student to make up any missed material.
+* Make-ups of any work for this class will only be given in the case of a documented, valid emergency. I encourage you to contact me if an emergency arises.
+* There will be no make up exams.
 * Any modifications to the syllabus will be made on this page and noted.
 
 ### Course Timetable ###

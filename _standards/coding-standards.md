@@ -1,5 +1,6 @@
 ---
 title: "Coding Standards"
+layout: markdown
 ---
 
 # Coding Standards

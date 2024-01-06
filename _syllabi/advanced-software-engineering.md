@@ -1,6 +1,6 @@
 ---
 title: "Syllabus"
-layout: syllabus
+layout: markdown
 ---
 
 [Dr. Michael J. Decker]: https://mjdecker.github.io 'Instructor Website'

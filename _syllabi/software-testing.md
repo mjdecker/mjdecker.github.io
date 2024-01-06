@@ -1,6 +1,6 @@
 ---
 title: "Syllabus"
-layout: syllabus
+layout: markdown
 ---
 
 [Dr. Michael J. Decker]: https://mjdecker.github.io 'Instructor Website'
@@ -78,7 +78,7 @@ Note: if links do not work directly, log first into O’Reilly Safari Books from
 
 ### Course Delivery/Organization/Communication: ###
 * Office hours will be available in person and via Discord.
-( Instructor is also available via email (above) and can be expected to email you back within 24 hours during weekdays. Announcements will be made via Discord.
+* Announcements will be made via Discord.
 * The instructor will integrate teaching strategies including, but not limited to: lecture, lab, large and small group discussion/exercises, cooperative learning, case studies, internet, and video.
 * Students will be expected to work independently and in groups.
 * The assessment will consist of in-class exercises, labs, projects, a midterm, and a final.

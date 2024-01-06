@@ -39,6 +39,8 @@ kramdown:
 collections:
   syllabi:
     output: true
+  standards:
+    output: true
   notes:
     output: true
   markdowns:
