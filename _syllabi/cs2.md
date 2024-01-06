@@ -126,9 +126,11 @@ Everything you need to know about accessing the BGSU library resources from a di
 * The midterm and final will be in person.
 
 #### Other Notes: ####
-* It is the student’s responsibility to make sure all files are in the repository or Canvas (as required) and thusly, properly submitted by the due date. Files not in the repository/Canvas are not accessible by the instructor and thus are not turned in.
-* When a version control system is required to be used for an exercise/project, good practices are required (i.e., incrementally developed, committing each increment, and writing good commit messages).
-* All programs must compile and run correctly as specified with the exercise/project. This may require running on a remote machine.
+* Exercises & Projects
+	* Are subject to the following coding standards: [Coding Standards](https://mjdecker.github.io/standards/coding-standards.html)
+	* It is the student’s responsibility to make sure all files are in the repository  and thusly, properly submitted by the due date. Files not in the repository/Canvas are not accessible by the instructor and thus are not turned in.
+	* Good practices are required (i.e., incrementally developed, committing each increment, and writing good commit messages).
+	* All programs must compile and run correctly as specified.
 * In order that work can be graded and returned promptly, late work will not be accepted without a valid excuse. It is up to the student to make up any missed material.
 * Make-ups of any work for this class will only be given in the case of a documented, valid emergency. I encourage you to contact me if an emergency arises.
 * There will be no make up exams.
