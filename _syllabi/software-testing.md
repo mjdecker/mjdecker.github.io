@@ -160,13 +160,13 @@ The midterm and final will be in person.
 |2|Functional Testing|
 |3|Functional Testing (continued)|
 |4|Structural Testing|
-|5|Structural Testing (continued|
+|5|Structural Testing (continued)|
 |6|Unit Testing Frameworks|
-|8|Test-driven Development|
-|9|Code Smells|
-|10|Refactoring|
-|11|Refactoring (continued)|
-|7|Integration Testing|
+|7|Test-driven Development|
+|8|Code Smells|
+|9|Refactoring|
+|10|Refactoring (continued)|
+|11|Integration Testing|
 |12|Code Reviews|
 |13|Software Quality, Measurement, and Metrics|
 |14|Mock Objects & Mocking Frameworks|

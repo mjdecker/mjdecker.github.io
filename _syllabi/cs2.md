@@ -91,18 +91,44 @@ Everything you need to know about accessing the BGSU library resources from a di
 |---|---|---|---|---|
 |90%|80%|70%|60%|0%|
 
-#### ??? ####
+#### zyBook Participation & Challenge Activities ####
+
+#### In-class Exercises ####
+
+#### ZyLabs ####
+
+#### Projects ####
+
+#### Exams ####
 
 
 #### Other Notes: ####
 * Participation is mandatory and a critical component of the course grade.
 * In order that work can be graded and returned promptly and discussions held, late submissions will not be accepted without a valid excuse.
 * Make-ups of any work for this class will only be given in the case of an excused absence or a documented, valid emergency. I encourage you to contact me if an emergency arises.
-* There will be no make up exams.
+* There will be no make-up exams.
 * Any modifications to the syllabus will be made on this page and noted.
 
 ### Course Timetable ###
-* The following is a sample 15-week timetable for the course
+* The following is a sample 15 week timetable for the course.
+
+|Week #|Topic|
+|---|---|
+|1|Introduction & Vectors|
+|2|Vectors|
+|3|Structs & Classes|
+|4|Structs & Classes|
+|5|More Classes|
+|6|More Classes|
+|7|Pointers|
+|8|Pointers|
+|9|Linked Lists|
+|10|Linked Lists|
+|11|Inheritance|
+|12|Inheritance|
+|13|Recursion|
+|14|Recursion|
+|15|Templates|
 
 ### University Requirements ###
 
