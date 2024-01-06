@@ -110,38 +110,34 @@ Everything you need to know about accessing the BGSU library resources from a di
 |---|---|---|---|---|
 |90%|80%|70%|60%|0%|
 
-
 #### Exercises ####
-In-class exercises will be given frequently to complement the course material.
-In general, these are expected to be finished during the class period, however, some leeway may be considered for students with extenuating circumstances.
-
+* In-class exercises will be given frequently to complement the course material.
+* In general, these are expected to be finished during the class period, however, some leeway may be considered for students with extenuating circumstances.
 
 #### Labs ####
-Laboratory sessions will be conducted to complement lecture and support the application of materials learned.  
-Attendance and participation is required.
-The lab will consist in part of short lecture and hands on exercises that will assist in the learning process.
-For each lab meeting there will be a score given and is based on attendance and successful completion of lab exercises. 
-
+* Laboratory sessions will be conducted to complement lecture and support the application of materials learned.  
+* Attendance and participation is required.
+* The lab will consist in part of short lecture and hands on exercises that will assist in the learning process.
+* For each lab meeting, there will be a score given and is based on attendance and successful completion of lab exercises. 
 
 #### Projects ####
-A number of projects (about 3–5), both programming and written, will be given to further reinforce the concepts covered in class and link multiple topics. Some projects will require the student to be competent in C++.
-Details on each project and the requirements for that project will be given when assigned.
-Projects will be assigned at the beginning of the week and be given two weeks for completion. Projects are due before the end of the second week.
+* A number of projects (about 3–5), both programming and written, will be given to further reinforce the concepts covered in class and link multiple topics. Some projects will require the student to be competent in C++.
+* Details on each project and the requirements for that project will be given when assigned.
+* Projects will be assigned at the beginning of the week and be given two weeks for completion. Projects are due before the end of the second week.
 
 #### Midterm & Final: ####
-A midterm and comprehensive final will be given over the material covered in class.
-Material will come from lectures, as well as, exercises, labs, and projects.
+* A midterm and comprehensive final will be given over the material covered in class.
+* Material will come from lectures, as well as, exercises, labs, and projects.
 The midterm and final will be in person.
 
-
 #### Other Notes: ####
-It is the student’s responsibility to make sure all files are in the repository or Canvas (as required) and thusly, properly submitted by the due date. Files not in the repository/Canvas are not accessible by the instructor and thus are not turned in.
-When a version control system is required to be used for an exercise/project, good practices are required (i.e., incrementally developed, committing each increment, and writing good commit messages).
-All programs must compile and run correctly as specified with the exercise/project. This may require running on a remote machine.
-In order that work can be graded and returned promptly, late work will not be accepted without a valid excuse. It is up to the student to make up any missed material.
-Make-ups of any work for this class will only be given in the case of a documented, valid emergency. I encourage you to contact me if an emergency arises.
-There will be no make up exams.
-Any modifications to the syllabus will be made on this page and noted.
+* It is the student’s responsibility to make sure all files are in the repository or Canvas (as required) and thusly, properly submitted by the due date. Files not in the repository/Canvas are not accessible by the instructor and thus are not turned in.
+* When a version control system is required to be used for an exercise/project, good practices are required (i.e., incrementally developed, committing each increment, and writing good commit messages).
+* All programs must compile and run correctly as specified with the exercise/project. This may require running on a remote machine.
+* In order that work can be graded and returned promptly, late work will not be accepted without a valid excuse. It is up to the student to make up any missed material.
+* Make-ups of any work for this class will only be given in the case of a documented, valid emergency. I encourage you to contact me if an emergency arises.
+* There will be no make up exams.
+* Any modifications to the syllabus will be made on this page and noted.
 
 ### Course Timetable ###
 * The following is a sample 7 week timetable for the course.
