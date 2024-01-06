@@ -46,37 +46,44 @@ layout: syllabus
 **Office Hours:** MW 16:20-17:20 and by appointment
 
 ### Course Description: ###
-A seminar style course covering advanced topics related to the analysis, design, development, maintenance, and evolution of large software projects through the critical examination of seminal and recent research in the field of software engineering. Approved for distance learning.
+SE 4/5560. Software Testing and Quality Assurance. 3 Credits. Various aspects of software testing and quality assurance including measurement of software quality, verification and validation of software projects, and unit and integration testing techniques. Prerequisites: Grade of C or better in SE 3540, Admission to MS in CS, Admission to Graduate Certificate in Software Engineering, or Instructor permission. Credits cannot be received for both SE 4560 and SE 5560. Approved for distance learning.
 
 ### Course Objectives: ###
-The objectives of the course are for students to read, synthesize, and understand advanced topics in core areas of software engineering through a critical examination of seminal and recent research in software engineering. Students will additionally develop presentation skills and research projects based on current literature.
+The objectives of the course are for students to learn and successfully apply software testing methods including: code reviewing, writing quality unit tests and integration tests, functional and structural testing, and the calculation, interpretation, and application of software metrics.
 
 ### Learning Objectives: ###
-1. I can explain basic and advanced topics in software engineering.
-2. I can critically evaluate research papers in software engineering.
-3. I can develop a research topic in software engineering based on known literature.
-4. I can effectively present and defend a research proposal orally.
+* I can perform code reviews to verify requirements.
+* I know how to write unit tests using a unit testing framework.
+* I understand the difference between unit and integration testing.
+* I can write both functional and structural tests.
+* I can measure software quality metrics on a software system.
+* I can analyze relevant research and communicate my findings (CS 5560 only).
 
-### Textbook(s)/Readings: ###
-* Readings will primarily consist of conference and journal articles (internet links provided, do not purchase).
-* No textbooks is required.
+### Student Outcomes: ###
 
-### Course Delivery/Organization Overview: ###
-* Course will be run seminar style. 
-* Students are required to thoroughly read papers before each class.
-* Each paper will be presented by a student with the goal of facilitating discussion.
-* Each class, all students are required to participate in discussions. A participation score will be assigned each class period.
-* Students will participate in a scholarly review of research papers (including discussion in Canvas) a couple times throughout the semester.
-* A term project will be completed and presented (students may work individually or as part of a group).
-* A final exam will be held over the material covered in class.
+* SE 6 An ability to develop and conduct appropriate experimentation, analyze and interpret data, and use engineering judgment to draw conclusions.
+* SE 7 An ability to acquire and apply new knowledge, as needed, using appropriate learning strategies. 
 
-### Course Delivery/Organization Overview: ###
-* The course will primarily be run through Canvas. This includes posting of course material such as readings/assignments/exams, assignment submission, and use of discussion boards.
-* Discord will be the primary means of communication with the instructor and fellow students (message, voice, and video).
-* Announcements will be made via Discord.
-* Virtual office hours (above) will be held by the instructor using Discord.
+### Prerequisites: ###
 
-### Course Prerequisites ###
+* CS 3540: C or better
+	* Recommend CS 3350 as well
+* Admission to MS in CS or Graduate Certificate in Software Engineering
+
+### Textbook(s): ###
+Note: if links do not work directly, log first into O’Reilly Safari Books from BGSU library
+* Software Testing: A Craftsman’s Approach 4th Ed. - Jorgensen. Auerbach. 978–1–466–56068–0
+* Refactoring: Improving the Design of Existing Code - Fowler. Addison-Wesley Professional. 978–0–134–75768–1
+* Selected readings from conferences, journals, and other scholarly sources
+
+### Course Delivery/Organization/Communication: ###
+* Office hours will be available in person and via Discord.
+( Instructor is also available via email (above) and can be expected to email you back within 24 hours during weekdays. Announcements will be made via Discord.
+* The instructor will integrate teaching strategies including, but not limited to: lecture, lab, large and small group discussion/exercises, cooperative learning, case studies, internet, and video.
+* Students will be expected to work independently and in groups.
+* The assessment will consist of in-class exercises, labs, projects, a midterm, and a final.
+
+### Course and Computer Skill Prerequisites: ###
 * Software engineering background
 * Strong programming skills
 
@@ -91,11 +98,11 @@ Students looking for more in depth assistance with computer technology needed fo
 Everything you need to know about accessing the BGSU library resources from a distance can be found on the Jerome Library Distance Education Resources Guide page. The main page for the BGSU Library includes mobile access. If you need research assistance, visit the Ask Us page.
 
 ### Course Assessment: ###
-* 30%	Discussion Participation
-* 20%	Paper Presentations
-* 5%    Scholarly Reviews
-* 35%	Term Project and Presentation
-* 10%	Final Exam (May 14, 18:00-20:30)
+10% Exercises
+15% Labs
+25% Projects
+25% Midterm (~8th week)
+25% Final (TBD)
 
 #### Grading Scale (cutoffs): ####
 
@@ -103,64 +110,71 @@ Everything you need to know about accessing the BGSU library resources from a di
 |---|---|---|---|---|
 |90%|80%|70%|60%|0%|
 
-#### Discussion Participation ####
-Discussion participation is required and is an integral part of the course. Students are required to read the papers thoroughly before the class they are presented. Participation will require students to ask/make informed and intelligent questions/comments about each paper or provide informed and intelligent answers to previously asked questions.
 
-A discussion participation grade will be assigned for each paper (on a scale of 1 to 3). 
+#### Exercises ####
+In-class exercises will be given frequently to complement the course material.
+In general, these are expected to be finished during the class period, however, some leeway may be considered for students with extenuating circumstances.
 
-* One point for attendance (33%),
-* Another point for asking/making a new relevant question/comment (66%), and
-* Another point for asking/making a new intelligent well-informed question/statement or providing a new intelligent well-informed answer (100%). 
 
-Asking the same questions, making the same comment, or providing the same answer will not receive any points.  However, students may ask (and are encouraged) to ask/make related questions/comments or provide alternate answers that facilitate continued discussion.
+#### Labs ####
+Laboratory sessions will be conducted to complement lecture and support the application of materials learned.  
+Attendance and participation is required.
+The lab will consist in part of short lecture and hands on exercises that will assist in the learning process.
+For each lab meeting there will be a score given and is based on attendance and successful completion of lab exercises. 
 
-Note, participation is mandatory. Thus, to earn a passing grade in discussion participation the student must ask/answer a question(s) or make a comment(s) that clearly demonstrates to the instructor that he/she has thoroughly read each paper.
 
-#### Paper Presentations ####
-Paper presentations will be 20 minutes and graded on content and style. Presentations must be the student's own work and provide a means to facilitate discussion. Students will make 2 – 3 paper presentations during the term.  Students who are presenting will receive full credit towards discussion participation for that paper.
+#### Projects ####
+A number of projects (about 3–5), both programming and written, will be given to further reinforce the concepts covered in class and link multiple topics. Some projects will require the student to be competent in C++.
+Details on each project and the requirements for that project will be given when assigned.
+Projects will be assigned at the beginning of the week and be given two weeks for completion. Projects are due before the end of the second week.
 
-#### Scholarly Reviews ####
-Periodically, 2-3 times, throughout the semester, students will assigned to review one of the papers for a given week.  A review format will be provided, students are to upload their review in the provided format by Sunday 23:59 the week the papers are assigned.  Between students assigned the same paper, a discussion will be held on the merits/demerits of the paper with a final determination if the paper would be acceptable for publication.  
+#### Midterm & Final: ####
+A midterm and comprehensive final will be given over the material covered in class.
+Material will come from lectures, as well as, exercises, labs, and projects.
+The midterm and final will be in person.
 
-Discussion will close Saturday at 23:59 the week the papers are assigned.
-
-The instructor will moderate and participate in discussion.
-
-#### Term Project and Presentation ####
-The term project will be of an appropriate size for the length of the semester and number of people in the group. Projects can be developed in small groups or by individuals, pending approval by the instructor. Projects must reflect the theme of the course and topics will be developed in conjunction with the instructor. The project can include development of a software prototype, empirical experiments, etc. Projects must be the student’s own work and plagiarism of any type will result in a failing grade for the project. Results of your project work are required to be presented as a 4 page paper ([IEEE proceedings two-column format](https://www.ieee.org/conferences/publishing/templates.html), LaTeX users use the configuration: *\documentclass[conference]{IEEEtran}* and Microsoft Word users use the US Letter format template). The paper must be structured like the SE research papers read in class. Students will also make a 20 minute presentation on their project and results. The presentation will be the same format as for paper presentations.
-
-#### Final Exam ####
-A final exam covering all the papers assigned in class will be held during finals week.
 
 #### Other Notes: ####
-* Participation is mandatory and a critical component of the course grade.
-* In order that work can be graded and returned promptly and discussions held, late submissions will not be accepted without a valid excuse.
-* Make-ups of any work for this class will only be given in the case of an excused absence or a documented, valid emergency. I encourage you to contact me if an emergency arises.
-* There will be no make up exams.
-* Any modifications to the syllabus will be made on this page and noted.
+It is the student’s responsibility to make sure all files are in the repository or Canvas (as required) and thusly, properly submitted by the due date. Files not in the repository/Canvas are not accessible by the instructor and thus are not turned in.
+When a version control system is required to be used for an exercise/project, good practices are required (i.e., incrementally developed, committing each increment, and writing good commit messages).
+All programs must compile and run correctly as specified with the exercise/project. This may require running on a remote machine.
+In order that work can be graded and returned promptly, late work will not be accepted without a valid excuse. It is up to the student to make up any missed material.
+Make-ups of any work for this class will only be given in the case of a documented, valid emergency. I encourage you to contact me if an emergency arises.
+There will be no make up exams.
+Any modifications to the syllabus will be made on this page and noted.
 
 ### Course Timetable ###
-* The following is a sample 15 week timetable for the course
-* Week 1 is presentation will be provided by instructor.  Student presentations begin in Week 2.  
-* Each topic will consist of half seminal research and half recent research
+* The following is a sample 7 week timetable for the course.
 
 |Week #|Topic|
 |---|---|
-|1|Basic Review by Instructor|
-|2|Software Process Models|
-|3|Software Process Models|
-|4|Software Evolution & Maintenance|
-|5|Software Evolution & Maintenance|
-|6|Software Evolution & Maintenance|
-|7|Software Architecture|
-|8|Software Testing|
-|9|Software Measurements & Metrics|
-|10|Requirements Engineering and Traceability|
-|11|Empirical Software Engineering|
-|12|Software Visualization|
-|13|Static and Dynamic Analysis|
-|14|Static and Dynamic Analysis|
-|15|Project Presentations|
+|1|Introduction & Basic Testing|
+|2|Functional Testing|
+|3|Structural Testing|
+|4|Unit Testing Frameworks & Test-driven Development|
+|5|Code Smells & Refactoring|
+|6|Integration Testing, Code Reviews, & Software Quality, Measurement, and Metrics|
+|7|Mock Objects, Mocking Frameworks, & Continuous Integration|
+
+* The following is a sample 15 week timetable for the course.
+
+|Week #|Topic|
+|---|---|
+|1|Intro to Software Testing|
+|2|Functional Testing|
+|3|Functional Testing (continued)|
+|4|Structural Testing|
+|5|Structural Testing (continued|
+|6|Unit Testing Frameworks|
+|8|Test-driven Development|
+|9|Code Smells|
+|10|Refactoring|
+|11|Refactoring (continued)|
+|7|Integration Testing|
+|12|Code Reviews|
+|13|Software Quality, Measurement, and Metrics|
+|14|Mock Objects & Mocking Frameworks|
+|15|Continuous Integration|
 
 ### University Requirements ###
 
