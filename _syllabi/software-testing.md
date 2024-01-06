@@ -4,9 +4,10 @@ layout: syllabus
 ---
 
 [Dr. Michael J. Decker]: https://mjdecker.github.io 'Instructor Website'
-
+[Class]: MWF 19:30 - 20:45 Hays Hall 118
 [mdecke@bgsu.edu]: mailto:mdecke@bgsu.edu 'Professor Email'
-[Discord]: FIXME
+[Office]: Hayes Hall 242
+[Office Hours]: MWF 16:20-17:20
 
 [Department of Computer Science]: http://www.bgsu.edu/arts-and-sciences/computer-science.html 'Department of Computer Science'
 

@@ -4,7 +4,7 @@ layout: syllabus
 ---
 
 [Dr. Michael J. Decker]: https://mjdecker.github.io 'Instructor Website'
-[Class]: MWF 18:00 - 19:15 Hays Hall 118
+[Class]: MWF 15:30 - 16:20 Hays Hall 020
 [mdecke@bgsu.edu]: mailto:mdecke@bgsu.edu 'Professor Email'
 [Office]: Hayes Hall 242
 [Office Hours]: MWF 16:20-17:20
@@ -36,7 +36,7 @@ layout: syllabus
 
 [Emergency Cancellation Delay and Closing Policy and Procedures]: https://www.bgsu.edu/content/dam/BGSU/general-counsel/policies/governance/emergency-cancellation-delay-and-closing-policy.pdf
 
-# SE 6640: Advanced Software Engineering #
+# CS 2020: Intermediate Programming  #
 ## Term: Spring 2024 ##
 ## [Department of Computer Science][] ##
 
