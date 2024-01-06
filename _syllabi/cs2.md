@@ -48,10 +48,10 @@ layout: syllabus
 **Office Hours:** [Office Hours][] and by appointment
 
 ### Course Description: ###
-A seminar style course covering advanced topics related to the analysis, design, development, maintenance, and evolution of large software projects through the critical examination of seminal and recent research in the field of software engineering. Approved for distance learning.
+Introduction to object-oriented programming techniques. Constructors, destructors, operator overloading. Inheritance and polymorphism. Elementary data structures including linked lists. Dynamic storage allocation concepts. Prerequisite: Corequisite of MATH 1260 or MATH 1280 or MATH 1300 (Precalculus) or higher and grade of C or better in CS 2010. Approved for distance education.
 
 ### Course Objectives: ###
-The objectives of the course are for students to read, synthesize, and understand advanced topics in core areas of software engineering through a critical examination of seminal and recent research in software engineering. Students will additionally develop presentation skills and research projects based on current literature.
+The objectives of the course are for students to continue to progress in learning programming language concepts with a primary focus on memory management, object-oriented programming, and data structures.
 
 ### Learning Objectives: ###
 1. I can explain basic and advanced topics in software engineering.
@@ -60,27 +60,17 @@ The objectives of the course are for students to read, synthesize, and understan
 4. I can effectively present and defend a research proposal orally.
 
 ### Textbook(s)/Readings: ###
-* Readings will primarily consist of conference and journal articles (internet links provided, do not purchase).
-* No textbooks is required.
+* To purchase the e-book, you will be asked to register for the book when clicking on the first reading assignment in Module 1 on Canvas. Note:
+	* Do NOT go to the zyBooks website and create a new account. (Unless you are looking for a zyBook to be used outside of this class.)
+	* Click on your zyBooks link in your Canvas management system (Do not go to the zyBooks website and create a new account. This will not be connected to your gradebook in Canvas)
+	* Subscribe
+* A subscription is $89. Students may begin subscribing on Dec 18, 2023 and the cutoff to subscribe is Apr 29, 2024. Subscriptions will last until Jun 01, 2024.
 
 ### Course Delivery/Organization Overview: ###
-* Course will be run seminar style. 
-* Students are required to thoroughly read papers before each class.
-* Each paper will be presented by a student with the goal of facilitating discussion.
-* Each class, all students are required to participate in discussions. A participation score will be assigned each class period.
-* Students will participate in a scholarly review of research papers (including discussion in Canvas) a couple times throughout the semester.
-* A term project will be completed and presented (students may work individually or as part of a group).
-* A final exam will be held over the material covered in class.
-
-### Course Delivery/Organization Overview: ###
-* The course will primarily be run through Canvas. This includes posting of course material such as readings/assignments/exams, assignment submission, and use of discussion boards.
-* Discord will be the primary means of communication with the instructor and fellow students (message, voice, and video).
-* Announcements will be made via Discord.
-* Virtual office hours (above) will be held by the instructor using Discord.
-
+*
 ### Course Prerequisites ###
-* Software engineering background
-* Strong programming skills
+* Corequisite of MATH 1260 or MATH 1280 or MATH 1300 (Precalculus) or higher
+* C or better in CS 2010.
 
 ### Learning Support Services and Resources: ###
 #### Tech Help: ####
@@ -93,11 +83,7 @@ Students looking for more in depth assistance with computer technology needed fo
 Everything you need to know about accessing the BGSU library resources from a distance can be found on the Jerome Library Distance Education Resources Guide page. The main page for the BGSU Library includes mobile access. If you need research assistance, visit the Ask Us page.
 
 ### Course Assessment: ###
-* 30%	Discussion Participation
-* 20%	Paper Presentations
-* 5%    Scholarly Reviews
-* 35%	Term Project and Presentation
-* 10%	Final Exam (May 14, 18:00-20:30)
+* 
 
 #### Grading Scale (cutoffs): ####
 
@@ -105,34 +91,8 @@ Everything you need to know about accessing the BGSU library resources from a di
 |---|---|---|---|---|
 |90%|80%|70%|60%|0%|
 
-#### Discussion Participation ####
-Discussion participation is required and is an integral part of the course. Students are required to read the papers thoroughly before the class they are presented. Participation will require students to ask/make informed and intelligent questions/comments about each paper or provide informed and intelligent answers to previously asked questions.
+#### ??? ####
 
-A discussion participation grade will be assigned for each paper (on a scale of 1 to 3). 
-
-* One point for attendance (33%),
-* Another point for asking/making a new relevant question/comment (66%), and
-* Another point for asking/making a new intelligent well-informed question/statement or providing a new intelligent well-informed answer (100%). 
-
-Asking the same questions, making the same comment, or providing the same answer will not receive any points.  However, students may ask (and are encouraged) to ask/make related questions/comments or provide alternate answers that facilitate continued discussion.
-
-Note, participation is mandatory. Thus, to earn a passing grade in discussion participation the student must ask/answer a question(s) or make a comment(s) that clearly demonstrates to the instructor that he/she has thoroughly read each paper.
-
-#### Paper Presentations ####
-Paper presentations will be 20 minutes and graded on content and style. Presentations must be the student's own work and provide a means to facilitate discussion. Students will make 2 – 3 paper presentations during the term.  Students who are presenting will receive full credit towards discussion participation for that paper.
-
-#### Scholarly Reviews ####
-Periodically, 2-3 times, throughout the semester, students will assigned to review one of the papers for a given week.  A review format will be provided, students are to upload their review in the provided format by Sunday 23:59 the week the papers are assigned.  Between students assigned the same paper, a discussion will be held on the merits/demerits of the paper with a final determination if the paper would be acceptable for publication.  
-
-Discussion will close Saturday at 23:59 the week the papers are assigned.
-
-The instructor will moderate and participate in discussion.
-
-#### Term Project and Presentation ####
-The term project will be of an appropriate size for the length of the semester and number of people in the group. Projects can be developed in small groups or by individuals, pending approval by the instructor. Projects must reflect the theme of the course and topics will be developed in conjunction with the instructor. The project can include development of a software prototype, empirical experiments, etc. Projects must be the student’s own work and plagiarism of any type will result in a failing grade for the project. Results of your project work are required to be presented as a 4 page paper ([IEEE proceedings two-column format](https://www.ieee.org/conferences/publishing/templates.html), LaTeX users use the configuration: *\documentclass[conference]{IEEEtran}* and Microsoft Word users use the US Letter format template). The paper must be structured like the SE research papers read in class. Students will also make a 20 minute presentation on their project and results. The presentation will be the same format as for paper presentations.
-
-#### Final Exam ####
-A final exam covering all the papers assigned in class will be held during finals week.
 
 #### Other Notes: ####
 * Participation is mandatory and a critical component of the course grade.
@@ -142,27 +102,7 @@ A final exam covering all the papers assigned in class will be held during final
 * Any modifications to the syllabus will be made on this page and noted.
 
 ### Course Timetable ###
-* The following is a sample 15 week timetable for the course
-* Week 1 is presentation will be provided by instructor.  Student presentations begin in Week 2.  
-* Each topic will consist of half seminal research and half recent research
-
-|Week #|Topic|
-|---|---|
-|1|Basic Review by Instructor|
-|2|Software Process Models|
-|3|Software Process Models|
-|4|Software Evolution & Maintenance|
-|5|Software Evolution & Maintenance|
-|6|Software Evolution & Maintenance|
-|7|Software Architecture|
-|8|Software Testing|
-|9|Software Measurements & Metrics|
-|10|Requirements Engineering and Traceability|
-|11|Empirical Software Engineering|
-|12|Software Visualization|
-|13|Static and Dynamic Analysis|
-|14|Static and Dynamic Analysis|
-|15|Project Presentations|
+* The following is a sample 15-week timetable for the course
 
 ### University Requirements ###
 
