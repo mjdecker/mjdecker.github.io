@@ -4,10 +4,7 @@ layout: markdown
 ---
 
 [Dr. Michael J. Decker]: https://mjdecker.github.io 'Instructor Website'
-[Class]: MWF 15:30 - 16:20 Hays Hall 020
 [mdecke@bgsu.edu]: mailto:mdecke@bgsu.edu 'Professor Email'
-[Office]: Hayes Hall 242
-[Office Hours]: MWF 16:20-17:20
 
 [Department of Computer Science]: http://www.bgsu.edu/arts-and-sciences/computer-science.html 'Department of Computer Science'
 
@@ -42,10 +39,10 @@ layout: markdown
 
 ---
 **Instructor:** [Dr. Michael J. Decker][]<br/>
-**Class:** [Class][]<br/>
+**Class:** MWF 15:30 - 16:20 Hays Hall 020<br/>
 **Email:** [mdecke@bgsu.edu][]<br/>
-**Office:** [Office][]<br/>
-**Office Hours:** [Office Hours][] and by appointment
+**Office:** Hayes Hall 242<br/>
+**Office Hours:** MWF 16:20-17:20 and by appointment
 
 ### Course Description: ###
 Introduction to object-oriented programming techniques. Constructors, destructors, operator overloading. Inheritance and polymorphism. Elementary data structures including linked lists. Dynamic storage allocation concepts. Prerequisite: Corequisite of MATH 1260 or MATH 1280 or MATH 1300 (Precalculus) or higher and grade of C or better in CS 2010. Approved for distance education.

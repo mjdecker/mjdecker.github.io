@@ -4,10 +4,7 @@ layout: markdown
 ---
 
 [Dr. Michael J. Decker]: https://mjdecker.github.io 'Instructor Website'
-[Class]: MWF 18:00 - 19:15 Hays Hall 118
 [mdecke@bgsu.edu]: mailto:mdecke@bgsu.edu 'Professor Email'
-[Office]: Hayes Hall 242
-[Office Hours]: MWF 16:20-17:20
 
 [Department of Computer Science]: http://www.bgsu.edu/arts-and-sciences/computer-science.html 'Department of Computer Science'
 
@@ -42,10 +39,10 @@ layout: markdown
 
 ---
 **Instructor:** [Dr. Michael J. Decker][]<br/>
-**Class:** [Class][]<br/>
+**Class:** MWF 18:00 - 19:15 Hays Hall 118<br/>
 **Email:** [mdecke@bgsu.edu][]<br/>
-**Office:** [Office][]<br/>
-**Office Hours:** [Office Hours][] and by appointment
+**Office:** Hayes Hall 242<br/>
+**Office Hours:** MWF 16:20-17:20 and by appointment
 
 ### Course Description: ###
 A seminar style course covering advanced topics related to the analysis, design, development, maintenance, and evolution of large software projects through the critical examination of seminal and recent research in the field of software engineering. Approved for distance learning.

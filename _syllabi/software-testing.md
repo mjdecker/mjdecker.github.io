@@ -4,10 +4,7 @@ layout: markdown
 ---
 
 [Dr. Michael J. Decker]: https://mjdecker.github.io 'Instructor Website'
-[Class]: MWF 19:30 - 20:45 Hays Hall 118
 [mdecke@bgsu.edu]: mailto:mdecke@bgsu.edu 'Professor Email'
-[Office]: Hayes Hall 242
-[Office Hours]: MWF 16:20-17:20
 
 [Department of Computer Science]: http://www.bgsu.edu/arts-and-sciences/computer-science.html 'Department of Computer Science'
 
@@ -42,8 +39,10 @@ layout: markdown
 
 ---
 **Instructor:** [Dr. Michael J. Decker][]<br/>
+**Class:** MWF 19:30 - 20:45 Hays Hall 118<br/>
 **Email:** [mdecke@bgsu.edu][]<br/>
-**Office Hours:** MW 16:20-17:20 and by appointment
+**Office:** Hayes Hall 242<br/>
+**Office Hours:** MWF 16:20-17:20 and by appointment
 
 ### Course Description: ###
 SE 4/5560. Software Testing and Quality Assurance. 3 Credits. Various aspects of software testing and quality assurance including measurement of software quality, verification and validation of software projects, and unit and integration testing techniques. Prerequisites: Grade of C or better in SE 3540, Admission to MS in CS, Admission to Graduate Certificate in Software Engineering, or Instructor permission. Credits cannot be received for both SE 4560 and SE 5560. Approved for distance learning.
