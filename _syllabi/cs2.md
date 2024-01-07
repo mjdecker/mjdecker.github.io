@@ -75,13 +75,16 @@ The objectives of the course are for students to continue to progress in learnin
 * SE 1 An ability to identify, formulate, and solve complex engineering problems by applying principles of engineering, science, and mathematics 
 
 ### Course Delivery/Organization Overview: ###
-* Office hours will be available in person and via Discord.
-* Announcements will be made via Discord.
 * Course will employ a flipped model
 	* Students will be required to read and finish book sections before class.
 	* Class consists of additional in-class exercises and labs designed to reinforce topics from readings and to add essential material missing from readings.
 	* Instructure and Learning Assistants will be present to help students
 * Assessment will consist of reading participation & exercises, in-class exercises, labs, projects, a midterm, and a final.
+
+### Course Communication: ###
+* Office hours will be available in person and via Discord.
+* Announcements will be made via Discord.
+* Canvas will be used for posting of course material such as grades/readings/assignments/exams, assignment submission, and use of discussion boards.
 
 ### Course Prerequisites ###
 * Corequisite of MATH 1260 or MATH 1280 or MATH 1300 (Precalculus) or higher
