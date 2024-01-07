@@ -107,11 +107,11 @@ The University Libraries provides access to books, articles, databases, subject-
 * Schedule an [Individual Research Appointment][] with a librarian (in-person or virtually) to help you with your research assignments. 
 
 ### Course Assessment: ###
-10% Exercises
-15% Labs
-25% Projects
-25% Midterm (~8th week)
-25% Final (TBD)
+* 10% Exercises
+* 15% Labs
+* 25% Projects
+* 25% Midterm (~8th week)
+* 25% Final (TBD)
 
 #### Grading Scale (cutoffs): ####
 
