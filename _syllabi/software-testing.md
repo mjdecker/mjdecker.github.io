@@ -8,6 +8,8 @@ layout: markdown
 
 [Department of Computer Science]: http://www.bgsu.edu/arts-and-sciences/computer-science.html 'Department of Computer Science'
 
+[Software Testing: A Craftsman's Approach]: https://learning.oreilly.com/library/view/software-testing-4th/9781466560680/
+
 [its website]: https://www.bgsu.edu/its
 [University Libraries]: https://www.bgsu.edu/library.html
 [Ask Us!]: https://www.bgsu.edu/library/ask-us.html
@@ -76,9 +78,8 @@ The objectives of the course are for students to learn and successfully apply so
 * Admission to MS in CS or Graduate Certificate in Software Engineering
 
 ### Textbook(s): ###
-Note: if links do not work directly, log first into O’Reilly Safari Books from BGSU library
-* Software Testing: A Craftsman’s Approach 4th Ed. - Jorgensen. Auerbach. 978–1–466–56068–0
-* Refactoring: Improving the Design of Existing Code - Fowler. Addison-Wesley Professional. 978–0–134–75768–1
+Note: if linksdo not work directly, log first into O’Reilly Safari Books from BGSU library
+* [Software Testing: A Craftsman's Approach] 4th Ed. - Jorgensen. Auerbach. 978–1–466–56068–0
 * Selected readings from conferences, journals, and other scholarly sources
 
 ### Course Delivery/Organization: ###
