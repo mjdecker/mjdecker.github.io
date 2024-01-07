@@ -39,7 +39,7 @@ layout: markdown
 
 ---
 **Instructor:** [Dr. Michael J. Decker][]<br/>
-**Class:** MWF 18:00 - 19:15 Hays Hall 118<br/>
+**Class:** MWF 18:00 - 19:15 Hayes Hall 118<br/>
 **Email:** [mdecke@bgsu.edu][]<br/>
 **Office:** Hayes Hall 242<br/>
 **Office Hours:** MWF 16:20-17:20 and by appointment
