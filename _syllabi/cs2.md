@@ -8,6 +8,9 @@ layout: markdown
 
 [Department of Computer Science]: http://www.bgsu.edu/arts-and-sciences/computer-science.html 'Department of Computer Science'
 
+[www.bgsu.edu/it]: www.bgsu.edu/it
+[collab-lab@lists.bgsu.edu]:  mailto:collab-lab@lists.bgsu.edu
+
 [calendar]: https://www.bgsu.edu/registration-records/academic-calendars/ 'Academic Calendar'
 
 [Academic Honesty Policy]: https://www.bgsu.edu/dean-of-students/academic-honesty-policy.html
@@ -83,10 +86,10 @@ The objectives of the course are for students to continue to progress in learnin
 
 ### Learning Support Services and Resources: ###
 #### Tech Help: ####
-Information Technology Services (ITS) offers students technical support. Whether you have a question or issue with your computer, or need help getting your devices connected to the campus wireless, ITS is here to help! Visit the service desk in 110 Hayes Hall, chat online and view self-help guides at www.bgsu.edu/its, or call us at 419–372–0999.
+Information Technology Services (ITS) offers students technical support. Whether you have a question or issue with your computer, or need help getting your devices connected to the campus wireless, ITS is here to help! Visit the service desk in 110 Hayes Hall, chat online and view self-help guides at [www.bgsu.edu/its][], or call us at 419–372–0999.
 
 #### The Collab Lab: ####
-Students looking for more in depth assistance with computer technology needed for a class project can contact The Collab Lab by phone at (419) 372–9277 or by email at collab-lab@lists.bgsu.edu.
+Students looking for more in depth assistance with computer technology needed for a class project can contact The Collab Lab by phone at (419) 372–9277 or by email at [collab-lab@lists.bgsu.edu][].
 
 #### University Libraries: ####
 Everything you need to know about accessing the BGSU library resources from a distance can be found on the Jerome Library Distance Education Resources Guide page. The main page for the BGSU Library includes mobile access. If you need research assistance, visit the Ask Us page.
