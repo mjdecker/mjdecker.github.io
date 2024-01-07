@@ -139,23 +139,54 @@ Everything you need to know about accessing the BGSU library resources from a di
 ### Course Timetable ###
 * The following is a sample 15 week timetable for the course.
 
-|Week #|Topic|
-|---|---|
-|1|Introduction & Vectors|
-|2|Vectors|
-|3|Structs & Classes|
-|4|Structs & Classes|
-|5|More Classes|
-|6|More Classes|
-|7|Pointers|
-|8|Pointers|
-|9|Linked Lists|
-|10|Linked Lists|
-|11|Inheritance|
-|12|Inheritance|
-|13|Recursion|
-|14|Recursion|
-|15|Templates|
+|Week|Date|Event|
+|---|---|---|
+|1|1/8|Introduction|
+|1|1/10|10.1 - 10.3|
+|1|1/12|10.4 - 10.6|
+|2|1/15|Martin Luther King Jr. Day|
+|2|1/17|10.7 - 10.12|
+|2|1/19|More Vectors|
+|3|1/22|11.1 - 11.2|
+|3|1/24|11.3 - 11.4|
+|3|1/26|11.5 - 11.6|
+|4|1/29|11.7 - 11.9|
+|4|1/31|11.10 - 11.12|
+|4|2/2|More Structs & Classes|
+|5|2/5|12.1 - 12.3|
+|5|2/7|12.4|
+|5|2/9|12.5 - 12.7|
+|6|2/12|12.8 - 12.10|
+|6|2/14|12.11|
+|6|2/16|More Classes|
+|7|2/19|13.1 - 13.3|
+|7|2/21|13.4 - 13.7|
+|7|2/23|More Pointers|
+|8|2/26|14.1|
+|8|2/28|14.2 - 14.3|
+|8|3/1|14.4 - 14.6|
+|9|3/4|Spring Break|
+|9|3/6|Spring Break|
+|9|3/8|Spring Break|
+|10|3/11|Midterm|
+|10|3/13|More Linked List & Iterators|
+|10|3/15|More Linked List & Iterators|
+|11|3/18|15.1 - 15.2|
+|11|3/20|15.3 - 15.4|
+|11|3/22|15.5 - 15.7| 15.9 - 15.10|
+|12|3/25|UML|
+|12|3/27|More Interitance|
+|12|3/29|More Interitance|
+|13|4/1|16.1|
+|13|4/3|16.2|
+|13|4/5|16.3|
+|14|4/8|16.4 - 16.6|
+|14|4/10|Tail Recursion|
+|14|4/12|More Recursion|
+|15|4/15|17.1|
+|15|4/17|17.2 - 17.3|
+|15|4/19|More Templates|
+
 
 ### University Requirements ###
 
