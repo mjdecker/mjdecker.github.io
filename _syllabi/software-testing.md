@@ -78,7 +78,7 @@ The objectives of the course are for students to learn and successfully apply so
 * Admission to MS in CS or Graduate Certificate in Software Engineering
 
 ### Textbook(s): ###
-Note: if linksdo not work directly, log first into O’Reilly Safari Books from BGSU library
+Note: if links do not work directly, log first into O’Reilly Safari Books from BGSU library
 * [Software Testing: A Craftsman's Approach] 4th Ed. - Jorgensen. Auerbach. 978–1–466–56068–0
 * Selected readings from conferences, journals, and other scholarly sources
 
