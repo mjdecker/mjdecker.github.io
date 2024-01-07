@@ -94,10 +94,10 @@ The University Libraries provides access to books, articles, databases, subject-
 * Schedule an [Individual Research Appointment][] with a librarian (in-person or virtually) to help you with your research assignments. 
 
 ### Course Assessment: ###
-* 30%	Discussion Participation
+* 35%	Discussion Participation
 * 20%	Paper Presentations
 * 5%    Scholarly Reviews
-* 35%	Term Project and Presentation
+* 30%	Term Project and Presentation
 * 10%	Final Exam (May 14, 18:00-20:30)
 
 #### Grading Scale (cutoffs): ####
