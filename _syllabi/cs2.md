@@ -114,7 +114,7 @@ The University Libraries provides access to books, articles, databases, subject-
 |90%|80%|70%|60%|0%|
 
 #### zyBook Participation & Challenge Activities ####
-* It is required that the required reading and activities are finished before the designated class for credit.
+* It is required that the specified readings and activities are finished before the designated class for credit.
 * You will be graded on correctness, but you may retry as many times as necessary before due date.
 
 #### Lab Exercises ####
