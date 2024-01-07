@@ -173,7 +173,7 @@ Everything you need to know about accessing the BGSU library resources from a di
 |10|3/15|More Linked List & Iterators|
 |11|3/18|15.1 - 15.2|
 |11|3/20|15.3 - 15.4|
-|11|3/22|15.5 - 15.7| 15.9 - 15.10|
+|11|3/22|15.5 - 15.7, 15.9 - 15.10|
 |12|3/25|UML|
 |12|3/27|More Interitance|
 |12|3/29|More Interitance|
