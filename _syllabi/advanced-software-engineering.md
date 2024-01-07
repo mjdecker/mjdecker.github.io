@@ -9,7 +9,9 @@ layout: markdown
 [Department of Computer Science]: http://www.bgsu.edu/arts-and-sciences/computer-science.html 'Department of Computer Science'
 
 [its website]: https://www.bgsu.edu/its
-[collab-lab@lists.bgsu.edu]:  mailto:collab-lab@lists.bgsu.edu
+[University Libraries]: https://www.bgsu.edu/library.html
+[Ask Us!]: https://www.bgsu.edu/library/ask-us.html
+[Individual Research Appointment]: https://www.bgsu.edu/library/services/appointments/ira.html
 
 [calendar]: https://www.bgsu.edu/registration-records/academic-calendars/ 'Academic Calendar'
 
@@ -85,11 +87,11 @@ The objectives of the course are for students to read, synthesize, and understan
 #### Tech Help: ####
 Information Technology Services (ITS) offers students technical support. Whether you have a question or issue with your computer, or need help getting your devices connected to the campus wireless, ITS is here to help! Visit the service desk in 110 Hayes Hall, chat online and view self-help guides at the bgsu [its website][], or call us at 419–372–0999.
 
-#### The Collab Lab: ####
-Students looking for more in depth assistance with computer technology needed for a class project can contact The Collab Lab by phone at (419) 372–9277 or by email at [collab-lab@lists.bgsu.edu][].
-
 #### University Libraries: ####
-Everything you need to know about accessing the BGSU library resources from a distance can be found on the Jerome Library Distance Education Resources Guide page. The main page for the BGSU Library includes mobile access. If you need research assistance, visit the Ask Us page.
+The University Libraries provides access to books, articles, databases, subject-specific resources, special collections, quiet/group study spaces, research assistance, tutoring, and more. If you need help figuring out where to start, please visit the [University Libraries][] website to learn more about all the information services and resources available to help you with your classes. If you need immediate help with your research papers, you can use any of these services:     
+
+* [Ask Us!][] Librarians and library staff can assist you at the Research & Information Desk on the first floor of Jerome Library, as well as via phone, email, and online chat.  
+* Schedule an [Individual Research Appointment][] with a librarian (in-person or virtually) to help you with your research assignments. 
 
 ### Course Assessment: ###
 * 30%	Discussion Participation
