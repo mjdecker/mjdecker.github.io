@@ -69,11 +69,10 @@ The objectives of the course are for students to read, synthesize, and understan
 * A term project will be completed and presented (students may work individually or as part of a group).
 * A final exam will be held over the material covered in class.
 
-### Course Delivery/Organization Overview: ###
-* The course will primarily be run through Canvas. This includes posting of course material such as readings/assignments/exams, assignment submission, and use of discussion boards.
-* Discord will be the primary means of communication with the instructor and fellow students (message, voice, and video).
-* Announcements will be made via Discord.
-* Virtual office hours (above) will be held by the instructor using Discord.
+### Course Communication: ###
+* Office hours will be available in person and via Discord.
+* Announcements will be made via Discord.
+* Canvas will be used for posting of course material such as grades/readings/assignments/exams, assignment submission, and use of discussion boards.
 
 ### Course Prerequisites ###
 * Software engineering background

@@ -75,12 +75,15 @@ Note: if links do not work directly, log first into O’Reilly Safari Books from
 * Refactoring: Improving the Design of Existing Code - Fowler. Addison-Wesley Professional. 978–0–134–75768–1
 * Selected readings from conferences, journals, and other scholarly sources
 
-### Course Delivery/Organization/Communication: ###
-* Office hours will be available in person and via Discord.
-* Announcements will be made via Discord.
+### Course Delivery/Organization: ###
 * The instructor will integrate teaching strategies including, but not limited to: lecture, lab, large and small group discussion/exercises, cooperative learning, case studies, internet, and video.
 * Students will be expected to work independently and in groups.
 * The assessment will consist of in-class exercises, labs, projects, a midterm, and a final.
+
+### Course Communication: ###
+* Office hours will be available in person and via Discord.
+* Announcements will be made via Discord.
+* Canvas will be used for posting of course material such as grades/readings/assignments/exams, assignment submission, and use of discussion boards.
 
 ### Course and Computer Skill Prerequisites: ###
 * Software engineering background
