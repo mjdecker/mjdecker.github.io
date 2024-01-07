@@ -8,7 +8,7 @@ layout: markdown
 
 [Department of Computer Science]: http://www.bgsu.edu/arts-and-sciences/computer-science.html 'Department of Computer Science'
 
-[its website]: www.bgsu.edu/its
+[its website]: https://www.bgsu.edu/its
 [collab-lab@lists.bgsu.edu]:  mailto:collab-lab@lists.bgsu.edu
 
 [calendar]: https://www.bgsu.edu/registration-records/academic-calendars/ 'Academic Calendar'
