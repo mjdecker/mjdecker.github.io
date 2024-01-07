@@ -139,7 +139,7 @@ Everything you need to know about accessing the BGSU library resources from a di
 ### Course Timetable ###
 * The following is a sample 15 week timetable for the course.
 
-|Week&nbws;&nbws;|Date&nbws;&nbws;&nbws;|Event|
+|Week&nbsp;&nbsp;|Date&nbsp;&nbsp;&nbsp;|Event|
 |-----|-------|---|
 |1|1/8|Introduction|
 |1|1/10|10.1 - 10.3|
