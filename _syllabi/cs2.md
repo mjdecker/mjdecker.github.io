@@ -79,7 +79,7 @@ The objectives of the course are for students to continue to progress in learnin
 	* Students will be required to read and finish book sections before class.
 	* Class consists of additional in-class lab exercises designed to reinforce topics from readings and to add essential material missing from readings.
 	* Instructure and Learning Assistants will be present to help students
-* Assessment will consist of reading participation & exercises, in-class exercises, labs, projects, a midterm, and a final.
+* Assessment will consist of reading participation & exercises, in-class lab exercises, projects, a midterm, and a final.
 
 ### Course Communication: ###
 * Office hours will be available in person and via Discord.
