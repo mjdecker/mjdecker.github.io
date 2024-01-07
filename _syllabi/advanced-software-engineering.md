@@ -123,7 +123,7 @@ Note, participation is mandatory. Thus, to earn a passing grade in discussion pa
 Paper presentations will be 20 minutes and graded on content, style, and technique. Presentations must be the student's own work and provide a means to facilitate discussion. Students will make 2 – 3 paper presentations during the term.  Students who are presenting will receive full credit towards discussion participation for that paper.
 
 #### Scholarly Reviews ####
-Periodically, 2-3 times, throughout the semester, students will assigned to review one of the papers for a given week.  A review format will be provided, students are to upload their review in the provided format by Sunday 23:59 the week the papers are assigned.  Between students assigned the same paper, a discussion will be held on the merits/demerits of the paper with a final determination if the paper would be acceptable for publication.  
+Periodically, 2-3 times, throughout the semester, students will be assigned to review one of the papers for a given week.  A review format will be provided, students are to upload their review in the provided format by Sunday 23:59 the week the papers are assigned.  Between students assigned the same paper, a discussion will be held on the merits/demerits of the paper with a final determination if the paper would be acceptable for publication.  
 
 Discussion will close Saturday at 23:59 the week the papers are assigned.
 
