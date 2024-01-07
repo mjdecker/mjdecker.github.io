@@ -120,6 +120,7 @@ The University Libraries provides access to books, articles, databases, subject-
 #### Lab Exercises ####
 * A typical class will consist of in-class coding exercises.  This may consist of additional readings, coding problems, etc., and they are designed to reinforce and supplement the readings and activities.
 * In general, these are designed to be finished during the class period, however, they will be due before the next class period.
+* Attendance and participation is required, however, some leeway may be considered for students with extenuating circumstances
 
 #### Projects ####
 * A number of projects (about 3–5), both programming and written, will be given to further reinforce the concepts covered in class and link multiple topics. 

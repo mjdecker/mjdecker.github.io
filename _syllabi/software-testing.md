@@ -125,7 +125,7 @@ The University Libraries provides access to books, articles, databases, subject-
 
 #### Labs ####
 * Laboratory sessions will be conducted to complement lecture and support the application of materials learned.  
-* Attendance and participation is required.
+* Attendance and participation is required, however, some leeway may be considered for students with extenuating circumstances
 * The lab will consist in part of short lecture and hands on exercises that will assist in the learning process.
 * For each lab meeting, there will be a score given and is based on attendance and successful completion of lab exercises. 
 
