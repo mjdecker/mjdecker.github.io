@@ -111,7 +111,7 @@ The University Libraries provides access to books, articles, databases, subject-
 
 | A | B | C | D | F |
 |---|---|---|---|---|
-|90%|80%|70%|60%|0%|
+|90%|80%|73%|60%|0%|
 
 #### zyBook Participation & Challenge Activities ####
 * It is required that the specified readings and activities are finished before the designated class for credit.
