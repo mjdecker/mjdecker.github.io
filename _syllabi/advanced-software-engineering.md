@@ -32,7 +32,7 @@ layout: markdown
 [Student Religious Accommodations]: https://www.bgsu.edu/content/dam/BGSU/general-counsel/policies/academic-affairs/ohio-public-policy-on-student-religious-accommodations.pdf
 
 [Freedom of Expression]: https://www.bgsu.edu/dean-of-students/free-speech.html
-[See It. Hear It. Report It.]: https://www.bgsu.edu/report-incident.html
+[See It. Hear It. Report It.]: https://www.bgsu.edu/report-incident.html
 
 [Veterans]: https://www.bgsu.edu/nontraditional-and-military-students/veterans.html
 
@@ -88,7 +88,7 @@ The objectives of the course are for students to read, synthesize, and understan
 Information Technology Services (ITS) offers students technical support. Whether you have a question or issue with your computer, or need help getting your devices connected to the campus wireless, ITS is here to help! Visit the service desk in 110 Hayes Hall, chat online and view self-help guides at the bgsu [its website][], or call us at 419–372–0999.
 
 #### University Libraries: ####
-The University Libraries provides access to books, articles, databases, subject-specific resources, special collections, quiet/group study spaces, research assistance, tutoring, and more. If you need help figuring out where to start, please visit the [University Libraries][] website to learn more about all the information services and resources available to help you with your classes. If you need immediate help with your research papers, you can use any of these services:     
+The University Libraries provides access to books, articles, databases, subject-specific resources, special collections, quiet/group study spaces, research assistance, tutoring, and more. If you need help figuring out where to start, please visit the [University Libraries][] website to learn more about all the information services and resources available to help you with your classes. If you need immediate help with your research papers, you can use any of these services:     
 
 * [Ask Us!][] Librarians and library staff can assist you at the Research & Information Desk on the first floor of Jerome Library, as well as via phone, email, and online chat.  
 * Schedule an [Individual Research Appointment][] with a librarian (in-person or virtually) to help you with your research assignments. 
@@ -98,7 +98,7 @@ The University Libraries provides access to books, articles, databases, subject-
 * 20%	Paper Presentations
 * 5%    Scholarly Reviews
 * 30%	Term Project and Presentation
-* 10%	Final Exam (May 14, 18:00-20:30)
+* 10%	Final Exam
 
 #### Grading Scale (cutoffs): ####
 
@@ -170,8 +170,6 @@ A final exam covering all the papers assigned in class will be held during final
 #### Expectations: ####
 In order to promote an inclusive and constructive learning environment, demeaning, marginalizing, and otherwise negative language and behavior will not be tolerated in the classroom. Respect and courtesy toward the instructor, classmates, and classroom guests are expected. Language and behaviors that are disruptive, abusive, or harassing may result in disciplinary action as specified by the Student Code of Conduct.
 
-Bowling Green State University (BGSU) is committed to providing a safe learning environment for all students that is free of all forms of discrimination and harassment. Sexual misconduct and relationship violence in any form are antithetical to the university’s mission and core values, violate university policies, and may also violate federal and state law. Faculty members are considered “Mandatory Reporters” and are required to report incidents of sexual misconduct and relationship violence to the Title IX Coordinator. If you or someone you know has been impacted by sexual harassment, sexual assault, dating or domestic violence, or stalking, please visit www.bgsu.edu/TitleIX to access information about university support and resources.
-
 #### Registration and Withdrawal: ####
 The official registration and withdrawal deadlines for this course can be found on the university’s [calendar][]. Students who are not officially registered for a course by published deadlines should not be attending classes and will not receive credit or a grade for the course. Each student must confirm enrollment by checking his/her class schedule prior to the deadline indicated. Registration errors must be corrected prior to the deadline.
  
@@ -192,7 +190,7 @@ A community exists on the basis of shared values and principles. At BGSU, studen
 * Learn more about and view the Code of [Student Conduct][].
  
 #### Title IX: ####
-Bowling Green State University (BGSU) is committed to providing a safe learning environment for all students that is free of all forms of discrimination and harassment. Sexual misconduct and relationship violence in any form are antithetical to the university’s mission and core values, violate university policies, and may also violate federal and state law. Faculty members are considered “Mandatory Reporters” and are required to report incidents of sexual misconduct and relationship violence to the Title IX Coordinator. If you or someone you know has been impacted by sexual harassment, sexual assault, dating or domestic violence, or stalking, please visit the [Title IX][] webpage to access information about university support and resources.  
+Bowling Green State University (BGSU) is committed to providing a safe learning environment for all students that is free of all forms of discrimination and harassment. Sexual misconduct and relationship violence in any form are antithetical to the university’s mission and core values, violate university policies, and may also violate federal and state law. Faculty members are considered “Mandatory Reporters” and are required to report incidents of sexual misconduct and relationship violence to the Title IX Coordinator. If you or someone you know has been impacted by sexual harassment, sexual assault, dating or domestic violence, or stalking, please visit the [Title IX][] webpage to access information about university support and resources.  
 
 #### Accessibility Services: ####
 [Accessibility Services][] provides equal access and reasonable accommodations to students with disabilities attending BGSU. Students wishing to discuss their eligibility for such accommodations are encouraged to contact the office at phone: 419-372-8495, fax: 419-372-8496, or email: [access@bgsu.edu][].
@@ -201,7 +199,7 @@ Bowling Green State University (BGSU) is committed to providing a safe learning 
 In addition to participation/attendance/absence policies already listed, you may have up to three (3) excused absences each academic semester, without penalty, to take time off for reasons of faith or religious or spiritual belief system or to participate in organized activities conducted under the auspices of a religious denomination, church, or other religious or spiritual organization. You are required to notify me in writing of specific dates requested for excused absences and/or alternative accommodation no later than fourteen (14) calendar days after the first day of instruction for this course. After necessary notification, you should consult with me to determine an appropriate alternative opportunity that will be provided to help you complete your academic responsibilities for the course. These requests will remain confidential. The Office of Registration & Records maintains a list of accommodated religious [holidays][]. Please note that this list is not exhaustive of all holidays. For more information about the [Student Religious Accommodations][] policy, you may contact the Dean of Students at [odos@bgsu.edu][] or 419-372-2843. 
 
 #### Freedom of Expression: ####
-Bowling Green State University, as a public institution, is committed to freedom of expression and the rights protected by the First Amendment. First Amendment rights have implications inside the classroom as well. Review the Office of the Dean of Students page regarding [Freedom of Expression][]  at Bowling Green State University for more information including the policy. To report concerns please visit the [See It. Hear It. Report It.][]  
+Bowling Green State University, as a public institution, is committed to freedom of expression and the rights protected by the First Amendment. First Amendment rights have implications inside the classroom as well. Review the Office of the Dean of Students page regarding [Freedom of Expression][]  at Bowling Green State University for more information including the policy. To report concerns please visit the [See It. Hear It. Report It.][]  
 
 #### Student veteran-friendly campus: ####
 BGSU educators recognize student veterans’ rights when entering and exiting the university system. If you are a student veteran, please communicate with your instructor so reasonable accommodations can be made for absence when drilling or being called to active duty. Refer to the [Veterans][] page. 
@@ -210,4 +208,4 @@ BGSU educators recognize student veterans’ rights when entering and exiting th
 In most cases, the University will not close for winter conditions unless the Wood County Sheriff’s Department declares a Level 3 emergency. Once the decision is made to delay, cancel or close, individuals will be notified through AlertBG, email, the BGSU homepage, BGSU social media channels and the news media (see the [Emergency Cancellation Delay and Closing Policy and Procedures][] document for a list of radio and television stations).
 
 #### Non-Discrimination in Employment and Education ####
-Bowling Green State University is committed to maintaining an employment and educational environment that is free from unlawful discrimination, harassment, and retaliation. The University prohibits discrimination and harassment on the basis of protected class. Retaliation against any person for asserting their legal rights to be free from discrimination or harassment, for reporting discrimination or harassment, or for participating in activities is strictly prohibited. You may review BGSU’s Non-Discrimination in Employment and Education policy for more information. To report concerns, please visit the [See It. Hear It. Report It.][]  page.
+Bowling Green State University is committed to maintaining an employment and educational environment that is free from unlawful discrimination, harassment, and retaliation. The University prohibits discrimination and harassment on the basis of protected class. Retaliation against any person for asserting their legal rights to be free from discrimination or harassment, for reporting discrimination or harassment, or for participating in activities is strictly prohibited. You may review BGSU’s Non-Discrimination in Employment and Education policy for more information. To report concerns, please visit the [See It. Hear It. Report It.][]  page.
