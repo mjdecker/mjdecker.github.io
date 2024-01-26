@@ -57,6 +57,7 @@ Introduction to object-oriented programming techniques. Constructors, destructor
 The objectives of the course are for students to continue to progress in learning programming language concepts with a primary focus on memory management, object-oriented programming, and data structures.
 
 ### Learning Objectives: ###
+* I can understand and can implement search and sorting algorithms.
 * I can implement programs using arrays and linked lists.
 * I can use dynamic memory techniques in implementing programming design.
 * I can use fundamental object-oriented programming techniques, including encapsulation, inheritance, polymorphism, and virtual functions.
