@@ -1,9 +1,34 @@
 semesters:
-  - semester: "Fall 2023"
+  - semester: "Spring 2024"
     current: true
+    start_date: "2024-01-08"
+    end_date: "2024-4-26"
+    classes:
+      - number: "CS 2020"
+        title: "Intermediate Programming "
+        time: "15:30 - 16:20"
+        days: "M W F"
+        building: "Hayes"
+        room: "020"
+
+      - number: "SE 4/5560"
+        title: "Software Testing & Quality Assurance"
+        time: "19:30 - 20:45"
+        days: "M W  "
+        building: "Hayes"
+        room: "118"
+
+      - number: "SE 6640"
+        title: "Advanced Software Engineering"
+        time: "18:00 - 19:15"
+        days: "M W  "
+        building: "Hayes"
+        room: "118"
+
+  - semester: "Fall 2023"
     start_date: "2023-08-21"
     end_date: "2023-12-08"
-    classes: 
+    classes:
       - number: "SE 4/5540"
         title: "Software Architecture & Design"
         time: "19:30 - 20:45"
@@ -21,7 +46,7 @@ semesters:
   - semester: "Spring 2023"
     start_date: "2023-01-09"
     end_date: "2023-04-28"
-    classes: 
+    classes:
       - number: "SE 4/5560"
         title: "Software Testing & Quality Assurance"
         time: "11:30 - 12:20"
@@ -46,7 +71,7 @@ semesters:
   - semester: "Fall 2022"
     start_date: "2022-08-22"
     end_date: "2022-12-09"
-    classes: 
+    classes:
       - number: "CS 4/5050"
         title: "Research Methods in Computer Science"
         time: "19:30 - 20:45"
@@ -64,7 +89,7 @@ semesters:
   - semester: "Spring 2022"
     start_date: "2022-01-20"
     end_date: "2022-04-22"
-    classes: 
+    classes:
       - number: "SE 3540"
         title: "Introduction to Software Engineering"
         time: "18:00 - 19:15"
@@ -80,7 +105,7 @@ semesters:
   - semester: "Fall 2021"
     start_date: "2021-08-26"
     end_date: "2021-12-17"
-    classes: 
+    classes:
       - number: "CS 4/5050"
         title: "Research Methods in Computer Science"
         time: "18:00 - 19:15"
@@ -101,7 +126,7 @@ semesters:
   - semester: "Spring 2021"
     start_date: "2021-01-11"
     end_date: "2021-04-23"
-    classes: 
+    classes:
       - number: "CS 2020"
         title: "Intermediate Programming"
         time: "15:30 - 16:20"
@@ -117,7 +142,7 @@ semesters:
   - semester: "Fall 2020"
     start_date: "2020-08-26"
     end_date: "2020-12-11"
-    classes: 
+    classes:
       - number: "CS 4/5050"
         title: "Research Methods in Computer Science"
         time: "16:00 - 17:15"
@@ -138,7 +163,7 @@ semesters:
   - semester: "Spring 2020"
     start_date: "2020-01-27"
     end_date: "2020-05-15"
-    classes: 
+    classes:
       - number: "CS 2010"
         title: "Programming Fundamentals"
         time: "15:30 - 16:20"
@@ -161,7 +186,7 @@ semesters:
   - semester: "Fall 2019"
     start_date: "2019-08-26"
     end_date: "2019-12-13"
-    classes: 
+    classes:
       - number: "CS 3540"
         title: "Introduction to Software Engineering"
         time: "18:00 - 19:15"
@@ -179,7 +204,7 @@ semesters:
   - semester: "Spring 2019"
     start_date: "2019-01-28"
     end_date: "2019-5-17"
-    classes: 
+    classes:
       - number: "CS 3540-1001"
         title: "Introduction to Software Engineering"
         time: "14:30 - 15:45"
@@ -204,7 +229,7 @@ semesters:
   - semester: "Fall 2018"
     start_date: "2018-08-27"
     end_date: "2018-12-14"
-    classes: 
+    classes:
       - number: "CS  4/5560"
         title: "Software Testing and Quality Assurance"
         time: "15:30 - 16:20"
@@ -222,7 +247,7 @@ semesters:
   - semester: "Spring 2018"
     start_date: "2018-01-08"
     end_date: "2018-5-04"
-    classes: 
+    classes:
       - number: "CS  3060"
         title: "Programming Languages"
         time: "13:00 - 14:15"
@@ -240,7 +265,7 @@ semesters:
   - semester: "Fall 2017"
     start_date: "2017-08-21"
     end_date: "2017-12-15"
-    classes: 
+    classes:
       - number: "CS  4/5560"
         title: "Software Testing and Quality Assurance"
         time: "9:30 - 10:45"
