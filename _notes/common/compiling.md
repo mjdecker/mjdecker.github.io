@@ -1,3 +1,8 @@
+---
+title: "Compiling"
+layout: notes
+---
+
 # Why Compile?
 * Machine language instructions (ML) are the only instructions the processor/CPU can execute. 
 * ML is just numbers. When the ML is put into memory it can be fetched, decoded, and executed by the processor. Different numbers will cause the processor to perform different actions. 
