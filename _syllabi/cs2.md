@@ -188,9 +188,9 @@ The University Libraries provides access to books, articles, databases, subject-
 |13|4/1|16.1|
 |13|4/3|16.2|
 |13|4/5|16.3|
-|14|4/8|16.4 - 16.6|
-|14|4/10|Tail Recursion|
-|14|4/12|More Recursion|
+|14|4/8|Eclipse|
+|14|4/10|16.4 - 16.6|
+|14|4/12|Tail Recursion|
 |15|4/15|17.1|
 |15|4/17|17.2 - 17.3|
 |15|4/19|More Templates|
