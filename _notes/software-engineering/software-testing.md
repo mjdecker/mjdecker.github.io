@@ -107,28 +107,4 @@ layout: notes
 `
 
 # Example Driver
-```
-#include <cassert>
-int main() {
-	{
-	    // setup
-        Set a;
-
-	    // test
-	    size_t cardinality = a.card();
-
-        // verify
-    	assert(cardinality == 0);
-    }
-    
-    {
-        Set b(1, 4);
-
-		// test/verify one single line
-        assert(b.card() == 2);
-    } 
-
-    std::cout << “All Tests Completed“ << endl;
-    return 0;
-}
-```
+<script src="https://gist.github.com/mjdecker/9a4a45df5c5eb6e8b49ee47624cac468.js?file=driver.cpp"></script>
