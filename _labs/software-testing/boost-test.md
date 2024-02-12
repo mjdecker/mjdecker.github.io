@@ -12,7 +12,7 @@ layout: notes
 * In Unix, files beginning with a `.` are hidden
 * `ls -a` will show hidden files
 * `.profile` is a special file with where login configurations are stored
-* Note, you will have to log off and one for changes to take effect
+* Note, you will have to log off and on for changes to take effect
 
 # Setup
 * Use the link provided on Canvas to create and clone the repository for the lab.
