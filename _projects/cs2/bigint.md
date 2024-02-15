@@ -5,13 +5,13 @@ layout: markdown
 
 # Project 1: Bigint
 
-# Objective(s)
+## Objective(s)
 * Develop, implement, and use an Abstract Data Type (ADT) with the class construct in C++. 
 
-# Overview
+## Overview
 * You will be implementing a *bigint* class.  
 
-#Problem and Specification
+## Problem and Specification
 * The data type *int* in C++ is limited to the word size of the CPU architecture (e.g., 32 or 64 bit). Therefore you can only work with signed integers up to 2,147,483,647 (in the case of signed 32 bit). Unsigned 32 bit is still only 10 digits. Max int for 64 is somewhat larger at 9,223,372,036,854,775,807 but still only 19 digits. Clearly, this causes difficulties for working with very large integer values (say 100 digits). An ADT (called *bigint*) has been created to support an arbitrary number of digits (specified at compile time).  For simplicity, the implementation is limited to non-negative integers. 
 
 * Representation is a key issue for this assignment. An array of integers is recommended, with each element representing one single digit (0 to 9) of the big number. One could use an array of char, but the memory savings is pretty minimal. Placing the values in the array is the interesting part. The naïve representation makes storing the bigint easy but makes the operations (add) very difficult to implement. A slightly more clever representation makes storing the big number a little bit harder but makes implementing the operations way easier.
@@ -34,7 +34,7 @@ layout: markdown
 
 
 
-# Requirements
+## Requirements
 * Follow,  class [Programming Requirements](https://www.cs.bgsu.edu/mdecke/program_requirements.html)
 * Program must compile and run on `Visual Studio`.
 * Finished work must be submitted to GitHub.
