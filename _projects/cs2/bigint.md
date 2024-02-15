@@ -71,39 +71,39 @@ layout: markdown
 				* On `Visual Studio` you will need run each individually.
 
 ## Iteration 1 Rubric
-[] No use of using namespace (if use -25 points)
-[] Programming style/requirements (up to -10)
-[] Use of constant for Bigint size (5 points)
-[] Implementations are in cpp file (5 points)
-[] Default constructor (10 points)
-    [] implementation present
-    [] tests pass
-[] int constructor (10 points)
-    [] implementation present
-    [] tests pass
-[] C-string constructor (10 points)
-    [] implementation present
-    [] tests pass
-[] equality operator (10 points)
-    [] implementation present
-    [] tests pass
+* [] No use of using namespace (if use -25 points)
+* [] Programming style/requirements (up to -10)
+* [] Use of constant for Bigint size (5 points)
+* [] Implementations are in cpp file (5 points)
+* [] Default constructor (10 points)
+    * [] implementation present
+    * [] tests pass
+* [] int constructor (10 points)
+    * [] implementation present
+    * [] tests pass
+* [] C-string constructor (10 points)
+    * [] implementation present
+    * [] tests pass
+* [] equality operator (10 points)
+    * [] implementation present
+    * [] tests pass
 
 ## Iteration 2 Rubric
-[] No use of using namespace (if use -25 points)
-[] Programming style/requirements (up to -10)
-[] Implementations are in cpp file (5 points)
-[] output operator (10 points)
-    [] implementation present
-    [] tests pass
-[] input operator (10 points)
-    [] implementation present
-    [] tests pass
-[] subscript operator (5 points)
-    [] implementation present
-    [] tests pass
-[] addition operator (10 points)
-    [] implementation present
-    [] tests pass
-[] add program (10 points)
-    [] work attempted
-    [] works correctly
+* [] No use of using namespace (if use -25 points)
+* [] Programming style/requirements (up to -10)
+* [] Implementations are in cpp file (5 points)
+* [] output operator (10 points)
+    * [] implementation present
+    * [] tests pass
+* [] input operator (10 points)
+    * [] implementation present
+    * [] tests pass
+* [] subscript operator (5 points)
+    * [] implementation present
+    * [] tests pass
+* [] addition operator (10 points)
+    * [] implementation present
+    * [] tests pass
+* [] add program (10 points)
+    * [] work attempted
+    * [] works correctly
