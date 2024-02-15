@@ -51,20 +51,20 @@ layout: markdown
 	* Testing
 		* There are a provided set of tests to validate your implementation of the above. These are run by auto-grader, but not Visual Studio.
 
-	* **Iteration 2 - 50 points** - [Rubric](#iteration-2-rubric)
-		* Implementation
-			* Overload output `operator<<` as a friend, so that it takes a stream and bigint as input and writes the bigint to the stream. It should print at most 25 digits per line. No leading zeros should be printed.
-			* Overload input `operator>>` a bigint in the following manner: Read in any number of digits [0-9] until a semi colon ";" is encountered. The number may span over multiple lines. You can assume the input is valid.
-			* Overload the subscript `operator[]`. It should return the i-th digit, where i is the 10^i position. So the first digit is the one's place (10^0) and the second digit is the ten's place (10^1).
-			* Overload the `operator+` so that it adds two bigint together.
-			* Implement `add.cpp`.  The main reads from the file data1-1.txt and must do the following:
-				* Test for success of opening the file in your program.
-				* Continually until end-of-file:
-					* Read in two numbers into bigints and write both out on separate lines.
-					* Add these together and write the result.
-				* All output must be labeled and neat.
-			* Testing
-				* There are a provided set of tests to validate your implementation of the above. These are run by auto-grader, but not Visual Studio.
+* **Iteration 2 - 50 points** - [Rubric](#iteration-2-rubric)
+	* Implementation
+		* Overload output `operator<<` as a friend, so that it takes a stream and bigint as input and writes the bigint to the stream. It should print at most 25 digits per line. No leading zeros should be printed.
+		* Overload input `operator>>` a bigint in the following manner: Read in any number of digits [0-9] until a semi colon ";" is encountered. The number may span over multiple lines. You can assume the input is valid.
+		* Overload the subscript `operator[]`. It should return the i-th digit, where i is the 10^i position. So the first digit is the one's place (10^0) and the second digit is the ten's place (10^1).
+		* Overload the `operator+` so that it adds two bigint together.
+		* Implement `add.cpp`.  The main reads from the file data1-1.txt and must do the following:
+			* Test for success of opening the file in your program.
+			* Continually until end-of-file:
+				* Read in two numbers into bigints and write both out on separate lines.
+				* Add these together and write the result.
+			* All output must be labeled and neat.
+		* Testing
+			* There are a provided set of tests to validate your implementation of the above. These are run by auto-grader, but not Visual Studio.
 
 ## Iteration 1 Rubric
 * [] No use of using namespace (if use -25 points)
