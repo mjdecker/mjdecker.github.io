@@ -50,7 +50,6 @@ layout: markdown
 		* A `debug_print` method is provided for you to help developing and debugging.
 	* Testing
 		* There are a provided set of tests to validate your you implementation of the above.
-		* On `Visual Studio` you will need run each individually.
 
 	* **Iteration 2 - 50 points**- [Rubric](#Iteration-2-Rubric)
 		* Implementation
@@ -68,7 +67,6 @@ layout: markdown
 			* Testing
 				* There are a provided set of tests to validate your implementation of the above.
 				* You will need to update the CMakeLists.txt file
-				* On `Visual Studio` you will need run each individually.
 
 ## Iteration 1 Rubric
 * [] No use of using namespace (if use -25 points)
