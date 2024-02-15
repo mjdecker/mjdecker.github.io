@@ -40,7 +40,7 @@ layout: markdown
 * You must use the provided class construct to implement your ADT.
 * Don't edit `bigint.hpp` or the supplied test files.
 * The ADT *bigint* need only work for positive integers.
-* **Iteration 1 - 50 points**- [Rubric](bigint_rubrics/iteration_1.txt)
+* **Iteration 1 - 50 points**- [Rubric](#Iteration-1-Rubric)
 	* Implementation
 		* Develop the `cpp` file to implement your ADT.
 		* A default constructor to initialize a bigint to zero.
@@ -52,7 +52,7 @@ layout: markdown
 		* There are a provided set of tests to validate your you implementation of the above.
 		* On `Visual Studio` you will need run each individually.
 
-	* **Iteration 2 - 50 points**- [Rubric](bigint_rubrics/iteration_2.txt)
+	* **Iteration 2 - 50 points**- [Rubric](#Iteration-2-Rubric)
 		* Implementation
 			* Overload output `operator<<` as a friend, so that it takes a stream and bigint as input and writes the bigint to the stream. It should print at most 25 digits per line. No leading zeros should be printed.
 			* Overload input `operator>>` a bigint in the following manner: Read in any number of digits [0-9] until a semi colon ";" is encountered. The number may span over multiple lines. You can assume the input is valid.
