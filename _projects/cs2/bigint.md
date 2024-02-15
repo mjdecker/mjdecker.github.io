@@ -49,7 +49,7 @@ layout: markdown
 		* Overload `operator==` to compare if two bigints are equal. It should return a bool - true if equal and false otherwise.
 		* A `debug_print` method is provided for you to help developing and debugging.
 	* Testing
-		* There are a provided set of tests to validate your you implementation of the above.
+		* There are a provided set of tests to validate your implementation of the above. These are run by auto-grader, but not Visual Studio.
 
 	* **Iteration 2 - 50 points** - [Rubric](#iteration-2-rubric)
 		* Implementation
@@ -64,7 +64,7 @@ layout: markdown
 					* Add these together and write the result.
 				* All output must be labeled and neat.
 			* Testing
-				* There are a provided set of tests to validate your implementation of the above.
+				* There are a provided set of tests to validate your implementation of the above. These are run by auto-grader, but not Visual Studio.
 
 ## Iteration 1 Rubric
 * [] No use of using namespace (if use -25 points)
