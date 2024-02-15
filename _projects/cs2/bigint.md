@@ -35,12 +35,10 @@ layout: markdown
 
 
 ## Requirements
-* Follow,  class [Programming Requirements](https://www.cs.bgsu.edu/mdecke/program_requirements.html)
-* Program must compile and run on `Visual Studio`.
+* Follow,  class [Programming Requirements](https://mjdecker.github.io/standards/coding-standards.html)
 * Finished work must be submitted to GitHub.
-* You must use the class construct to implement your ADT.
+* You must use the provided class construct to implement your ADT.
 * Don't edit `bigint.hpp` or the supplied test files.
-* Use the provided `CMakeLists.txt`.
 * The ADT *bigint* need only work for positive integers.
 * **Iteration 1 - 50 points**- [Rubric](bigint_rubrics/iteration_1.txt)
 	* Implementation
@@ -71,3 +69,41 @@ layout: markdown
 				* There are a provided set of tests to validate your implementation of the above.
 				* You will need to update the CMakeLists.txt file
 				* On `Visual Studio` you will need run each individually.
+
+## Iteration 1 Rubric
+[] No use of using namespace (if use -25 points)
+[] Programming style/requirements (up to -10)
+[] Use of constant for Bigint size (5 points)
+[] Implementations are in cpp file (5 points)
+[] Default constructor (10 points)
+    [] implementation present
+    [] tests pass
+[] int constructor (10 points)
+    [] implementation present
+    [] tests pass
+[] C-string constructor (10 points)
+    [] implementation present
+    [] tests pass
+[] equality operator (10 points)
+    [] implementation present
+    [] tests pass
+
+## Iteration 2 Rubric
+[] No use of using namespace (if use -25 points)
+[] Programming style/requirements (up to -10)
+[] Implementations are in cpp file (5 points)
+[] output operator (10 points)
+    [] implementation present
+    [] tests pass
+[] input operator (10 points)
+    [] implementation present
+    [] tests pass
+[] subscript operator (5 points)
+    [] implementation present
+    [] tests pass
+[] addition operator (10 points)
+    [] implementation present
+    [] tests pass
+[] add program (10 points)
+    [] work attempted
+    [] works correctly
