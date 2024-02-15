@@ -1,3 +1,8 @@
+---
+title: "Project: Bigint"
+layout: markdown
+---
+
 # Project 1: Bigint
 
 # Objective(s)

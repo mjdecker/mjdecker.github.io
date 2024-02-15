@@ -47,3 +47,5 @@ collections:
     output: true
   labs:
     output: true
+  projects:
+    output: true
