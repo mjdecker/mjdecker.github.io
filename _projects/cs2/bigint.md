@@ -59,14 +59,12 @@ layout: markdown
 			* Overload the `operator+` so that it adds two bigint together.
 			* Implement `add.cpp`.  The main reads from the file data1-1.txt and must do the following:
 				* Test for success of opening the file in your program.
-				* Read in two numbers into bigints and write both out on separate lines.
-				* Add these together and write the result.
-				* Then read in two more big numbers, adding them and writing the result until end of file.
+				* Continually until end-of-file:
+					* Read in two numbers into bigints and write both out on separate lines.
+					* Add these together and write the result.
 				* All output must be labeled and neat.
-				* You will need to select the add program to compile/run
 			* Testing
 				* There are a provided set of tests to validate your implementation of the above.
-				* You will need to update the CMakeLists.txt file
 
 ## Iteration 1 Rubric
 * [] No use of using namespace (if use -25 points)
