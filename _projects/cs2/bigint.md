@@ -62,8 +62,9 @@ layout: markdown
                 * Read in two numbers into bigints and write both out on separate lines.
                 * Add these together and write the result.
             * All output must be labeled and neat.
-        * Testing
-            * There are a provided set of tests to validate your implementation of the above. These are run by auto-grader, but not Visual Studio.
+    * Testing
+        * There are a provided set of tests to validate your implementation of the above. These are run by auto-grader, but not Visual Studio.  Visual Studio only builds the `add.cpp`.
+        * 
 
 ## Iteration 1 Rubric
 * [] No use of using namespace (if use -25 points)
