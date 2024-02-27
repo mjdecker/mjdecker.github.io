@@ -172,11 +172,11 @@ The University Libraries provides access to books, articles, databases, subject-
 |7|2/23|More Pointers|
 |8|2/26|14.1|
 |8|2/28|14.2 - 14.3|
-|8|3/1|14.4 - 14.6|
+|8|3/1|Midterm|
 |9|3/4|Spring Break|
 |9|3/6|Spring Break|
 |9|3/8|Spring Break|
-|10|3/11|Midterm|
+|10|3/11|14.4 - 14.6|
 |10|3/13|More Linked List & Iterators|
 |10|3/15|More Linked List & Iterators|
 |11|3/18|15.1 - 15.2|
