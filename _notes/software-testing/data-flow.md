@@ -56,50 +56,6 @@ layout: notes
 # Definition-clear Path
 > A definition-clear path with respect to a variable v (denoted dc-path) is a definition-use path in PATHS(P) with initial and final nodes DEF (v, m) and USE (v, n) such that no other node in the path is a defining node of v.
 
-
-# Sales Commission Program
-
-```
-1.  Program Commission (INPUT,OUTPUT)
-7.  lockPrice = 45.0
-8.  stockPrice = 30.0
-9.  barrelPrice = 25.0
-10. totalLocks = 0
-11. totalStocks = 0
-12. totalBarrels = 0
-13. Input(locks)
-14. While NOT(locks = -1) 
-15.     Input(stocks, barrels)
-16.     totalLocks = totalLocks + locks
-17.     totalStocks = totalStocks + stocks
-18.     totalBarrels = totalBarrels + barrels
-19.     Input(locks)
-20. EndWhile
-21. Output(“Locks sold: “, totalLocks)
-22. Output(“Stocks sold: “, totalStocks)
-23. Output(“Barrels sold: “, totalBarrels)
-24. lockSales = lockPrice * totalLocks
-25. stockSales = stockPrice * totalStocks
-26. barrelSales = barrelPrice * totalBarrels
-27. sales = lockSales + stockSales + barrelSales
-28. Output(“Total sales: “, sales)
-29. If (sales > 1800.0)
-30.   Then
-31.     commission = 0.10 * 1000.0
-32.     commission = commission + 0.15 * 800.0
-33.     commission = commission + 0.20 *(sales-1800.0)
-34.   Else If (sales > 1000.0)
-35.              Then
-36.                 commission = 0.10 * 1000.0
-37.                 commission = commission + 0.15 *(sales-1000.0)
-38.               Else
-39.                  commission = 0.10 * sales
-40.            EndIf
-41.  EndIf
-42. Output(“Commission is $”, commission)
-43. End Commission
-```
-
 # Sales Commission Program
 <script src="https://gist.github.com/mjdecker/afd7b24e8239ebd138a7f5129d40a505.js?file=sales-commission.py"></script>
 
