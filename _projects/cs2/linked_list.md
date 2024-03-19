@@ -38,18 +38,18 @@ layout: markdown
 * For more information on proper usage, see the file with tests for the given item
 * **Iteration 1 - 50 points**-  [Rubric](#iteration-1-rubric)
     * Default constructor - intialize to empty list, head is `nullptr`
+    * `insert_before` - Inserts the given string as a new node before the specified node
+    * `is_empty` - returns if the linked list is empty
     * Copy constructor - Deep copy of another linked list
     * Destructor - Deallocates the memory
     * `swap` - Swaps data members with another linked list
     * Copy assignment - Deep copy of another linked list
-    * `is_empty` - returns if the linked list is empty
-    * `front` - Both const/non-const, returning the head element's value
     * Testing
         * There are a provided set of tests to validate your implementation of the above. These are run by auto-grader, but not Visual Studio.
 
 * **Iteration 2 - 50 points** - [Rubric](#iteration-2-rubric)
+    * `front` - Both const/non-const, returning the head element's value
     * `length` - Returns how many elements are in the linked list
-    * `insert_before` - Inserts the given string as a new node before the specified node
     * `remove` - Remove the given node from the list. Make sure to deallocate
     * `operator[]` - Return the node at the given index, return `nullptr` if invalid index
     * `find` - Return the node with given string value, if it does not exist return `nullptr`
@@ -63,6 +63,12 @@ layout: markdown
 * [] Default constructor (5 points)
     * [] implementation present
     * [] tests pass
+* [] insert_before (10 points)
+    * [] implementation present
+    * [] tests pass
+* [] is_empty (5 points)
+    * [] implementation present
+    * [] tests pass
 * [] Copy constructor (10 points)
     * [] implementation present
     * [] tests pass
@@ -72,12 +78,6 @@ layout: markdown
 * [] Copy/assignment & Swap (10 points)
     * [] implementation present
     * [] tests pass
-* [] is_empty (5 points)
-    * [] implementation present
-    * [] tests pass
-* [] front (10 points)
-    * [] both implementations present
-    * [] tests pass
 
 ## Iteration 2 Rubric
 * [] No use of using namespace (if use -25 points)
@@ -86,8 +86,8 @@ layout: markdown
 * [] length (5 points)
     * [] implementation present
     * [] tests pass
-* [] insert_before (10 points)
-    * [] implementation present
+* [] front (10 points)
+    * [] both implementations present
     * [] tests pass
 * [] remove (10 points)
     * [] implementation present
