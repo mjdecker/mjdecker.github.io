@@ -38,7 +38,7 @@ layout: markdown
 * For more information on proper usage, see the file with tests for the given item
 * **Iteration 1 - 50 points**-  [Rubric](#iteration-1-rubric)
     * Default constructor - intialize to empty list, head is `nullptr`
-    * `insert_before` - Inserts the given string as a new node before the specified node
+    * `insert_before` - Inserts the given string as a new node. If linked_list is empty, sets head, otherwise, it is inserted before the specified node
     * `is_empty` - returns if the linked list is empty
     * Copy constructor - Deep copy of another linked list
     * Destructor - Deallocates the memory
