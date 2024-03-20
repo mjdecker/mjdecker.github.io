@@ -12,12 +12,12 @@ layout: markdown
 * You will be implementing a *linked_list* class.  
 
 ## Problem and Specification
-* Along with vectors, linked-list are a fundamental data structure used in programming. There are tradeoffs between picking one over the other. Here a brief comparison of vectors and linked lists:
+* Along with vectors, linked list are a fundamental data structure used in programming. There are tradeoffs between picking one over the other. Here is a brief comparison of vectors and linked lists:
 
 * Vector
     * Benefits
         * Quick random access (any element is equally fast to access)
-        * Easy to add/remove elements to the end
+        * Easy to add/remove elements at the end
     * Disadvantages
         * Adding/removing from beginning or middle is costly
 * Linked List      
@@ -27,8 +27,8 @@ layout: markdown
     * Disadvantages
         * Does not support efficient random access
 
-* You will be implementing a linked-list for this project. As part of this you will be implementing some methods that linked list is ideal for (e.g., insert/remove) and some non-traditional linked list methods to help you get an idea of where it is not efficient (e.g., operator[]).
-* The type of linked-list you will be implementing is known as a doubly linked list.  Instead of the ones we have seen so far that have a node that points to the next element, this one will have a pointers that point to both the next and the previous element.  The first (i.e., head) node will have a previous pointer set to `nullptr` just as the last element (i.e., tail) will have a next that points `nullptr`. See `linked_list.hpp` for what the node class provides.
+* You will be implementing a linked list for this project. As part of this you will be implementing some methods that linked list is ideal for (e.g., insert/remove) and some non-traditional linked list methods to help you get an idea of where it is not efficient (e.g., operator[]).
+* The type of linked list you will be implementing is known as a doubly linked list.  Instead of the ones we have seen so far that have a node that points to the next element, this one will have pointers that point to both the next and the previous element.  The first (i.e., head) node will have a previous pointer set to `nullptr` just as the last element (i.e., tail) will have a next that points to `nullptr`. See `linked_list.hpp` for what the node class provides.
 
 ## Requirements
 * Follow,  class [Programming Requirements](https://mjdecker.github.io/standards/coding-standards.html)
@@ -45,7 +45,8 @@ layout: markdown
     * `swap` - Swaps data members with another linked list
     * Copy assignment - Deep copy of another linked list
     * Testing
-        * There are a provided set of tests to validate your implementation of the above. These are run by auto-grader, but not Visual Studio.
+        * There are a provided set of tests to validate your implementation of the above. These are run by the auto-grader, but not Visual Studio.
+        * In order to provide this testing, some of the above constructors/methods may require other constructors/methods (including those from iteration 2) to be implemented.
 
 * **Iteration 2 - 50 points** - [Rubric](#iteration-2-rubric)
     * `front` - Both const/non-const, returning the head element's value
@@ -55,6 +56,7 @@ layout: markdown
     * `find` - Return the node with given string value, if it does not exist return `nullptr`
     * Testing
         * There are a provided set of tests to validate your implementation of the above. These are run by auto-grader, but not Visual Studio.
+        * In order to provide this testing, some of the above constructors/methods may require other constructors/methods (including those from iteration 2) to be implemented.
 
 ## Iteration 1 Rubric
 * [] No use of using namespace (if use -25 points)
