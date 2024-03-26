@@ -1,5 +1,5 @@
 ---
-title: "Project: Bigint"
+title: "Project: Coverage"
 layout: markdown
 ---
 
@@ -16,16 +16,19 @@ layout: markdown
 	* Use `simple_main.cpp` and `foo.cpp` for testing
 
 ## Details ##
-* The program must build and run using the provided *Makefile* on voyager and be committed/pushed to your class GitHub repository.
-* Start by cloning the GitHub classroom assignment
+* The program must build and run using the provided *CMakeLists.txt* on voyager and be committed/pushed to your class GitHub repository.
 
 * You will be inserting source-code into a software project that will collect and report coverage information when the project is run.  For this project, we will limit ourself to coverage of conditions, declaration-statements, and expression-statements.
 * As we need knowledge of the program syntax to do this (i.e., we need Abstract Syntax Tree (AST) information), we will use the srcML infrastructure (see [www.srcML.org](www.srcML.org) for more information).  The srcML infrastructure wraps the source-code with AST information in the form of XML tags.  This will be the input to the coverage tool.  The utility *srcml* has been installed on voyager if you wish to play with it, but all the necessary files are provided for you.  It can be run as follows:
-	* 	srcml input_file_name.cpp -o output_file_name.cpp.xml
+	* 	`srcml input_file_name.cpp -o output_file_name.cpp.xml`
 * For this project, only a subset of the srcML tags are relevant.  They are the following:
 	* \<name> - an identifier or function name
 	* \<block> - a block { stmts }
+	* \<block_content> - the inside of a \<block>
+	* \<constructor> - a constructor
+	* \<destructor> - a destructor
 	* \<function> - a function or method
+	* \<function type="operator"> - an operator function/method
 	* \<decl_stmt> - a declaration statement (e.g., *int a; bar x(str); char args[10] = { 0 };* )
 	* \<expr_stmt> - an expression statement (e.g., *a = 5 + x; std::cin >> x; ++i; foo(30);*)
 	* \<condition> - a condition of an if/for/while, etc.
@@ -34,8 +37,9 @@ layout: markdown
 * Specification
 	* The following is a complete working usage of the coverage tool:
  
-			./coverage simple_main.cpp.xml
-			make c-simple_main
+			./coverage simple_main.cpp.xml foo.cpp.xml
+			# Run cmake prior to next (one-time only)
+			make
 			./c-simple_main
 
 	* There are three parts to this assignment:
@@ -119,8 +123,10 @@ layout: markdown
 	* Here is how to run and execute `test_output` with coverage. 
 	
 			./coverage test_output.cpp.xml bigint.cpp.xml
-			make c-test_output
+			# Run cmake prior to next (one-time only)
+			make
 			./c-test_output
+
 	* Look at the output and the source (`bigint.cpp` and `bigint.hpp`) as well as the instrumented source `c-bigint.cpp`.  Can the missed code ever be run?  Pay special attention to the magic number in `operator<<`. 
 
 * Simplifications
