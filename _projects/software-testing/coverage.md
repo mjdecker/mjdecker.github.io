@@ -73,60 +73,60 @@ layout: markdown
   * Example Before:
     
 <pre>
-    //// @file main1.cpp
-    #include &lt;iostream&gt;
+        //// @file main1.cpp
+        #include &lt;iostream&gt;
 
-    int main() {
-      int i;
-      i = 0;
-      while (i < 10) {   
-        ++i;   
-        std::cout << i;
-      }
-      std::cout << '\n';
-      return 0;
-    }
-  
-    /// @file foo.cpp
+        int main() {
+          int i;
+          i = 0;
+          while (i < 10) {   
+            ++i;   
+            std::cout << i;
+          }
+          std::cout << '\n';
+          return 0;
+        }
+      
+        /// @file foo.cpp
 
-    int foo() {
-      int i;
-      i = 0;
-      return i;
-    } 
+        int foo() {
+          int i;
+          i = 0;
+          return i;
+        } 
 </pre>
   * Example After:
 
 <pre> 
-    /// @file main1.cpp
-    #include &lt;iostream&gt;
+        /// @file main1.cpp
+        #include &lt;iostream&gt;
 
-    <span style="color:red">#include "coverage_map.hpp"
-    coverage_map_t simple_main_cpp("simple_main.cpp");
-    coverage_map_t foo_cpp("foo.cpp");</span>
+        <span style="color:red">#include "coverage_map.hpp"
+        coverage_map_t simple_main_cpp("simple_main.cpp");
+        coverage_map_t foo_cpp("foo.cpp");</span>
 
-    int main() {<span style="color:red">simple_main_cpp.append(__FUNCTION__, 6);</span>
-      int i;<span style="color:red">simple_main_cpp.executed(__FUNCTION__, 0);</span>
-      i = 0;<span style="color:red">simple_main_cpp.executed(__FUNCTION__, 1);</span>
-      while (<span style="color:red">simple_main_cpp.executed(__FUNCTION__, 2)</span>, i < 10) {   
-        ++i;<span style="color:red">simple_main_cpp.executed(__FUNCTION__, 3); </span>  
-        std::cout << i;<span style="color:red">simple_main_cpp.executed(__FUNCTION__, 4);</span>
-      }
-      std::cout << '\n';<span style="color:red">simple_main_cpp.executed(__FUNCTION__, 5);</span>
-      <span style="color:red">simple_main_cpp.print();foo_cpp.print();</span>return 0;
-    }
-    
-    
-    /// @file foo.cpp
+        int main() {<span style="color:red">simple_main_cpp.append(__FUNCTION__, 6);</span>
+          int i;<span style="color:red">simple_main_cpp.executed(__FUNCTION__, 0);</span>
+          i = 0;<span style="color:red">simple_main_cpp.executed(__FUNCTION__, 1);</span>
+          while (<span style="color:red">simple_main_cpp.executed(__FUNCTION__, 2)</span>, i < 10) {   
+            ++i;<span style="color:red">simple_main_cpp.executed(__FUNCTION__, 3); </span>  
+            std::cout << i;<span style="color:red">simple_main_cpp.executed(__FUNCTION__, 4);</span>
+          }
+          std::cout << '\n';<span style="color:red">simple_main_cpp.executed(__FUNCTION__, 5);</span>
+          <span style="color:red">simple_main_cpp.print();foo_cpp.print();</span>return 0;
+        }
+        
+        
+        /// @file foo.cpp
 
-    <span style="color:red">#include "coverage_map.hpp"
-    extern coverage_map_t foo_cpp;</span>
+        <span style="color:red">#include "coverage_map.hpp"
+        extern coverage_map_t foo_cpp;</span>
 
-    int foo() {<span style="color:red">foo_cpp.append(__FUNCTION__, 2);</span>
-      int i;<span style="color:red">foo_cpp.executed(__FUNCTION__, 0);</span>
-      i = 0;<span style="color:red">foo_cpp.executed(__FUNCTION__, 1);</span>
-      return i;
-    } 
+        int foo() {<span style="color:red">foo_cpp.append(__FUNCTION__, 2);</span>
+          int i;<span style="color:red">foo_cpp.executed(__FUNCTION__, 0);</span>
+          i = 0;<span style="color:red">foo_cpp.executed(__FUNCTION__, 1);</span>
+          return i;
+        } 
 </pre>
 * Simplifications
   * *ONLY* invoked functions are reported.
