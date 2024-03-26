@@ -73,20 +73,20 @@ layout: markdown
 	* Example Before:
 		
 <pre>
-		//// @file main1.cpp
-        #include &lt;iostream&gt;
+    //// @file main1.cpp
+    #include &lt;iostream&gt;
 
-        int main() {
-          int i;
-          i = 0;
-          while (i < 10) {   
-            ++i;   
-            std::cout << i;
-          }
-          std::cout << '\n';
-          return 0;
-        }
-		
+    int main() {
+      int i;
+      i = 0;
+      while (i < 10) {   
+        ++i;   
+        std::cout << i;
+      }
+      std::cout << '\n';
+      return 0;
+    }
+	
 		/// @file foo.cpp
 
 		int foo() {
