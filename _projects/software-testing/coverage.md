@@ -63,7 +63,7 @@ layout: markdown
 
 	* Example Before:
 		
-		<pre>
+<pre>
 		//// @file main1.cpp
         #include &lt;iostream&gt;
 
@@ -88,7 +88,7 @@ layout: markdown
 </pre>
 	* Example After:
 
-		<pre>	
+<pre>	
         /// @file main1.cpp
         #include &lt;iostream&gt;
 
@@ -118,7 +118,7 @@ layout: markdown
           i = 0;<span style="color:red">foo_cpp.executed(__FUNCTION__, 1);</span>
           return i;
         } 
-		</pre>
+</pre>
 * `coverage.txt`
 	* Here is how to run and execute `test_output` with coverage. 
 	
