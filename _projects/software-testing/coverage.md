@@ -35,7 +35,7 @@ layout: markdown
   * \<expr_stmt> - an expression statement (e.g., *a = 5 + x; std::cin >> x; ++i; foo(30);*)
   * \<condition> - a condition of an if/for/while, etc.
   * \<return> - a return statement (e.g., return result;) 
-* Note: function will be used to any function like element: functions, methods, constructors, destructors, and operator functions/methods. Provided for you is `is_function_tag` which returns true if an element is a function-like element.
+* Note: function will be used to mean any function like element: functions, methods, constructors, destructors, and operator functions/methods. Provided for you is `is_function_tag` which returns true if an element is a function-like element.
 * Specification
   * The following is a complete working usage of the coverage tool:
 
