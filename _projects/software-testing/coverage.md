@@ -39,6 +39,7 @@ layout: markdown
 * Specification
   * The following is a complete working usage of the coverage tool:
 
+<pre>
       # Instrumenting simple_main.cpp & foo.cpp
       ./coverage simple_main.cpp.xml foo.cpp.xml
       # Run cmake prior to next (one-time only)
@@ -50,6 +51,7 @@ layout: markdown
       # Run cmake prior to next (one-time only)
       make
       ./c-test_output
+</pre>
 
   * There are three parts to this assignment:
     * The main which parses the command-line arguments and runs the code to profile the project.  For simplicity, the first argument to the command line tool will be the file with the main function.  The remaining arguments will be additional files (with no main) to be profiled.  The main program is provide for you as *main.cpp* (you **MUST** use this).
