@@ -11,7 +11,6 @@ layout: markdown
 ## Overview
 * You will be implementing a *list* class modeled of Lisp's list structre
 
-https://en.wikipedia.org/wiki/Lisp_(programming_language)#Conses_and_lists
 ## Problem and Specification
 * [Lisp](https://en.wikipedia.org/wiki/Lisp_(programming_language)) (short for list processing) is a functional programming language first introduced in 1960.  It is a highly fluential programming langauge who has modern dialects today and influences modern programming languages.  At its core, Lisp has two fundamental data types: atoms & lists. Here we will focus on lists, which correspond to a linked list in other languages
 
