@@ -53,9 +53,9 @@ https://en.wikipedia.org/wiki/Lisp_(programming_language)#Conses_and_lists
         * In order to provide this testing, some of the above constructors/methods may require other constructors/destructor/methods
 
 ## Rubric
-* [] No use of using namespace (if use -25 points)
-* [] Programming style/requirements (up to -10)
-* [] Implementations are in cpp file (5 points)
+* [] No use of using namespace (if use -50 points)
+* [] Programming style/requirements (up to -20)
+* [] Implementations are in cpp file (10 points)
 
 * [] Default constructor (5 points)
     * [] implementation present
@@ -82,7 +82,7 @@ https://en.wikipedia.org/wiki/Lisp_(programming_language)#Conses_and_lists
 * [] Copy constructor (10 points)
     * [] implementation present
     * [] tests pass
-* [] Destructor (5 points)
+* [] Destructor (10 points)
     * [] implementation present
     * [] tests pass
 * [] size (5 points)
@@ -91,12 +91,12 @@ https://en.wikipedia.org/wiki/Lisp_(programming_language)#Conses_and_lists
 * [] nth (5 points)
     * [] implementation present
     * [] tests pass
-* [] operator== (5 points)
+* [] operator== (10 points)
     * [] implementation present
     * [] tests pass
 * [] operator<< (5 points)
     * [] implementation present
     * [] tests pass
-* [] operator+ (5 points)
+* [] operator+ (10 points)
     * [] implementation present
     * [] tests pass
