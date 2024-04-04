@@ -47,9 +47,9 @@ layout: markdown
     * `operator+` - returns a new list that is lhs concatenated with rhs
 
 * Testing
-        * There are a provided set of tests to validate your implementation of the above.  A visual studio solution is provided for each
-        * Destructor is tested via checking of memory leaks in auto-grader
-        * In order to provide this testing, some of the above constructors/methods may require other constructors/destructor/methods
+	* There are a provided set of tests to validate your implementation of the above.  A visual studio solution is provided for each
+    * Destructor is tested via checking of memory leaks in auto-grader
+    * In order to provide this testing, some of the above constructors/methods may require other constructors/destructor/methods
 
 ## Rubric
 * [] No use of using namespace (if use -50 points)
