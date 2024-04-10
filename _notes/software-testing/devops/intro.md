@@ -172,3 +172,109 @@ layout: notes
 * The longer a release takes, the less advantage to be gained
 * Ideally, want a continuous release, i.e., *continuous delivery* or *continuous deployment*
 * Will use the term *continuous deployment*, and often just *deployment*
+
+# Notice
+* Unless specified, the following notes are from the book Len Bass, Liming Zhu, Ingo M. Weber, [*DevOps: A Software Architect’s Perspective*](https://learning.oreilly.com/library/view/devops-a-software/9780134049885/#toc) ISBN-13: 978-0134049847
+* For some images and quotes, you must log into *Safari Books Online*
+
+# Release Process
+* Release of a system or an updated version to the customers
+* One of the most sensitive steps in software development, whether internal or external
+* Releasing a new version -> possible of incompatibilities or failures -> customer unhappiness
+* Release plans must be carefully created and are often done manually
+
+# Release Planning Step 1
+> Define and agree on release and deployment plans with customers/stakeholders
+
+* Features to be included in the new release
+* Ensure that operations (including help desk and support) are aware of schedules
+* Ensure that resource requirements are met
+* Ensure that additional training is available
+
+# Release Planning Step 2
+> Ensure that each release package consists of a set of related assets and service components that are compatible with each other
+
+* Programs, libraries, etc. have dependencies
+* Changes may introduce incompatibilities
+* Managing dependencies is a significant part of what DevOps does
+
+# Release Planning Step 3
+> Ensure that the integrity of a release package and its constituent components is maintained throughout the transition activities and recorded accurately in the configuration management system.
+
+* Ensure that the old versions of a component are not (accidentally) included in the release
+* Records are kept of the components of the deployment (important for tracking down errors)
+
+# Release Planning Step 4
+> Ensure that all release and deployment packages can be tracked, installed, tested, verified, and uninstalled or rolled back if appropriate
+
+* *rolled back* - return to old version (uninstall new version, re-install old version)
+* Reasons include code errors, inadequate resources, expired licenses
+
+# Release
+* *manual*
+* {: .hide } labor-intensive, time-consuming, error-prone
+* *automated*
+* {: .hide } little labor involved, minimum time to run, not prone to errors of procedure
+* {: .hide } can be labor-intensive to develop
+* {: .hide } iterate to improve
+
+# Upgrade Failures
+* [On August 1, 2012, Knight Capital had an upgrade failure that ended up costing (US) $440 million](https://dealbook.nytimes.com/2012/08/02/knight-capital-says-trading-mishap-cost-it-440-million/)
+* [On August 20, 2013, Goldman Sachs had an upgrade failure that, potentially, could cost millions of dollars](https://www.reuters.com/article/us-nasdaq-trades/goldman-sachs-technical-error-causes-erroneous-u-s-option-trades-idUSBRE97J0R920130820)
+
+# XebiaLabs Survey
+* 2013 survey 130 responses
+* 7.5% "not reliable"
+* 57.5% "needs improvement"
+* Challenges:
+* {: .hide } 49% "too much inconsistency across environments and applications"
+* {: .hide } 32.5% "too many errors"
+* {: .hide } 29.2% of deployments relied on custom scripting
+* {: .hide } 35.8% deployments were partially manual
+
+# CA Technologies Survey
+* 2013 survey, 1,300 respondents, companies over $100 million in revenue
+* Benefits from the adoption of DevOps
+* {: .hide } 53% increased frequency of deployment
+* {: .hide } 41% anticipating increased frequency
+* {: .hide } 42% improved quality of deployed applications
+* {: .hide } 49% anticipate improved quality
+
+# Reasons for Poor Coordination
+* Developers complete all coding and testing
+* The developed system needs to move into the operating environment:
+* {: .hide } Only appropriate access is permitted
+* {: .hide } Compatible with all other systems
+* {: .hide } Sufficient resources
+* {: .hide } Up-to-date data
+* {: .hide } Generated data is in a format usable by other systems
+* {: .hide } Help desk and support are trained
+* {: .hide } Operations personnel are trained for troubleshooting
+* {: .hide } Timing with personnel resources
+
+# Operation Responsibilities I (redux)
+* Analyze system logs and identify potential issues with computer systems
+* Introduce and integrate new technologies into existing datacenter environments
+* Perform routine audits of systems and software
+* Perform backups
+* Apply operating system updates, patches, and configuration changes
+* Install and configure new hardware and software
+* Add, remove, or update user account information; reset passwords, etc.
+
+# Operation Responsibilities II (redux)
+* Answer technical queries and assist users
+* Ensure security
+* Document the configuration of the system
+* Troubleshoot reported problems
+* Optimize system performance
+* Ensure that the network infrastructure is up and running
+* Configure, add, and delete file systems
+* Maintain knowledge of volume management tools
+
+# Operation Personnel
+* Each item requires a deep level of understanding to perform well
+* Problem: "Finding and keeping qualified personnel”
+* The DevOps approach is to reduce the need for dedicated operations personnel:
+* {: .hide } Automate many tasks formerly done by operations
+* {: .hide } Have developers assume a portion of the remainder
+* Implications? In terms of background?
