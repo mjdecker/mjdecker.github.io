@@ -20,7 +20,7 @@ layout: notes
 
 # Time periods/modes
 * *Development*
-* *Operations*
+* *[Operations](https://en.wikipedia.org/wiki/Data_center_management#Operations)*
 
 # Development
 * Features are being implemented to fulfill requirements
