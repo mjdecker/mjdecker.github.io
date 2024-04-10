@@ -3,11 +3,7 @@ title: "DevOps Motivation"
 layout: notes
 ---
 
-# Overview
-* *[What is DevOps?](https://en.wikipedia.org/wiki/DevOps)*
-* *Why DevOps?*
-
-# srcML
+# Motivation - srcML
 * Build
     * 151 source-code files, 32 KLOC of code
     * 2 KLOC of CMake for C library and CLI
