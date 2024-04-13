@@ -173,10 +173,6 @@ layout: notes
 * Ideally, want a continuous release, i.e., *continuous delivery* or *continuous deployment*
 * Will use the term *continuous deployment*, and often just *deployment*
 
-# Notice
-* Unless specified, the following notes are from the book Len Bass, Liming Zhu, Ingo M. Weber, [*DevOps: A Software Architect’s Perspective*](https://learning.oreilly.com/library/view/devops-a-software/9780134049885/#toc) ISBN-13: 978-0134049847
-* For some images and quotes, you must log into *Safari Books Online*
-
 # Release Process
 * Release of a system or an updated version to the customers
 * One of the most sensitive steps in software development, whether internal or external
