@@ -10,7 +10,7 @@ layout: notes
 [Jenkins]: https://jenkins.io
 [CircleCI]: https://circleci.com
 
-[CICD Pipleline]: https://resources.github.com/assets/img/ci-cd/pipeline.png
+[CICD Pipleline]: https://images.ctfassets.net/wfutmusr1t3h/522vhdOxPe5fxBb1zqDlUd/f981c8602d975821818a2dbb2b777e2c/Group_48096049__1_.png?w=1280&q=75
 
 [Continuous Integration]: https://en.wikipedia.org/wiki/Continuous_integration
 [Continuous Delivery]: https://en.wikipedia.org/wiki/Continuous_delivery
