@@ -3,6 +3,9 @@ title: "How to Present"
 layout: notes
 ---
 
+[good]: /images/research-methods/good.png
+[bad]: /images/research-methods/bad.png
+
 # Goals of a Presentation
 * Why are you presenting?
 	* To communicate some idea, concept, or method to an audiance
@@ -74,10 +77,10 @@ layout: notes
 	* Have a meaningful (and unique) title - not Introduction(5)
 
 # The Good
-![](https://www.cs.bgsu.edu/mdecke/classes/research_methods/notes/presenting/good.png)
+![][good]
 
 # The Bad
-![](https://www.cs.bgsu.edu/mdecke/classes/research_methods/notes/presenting/bad.png)
+![][bad]
 
 # Message
 * What do you want to communicate?
