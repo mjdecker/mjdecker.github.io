@@ -1,5 +1,6 @@
 semesters:
   - semester: "Fall 2025"
+    current: true
     start_date: "2025-08-25"
     end_date: "2025-12-05"
     classes:
