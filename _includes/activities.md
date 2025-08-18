@@ -1,6 +1,6 @@
 ### Activities
 ---
-* Sabbatical in Tokyo working with Shinpei Hayash from Institute of Science Tokyo
+* Sabbatical in Tokyo working with Shinpei Hayashi from Institute of Science Tokyo
 * Japan conference/presentation
 * ICSME NIER
 * Journal
