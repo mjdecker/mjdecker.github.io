@@ -1,5 +1,11 @@
 ### Activities
 ---
+* Sabbatical in Tokyo working with Shinpei Hayash from Institute of Science Tokyo
+* Japan conference/presentation
+* ICSME NIER
+* Journal
+* Conference paper?
+* Keynote
 * Session chair for the *Human Aspects, Testing, and Logs* of 31st IEEE/ACM International Conference on Program Comprehension [ICPC'23](https://conf.researchr.org/home/icpc-2023)
 * Awarded $750K NSF grant: *Collaborative Research: CCRI: New: Syntactic Differencing Infrastructure for Software Evolution Research*
 * Tenure & Promotion to Associate Professor at BGSU
