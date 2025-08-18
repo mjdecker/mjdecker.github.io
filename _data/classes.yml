@@ -7,7 +7,7 @@ semesters:
       - number: "SE 4/5540"
         title: "Software Architecture & Design"
         time: "18:00 - 19:15"
-        days: "T R  "
+        days: " T R "
         building: "Education"
         room: "301"
 
@@ -71,7 +71,7 @@ semesters:
       - number: "CS 4/5050"
         title: "Research Methods in Computer Science"
         time: "19:30 - 20:45"
-        days: "T R  "
+        days: " T R "
         building: "Hayes"
         room: "117"
 
