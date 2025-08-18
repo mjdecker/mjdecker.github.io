@@ -31,7 +31,6 @@ semesters:
         building: "Education"
         room: "303"
 
-semesters:
   - semester: "Spring 2024"
     start_date: "2024-01-08"
     end_date: "2024-4-26"
