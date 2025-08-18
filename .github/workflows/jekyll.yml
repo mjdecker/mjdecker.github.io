@@ -59,7 +59,7 @@ jobs:
 
   # Deployment job
   deploy:
-g    permissions:
+    permissions:
       pages: write
       id-token: write
     environment:
