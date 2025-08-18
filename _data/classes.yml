@@ -1,4 +1,37 @@
 semesters:
+  - semester: "Fall 2025"
+    start_date: "2025-08-25"
+    end_date: "2025-12-05"
+    classes:
+      - number: "SE 4/5540"
+        title: "Software Architecture & Design"
+        time: "18:00 - 19:15"
+        days: "T R  "
+        building: "Education"
+        room: "301"
+
+      - number: "CS 4770"
+        title: "CS Capstone Experience"
+        time: "16:30 - 17:45"
+        days: "M W  "
+        building: "Education"
+        room: "303"
+
+      - number: "SE 4770"
+        title: "Software Engineering Capstone"
+        time: "16:30 - 17:45"
+        days: "M W  "
+        building: "Education"
+        room: "303"
+
+      - number: "CS 6800"
+        title: "Advanced Software Engineering"
+        time: "18:00 - 19:15"
+        days: "M W  "
+        building: "Education"
+        room: "303"
+
+semesters:
   - semester: "Spring 2024"
     start_date: "2024-01-08"
     end_date: "2024-4-26"
