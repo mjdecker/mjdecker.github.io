@@ -34,7 +34,7 @@ layout: notes
 # Call Graph
 * Nodes:  methods/functions
 * Edges:  method/function calls
-* [Large call graph graph comparison](http://lxer.com/module/forums/t/32899/)
+* [Large call graph graph comparison](https://lxer.com/module/forums/t/32899/)
 
 # Call Graph:  Functions
 <script src="https://gist.github.com/mlcollard/3e3911e0ade874f0a1d7b8434e30680f.js?file=callgraph_Functions.cpp"></script>

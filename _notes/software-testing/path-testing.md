@@ -244,7 +244,7 @@ layout: notes
 * Does not guarantee absence of faults
 
 # References
-* http://www.cs.kent.edu/~jmaletic
+* https://www.cs.kent.edu/~jmaletic
 * Jorgensen, P., Software testing: a craftman’s approach, CRC Press, 2016.
 
 

@@ -3,7 +3,7 @@ title: "Code Review"
 layout: notes
 ---
 
-[Software Reviews]: http://ieeexplore.ieee.org/document/4601584/
+[Software Reviews]: https://ieeexplore.ieee.org/document/4601584/
 [Audit]: https://en.wikipedia.org/wiki/Software_audit_review
 
 # [Software Reviews]

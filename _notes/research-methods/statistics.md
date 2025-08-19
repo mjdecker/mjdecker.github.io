@@ -58,7 +58,7 @@ layout: notes
 	* &gt; 2 sample
 
 # Stat Decision Chart
-![](http://abacus.bates.edu/~ganderso/biology/resources/stats_flow_chart_v2014.pdf)
+![](https://abacus.bates.edu/~ganderso/biology/resources/stats_flow_chart_v2014.pdf)
 
 # Significance
 * P-value - numerical result of a test

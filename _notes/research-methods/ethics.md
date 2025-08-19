@@ -153,8 +153,8 @@ layout: notes
 1. Does Kate (or do researchers in general) have a responsibility to communicate with the media? 
 2. If Kate feels that her research is misrepresented in the press, how might she approach the situation? Is she ultimately responsible for the information that is disseminated to the public?
 3. How might the appearance of bias be controlled at this point?
-4. This case was inspired by the following articles in [Time](http://content.time.com/time/health/article/0,8599,1650352,00.html?iid=sr-link1) and the [Denver Post](https://www.denverpost.com/2011/06/29/baby-einstein-dvd-creators-find-redemption-in-documents-suggesting-negative-study-was-flawed/). Consider how the controversy is presented in those articles. Is it presented fairly? Why or why not? How do you think it might affect the public perception of science? What do you see as the responsibilities of the researchers and the reporters and editors in this situation? Does the above case present the same or different ethical issues? 
+4. This case was inspired by the following articles in [Time](https://content.time.com/time/health/article/0,8599,1650352,00.html?iid=sr-link1) and the [Denver Post](https://www.denverpost.com/2011/06/29/baby-einstein-dvd-creators-find-redemption-in-documents-suggesting-negative-study-was-flawed/). Consider how the controversy is presented in those articles. Is it presented fairly? Why or why not? How do you think it might affect the public perception of science? What do you see as the responsibilities of the researchers and the reporters and editors in this situation? Does the above case present the same or different ethical issues? 
 
 # References
 * Based on: Research Methodology: A Step-by-Step Guide for Beginners  4th Ed. by Ranjit Kumar, 2014. ISBN: 978-1446269978
-* [Case study](http://www.onlineethics.org/Resources/Interpretation.aspx) from http://www.onlineethics.org by Simil Raghavan
+* [Case study](https://www.onlineethics.org/Resources/Interpretation.aspx) from https://www.onlineethics.org by Simil Raghavan

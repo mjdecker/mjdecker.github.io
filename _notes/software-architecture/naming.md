@@ -28,7 +28,7 @@ layout: notes
 
 # Naming Standards
 * There are a large number of naming practices
-* [On the Naming of Methods: A Survey of Professional Developers](http://www.cs.kent.edu/~jmaletic/papers/ICSE2021.pdf)
+* [On the Naming of Methods: A Survey of Professional Developers](https://www.cs.kent.edu/~jmaletic/papers/ICSE2021.pdf)
 * Survey of 1100+ developers
 * Result: Wide support for these standards
 * Result: Similar across multiple programming languages

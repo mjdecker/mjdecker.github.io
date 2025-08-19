@@ -12,7 +12,7 @@ layout: notes
     -   Object-Modeling Technique (OMT) [Rumbaugh, et. al.]
     -   Object-Oriented Software Engineering (OOSE) [Jacobsen]
 
-* Object-Management Group [www.omg.org](http://www.omg.org/)
+* Object-Management Group [www.omg.org](https://www.omg.org/)
 
 # Modeling History
 

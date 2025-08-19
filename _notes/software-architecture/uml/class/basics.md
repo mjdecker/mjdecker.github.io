@@ -14,11 +14,11 @@ layout: notes
 * Operations (methods)
 
 # UML Class Examples
-![](http://yuml.me/diagram/class/[Project])
-![](http://yuml.me/diagram/class/[Project|%20|%20])
-![](http://yuml.me/diagram/class/[Project|-%20name%20:%20Name|])
-![](http://yuml.me/diagram/class/[Project|%20|+%20view%28%29])
-![](http://yuml.me/diagram/class/[Project|-%20name%20:%20Name|+%20view%28%29])
+![](https://yuml.me/diagram/class/[Project])
+![](https://yuml.me/diagram/class/[Project|%20|%20])
+![](https://yuml.me/diagram/class/[Project|-%20name%20:%20Name|])
+![](https://yuml.me/diagram/class/[Project|%20|+%20view%28%29])
+![](https://yuml.me/diagram/class/[Project|-%20name%20:%20Name|+%20view%28%29])
 
 
 # Visibility
@@ -72,12 +72,12 @@ layout: notes
 * `+ draw(inout picture : Picture)`
 
 # Alternate Diagrams
-![](http://yuml.me/diagram/class/[Student%7C-%20name%20:%20Name%7C+Student%28name%20:%20Name%29;+getName%28%29%20:%20Name;+setName%28name%20:%20Name%29])
-![](http://yuml.me/diagram/class/[Student%7C+%20name%20:%20Name%7C])
+![](https://yuml.me/diagram/class/[Student%7C-%20name%20:%20Name%7C+Student%28name%20:%20Name%29;+getName%28%29%20:%20Name;+setName%28name%20:%20Name%29])
+![](https://yuml.me/diagram/class/[Student%7C+%20name%20:%20Name%7C])
 
 # Guideline
-![](http://yuml.me/diagram/class/[Student%7C-%20name%20:%20Name%7C+Student%28name%20:%20Name%29;+getName%28%29%20:%20Name;+setName%28name%20:%20Name%29])
-![](http://yuml.me/diagram/class/[Student%7C+%20name%20:%20Name%7C])
+![](https://yuml.me/diagram/class/[Student%7C-%20name%20:%20Name%7C+Student%28name%20:%20Name%29;+getName%28%29%20:%20Name;+setName%28name%20:%20Name%29])
+![](https://yuml.me/diagram/class/[Student%7C+%20name%20:%20Name%7C])
 
 * Attributes show the state of the objects
 * Attribute types may not map directly into types in the implementation language
@@ -86,7 +86,7 @@ layout: notes
 
 #  Guideline (continued)
 
-![](http://yuml.me/diagram/class/[Student%7C+%20name%20:%20Name%7C])
+![](https://yuml.me/diagram/class/[Student%7C+%20name%20:%20Name%7C])
 
 * In a high-level view, avoid *get()*/*set()* operations (methods) for attributes
 * In a high-level view, avoid constructors

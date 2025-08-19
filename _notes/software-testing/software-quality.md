@@ -3,7 +3,7 @@ title: "Software Quality"
 layout: notes
 ---
 
-[IEEE Std 730-2014]: http://ieeexplore.ieee.org/document/6835311/
+[IEEE Std 730-2014]: https://ieeexplore.ieee.org/document/6835311/
 [quality]: /images/secure-software-engineering/quality.png
 [Quality Characteristics]: https://iso25000.com/index.php/en/iso-25000-standards/iso-25010
 

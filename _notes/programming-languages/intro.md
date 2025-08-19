@@ -44,7 +44,7 @@ layout: notes
 * [Zuse's Plankalkül](https://en.wikipedia.org/wiki/Plankalkül) 1942-1945
 	* First high-level programming language
 	* Original contribution largely isolated from other development due to WWII  
-* [Language History](http://cdn.oreillystatic.com/news/graphics/prog_lang_poster.pdf)
+* [Language History](https://cdn.oreillystatic.com/news/graphics/prog_lang_poster.pdf)
 
 # Compilation (C/C++)
 * Take a program in high-level language and produce machine language executable by computer

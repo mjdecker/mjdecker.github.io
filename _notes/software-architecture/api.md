@@ -3,7 +3,7 @@ title: "API"
 layout: notes
 ---
 
-[libxml2]: http://www.xmlsoft.org
+[libxml2]: https://www.xmlsoft.org
 [libarchive]: https://www.libarchive.org
 [wxWidgets]: https://www.wxwidgets.org
 [cpp-netlib]: https://cpp-netlib.org

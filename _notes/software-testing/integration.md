@@ -105,5 +105,5 @@ layout: notes
 * infix2postfix - Method that takes a space separated string of an infix expression (fully parenthesized) and returns the expression space separated in postfix notation
 * stack and string are fully tested?  What can go wrong?
 
-![](http://yuml.me/diagram/class/[infix2postfix]--&gt;[string],%20[infix2postfix]--&gt;[stack])
+![](https://yuml.me/diagram/class/[infix2postfix]--&gt;[string],%20[infix2postfix]--&gt;[stack])
 -->

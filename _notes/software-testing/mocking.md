@@ -47,4 +47,4 @@ layout: notes
 
 # References
 * https://en.wikipedia.org/wiki/Mock_object
-* http://clean-cpp.org/mock-objects/
+* https://clean-cpp.org/mock-objects/

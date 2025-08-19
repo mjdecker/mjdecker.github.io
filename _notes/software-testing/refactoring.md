@@ -95,9 +95,9 @@ layout: notes
 
 # Re:  Pull-Up Method
 
-<img src="http://yuml.me/diagram/class/[Employee]^[Salesman||+getName()],[Employee]^[Engineer||+getName()]"/>
+<img src="https://yuml.me/diagram/class/[Employee]^[Salesman||+getName()],[Employee]^[Engineer||+getName()]"/>
 
-<img src="http://yuml.me/diagram/class/[Employee||+getName()]^[Salesman],[Employee||+getName()]^[Engineer]"/>
+<img src="https://yuml.me/diagram/class/[Employee||+getName()]^[Salesman],[Employee||+getName()]^[Engineer]"/>
 
 * *Methods with identical results in subclasses*
 * **Move them to the superclass**
@@ -105,9 +105,9 @@ layout: notes
 
 # Re:  Replace Superclass with Delegation
 
-<img src="http://yuml.me/diagram/class/[Vector||+empty()]^[Stack]"/>
+<img src="https://yuml.me/diagram/class/[Vector||+empty()]^[Stack]"/>
 
-<img src="http://yuml.me/diagram/class/[Vector||+empty()]<-[Stack||+empty()]"/>
+<img src="https://yuml.me/diagram/class/[Vector||+empty()]<-[Stack||+empty()]"/>
 
 * *A subclass uses only part of a superclasses interface or does not want to inherit data.*
 * **Create a field for the superclass, adjust methods to delegate to the superclass, and remove the subclassing**

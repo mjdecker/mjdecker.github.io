@@ -248,5 +248,5 @@ layout: notes
 # Metrics Tools
 * [sloccount](https://www.dwheeler.com/sloccount/)
 * [cloc](https://github.com/AlDanial/cloc)
-* [MosaiCode](http://www.cs.kent.edu/~jmaletic/papers/VISSOFT11.pdf)
+* [MosaiCode](https://www.cs.kent.edu/~jmaletic/papers/VISSOFT11.pdf)
 

@@ -169,6 +169,6 @@ layout: notes
 * Practice, practice, practice
 
 # Resources
-* http://www.cs.kent.edu/~jmaletic/CSseminar/
+* https://www.cs.kent.edu/~jmaletic/CSseminar/
 
 

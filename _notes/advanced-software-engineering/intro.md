@@ -49,7 +49,7 @@ layout: notes
 # Software Engineering Basics
 
 # Software Engineering
-* [Software Engineering](http://en.wikipedia.org/wiki/Software_engineering)
+* [Software Engineering](https://en.wikipedia.org/wiki/Software_engineering)
 * [Software Crisis](https://en.wikipedia.org/wiki/Software_crisis)
 
 # Software Engineering as a Layered Technology
@@ -190,7 +190,7 @@ layout: notes
 * A system is decomposed into multiple subsystems
 * Subsystem provides services to system
 
-<img src="http://yuml.me/diagram/plain/class/[system]-.->[subsystem1],%20[system]-.->[subsystem2]"/>
+<img src="https://yuml.me/diagram/plain/class/[system]-.->[subsystem1],%20[system]-.->[subsystem2]"/>
 
 # Subsystem
 * A set of related operations that share a common purpose
@@ -318,7 +318,7 @@ uncover faults and errors
 * Use experiments, case studies, surveys, and any available data
 
 # Software Visualization
- > Software visualization is a broad research area encompassing concepts, methods, tools, and techniques that assist in a range of software engineering and software development activities. Covered aspects include the development and evaluation of approaches for visually analyzing software and software systems, including their structure, execution behavior, and evolution. [\[VISSOFT\]](http://vissoft18.etsii.urjc.es)
+ > Software visualization is a broad research area encompassing concepts, methods, tools, and techniques that assist in a range of software engineering and software development activities. Covered aspects include the development and evaluation of approaches for visually analyzing software and software systems, including their structure, execution behavior, and evolution. [\[VISSOFT\]](https://vissoft18.etsii.urjc.es)
 
 # Static and Dynamic Analysis
 
