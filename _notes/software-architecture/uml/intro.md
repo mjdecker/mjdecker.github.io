@@ -101,20 +101,20 @@ layout: notes
 
 ![](https://upload.wikimedia.org/wikipedia/commons/e/e7/Activity_conducting.svg)
 
-# [UmlMode](http://martinfowler.com/bliki/UmlMode.html) [[Fowler](http://martinfowler.com/)]
-* [UmlAsProgrammingLanguage](http://martinfowler.com/bliki/UmlAsProgrammingLanguage.html)
+# [UmlMode](https://martinfowler.com/bliki/UmlMode.html) [[Fowler](https://martinfowler.com/)]
+* [UmlAsProgrammingLanguage](https://martinfowler.com/bliki/UmlAsProgrammingLanguage.html)
 
-* [UmlAsBlueprint](http://martinfowler.com/bliki/UmlAsBlueprint.html)
-* [UmlAsSketch](http://martinfowler.com/bliki/UmlAsSketch.html)
+* [UmlAsBlueprint](https://martinfowler.com/bliki/UmlAsBlueprint.html)
+* [UmlAsSketch](https://martinfowler.com/bliki/UmlAsSketch.html)
 
-# [UmlAsProgrammingLanguage](http://martinfowler.com/bliki/UmlAsProgrammingLanguage.html)
+# [UmlAsProgrammingLanguage](https://martinfowler.com/bliki/UmlAsProgrammingLanguage.html)
 * Provide enough detail to compile executable code from UML
 * Promise  
     * UML is a higher-level language and thus more productive than current programming languages
 * Reality:
     * Graphical languages are not always better, e.g., flow chart versus pseudocode for an algorithm
 
-# [UmlAsBlueprint](http://martinfowler.com/bliki/UmlAsBlueprint.html)
+# [UmlAsBlueprint](https://martinfowler.com/bliki/UmlAsBlueprint.html)
 * Express design enough to hand off to other group
 * Separation of labor:  High-end designers versus "coders"
 * Main feature:  Completeness.
@@ -123,7 +123,7 @@ layout: notes
 * Specialized tools to generate and create
 * May be integrated into IDE and used as another view of the code
 
-# [UmlAsSketch](http://martinfowler.com/bliki/UmlAsSketch.html)
+# [UmlAsSketch](https://martinfowler.com/bliki/UmlAsSketch.html)
 * UML to communicate an aspect of a system
 * Forward engineering - sketches to work out design before implementation
 * Reverse engineering - sketches for comprehension
