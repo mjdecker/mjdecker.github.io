@@ -16,16 +16,16 @@ layout: notes
 
 # Modeling History
 
-![](http://upload.wikimedia.org/wikipedia/commons/thumb/3/33/OO-historie-2.svg/1000px-OO-historie-2.svg.png)
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/OO-historie-2.svg/1000px-OO-historie-2.svg.png)
 
 # Diagram Types
 
-![](http://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/UML_diagrams_overview.svg/1000px-UML_diagrams_overview.svg.png)
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/UML_diagrams_overview.svg/1000px-UML_diagrams_overview.svg.png)
 
 
 # Diagram Views Diagram
 
-![](http://upload.wikimedia.org/wikipedia/commons/f/f2/4%2B1_Architectural_View_Model.jpg)
+![](https://upload.wikimedia.org/wikipedia/commons/f/f2/4%2B1_Architectural_View_Model.jpg)
 
 # Diagram Views
 * Logical view - concerned with the functionality the system provides end-users, includes Class and State diagrams.
@@ -47,27 +47,27 @@ layout: notes
 # Class Diagrams
 * Set of classes and their relationships. Describes interface to the class
 
-![](http://upload.wikimedia.org/wikipedia/commons/4/41/BankAccount1.svg)
+![](https://upload.wikimedia.org/wikipedia/commons/4/41/BankAccount1.svg)
 
 # Object Diagrams
 * Set of objects (class instances) and their relationships
 
-![](http://upload.wikimedia.org/wikipedia/commons/8/89/Instance_specification_3.png)
+![](https://upload.wikimedia.org/wikipedia/commons/8/89/Instance_specification_3.png)
 
 # Component Diagrams
 * Logical groupings of elements and their relationships
 
-![](http://upload.wikimedia.org/wikipedia/commons/7/74/Component-4.png)
+![](https://upload.wikimedia.org/wikipedia/commons/7/74/Component-4.png)
 
 # Deployment Diagrams
 * Set of computational resources (nodes) that host each component
 
-![](http://upload.wikimedia.org/wikipedia/commons/a/a8/UML_Diagramme_Deploiement.gif)
+![](https://upload.wikimedia.org/wikipedia/commons/a/a8/UML_Diagramme_Deploiement.gif)
 
 # Package Diagram
 * Organization into packages
 
-![](http://upload.wikimedia.org/wikipedia/commons/8/86/Package_import-1.png)
+![](https://upload.wikimedia.org/wikipedia/commons/8/86/Package_import-1.png)
 
 # Behavior Diagrams - Dynamic Aspects
 * *Use Case*
@@ -79,7 +79,7 @@ layout: notes
 # Use Case Diagram
 * High-level behaviors of the system, user goals, external entities: actors
 
-![](http://upload.wikimedia.org/wikipedia/commons/1/1d/Use_case_restaurant_model.svg)
+![](https://upload.wikimedia.org/wikipedia/commons/1/1d/Use_case_restaurant_model.svg)
 
 # Sequence Diagram
 * Time ordering of messages
@@ -94,7 +94,7 @@ layout: notes
 # State Machine Diagram
 * Event driven state changes of system
 
-![](http://upload.wikimedia.org/wikipedia/commons/b/be/UML_state_diagram.png)
+![](https://upload.wikimedia.org/wikipedia/commons/b/be/UML_state_diagram.png)
 
 # Activity Diagram
 * Flow of control between activities
