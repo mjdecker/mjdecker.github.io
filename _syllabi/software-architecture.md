@@ -3,18 +3,38 @@ title: "Syllabus"
 layout: markdown
 ---
 
+[Department of Computer Science]: http://www.bgsu.edu/arts-and-sciences/computer-science.html 'Department of Computer Science'
+
 [Dr. Michael J. Decker]: https://mjdecker.github.io 'Instructor Website'
 [mdecke@bgsu.edu]: mailto:mdecke@bgsu.edu 'Professor Email'
 
-[Department of Computer Science]: http://www.bgsu.edu/arts-and-sciences/computer-science.html 'Department of Computer Science'
+[Discord]: https://discord.com/new 'Discord Website'
 
-[Software Testing: A Craftsman's Approach]: https://learning.oreilly.com/library/view/software-testing-4th/9781466560680/
+[O'Reilly Safari Books]: https://www.oreilly.com/publisher/safari-books-online/
+[Software Architecture in Practice, Third Edition]: https://learning.oreilly.com/library/view/software-architecture-in/9780132942799/
+[Documenting Software Architectures: Views and Beyond, Second Edition]: https://learning.oreilly.com/library/view/documenting-software-architectures/9780132488617/
+[Software Architecture: Foundations, Theory, and Practice]: https://learning.oreilly.com/library/view/software-architecture-foundations/9780470167748/
+[Pattern-Oriented Software Architecture, A System of Patterns: Volume 1]: https://learning.oreilly.com/library/view/pattern-oriented-software-architecture/9781118725269/
+[Design Patterns: Elements of Reusable Object-Oriented Software]: https://learning.oreilly.com/library/view/design-patterns-elements/0201633612/
+[Head First Design Patterns, 2nd Edition]: https://learning.oreilly.com/library/view/head-first-design/9781492077992/
+[UML Distilled: A Brief Guide to the Standard Object Modeling Language, Third Edition]: https://learning.oreilly.com/library/view/uml-distilled-a/0321193687/
 
-[its website]: https://www.bgsu.edu/its
-[University Libraries]: https://www.bgsu.edu/library.html
-[Ask Us!]: https://www.bgsu.edu/library/ask-us.html
-[Individual Research Appointment]: https://www.bgsu.edu/library/services/appointments/ira.html
+[https://www.bgsu.edu/its]: https://www.bgsu.edu/its
 
+[The Learning Commons]: https://www.bgsu.edu/learning-commons/tutoring-services/course-based-tutoring
+[this form]: https://bgsu.az1.qualtrics.com/jfe/form/SV_1Y7Zfl925Vv8som
+[inquiry form]: https://services.bgsu.edu/LearningCommons/contact.htm
+[Online Submission]: https://www.bgsu.edu/learning-commons/tutoring-services/the-writing-center/online-submission.html
+
+[Ask Us! service]: https://www.bgsu.edu/library/ask-us.html#info
+[online chat]: https://www.bgsu.edu/library/ask-us.html#info
+[Individual Research Appointment]: https://bgsu.libcal.com/appointments/ira
+
+[Counseling Center]: https://www.bgsu.edu/counseling-center.html
+[BGSU Counseling Center]: https://www.bgsu.edu/counseling-center.html
+[individual counseling]: https://www.bgsu.edu/counseling-center/how-to-get-started-with-counseling/IAI.html
+[non-emergency services]: https://www.bgsu.edu/counseling-center/how-to-get-started-with-counseling/NES.html
+[BGSU Crisis Response Team]: https://www.bgsu.edu/counseling-center/services/CrisisResponseTeam.html
 
 [calendar]: https://www.bgsu.edu/registration-records/academic-calendars/ 'Academic Calendar'
 
@@ -51,71 +71,89 @@ layout: markdown
 <span style="margin-left: 40px;">Ph.D.</span> <span style="margin-left: 10px;">Computer Science</span> <span style="margin-left: 10px;">Kent State University</span> <span style="margin-left: 27px;">Summer 2017</span><br/>
 <span style="margin-left: 40px;">M.S.</span> <span style="margin-left: 17px;">Computer Science</span> <span style="margin-left: 10px;">The University of Akron</span> <span style="margin-left: 10px;">Summer 2017</span><br/>
 <span style="margin-left: 40px;">B.S.</span> <span style="margin-left: 20px;">Computer Science</span> <span style="margin-left: 10px;">The University of Akron <span style="margin-left: 10px;">Summer 2017</span><br/>
-**Class:** MWF 19:30 - 20:45 Hayes Hall 118<br/>
+**Class:** TR 18:00 - 19:15 Education 301<br/>
 **Email:** [mdecke@bgsu.edu][]<br/>
 **Office:** Hayes Hall 242<br/>
-**Office Hours:** MWF 16:20-17:20 and by appointment
+**Office Hours:** MTW 15:30-16:30 and by appointment
 
 ### Course Description: ###
-SE 4/5560. Software Testing and Quality Assurance. 3 Credits. Various aspects of software testing and quality assurance including measurement of software quality, verification and validation of software projects, and unit and integration testing techniques. Prerequisites: Grade of C or better in SE 3540, Admission to MS in CS, Admission to Graduate Certificate in Software Engineering, or Instructor permission. Credits cannot be received for both SE 4560 and SE 5560. Approved for distance learning.
+SE 4/5550. Software Architecture and Design. 3 Credits. Principles and concepts of analyzing and designing large software systems. Analysis of software systems. Designing software systems using design patterns and object-oriented techniques. Prerequisite: Grade of C or better in SE 3540 or Admission to MS in Computer Science program. Credit cannot be earned for both SE 4550 and SE 5550. Approved for distance education.
 
 ### Course Objectives: ###
-The objectives of the course are for students to learn and successfully apply software testing methods including: code reviewing, writing quality unit tests and integration tests, functional and structural testing, and the calculation, interpretation, and application of software metrics.
+The objectives of the course are for students to learn and successfully apply principles and concepts for the analysis and designing of large software systems including: design principles emphasizing object-oriented design principles, architectural and design patterns, and reverse and forward engineering of software design.
 
 ### Learning Objectives: ###
-* I can perform code reviews to verify requirements.
-* I know how to write unit tests using a unit testing framework.
-* I understand the difference between unit and integration testing.
-* I can write both functional and structural tests.
-* I can measure software quality metrics on a software system.
-* I can analyze relevant research and communicate my findings (CS 5560 only).
+* I can select and use appropriate design patterns.
+* I can specify a software system’s architecture using UML.
+* I can understand separation of concerns and its impact on software design.
+* I can architect a software system based on the given requirements.
+* I can perform a design review on a software system.
+* I can analyze relevant research and communicate my findings (SE 5550 only).
 
 ### Student Outcomes: ###
-
+* SE 1 An ability to identify, formulate, and solve complex engineering problems by applying principles of engineering, science, and mathematics.
+* SE 2 An ability to apply engineering design to produce solutions that meet specified needs with consideration of public health, safety, and welfare, as well as global, cultural, social, environmental, and economic factors.
 * SE 6 An ability to develop and conduct appropriate experimentation, analyze and interpret data, and use engineering judgment to draw conclusions.
-* SE 7 An ability to acquire and apply new knowledge, as needed, using appropriate learning strategies. 
 
 ### Prerequisites: ###
 
 * CS 3540: C or better
-	* Recommend CS 3350 as well
+* Recommend CS 3350 as well
 * Admission to MS in CS or Graduate Certificate in Software Engineering
 
 ### Textbook(s): ###
-Note: if links do not work directly, log first into O’Reilly Safari Books from BGSU library
-* [Software Testing: A Craftsman's Approach] 4th Ed. - Jorgensen. Auerbach. 978–1–466–56068–0
+Note: if links do not work directly, log first into [O'Reilly Safari Books]
+
+* [Software Architecture in Practice, Third Edition] - Bass, Clements, and Kazman. Addison-Wesley Professional. 978–0–132–94279–9
+* [Documenting Software Architectures: Views and Beyond, Second Edition] - Clements, Bachmann, Bass, Garlan, Ivers, Little, Merson, Nord, and Stafford. Addison-Wesley Professional. 978–0–321–55268–6
+* [Software Architecture: Foundations, Theory, and Practice] - Taylor, Medvidović, and Dashofy. Wiley. 978–0–470–16774–8
+* [Pattern-Oriented Software Architecture, A System of Patterns: Volume 1] - Buschmann, Meunier, Rohnert, Sommerlad, and Stal. Wiley. 978–0–471–95869–7
+* [Design Patterns: Elements of Reusable Object-Oriented Software] - Gamma, Helm, Johnson, and Vissides. Addison-Wesley Professional. 978–0–201–63361–0
+* [Head First Design Patterns, 2nd Edition] - Freeman and Robson. Pearson.
+* [UML Distilled: A Brief Guide to the Standard Object Modeling Language, Third Edition] - Folwer. Addison-Wesley Professional. 978–0–321–19368–1
 * Selected readings from conferences, journals, and other scholarly sources
 
 ### Course Delivery/Organization: ###
-* The instructor will integrate teaching strategies including, but not limited to: lecture, lab, large and small group discussion/exercises, cooperative learning, case studies, internet, and video.
+* Office hours will be available in person and via [Discord].
+* Instructor is also available via email (above) and can be expected to email you back within 24 hours during weekdays. Announcements will be made via [Discord].
+* The instructor will integrate teaching strategies including, but not limited to: lecture, large and small group discussion/exercises, cooperative learning, case studies, internet, and video.
 * Students will be expected to work independently and in groups.
-* The assessment will consist of in-class exercises, labs, projects, a midterm, and a final.
-
-### Course Communication: ###
-* Office hours will be available in person and via Discord.
-* Announcements will be made via Discord.
-* Canvas will be used for posting of course material such as grades/readings/assignments/exams, assignment submission, and use of discussion boards.
+* The assessment will consist of in-class exercises, projects, a midterm, and a final.
 
 ### Course and Computer Skill Prerequisites: ###
+* Navigating the Internet
+* Using an Internet search engine
+* Using voice, email, chat, and text messaging for communication and collaboration
+* Sending attachments via email and chats
+* Using a word processor (changing font, spell check, generate PDF)
 * Software engineering background
 * Strong programming skills
 
 ### Learning Support Services and Resources: ###
+
 #### Tech Help: ####
-Information Technology Services (ITS) offers students technical support. Whether you have a question or issue with your computer, or need help getting your devices connected to the campus wireless, ITS is here to help! Visit the service desk in 110 Hayes Hall, chat online and view self-help guides at the bgsu [its website][], or call us at 419–372–0999.
+Information Technology Services (ITS) offers students technical support. Whether you have a question or issue with your computer, or need help getting your devices connected to the campus wireless, ITS is here to help! Visit the service desk in 110 Hayes Hall, chat online and view self-help guides at [https://www.bgsu.edu/its][], or call us at 419–372–0999.
+
+#### Learning Commons ####
+The Learning Commons provides free tutoring services to all BGSU students and is located on the 1st floor of Jerome Library. The Learning Commons provides “one-stop-shop” academic support in the areas of Academic Coaching, Supplemental Instruction, Writing Consultations, Math/Stats Tutoring, subject groups, and individual assistance.
+
+* For more information, visit [The Learning Commons] course-based tutoring page. For support with a course, please contact the Learning Commons using [this form]. 
+* For assistance with the writing process, you may submit your paper for review using the [inquiry form] on the [Online Submission] page.
 
 #### University Libraries: ####
-The University Libraries provides access to books, articles, databases, subject-specific resources, special collections, quiet/group study spaces, research assistance, tutoring, and more. If you need help figuring out where to start, please visit the [University Libraries][] website to learn more about all the information services and resources available to help you with your classes. If you need immediate help with your research papers, you can use any of these services:     
+Looking for help with your research papers? Look no further than the University Libraries! Gain access to a wide array of information services and resources to support your classes, including books, e-books, journal articles, databases, special collections, and comfortable study spaces. Need a charger, laptop, or calculator? We've got you covered! The University Libraries is your go-to resource, anytime, anywhere!
 
-* [Ask Us!][] Librarians and library staff can assist you at the Research & Information Desk on the first floor of Jerome Library, as well as via phone, email, and online chat.  
-* Schedule an [Individual Research Appointment][] with a librarian (in-person or virtually) to help you with your research assignments. 
+* For immediate assistance with your research, take advantage of our [Ask Us! service], where our knowledgeable librarians and library staff can assist you in person at the Information Desk, via phone, email, or [online chat].
+* You can also schedule an [Individual Research Appointment] with a librarian to receive personalized help with your research assignments, either in person or virtually.
+
+#### Mental Health ####
+Your mental health is important to me. If you are currently experiencing a crisis, call (419-372-2081) or visit the [Counseling Center] website. An on-call counselor is available Monday-Friday from 8am-5pm. The [BGSU Counseling Center] also provides a number of services such as [individual counseling], Counseling Center groups, and other [non-emergency services], and pre-recorded workshops. In collaboration with other campus partners, after-hours mental health support is available during the academic year via the [BGSU Crisis Response Team].
 
 ### Course Assessment: ###
-* 10% Exercises
-* 15% Labs
-* 25% Projects
+* 15% Exercises
+* 35% Projects
 * 25% Midterm (~8th week)
-* 25% Final (TBD)
+* 25% Final
 
 #### Grading Scale (cutoffs): ####
 
@@ -124,28 +162,22 @@ The University Libraries provides access to books, articles, databases, subject-
 |90%|80%|70%|60%|0%|
 
 #### Exercises ####
-* In-class exercises will be given frequently to complement the course material.
-* In general, these are expected to be finished during the class period, however, some leeway may be considered for students with extenuating circumstances.
-
-#### Labs ####
-* Laboratory sessions will be conducted to complement lecture and support the application of materials learned.  
-* Attendance and participation is required, however, some leeway may be considered for students with extenuating circumstances
-* The lab will consist in part of short lecture and hands on exercises that will assist in the learning process.
-* For each lab meeting, there will be a score given and is based on attendance and successful completion of lab exercises. 
+In-class exercises will be given frequently to complement the course material. In general, these are expected to be finished during the class period, however, some leeway may be considered for students with extenuating circumstances.
 
 #### Projects ####
-* A number of projects (about 3–5), both programming and written, will be given to further reinforce the concepts covered in class and link multiple topics. Some projects will require the student to be competent in C++.
+* A number of projects (about 3–5), both programming and written, will be given to further reinforce the concepts covered in class and link multiple topics. Some projects will require the student to be competent in C++, and one project will require students to analyze current and/or seminal research and communicate their findings.
 * Details on each project and the requirements for that project will be given when assigned.
-* Projects will be assigned at the beginning of the week and be given two weeks for completion. Projects are due before the end of the second week.
+* Projects will typically be given two weeks for completion from when first assigned.
 
 #### Midterm & Final: ####
 * A midterm and comprehensive final will be given over the material covered in class.
-* Material will come from lectures, as well as, exercises, labs, and projects.
-The midterm and final will be in person.
+* Material will come from lecture, exercises, and projects.
+* Midterm will be given around the 8th week.
+* Final will be TBD 
 
 #### Other Notes: ####
 * It is the student’s responsibility to make sure all files are in the repository or Canvas (as required) and thusly, properly submitted by the due date. Files not in the repository/Canvas are not accessible by the instructor and thus are not turned in.
-* When a version control system is required to be used for an exercise/project, good practices are required (i.e., incrementally developed, committing each increment, and writing good commit messages).
+* When a version control system is required to be used for an exercise/project, good practices are required (i.e., incrementally developed, committing each increment, and writing good commit messages Links to an external site.).
 * All programs must compile and run correctly as specified with the exercise/project. This may require running on a remote machine.
 * In order that work can be graded and returned promptly, late work will not be accepted without a valid excuse. It is up to the student to make up any missed material.
 * Make-ups of any work for this class will only be given in the case of a documented, valid emergency. I encourage you to contact me if an emergency arises.
@@ -157,33 +189,33 @@ The midterm and final will be in person.
 
 |Week #|Topic|
 |---|---|
-|1|Introduction & Basic Testing|
-|2|Functional Testing|
-|3|Structural Testing|
-|4|Unit Testing Frameworks & Test-driven Development|
-|5|Code Smells & Refactoring|
-|6|Integration Testing, Code Reviews, & Software Quality, Measurement, and Metrics|
-|7|Mock Objects, Mocking Frameworks, & Continuous Integration|
+|1|Intro to Software Architecture/Design & Intro to UML|
+|2|Use Cases, UML Use Case Diagrams, & UML Class Diagrams|
+|3|UML Sequence Diagrams & Cohesion/Coupling|
+|4|SOLID Design Principles & Architecture & Architectural Patterns|
+|5|Design & Design Patterns|
+|6|Design & OO Metrics|
+|7|Code Smells & Refactoring|
 
 * The following is a sample 15 week timetable for the course.
 
 |Week #|Topic|
 |---|---|
-|1|Intro to Software Testing|
-|2|Functional Testing|
-|3|Functional Testing (continued)|
-|4|Structural Testing|
-|5|Structural Testing (continued)|
-|6|Unit Testing Frameworks|
-|7|Test-driven Development|
-|8|Code Smells|
-|9|Refactoring|
-|10|Refactoring (continued)|
-|11|Integration Testing|
-|12|Code Reviews|
-|13|Software Quality, Measurement, and Metrics|
-|14|Mock Objects & Mocking Frameworks|
-|15|Continuous Integration|
+|1|Intro to Software Architecture/Design|
+|2|Intro to UML, Use Cases, & UML Use Case Diagrams|
+|3|UML Class Diagrams|
+|4|UML Sequence Diagrams|
+|5|Cohesion & Coupling|
+|6|SOLID Design Principles|
+|7|Design & Design Patterns|
+|8|Design Patterns II|
+|9|Design Patterns III|
+|10|Architecture & Architectural Patterns|
+|11|Architectural Patterns (continued)|
+|12|Design & OO Metrics|
+|13|Code Smells|
+|14|Refactoring|
+|15|Refactoring (continued)|
 
 ### University Requirements ###
 
