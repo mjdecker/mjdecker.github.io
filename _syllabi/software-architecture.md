@@ -36,6 +36,7 @@ layout: markdown
 [non-emergency services]: https://www.bgsu.edu/counseling-center/how-to-get-started-with-counseling/NES.html
 [BGSU Crisis Response Team]: https://www.bgsu.edu/counseling-center/services/CrisisResponseTeam.html
 
+[good commit messages]: https://chris.beams.io/posts/git-commit/
 
 [odos@bgsu.edu]: mailto:odos@bgsu.edu
 [Student Handbook]: https://www.bgsu.edu/student-handbook.html 'Student Handbook'
@@ -133,7 +134,7 @@ Note: if links do not work directly, log first into [O'Reilly Safari Books]
 ### Learning Support Services and Resources: ###
 
 #### Tech Help: ####
-Information Technology Services (ITS) offers students technical support. Whether you have a question or issue with your computer, or need help getting your devices connected to the campus wireless, ITS is here to help! Visit the service desk in 110 Hayes Hall, chat online and view self-help guides at [https://www.bgsu.edu/its][], or call us at 419–372–0999.
+Information Technology Services (ITS) offers students technical support. Whether you have a question or issue with your computer, or need help getting your devices connected to the campus wireless, ITS is here to help! Visit the service desk in 107 Hayes Hall, chat online and view self-help guides at [https://www.bgsu.edu/its][], or call us at 419–372–0999.
 
 #### Learning Commons ####
 The Learning Commons provides free tutoring services to all BGSU students and is located on the 1st floor of Jerome Library. The Learning Commons provides “one-stop-shop” academic support in the areas of Academic Coaching, Supplemental Instruction, Writing Consultations, Math/Stats Tutoring, subject groups, and individual assistance.
@@ -178,7 +179,7 @@ In-class exercises will be given frequently to complement the course material. I
 
 #### Other Notes: ####
 * It is the student’s responsibility to make sure all files are in the repository or Canvas (as required) and thusly, properly submitted by the due date. Files not in the repository/Canvas are not accessible by the instructor and thus are not turned in.
-* When a version control system is required to be used for an exercise/project, good practices are required (i.e., incrementally developed, committing each increment, and writing good commit messages Links to an external site.).
+* When a version control system is required to be used for an exercise/project, good practices are required (i.e., incrementally developed, committing each increment, and writing [good commit messages].).
 * All programs must compile and run correctly as specified with the exercise/project. This may require running on a remote machine.
 * In order that work can be graded and returned promptly, late work will not be accepted without a valid excuse. It is up to the student to make up any missed material.
 * Make-ups of any work for this class will only be given in the case of a documented, valid emergency. I encourage you to contact me if an emergency arises.
