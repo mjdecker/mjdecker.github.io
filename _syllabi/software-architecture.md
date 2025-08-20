@@ -62,8 +62,8 @@ layout: markdown
 [Academic Honesty Policy]: https://www.bgsu.edu/dean-of-students/academic-honesty-policy.html
 [The Academic Charter]: https://www.bgsu.edu/faculty-senate/academic-charter.html
 
-# SE 4/5560: Software Testing and Quality Assurance #
-## Term: Spring 2024 ##
+# SE 4/5550: Software Architecture and Design #
+## Term: Fall 2025 ##
 ## [Department of Computer Science][] ##
 
 ---
