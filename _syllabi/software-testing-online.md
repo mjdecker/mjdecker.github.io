@@ -160,7 +160,7 @@ Your mental health is important to me. If you are currently experiencing a crisi
 * 10% Exercises
 * 15% Labs
 * 25% Projects
-* 25% Midterm (released 4th week))
+* 25% Midterm (released 4th week)
 * 25% Final
 
 #### Grading Scale (cutoffs): ####
