@@ -103,19 +103,36 @@ Note: if links do not work directly, log first into [O'Reilly Safari Books] from
 * [Software Testing: A Craftsman's Approach] 4th Ed. - Jorgensen. Auerbach. 978–1–466–56068–0
 * Selected readings from conferences, journals, and other scholarly sources
 
-### Course Delivery/Organization: ###
-* The instructor will integrate teaching strategies including, but not limited to: lecture, lab, large and small group discussion/exercises, cooperative learning, case studies, internet, and video.
-* Students will be expected to work independently and in groups.
-* The assessment will consist of in-class exercises, labs, projects, a midterm, and a final.
+### Course Delivery/Organization: ##
+* For the course, a week begins Monday at 00:00 and ends Sunday at 23:59.
+* You will be expected to meet due dates and deadlines for all course content.
+* Course will be run completely online as a series of modules using the University’s Course Management System, Canvas.
+* Each week one or more modules will be released to students. Modules will include various delivery strategies such as readings (including resources linked to the internet), brief video lectures, exercises, and exercise/project instructions.
+* Exercises will be given to reinforce the material contained in each module. Each exercise is due by the end of the week.
+* Larger projects will be assigned to further highlight material, and to link material from multiple modules.
+* There will be both individual and group exercises and projects. These will require such things as communication over Discord, use of discussion boards, communication via email, and use of an issue tracker and GitHub/Git
+* Depending on the exercise or project, submission will be through either Canvas or a version control system (i.e., Git). The specific details will be provided with each exercise/project.
+* When a version control system is used for submission, a new repository will be provided for each individual/group for that exercise/project. As version control is essential to software engineering and development, students will be expected to use good practices such as developing and committing incrementally with good commit messages Links to an external site..
+* A midterm and final will be given over Canvas over the material covered in the modules, exercises, and projects.
 
 ### Course Communication: ###
-* Office hours will be available in person and via Discord.
-* Announcements will be made via Discord.
-* Canvas will be used for posting of course material such as grades/readings/assignments/exams, assignment submission, and use of discussion boards.
+* Course will primarily be run through Canvas. This includes posting of course material such as modules/readings/assignments/projects/exams.
+* Communication with instructor/students will primarily be through Discord Links to an external site..
+* Virtual office hours (above) will be held by the instructor where students can message or talk (voice/video) using Discord.
+* Instructor is also available via email (above) and can be expected to email you back within 24 hours during weekdays.
+* Announcements will be made on Canvas.
 
 ### Course and Computer Skill Prerequisites: ###
+* Navigating the Internet
+* Using an Internet search engine
+* Using voice, email, chat, and text messaging for communication and collaboration
+* Sending attachments via email and chats
+* Using a word processor (changing font, spell check, generate PDF)
 * Software engineering background
 * Strong programming skills
+
+### System Requirements: ###
+* Computer/Browser requirements in Canvas guide What are the browser and computer requirements for Canvas? Links to an external site.
 
 ### Learning Support Services and Resources: ###
 
@@ -141,8 +158,8 @@ Your mental health is important to me. If you are currently experiencing a crisi
 * 10% Exercises
 * 15% Labs
 * 25% Projects
-* 25% Midterm (~8th week)
-* 25% Final (TBD)
+* 25% Midterm (released 4th week))
+* 25% Final
 
 #### Grading Scale (cutoffs): ####
 
@@ -151,33 +168,30 @@ Your mental health is important to me. If you are currently experiencing a crisi
 |90%|80%|70%|60%|0%|
 
 #### Exercises ####
-* In-class exercises will be given frequently to complement the course material.
-* In general, these are expected to be finished during the class period, however, some leeway may be considered for students with extenuating circumstances.
-
-#### Labs ####
-* Laboratory sessions will be conducted to complement lecture and support the application of materials learned.  
-* Attendance and participation is required, however, some leeway may be considered for students with extenuating circumstances
-* The lab will consist in part of short lecture and hands on exercises that will assist in the learning process.
-* For each lab meeting, there will be a score given and is based on attendance and successful completion of lab exercises. 
+* Weekly exercises will be give to complement the material provided in the modules.
+* In general, each exercise will consist of an activity to be completed by the student/group and may contain or require additional readings.
+* Details on each exercise and the requirements for that exercise will be given when assigned.
+* Exercises are due before the end of the week they are assigned.
 
 #### Projects ####
-* A number of projects (about 3–5), both programming and written, will be given to further reinforce the concepts covered in class and link multiple topics. Some projects will require the student to be competent in C++.
+* A number of projects (about 3–5), both programming and written, will be given to further reinforce the concepts covered in class and link multiple topics. Some projects will require the student to be competent in C++, and one project will require students to analyze current and/or seminal research and communicate their findings.
 * Details on each project and the requirements for that project will be given when assigned.
 * Projects will be assigned at the beginning of the week and be given two weeks for completion. Projects are due before the end of the second week.
 
 #### Midterm & Final: ####
 * A midterm and comprehensive final will be given over the material covered in class.
-* Material will come from lectures, as well as, exercises, labs, and projects.
-The midterm and final will be in person.
+* Material will come from modules, as well as, exercises and projects.
+* The midterm and final will be posted on Canvas at the beginning of the week, and it will be due before the end of the week.
 
 #### Other Notes: ####
 * It is the student’s responsibility to make sure all files are in the repository or Canvas (as required) and thusly, properly submitted by the due date. Files not in the repository/Canvas are not accessible by the instructor and thus are not turned in.
-* When a version control system is required to be used for an exercise/project, good practices are required (i.e., incrementally developed, committing each increment, and writing good commit messages).
+* When a version control system is required to be used for an exercise/project, good practices are required (i.e., incrementally developed, committing each increment, and writing good commit messages Links to an external site.).
 * All programs must compile and run correctly as specified with the exercise/project. This may require running on a remote machine.
 * In order that work can be graded and returned promptly, late work will not be accepted without a valid excuse. It is up to the student to make up any missed material.
 * Make-ups of any work for this class will only be given in the case of a documented, valid emergency. I encourage you to contact me if an emergency arises.
 * There will be no make up exams.
 * Any modifications to the syllabus will be made on this page and noted.
+
 
 ### Course Timetable ###
 * The following is a sample 7 week timetable for the course.
