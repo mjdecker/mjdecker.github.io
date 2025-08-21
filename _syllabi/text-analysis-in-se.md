@@ -10,15 +10,6 @@ layout: markdown
 
 [Discord]: https://discord.com/new 'Discord Website'
 
-[O'Reilly Safari Books]: https://www.oreilly.com/publisher/safari-books-online/
-[Software Architecture in Practice, Third Edition]: https://learning.oreilly.com/library/view/software-architecture-in/9780132942799/
-[Documenting Software Architectures: Views and Beyond, Second Edition]: https://learning.oreilly.com/library/view/documenting-software-architectures/9780132488617/
-[Software Architecture: Foundations, Theory, and Practice]: https://learning.oreilly.com/library/view/software-architecture-foundations/9780470167748/
-[Pattern-Oriented Software Architecture, A System of Patterns: Volume 1]: https://learning.oreilly.com/library/view/pattern-oriented-software-architecture/9781118725269/
-[Design Patterns: Elements of Reusable Object-Oriented Software]: https://learning.oreilly.com/library/view/design-patterns-elements/0201633612/
-[Head First Design Patterns, 2nd Edition]: https://learning.oreilly.com/library/view/head-first-design/9781492077992/
-[UML Distilled: A Brief Guide to the Standard Object Modeling Language, Third Edition]: https://learning.oreilly.com/library/view/uml-distilled-a/0321193687/
-
 [https://www.bgsu.edu/its]: https://www.bgsu.edu/its
 
 [The Learning Commons]: https://www.bgsu.edu/learning-commons/tutoring-services/course-based-tutoring
@@ -76,13 +67,13 @@ layout: markdown
 **Office Hours:** 15:30-16:30 and by appointment
 
 ### Course Description: ###
-A seminar style course covering advanced topics related to the analysis, design, development, maintenance, and evolution of large software projects through the critical examination of seminal and recent research in the field of software engineering. Approved for distance learning.
+A seminar-style course focusing on the research and application of text analysis to software engineering and maintenance issues. Topics include information retrieval and natural language processing techniques in a software engineering context.
 
 ### Course Objectives: ###
-The objectives of the course are for students to read, synthesize, and understand advanced topics in core areas of software engineering through a critical examination of seminal and recent research in software engineering. Students will additionally develop presentation skills and research projects based on current literature.
+The objectives of the course are for students to read, synthesize, and understand text analysis use and application in software engineering through a critical examination of seminal and recent research in software engineering. Students will additionally develop presentation skills and research projects based on current literature.
 
 ### Learning Objectives: ###
-1. I can explain basic and advanced topics in software engineering.
+1. I can explain seminal and current text analysis use and application in software engineering.
 2. I can critically evaluate research papers in software engineering.
 3. I can develop a research topic in software engineering based on known literature.
 4. I can effectively present and defend a research proposal orally.
@@ -95,29 +86,39 @@ The objectives of the course are for students to read, synthesize, and understan
 * Course will be run seminar style. 
 * Students are required to thoroughly read papers before each class.
 * Each paper will be presented by a student with the goal of facilitating discussion.
-* Each class, all students are required to participate in discussions. A participation score will be assigned each class period.
-* Students will participate in a scholarly review of research papers (including discussion in Canvas) a couple times throughout the semester.
+* In each class, all students are required to participate in discussions. A participation score will be assigned each class period.
+* Students will participate in a scholarly review of research papers (including discussion in Canvas) a couple of times throughout the semester.
 * A term project will be completed and presented (students may work individually or as part of a group).
 * A final exam will be held over the material covered in class.
 
 ### Course Communication: ###
 * Office hours will be available in person and via Discord.
 * Announcements will be made via Discord.
-* Canvas will be used for posting of course material such as grades/readings/assignments/exams, assignment submission, and use of discussion boards.
+* Canvas will be used for posting of course material such as grades/readings/assignments/exams, assignment submission, and the use of discussion boards.
 
 ### Course Prerequisites ###
 * Software engineering background
 * Strong programming skills
 
 ### Learning Support Services and Resources: ###
+
 #### Tech Help: ####
-Information Technology Services (ITS) offers students technical support. Whether you have a question or issue with your computer, or need help getting your devices connected to the campus wireless, ITS is here to help! Visit the service desk in 110 Hayes Hall, chat online and view self-help guides at the bgsu [its website][], or call us at 419–372–0999.
+Information Technology Services (ITS) offers students technical support. Whether you have a question or issue with your computer, or need help getting your devices connected to the campus wireless, ITS is here to help! Visit the service desk in 107 Hayes Hall, chat online and view self-help guides at [https://www.bgsu.edu/its][], or call us at 419–372–0999.
+
+#### Learning Commons ####
+The Learning Commons provides free tutoring services to all BGSU students and is located on the 1st floor of Jerome Library. The Learning Commons provides “one-stop-shop” academic support in the areas of Academic Coaching, Supplemental Instruction, Writing Consultations, Math/Stats Tutoring, subject groups, and individual assistance.
+
+* For more information, visit [The Learning Commons] course-based tutoring page. For support with a course, please contact the Learning Commons using [this form]. 
+* For assistance with the writing process, you may submit your paper for review using the [inquiry form] on the [Online Submission] page.
 
 #### University Libraries: ####
-The University Libraries provides access to books, articles, databases, subject-specific resources, special collections, quiet/group study spaces, research assistance, tutoring, and more. If you need help figuring out where to start, please visit the [University Libraries][] website to learn more about all the information services and resources available to help you with your classes. If you need immediate help with your research papers, you can use any of these services:     
+Looking for help with your research papers? Look no further than the University Libraries! Gain access to a wide array of information services and resources to support your classes, including books, e-books, journal articles, databases, special collections, and comfortable study spaces. Need a charger, laptop, or calculator? We've got you covered! The University Libraries is your go-to resource, anytime, anywhere!
 
-* [Ask Us!][] Librarians and library staff can assist you at the Research & Information Desk on the first floor of Jerome Library, as well as via phone, email, and online chat.  
-* Schedule an [Individual Research Appointment][] with a librarian (in-person or virtually) to help you with your research assignments. 
+* For immediate assistance with your research, take advantage of our [Ask Us! service], where our knowledgeable librarians and library staff can assist you in person at the Information Desk, via phone, email, or [online chat].
+* You can also schedule an [Individual Research Appointment] with a librarian to receive personalized help with your research assignments, either in person or virtually.
+
+#### Mental Health ####
+Your mental health is important to me. If you are currently experiencing a crisis, call (419-372-2081) or visit the [Counseling Center] website. An on-call counselor is available Monday-Friday from 8am-5pm. The [BGSU Counseling Center] also provides a number of services such as [individual counseling], Counseling Center groups, and other [non-emergency services], and pre-recorded workshops. In collaboration with other campus partners, after-hours mental health support is available during the academic year via the [BGSU Crisis Response Team].
 
 ### Course Assessment: ###
 * 35%	Discussion Participation
@@ -143,20 +144,20 @@ A discussion participation grade will be assigned for each paper (on a scale of 
 
 Asking the same questions, making the same comment, or providing the same answer will not receive any points.  However, students may ask (and are encouraged) to ask/make related questions/comments or provide alternate answers that facilitate continued discussion.
 
-Note, participation is mandatory. Thus, to earn a passing grade in discussion participation the student must ask/answer a question(s) or make a comment(s) that clearly demonstrates to the instructor that he/she has thoroughly read each paper.
+Note, participation is mandatory. Thus, to earn a passing grade in discussion participation, the student must ask/answer a question(s) or make a comment(s) that clearly demonstrates to the instructor that he/she has thoroughly read each paper.
 
 #### Paper Presentations ####
 Paper presentations will be 20 minutes and graded on content, style, and technique. Presentations must be the student's own work and provide a means to facilitate discussion. Students will make 2 – 3 paper presentations during the term.  Students who are presenting will receive full credit towards discussion participation for that paper.
 
 #### Scholarly Reviews ####
-Periodically, 2-3 times, throughout the semester, students will be assigned to review one of the papers for a given week.  A review format will be provided, students are to upload their review in the provided format by Sunday 23:59 the week the papers are assigned.  Between students assigned the same paper, a discussion will be held on the merits/demerits of the paper with a final determination if the paper would be acceptable for publication.  
+Periodically, 2-3 times, throughout the semester, students will be assigned to review one of the papers for a given week.  A review format will be provided; students are to upload their review in the provided format by Sunday 23:59, following the week the papers are assigned.  Between students assigned the same paper, a discussion will be held on the merits/demerits of the paper, with a final determination if the paper would be acceptable for publication.  
 
-Discussion will close Saturday at 23:59 the week the papers are assigned.
+Discussion will close Saturday at 23:59, the week the reviews are due.
 
-The instructor will moderate and participate in discussion.
+The instructor will moderate and participate in the discussion.
 
 #### Term Project and Presentation ####
-The term project will be of an appropriate size for the length of the semester and number of people in the group. Projects can be developed in small groups or by individuals, pending approval by the instructor. Projects must reflect the theme of the course and topics will be developed in conjunction with the instructor. The project can include development of a software prototype, empirical experiments, etc. Projects must be the student’s own work and plagiarism of any type will result in a failing grade for the project. Results of your project work are required to be presented as a 4 page paper ([IEEE proceedings two-column format](https://www.ieee.org/conferences/publishing/templates.html), LaTeX users use the configuration: *\documentclass[conference]{IEEEtran}* and Microsoft Word users use the US Letter format template). The paper must be structured like the SE research papers read in class. Students will also make a 20 minute presentation on their project and results. The presentation will be the same format as for paper presentations.
+The term project will be of an appropriate size for the length of the semester and the number of people in the group. Projects can be developed in small groups or by individuals, pending approval by the instructor. Projects must reflect the theme of the course, and topics will be developed in conjunction with the instructor. The project can include the development of a software prototype, empirical experiments, etc. Projects must be the student’s own work, and plagiarism of any type will result in a failing grade for the project. Results of your project work are required to be presented as a 4-page paper ([IEEE proceedings two-column format](https://www.ieee.org/conferences/publishing/templates.html), LaTeX users use the configuration: *\documentclass[conference]{IEEEtran}* and Microsoft Word users use the US Letter format template). The paper must be structured like the SE research papers read in class. Students will also make a 20-minute presentation on their project and results. The presentation will be the same format as for paper presentations.
 
 #### Final Exam ####
 A final exam covering all the papers assigned in class will be held during finals week.
@@ -165,30 +166,30 @@ A final exam covering all the papers assigned in class will be held during final
 * Participation is mandatory and a critical component of the course grade.
 * In order that work can be graded and returned promptly and discussions held, late submissions will not be accepted without a valid excuse.
 * Make-ups of any work for this class will only be given in the case of an excused absence or a documented, valid emergency. I encourage you to contact me if an emergency arises.
-* There will be no make up exams.
+* There will be no make-up exams.
 * Any modifications to the syllabus will be made on this page and noted.
 
 ### Course Timetable ###
-* The following is a sample 15 week timetable for the course
-* Week 1 is presentation will be provided by instructor.  Student presentations begin in Week 2.  
+* The following is a sample 15-week timetable for the course
+* Week 1 will be conducted by the instructor.  Student presentations begin in Week 2.  
 * Each topic will consist of half seminal research and half recent research
 
 |Week #|Topic|
 |---|---|
-|1|Basic Review by Instructor|
-|2|Software Process Models|
-|3|Software Process Models|
-|4|Software Evolution & Maintenance|
-|5|Software Evolution & Maintenance|
-|6|Software Evolution & Maintenance|
-|7|Software Architecture|
-|8|Software Testing|
-|9|Software Measurements & Metrics|
-|10|Requirements Engineering and Traceability|
-|11|Empirical Software Engineering|
-|12|Software Visualization|
-|13|Static and Dynamic Analysis|
-|14|Static and Dynamic Analysis|
+|1|Seminal TA in SE|
+|2|Seminal TA in SE|
+|3|Seminal TA in SE|
+|4|Early TA in SE|
+|5|Early TA in SE|
+|6|Early TA in SE|
+|7|Mid TA in SE|
+|8|Mid TA in SE|
+|9|Mid TA in SE|
+|10|Recent TA in SE|
+|11|Recent TA in SE|
+|12|Recent TA in SE|
+|13|Recent TA in SE|
+|14|Work on Projects|
 |15|Project Presentations|
 
 ### University Requirements ###
