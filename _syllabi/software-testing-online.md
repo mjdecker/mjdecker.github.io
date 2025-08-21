@@ -74,7 +74,7 @@ layout: markdown
 **Office Hours:** MTW 15:30-16:30 and by appointment
 
 ### Course Description: ###
-SE 4/5560. Software Testing and Quality Assurance. 3 Credits. Various aspects of software testing and quality assurance including measurement of software quality, verification and validation of software projects, and unit and integration testing techniques. Prerequisites: Grade of C or better in SE 3540, Admission to MS in CS, Admission to Graduate Certificate in Software Engineering, or Instructor permission. Credits cannot be received for both SE 4560 and SE 5560. Approved for distance learning.
+SE 4/5560. Software Testing and Quality Assurance. 3 Credits. Various aspects of software testing and quality assurance including measurement of software quality, verification and validation of software projects, and unit and integration testing techniques. Prerequisites: Grade of C or better in SE 3540, Admission to MS in CS, Admission to Graduate Certificate in Software Engineering, or Instructor permission. Credits cannot be received for both SE 4560 and SE 5560. Approved for distance education.
 
 ### Course Objectives: ###
 The objectives of the course are for students to learn and successfully apply software testing methods including: code reviewing, writing quality unit tests and integration tests, functional and structural testing, and the calculation, interpretation, and application of software metrics.
@@ -112,7 +112,7 @@ Note: if links do not work directly, log first into [O'Reilly Safari Books] from
 * Larger projects will be assigned to further highlight material, and to link material from multiple modules.
 * There will be both individual and group exercises and projects. These will require such things as communication over Discord, use of discussion boards, communication via email, and use of an issue tracker and GitHub/Git
 * Depending on the exercise or project, submission will be through either Canvas or a version control system (i.e., Git). The specific details will be provided with each exercise/project.
-* When a version control system is used for submission, a new repository will be provided for each individual/group for that exercise/project. As version control is essential to software engineering and development, students will be expected to use good practices such as developing and committing incrementally with good commit messages Links to an external site..
+* When a version control system is used for submission, a new repository will be provided for each individual/group for that exercise/project. As version control is essential to software engineering and development, students will be expected to use good practices such as developing and committing incrementally with [good commit messages].
 * A midterm and final will be given over Canvas over the material covered in the modules, exercises, and projects.
 
 ### Course Communication: ###
