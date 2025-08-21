@@ -234,7 +234,7 @@ A community exists on the basis of shared values and principles. At BGSU, studen
 #### Title IX: ####
 Bowling Green State University (BGSU) does not discriminate on the basis of sex and prohibits sex discrimination, including sex-based harassment, in any education program or activity that it operates. BGSU’s nondiscrimination policy and grievance procedures can be located on the [Title IX] page. To report information about conduct that may constitute sex discrimination or to make a complaint of sex discrimination under the Title IX policy, please refer to the [See It. Hear It. Report It.] page. Faculty members are considered “mandatory reporters” and are required to report incidents of sexual misconduct and relationship violence to the Title IX Coordinator.
 
-If you have any questions about Title IX, you can contact BGSU’s Title IX Coordinator in person at, 207 Hayes Hall, by email at titleix@bgsu.edu, or by phone at 419-372-8476.
+If you have any questions about Title IX, you can contact BGSU’s Title IX Coordinator in person at, 207 Hayes Hall, by email at [titleix@bgsu.edu], or by phone at 419-372-8476.
 
 #### Accessibility Services: ####
 [Accessibility Services] provides equal access and reasonable accommodations to students with disabilities attending BGSU. Students wishing to discuss their eligibility for such accommodations are encouraged to contact the office at phone: 419-372-8495, fax: 419-372-8496, or email: [access@bgsu.edu].
