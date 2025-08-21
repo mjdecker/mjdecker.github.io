@@ -26,7 +26,7 @@ semesters:
         room: "303"
 
       - number: "CS 6800"
-        title: "Advanced Software Engineering"
+        title: "Text Analysis in Software Engineering"
         time: "18:00 - 19:15"
         days: "M W  "
         building: "Education"
