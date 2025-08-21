@@ -263,5 +263,3 @@ All coursework for this class is expected to be *YOUR OWN* work.  The *MINIMUM* 
 1.	[Academic Honesty Policy]
 2.	[Student Handbook]
 3.	[The Academic Charter] Part D, Section G
-
-
