@@ -110,15 +110,15 @@ Note: if links do not work directly, log first into [O'Reilly Safari Books] from
 * Each week one or more modules will be released to students. Modules will include various delivery strategies such as readings (including resources linked to the internet), brief video lectures, exercises, and exercise/project instructions.
 * Exercises will be given to reinforce the material contained in each module. Each exercise is due by the end of the week.
 * Larger projects will be assigned to further highlight material, and to link material from multiple modules.
-* There will be both individual and group exercises and projects. These will require such things as communication over Discord, use of discussion boards, communication via email, and use of an issue tracker and GitHub/Git
+* There will be both individual and group exercises and projects. These will require such things as communication over [Discord], use of discussion boards, communication via email, and use of an issue tracker and GitHub/Git
 * Depending on the exercise or project, submission will be through either Canvas or a version control system (i.e., Git). The specific details will be provided with each exercise/project.
 * When a version control system is used for submission, a new repository will be provided for each individual/group for that exercise/project. As version control is essential to software engineering and development, students will be expected to use good practices such as developing and committing incrementally with [good commit messages].
 * A midterm and final will be given over Canvas over the material covered in the modules, exercises, and projects.
 
 ### Course Communication: ###
 * Course will primarily be run through Canvas. This includes posting of course material such as modules/readings/assignments/projects/exams.
-* Communication with instructor/students will primarily be through Discord Links to an external site..
-* Virtual office hours (above) will be held by the instructor where students can message or talk (voice/video) using Discord.
+* Communication with instructor/students will primarily be through [Discord].
+* Virtual office hours (above) will be held by the instructor where students can message or talk (voice/video) using [Discord].
 * Instructor is also available via email (above) and can be expected to email you back within 24 hours during weekdays.
 * Announcements will be made on Canvas.
 

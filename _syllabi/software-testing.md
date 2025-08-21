@@ -109,8 +109,8 @@ Note: if links do not work directly, log first into [O'Reilly Safari Books] from
 * The assessment will consist of in-class exercises, labs, projects, a midterm, and a final.
 
 ### Course Communication: ###
-* Office hours will be available in person and via Discord.
-* Announcements will be made via Discord.
+* Office hours will be available in person and via [Discord].
+* Announcements will be made via [Discord].
 * Canvas will be used for posting of course material such as grades/readings/assignments/exams, assignment submission, and use of discussion boards.
 
 ### Course and Computer Skill Prerequisites: ###
