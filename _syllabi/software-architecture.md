@@ -45,6 +45,7 @@ layout: markdown
 
 [Title IX]: https://www.bgsu.edu/title-ix.html
 [See It. Hear It. Report It.]: https://www.bgsu.edu/report-incident.html
+[titleix@bgsu.edu]: mailto:titleix@bgsu.edu
 
 [Accessibility Services]: https://www.bgsu.edu/accessibility-services.html
 [access@bgsu.edu]: mailto:access@bgsu.edu
