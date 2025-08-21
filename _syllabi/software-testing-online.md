@@ -10,6 +10,8 @@ layout: markdown
 
 [Discord]: https://discord.com/new 'Discord Website'
 
+[Canvas]: https://community.canvaslms.com/t5/Canvas-Basics-Guide/What-are-the-browser-and-computer-requirements-for-Instructure/ta-p/66
+
 [O'Reilly Safari Books]: https://www.oreilly.com/publisher/safari-books-online/
 [Software Testing: A Craftsman's Approach]: https://learning.oreilly.com/library/view/software-testing-4th/9781466560680/
 
@@ -132,7 +134,7 @@ Note: if links do not work directly, log first into [O'Reilly Safari Books] from
 * Strong programming skills
 
 ### System Requirements: ###
-* Computer/Browser requirements in Canvas guide What are the browser and computer requirements for Canvas? Links to an external site.
+* Computer/Browser requirements in Canvas guide - What are the browser and computer requirements for [Canvas]?
 
 ### Learning Support Services and Resources: ###
 
