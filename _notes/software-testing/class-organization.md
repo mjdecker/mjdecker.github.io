@@ -1,3 +1,4 @@
+---
 title: "Software Testing Course Organization"
 layout: notes
 ---
@@ -27,10 +28,11 @@ layout: notes
 * Additionally, Discord will be used to support group work
 
 # Course Assessment:
-* 15%	Exercises
-* 35%	Projects
-* 25%	Midterm
-* 25%	Final
+* 10% Exercises
+* 15% Labs
+* 25% Projects
+* 25% Midterm (released 4th week)
+* 25% Final
 
 | A | B | C | D | F |
 |----|----|----|----|----|
