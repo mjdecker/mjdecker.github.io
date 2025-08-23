@@ -175,6 +175,12 @@ Your mental health is important to me. If you are currently experiencing a crisi
 * Details on each exercise and the requirements for that exercise will be given when assigned.
 * Exercises are due before the end of the week they are assigned.
 
+#### Labs ####
+* Laboratory sessions will be conducted to complement lecture and support the application of materials learned.  
+* Participation is required, however, some leeway may be considered for students with extenuating circumstances
+* The lab will consist in part of a short set of slides and hands-on exercises that will assist in the learning process.
+* For each lab meeting, there will be a score given based on successful completion of lab exercises. 
+
 #### Projects ####
 * A number of projects (about 3–5), both programming and written, will be given to further reinforce the concepts covered in class and link multiple topics. Some projects will require the student to be competent in C++, and one project will require students to analyze current and/or seminal research and communicate their findings.
 * Details on each project and the requirements for that project will be given when assigned.
