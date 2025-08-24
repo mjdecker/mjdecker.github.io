@@ -74,7 +74,7 @@ layout: markdown
 A seminar-style course focusing on the research and application of text analysis to software engineering and maintenance issues. Topics include information retrieval and natural language processing techniques in a software engineering context.
 
 ### Course Objectives: ###
-The objectives of the course are for students to read, synthesize, and understand text analysis use and application in software engineering through a critical examination of seminato recent research in software engineering. Students will additionally develop presentation skills and research projects based on current literature.
+The objectives of the course are for students to read, synthesize, and understand text analysis use and application in software engineering through a critical examination of seminal to recent research in software engineering. Students will additionally develop presentation skills and research projects based on current literature.
 
 ### Learning Objectives: ###
 1. I can explain seminal and current text analysis use and application in software engineering.
