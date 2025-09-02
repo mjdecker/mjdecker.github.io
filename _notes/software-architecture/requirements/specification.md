@@ -81,15 +81,14 @@ layout: notes
 # Use Case Example (continued)
 
 * Extensions:
- 3a: Replace only first occurrence
-1. User indicates that only the first occurrence is to be replaced.
-2. Software finds the first occurrence of the search term in the document being edited and replaces it with the replacement text.
-3. Use case ends with postcondition state being only the first occurrence is replaced.
-	
-3b: Search only
-1. User indicates that the software is only to search and not replace.
-2. Software highlights the first occurrence of the search term.
-3. Use case ends with post condition state being the first occurrence is highlighted and not replaced.
+* 3a: Replace only first occurrence
+	1. User indicates that only the first occurrence is to be replaced.
+	2. Software finds the first occurrence of the search term in the document being edited and replaces it with the replacement text.
+	3. Use case ends with postcondition state being only the first occurrence is replaced.
+gj* 3b: Search only
+	1. User indicates that the software is only to search and not replace.
+	2. Software highlights the first occurrence of the search term.
+	3. Use case ends with post condition state being the first occurrence is highlighted and not replaced.
 *  **Postconditions**: All occurrences of the search term have been replaced with the replacement text.
 
 
