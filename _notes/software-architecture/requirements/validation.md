@@ -4,7 +4,7 @@ layout: notes
 ---
 
 [re-process]: /images/requirements/requirements-engineering-process.png
-[Software Review]: https://www.cs.bgsu.edu/mdecke/classes/software_testing/notes/code_review.html#/
+[Software Review]: https://mdecker.net/notes/software-testing/code-review.htmlg
 [Prototyping]: https://en.wikipedia.org/wiki/Software_prototyping
 [Acceptance Testing]: https://en.wikipedia.org/wiki/Acceptance_testing
 [Requirements Traceability]: https://en.wikipedia.org/wiki/Requirements_traceability
