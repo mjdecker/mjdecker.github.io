@@ -103,30 +103,30 @@ layout: markdown
         /// @file main1.cpp
         #include &lt;iostream&gt;
 
-        <span style="color:green">#include "coverage_map.hpp"
+        <span style="color:#00FA6C">#include "coverage_map.hpp"
         coverage_map_t simple_main_cpp("simple_main.cpp");
         coverage_map_t foo_cpp("foo.cpp");</span>
 
-        int main() {<span style="color:green">simple_main_cpp.append(__FUNCTION__, 6);</span>
-          int i;<span style="color:green">simple_main_cpp.executed(__FUNCTION__, 0);</span>
-          i = 0;<span style="color:green">simple_main_cpp.executed(__FUNCTION__, 1);</span>
-          while (<span style="color:green">simple_main_cpp.executed(__FUNCTION__, 2)</span>, i < 10) {   
-            ++i;<span style="color:green">simple_main_cpp.executed(__FUNCTION__, 3); </span>  
-            std::cout << i;<span style="color:green">simple_main_cpp.executed(__FUNCTION__, 4);</span>
+        int main() {<span style="color:#00FA6C">simple_main_cpp.append(__FUNCTION__, 6);</span>
+          int i;<span style="color:#00FA6C">simple_main_cpp.executed(__FUNCTION__, 0);</span>
+          i = 0;<span style="color:#00FA6C">simple_main_cpp.executed(__FUNCTION__, 1);</span>
+          while (<span style="color:#00FA6C">simple_main_cpp.executed(__FUNCTION__, 2)</span>, i < 10) {   
+            ++i;<span style="color:#00FA6C">simple_main_cpp.executed(__FUNCTION__, 3); </span>  
+            std::cout << i;<span style="color:#00FA6C">simple_main_cpp.executed(__FUNCTION__, 4);</span>
           }
-          std::cout << '\n';<span style="color:green">simple_main_cpp.executed(__FUNCTION__, 5);</span>
-          <span style="color:green">simple_main_cpp.print();foo_cpp.print();</span>return 0;
+          std::cout << '\n';<span style="color:#00FA6C">simple_main_cpp.executed(__FUNCTION__, 5);</span>
+          <span style="color:#00FA6C">simple_main_cpp.print();foo_cpp.print();</span>return 0;
         }
         
         
         /// @file foo.cpp
 
-        <span style="color:green">#include "coverage_map.hpp"
+        <span style="color:#00FA6C">#include "coverage_map.hpp"
         extern coverage_map_t foo_cpp;</span>
 
-        int foo() {<span style="color:green">foo_cpp.append(__FUNCTION__, 2);</span>
-          int i;<span style="color:green">foo_cpp.executed(__FUNCTION__, 0);</span>
-          i = 0;<span style="color:green">foo_cpp.executed(__FUNCTION__, 1);</span>
+        int foo() {<span style="color:#00FA6C">foo_cpp.append(__FUNCTION__, 2);</span>
+          int i;<span style="color:#00FA6C">foo_cpp.executed(__FUNCTION__, 0);</span>
+          i = 0;<span style="color:#00FA6C">foo_cpp.executed(__FUNCTION__, 1);</span>
           return i;
         } 
 </pre>
