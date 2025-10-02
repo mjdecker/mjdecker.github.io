@@ -19,7 +19,7 @@ layout: notes
 * Developer writes what is executed in Job, e.g., build and test
 * Subscribers emailed results of Job (E.g., Success/Failure)
 * Integrated with [Docker](https://www.docker.com)
-* Supports [workflows](https://circleci.com/docs/2.0/workflows/)
+* Supports [workflows](https://circleci.com/docs/guides/orchestrate/workflows/)
 
 
 # Adding CircleCI
@@ -27,7 +27,7 @@ layout: notes
 * Need a top-level directory `.circleci`
 * Directory contains a file `config.yml`
 * Contents written in [YAML](https://en.wikipedia.org/wiki/YAML) - a data serialization standard
-* [CircleCI YAML Guide](https://circleci.com/docs/2.0/writing-yaml/)
+* [CircleCI YAML Guide](https://circleci.com/docs/guides/getting-started/introduction-to-yaml-configurations/)
 
 
 # Live Example
