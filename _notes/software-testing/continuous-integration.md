@@ -1,3 +1,8 @@
+---
+title: "Continuous Integration"
+layout: notes
+---
+
 # [Continuous Integration](https://en.wikipedia.org/wiki/Continuous_integration)
 * Practice of merging all developer working copies to a shared mainline several times a day
 * A few best practices:
@@ -7,7 +12,6 @@
 	* Each commit is built
 * Tools: [Jenkins](https://jenkins.io), [CircleCI](https://circleci.com)
 
----
 
 # [CircleCI](https://circleci.com)
 * Free and supported by GitHub
@@ -17,7 +21,6 @@
 * Integrated with [Docker](https://www.docker.com)
 * Supports [workflows](https://circleci.com/docs/2.0/workflows/)
 
----
 
 # Adding CircleCI
 * Add Project to [CircleCI](https://app.circleci.com)
@@ -26,23 +29,18 @@
 * Contents written in [YAML](https://en.wikipedia.org/wiki/YAML) - a data serialization standard
 * [CircleCI YAML Guide](https://circleci.com/docs/2.0/writing-yaml/)
 
----
 
 # Live Example
 * Code posted on GitHub
 
----
 
 # Adding a Project to CircleCI	
 
----
 
 # `.circleci/config.yuml`
 
----
 
 # Pushing a Change Triggers Process
 
----
 
 # Running and Completed Process on CircleCI
