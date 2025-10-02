@@ -37,7 +37,10 @@ layout: notes
 # Adding a Project to CircleCI	
 
 
-# `.circleci/config.yuml`
+# Simple `.circleci/config.yuml`
+<script src="https://gist.github.com/mjdecker/4b467fec78585bf494e9446470e590e0.js?file=circleci-simple.yml"></script>
+
+# More Complex `.circleci/config.yuml`
 <script src="https://gist.github.com/mjdecker/4b467fec78585bf494e9446470e590e0.js?file=circleci.yml"></script>
 
 
