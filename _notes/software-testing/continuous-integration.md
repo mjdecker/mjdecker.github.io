@@ -38,6 +38,7 @@ layout: notes
 
 
 # `.circleci/config.yuml`
+<script src="https://gist.github.com/mjdecker/4b467fec78585bf494e9446470e590e0.js?file=circleci.yml"></script>
 
 
 # Pushing a Change Triggers Process
