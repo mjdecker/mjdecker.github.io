@@ -50,7 +50,7 @@ div.outer > div.images {
 }
 
 div.outer > div.images img {
-    /*width:  100%;*/
+    width:  90%;
 }
 
 .flex2 {
@@ -119,8 +119,8 @@ section.quote55 > div.outer > ul {
 }
 
 div.outer img {
-/*  width: 300px;*/
-    width: 40%;
+    /*width: 300px;*/
+    /*width: 40%;*/
     height: 90%;
 }
 
@@ -345,7 +345,7 @@ section.left .gist .gist-data {
 
 /* Single image on slide at full size */
 section > p > img {
-  width: auto;
+  width: 90%;
   height: 70%;
   max-height: 100%;
   max-width: 100%;
