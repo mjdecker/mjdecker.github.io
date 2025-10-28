@@ -287,6 +287,7 @@ a[title]::after {
   font-size: 4vh;
   max-width: 1400px;
 }
+
 /* Side-by-side */
 .reveal div.outer div ul {
     /*color : red;*/
