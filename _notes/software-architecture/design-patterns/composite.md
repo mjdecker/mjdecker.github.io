@@ -3,7 +3,8 @@ title: "Design Pattern - Composite"
 layout: notes
 ---
 
-[structural]: https://www.cs.bgsu.edu/mdecke/classes/software_architecture/notes/design_patterns.html#/20
+[structural]: https://mdecker.net/notes/software-architecture/design-patterns/intro.html#/21
+
 [objecttree]: /images/design-patterns/composite/object-tree.svg
 [structure]: /images/design-patterns/composite/structure.svg
 [motivation]: /images/design-patterns/composite/motivation.svg

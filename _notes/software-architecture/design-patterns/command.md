@@ -3,7 +3,8 @@ title: "Design Pattern - Command"
 layout: notes
 ---
 
-[behavioral]: https://www.cs.bgsu.edu/mdecke/classes/software_architecture/notes/design_patterns.html#/23
+[behavioral]: https://mdecker.net/notes/software-architecture/design-patterns/intro.html#/24
+
 [motivation]: /images/design-patterns/command/command-motivation.svg
 [paste]: /images/design-patterns/command/command-paste.svg
 [open]: /images/design-patterns/command/command-open.svg

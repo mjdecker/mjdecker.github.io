@@ -4,6 +4,7 @@ layout: notes
 ---
 
 [structural]: https://mdecker.net/notes/software-architecture/design-patterns/intro.html#/21
+
 [singleton]: /images/design-patterns/singleton/singleton.svg
 [structure]: /images/design-patterns/singleton/singleton.svg
 

@@ -3,7 +3,7 @@ title: "Design Pattern - Adapter"
 layout: notes
 ---
 
-[structural]: https://www.cs.bgsu.edu/mdecke/classes/software_architecture/notes/design_patterns.html#/20
+[structural]: https://mdecker.net/notes/software-architecture/design-patterns/intro.html#/21
 
 [motivation]: /images/design-patterns/adapter/motivation.svg
 [classstructure]: /images/design-patterns/adapter/class-structure.svg

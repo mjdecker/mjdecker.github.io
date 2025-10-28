@@ -3,12 +3,15 @@ title: "Design Pattern - Observer"
 layout: notes
 ---
 
+[behavioral]: https://mdecker.net/notes/software-architecture/design-patterns/intro.html#/24
+
 [motivation]: /images/architecture/MVC.png
 
 # Observer
-* [Behavioral Object Pattern](https://www.cs.bgsu.edu/mdecke/classes/software_architecture/notes/design_patterns.html#/23)
 * *Define a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically*
 * Maintains consistency between related objects while avoiding classes being tighly coupled
+
+* [Behavioral Pattern][behavioral]
 * AKA: Dependents, Publish-Subscribe
 
 # Observer: Motivation

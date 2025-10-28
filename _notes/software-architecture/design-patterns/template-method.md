@@ -3,6 +3,9 @@ title: "Design Pattern - Template Method"
 layout: notes
 ---
 
+[behavioral]: https://mdecker.net/notes/software-architecture/design-patterns/intro.html#/24
+
+
 [motivation]: /images/design-patterns/template-method/template-method-gof-update.svg
 [structure]:  /images/design-patterns/template-method/template-method.svg
 [parser]:     /images/design-patterns/template-method/template-parser.svg
@@ -10,7 +13,7 @@ layout: notes
 # Template Method
 > A class pattern that defines the skeleton of an algorithm as an abstract class, allowing its subclasses to provide concrete behavior
 
-* Behavioral Pattern
+* [Behavioral Pattern][behavioral]
 * Class pattern uses generalization/inheritance
 
 # Template Method

@@ -4,7 +4,7 @@ layout: notes
 ---
 
 
-[creational]: https://www.cs.bgsu.edu/mdecke/classes/software_architecture/notes/design_patterns.html#/18
+[creational]: https://mdecker.net/notes/software-architecture/design-patterns/intro.html#/19
 
 [motivation]: /images/design-patterns/template-method/template-method-gof-update.svg
 [structure]:  /images/design-patterns/factory-method/factory-method.svg
