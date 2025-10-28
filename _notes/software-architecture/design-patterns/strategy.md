@@ -3,7 +3,8 @@ title: "Design Pattern - Strategy"
 layout: notes
 ---
 
-[behavioral]: https://www.cs.bgsu.edu/mdecke/classes/software_architecture/notes/design_patterns.html#/23
+[behavioral]: https://mdecker.net/notes/software-architecture/design-patterns/intro.html#/24
+
 [motivation]:  /images/design-patterns/strategy/motivation.svg
 [motivation2]: /images/design-patterns/strategy/motivation2.svg
 [tex]: https://en.wikipedia.org/wiki/TeX
