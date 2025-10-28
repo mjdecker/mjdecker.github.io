@@ -64,11 +64,15 @@ layout: notes
 
 ![sequence]
 
-# Command: Consequences 
+# Command: Consequences
 ![structure]
 
 * Command decouples the object that invokes the operation from the one that knows how to perform it
 * Commands are first-class objects and can be manipulated and extended like any other object.
+
+# Command: Consequences (continued)
+![structure]
+
 * Multiple commands can be assembled into a composite command (e.g., MacroCommand), and are instances of the Composite pattern
 * Easy to add new Commands, because you don’t have to change existing classes.
 
