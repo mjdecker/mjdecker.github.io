@@ -5,19 +5,19 @@ layout: notes
 
 [system-design]:    /images/architecture/system-design.svg
 [sub-system-model]: /images/architecture/sub-system-model.png
-[pipe-filter]:      /images/pipe-filter.png
-[batch-seq]:        /images/batch-seq.png
-[batch-seq-ii]:     /images/batch-seq-ii.png
-[batch-seq-iii]:    /images/batch-seq-iii.png
-[closed-arch]:      /images/closed-arch.png
-[open-arch]:        /images/open-arch.png
-[repository]:       /images/repository.png
-[repository-ide]:   /images/repository-ide.png
-[mvc]:              /images/mvc.png
-[client-server]:    /images/client-server.png
-[peer-2-peer]:      /images/peer-2-peer.png
-[process-control]:  /images/process-control.png
-[event]:            /images/event.png
+[pipe-filter]:      /images/architecture/pipe-filter.png
+[batch-seq]:        /images/architecture/batch-seq.png
+[batch-seq-ii]:     /images/architecture/batch-seq-ii.png
+[batch-seq-iii]:    /images/architecture/batch-seq-iii.png
+[closed-arch]:      /images/architecture/closed-arch.png
+[open-arch]:        /images/architecture/open-arch.png
+[repository]:       /images/architecture/repository.png
+[repository-ide]:   /images/architecture/repository-ide.png
+[mvc]:              /images/architecture/mvc.png
+[client-server]:    /images/architecture/client-server.png
+[peer-2-peer]:      /images/architecture/peer-2-peer.png
+[process-control]:  /images/architecture/process-control.png
+[event]:            /images/architecture/event.png
 
 # Software Architecture
  > is a set of structures needed to reason about the system, which comprise software elements, relations among them, and properties of both [Clements 2010]
