@@ -26,7 +26,6 @@ layout: notes
  * Successfull partitioning allow for the subsystems to be worked on separately by different groups of developers in order to co-operatively develop the system
  * Architecture's purpose is to assure that a system's functionality, quality attributes, and other business goals are satisfied
 
-
 # System/Subsystem Design
 ![system-design]
 
@@ -36,7 +35,6 @@ layout: notes
 * *subsystem interface*  a set of *services* available to other systems
 	* Application Programmer Interface (API) includes the names of operations, parameters/types, and return types
 * System design focuses on defining services
-
 
 # System/Subsystem Model
 ![sub-system-model]
@@ -80,7 +78,7 @@ layout: notes
 * Transformational systems
 
 # Pipe and Filter Model
-![images/pipe-filter.png]
+![pipe-filter]
 
 # UNIX Examples
 ```
@@ -99,13 +97,13 @@ git log --pretty="%aN" | sort | uniq -c | sed "s/ *//" | cut -d ' ' -f2 -f1,3-10
 * No realtime feedback, no concurrency
 
 # Batch Sequential Model
-![images/mvc.png]
+![mvc]
 
 # Batch Sequential Model
-![images/repository-ide.png]
+![repository-ide]
 
 # Batch Sequential Model
-![images/repository.png]
+![repository]
 
 # Layered Architecture
 * Hierarchical decomposition of a system into subsystems (layers) with each providing a higher level of services provided from lower-level subsystems
@@ -113,19 +111,19 @@ git log --pretty="%aN" | sort | uniq -c | sed "s/ *//" | cut -d ' ' -f2 -f1,3-10
 * *open architecture* each layer can access any layer below
 
 # Closed Architecture: OSI Network Model
-![images/open-arch.png]
+![open-arch]
 
 # Open Architecture:  Motif Library
-![images/closed-arch.png]
+![closed-arch]
 
 # Repository Architecture
-![images/batch-seq-iii.png]
+![batch-seq-iii]
 
 * Subsystems are independent and interact by a central repository
 * Examples: Payroll or banking system, Modern IDE/Compiler, Blackboard
 
 # Repository:  IDE
-![images/batch-seq-ii.png]
+![batch-seq-ii]
 
 # Model/View/Controller
 * Subsystems
@@ -137,7 +135,7 @@ git log --pretty="%aN" | sort | uniq -c | sed "s/ *//" | cut -d ' ' -f2 -f1,3-10
 * Examples: File system, database
 
 # MVC
-![images/batch-seq.png]
+![batch-seq]
 
 # Client/Server Architecture
 * Subsystems:
@@ -146,19 +144,18 @@ git log --pretty="%aN" | sort | uniq -c | sed "s/ *//" | cut -d ' ' -f2 -f1,3-10
 * An information system with a central DB is an example
 * Web servers (multiple servers)
 
-
 # Client/Server Model
-![images/client-server.png]
+![client-server]
 
 # Peer-to-Peer Architecture
-![images/peer-2-peer.png]
+![peer-2-peer]
 
 # Peer-to-Peer Architecture
 * Generalization of client/server, clients can be servers and vice versa
 * The control flow of each subsystem is independent of others except for the synchronization of requests.
 
 # Process Control Architecture
-![images/process-control.png]
+![process-control]
 
 # Event-driven Architecture
-![images/event.png]
+![event]
