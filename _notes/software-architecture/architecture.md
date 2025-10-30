@@ -97,13 +97,13 @@ git log --pretty="%aN" | sort | uniq -c | sed "s/ *//" | cut -d ' ' -f2 -f1,3-10
 * No realtime feedback, no concurrency
 
 # Batch Sequential Model
-![mvc]
+![batch-seq]
 
 # Batch Sequential Model
-![repository-ide]
+![batch-seq-ii]
 
 # Batch Sequential Model
-![repository]
+![batch-seq-iii]
 
 # Layered Architecture
 * Hierarchical decomposition of a system into subsystems (layers) with each providing a higher level of services provided from lower-level subsystems
@@ -111,19 +111,19 @@ git log --pretty="%aN" | sort | uniq -c | sed "s/ *//" | cut -d ' ' -f2 -f1,3-10
 * *open architecture* each layer can access any layer below
 
 # Closed Architecture: OSI Network Model
-![open-arch]
-
-# Open Architecture:  Motif Library
 ![closed-arch]
 
+# Open Architecture:  Motif Library
+![open-arch]
+
 # Repository Architecture
-![batch-seq-iii]
+![repository]
 
 * Subsystems are independent and interact by a central repository
 * Examples: Payroll or banking system, Modern IDE/Compiler, Blackboard
 
 # Repository:  IDE
-![batch-seq-ii]
+![repository-ide]
 
 # Model/View/Controller
 * Subsystems
@@ -135,7 +135,7 @@ git log --pretty="%aN" | sort | uniq -c | sed "s/ *//" | cut -d ' ' -f2 -f1,3-10
 * Examples: File system, database
 
 # MVC
-![batch-seq]
+![mvc]
 
 # Client/Server Architecture
 * Subsystems:
