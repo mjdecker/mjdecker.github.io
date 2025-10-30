@@ -345,7 +345,8 @@ section.left .gist .gist-data {
 
 /* Single image on slide at full size */
 section > p > img {
-  height: 90%;
+  height: 80%;
+  min-width: 50%;
   max-height: 100%;
   max-width: 100%;
 }
