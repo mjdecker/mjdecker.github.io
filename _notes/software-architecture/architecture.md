@@ -3,6 +3,22 @@ title: "Architecture"
 layout: notes
 ---
 
+[system-design]:    /images/architecture/system-design.svg
+[sub-system-model]: /images/architecture/sub-system-model.png
+[pipe-filter]:      /images/pipe-filter.png
+[batch-seq]:        /images/batch-seq.png
+[batch-seq-ii]:     /images/batch-seq-ii.png
+[batch-seq-iii]:    /images/batch-seq-iii.png
+[closed-arch]:      /images/closed-arch.png
+[open-arch]:        /images/open-arch.png
+[repository]:       /images/repository.png
+[repository-ide]:   /images/repository-ide.png
+[mvc]:              /images/mvc.png
+[client-server]:    /images/client-server.png
+[peer-2-peer]:      /images/peer-2-peer.png
+[process-control]:  /images/process-control.png
+[event]:            /images/event.png
+
 # Software Architecture
  > is a set of structures needed to reason about the system, which comprise software elements, relations among them, and properties of both [Clements 2010]
  
@@ -12,8 +28,7 @@ layout: notes
 
 
 # System/Subsystem Design
-![](images/architecture/system-design.svg)
-
+![system-design]
 
 # System Decomposition
 * *subsystem* provides a set of *services* to the system
@@ -24,8 +39,7 @@ layout: notes
 
 
 # System/Subsystem Model
-![](images/architecture/sub-system-model.png)
-
+![sub-system-model]
 
 # Architectural Style
 * An *architectural style* defines a family of systems in terms of a pattern of structural organization
@@ -35,23 +49,19 @@ layout: notes
 	* Vocabulary of *components* and *connectors*
 	* Constraints on how they are combined
 
-
 # Common Architectural Styles
-
 * Dataflow Systems
     * Pipe and Filter
     * Batch Sequential
 * Virtual Machines
     * Rule-based Systems
     * Interpreters
-* Repository
+* repository
     * Databases
     * Hypertext Systems
     * Blackboards
 
-
 # Common Architectural Styles (continued)
-
 * Independent Components
     * Peer-to-Peer
     * Client Server
@@ -62,7 +72,6 @@ layout: notes
     * Layered Systems
     * Object-Oriented Systems
 
-
 # Pipe and Filter Architecture
 * Subsystems are called *filters* and associations between the filters are called *pipes*
 * Filters only know the content and format of data being received and produced, nothing about the other filters in the system
@@ -70,13 +79,10 @@ layout: notes
 * Very reconfigurable
 * Transformational systems
 
-
 # Pipe and Filter Model
-![](images/pipe-filter.png)
-
+![images/pipe-filter.png]
 
 # UNIX Examples
-
 ```
 # Replace TRUE with LITERAL_TRUE in every cpp and hpp file
 find . -name "*.cpp" -o -name "*.hpp" | xargs -I% sed -i.back "s/TRUE/LITERAL_TRUE/g" %
@@ -85,7 +91,6 @@ find . -name "*.cpp" -o -name "*.hpp" | xargs -I% sed -i.back "s/TRUE/LITERAL_TR
 git log --pretty="%aN" | sort | uniq -c | sed "s/ *//" | cut -d ' ' -f2 -f1,3-10
 ```
 
-
 # Batch Sequential Architecture
 * A small number of large stand-alone subsystems
 * Must be executed in a fixed sequential ordering (batch)
@@ -93,43 +98,34 @@ git log --pretty="%aN" | sort | uniq -c | sed "s/ *//" | cut -d ' ' -f2 -f1,3-10
 * The shared, specific file tightly couples the subsystems
 * No realtime feedback, no concurrency
 
+# Batch Sequential Model
+![images/mvc.png]
 
 # Batch Sequential Model
-![](images/batch-seq.png)
-
-
-# Batch Sequential Model
-![](images/batch-seq-ii.png)
-
+![images/repository-ide.png]
 
 # Batch Sequential Model
-![](images/batch-seq-iii.png)
-
+![images/repository.png]
 
 # Layered Architecture
 * Hierarchical decomposition of a system into subsystems (layers) with each providing a higher level of services provided from lower-level subsystems
 * *closed architecture* each layer can only depend on the layer immediately below
 * *open architecture* each layer can access any layer below
 
-
 # Closed Architecture: OSI Network Model
-![](images/closed-arch.png)
-
+![images/open-arch.png]
 
 # Open Architecture:  Motif Library
-![](images/open-arch.png)
-
+![images/closed-arch.png]
 
 # Repository Architecture
-![](images/repository.png)
+![images/batch-seq-iii.png]
 
 * Subsystems are independent and interact by a central repository
 * Examples: Payroll or banking system, Modern IDE/Compiler, Blackboard
 
-
 # Repository:  IDE
-![](images/Repository-ide.png)
-
+![images/batch-seq-ii.png]
 
 # Model/View/Controller
 * Subsystems
@@ -140,10 +136,8 @@ git log --pretty="%aN" | sort | uniq -c | sed "s/ *//" | cut -d ' ' -f2 -f1,3-10
 * Changes in model state propagate via a subscribe-notify protocol
 * Examples: File system, database
 
-
 # MVC
-![](images/MVC.png)
-
+![images/batch-seq.png]
 
 # Client/Server Architecture
 * Subsystems:
@@ -154,21 +148,17 @@ git log --pretty="%aN" | sort | uniq -c | sed "s/ *//" | cut -d ' ' -f2 -f1,3-10
 
 
 # Client/Server Model
-![](images/client-server.png)
-
+![images/client-server.png]
 
 # Peer-to-Peer Architecture
-![](images/peer-2-peer.png)
-
+![images/peer-2-peer.png]
 
 # Peer-to-Peer Architecture
 * Generalization of client/server, clients can be servers and vice versa
 * The control flow of each subsystem is independent of others except for the synchronization of requests.
 
-
 # Process Control Architecture
-![](images/process-control.png)
-
+![images/process-control.png]
 
 # Event-driven Architecture
-![](images/event.png)
+![images/event.png]
