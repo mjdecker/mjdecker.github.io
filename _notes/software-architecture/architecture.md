@@ -148,11 +148,11 @@ git log --pretty="%aN" | sort | uniq -c | sed "s/ *//" | cut -d ' ' -f2 -f1,3-10
 ![client-server]
 
 # Peer-to-Peer Architecture
-![peer-2-peer]
-
-# Peer-to-Peer Architecture
 * Generalization of client/server, clients can be servers and vice versa
 * The control flow of each subsystem is independent of others except for the synchronization of requests.
+
+# Peer-to-Peer Architecture
+![peer-2-peer]
 
 # Process Control Architecture
 ![process-control]
