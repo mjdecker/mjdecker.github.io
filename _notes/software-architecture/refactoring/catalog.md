@@ -3,6 +3,9 @@ title: "Refactoring Catalog"
 layout: notes
 ---
 
+[unladen-swallow]: https://youtu.be/liIlW-ovx0Y?si=GHnKgDNroeQBrCh9
+[norwegian-blue]: https://youtu.be/TaFDzTzKAT0?si=Y67svuRxWEXUFE5X
+
 # [Catalog](https://www.refactoring.com)
 * Collected by Fowler
 * Refactoring entry composed of:
@@ -36,6 +39,9 @@ layout: notes
 
 # Replace Conditional with Polymorphism (after)
 <img src="https://yuml.me/diagram/class/[｛abstract｝bird|%20|%20+%20get_speed():number｛abstract｝],[european|%20|%20+%20get_speed():number],[african|%20|%20+%20get_speed():number],[norwegian_blue|%20|%20+%20get_speed():number],[｛abstract｝bird]^-[european],[｛abstract｝bird]^-[african],[｛abstract｝bird]^-[norwegian_blue]" alt="Replace Conditional with Polymorphism example"/>
+
+* ![Swallows][unladen-swallow]
+* ![Norwegian Blue][norwegian-blue]
 
 # Change Bidirectional Association to Unidirectional - Before
 ![](https://yuml.me/diagram/class/[order]<*-1%3e[customer])
