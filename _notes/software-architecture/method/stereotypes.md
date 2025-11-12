@@ -3,6 +3,7 @@ title: "Method Stereotypes"
 layout: notes
 ---
 
+# Method Stereotypes
 * All methods play a *role* or multiple *roles* in a class
 * Identifying the role of a method helps with comprehension, but also with the original design
 * A method has a *primary* role, with some methods a *secondary* role
