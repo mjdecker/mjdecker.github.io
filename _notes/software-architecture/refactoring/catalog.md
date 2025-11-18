@@ -68,6 +68,7 @@ layout: notes
 # Composing Methods
 * [Extract Function](https://www.refactoring.com/catalog/extractMethod.html)
 * [Inline Function](https://www.refactoring.com/catalog/inlineMethod.html)
+* [Rename Variable](https://refactoring.com/catalog/renameVariable.html)
 * [Inline Variable](https://www.refactoring.com/catalog/inlineTemp.html)
 * [Replace Temp with Query](https://www.refactoring.com/catalog/replaceTempWithQuery.html)
 * [Extract Variable](https://refactoring.com/catalog/extractVariable.html)
@@ -103,6 +104,8 @@ layout: notes
 * [Remove Subclass](https://refactoring.com/catalog/removeSubclass.html)
 
 # Moving Object Features
+* [Rename Field](https://refactoring.com/catalog/renameField.html)
+* Rename Class
 * [Move Function](https://www.refactoring.com/catalog/moveFunction.html)
 * [Move Field](https://www.refactoring.com/catalog/moveField.html)
 * [Extract Class](https://www.refactoring.com/catalog/extractClass.html)
@@ -121,7 +124,7 @@ layout: notes
 * [Preserve Whole Object](https://www.refactoring.com/catalog/preserveWholeObject.html)
 * [Replace Parameter with Query](https://www.refactoring.com/catalog/replaceParameterWithQuery.html)
 
-# Simplying Method Calls II
+# Simplifying Method Calls II
 * [Introduce Parameter Object](https://www.refactoring.com/catalog/introduceParameterObject.html)
 * [Remove Setting Method](https://www.refactoring.com/catalog/removeSettingMethod.html)
 * [Hide Method](https://www.refactoring.com/catalog/hideMethod.html)
