@@ -19,6 +19,7 @@ layout: notes
 * Online catalog at: [https://www.refactoring.com](https://www.refactoring.com)
 
 # Categories
+* *Renames*
 * Composing Methods
 * Organizing Data
 * Moving Features Between Objects
@@ -65,10 +66,15 @@ layout: notes
 # Extract Interface - Before
 <img src="https://yuml.me/diagram/class/[billable|%20|%20+%20get_rate()%20:%20integer｛abstract｝;%20+%20has_special_skill()%20:%20boolean｛abstract｝]^-.-[employee|%20|%20+%20get_rate()%20:%20integer;%20+%20has_special_skill()%20:%20boolean;%20+%20get_name()%20:%20string;%20+%20get_department()%20:%20department]" alt="Extract Interface after example"/>
 
+# Renaming
+* [Rename Variable](https://refactoring.com/catalog/renameVariable.html)
+* [Rename Field](https://refactoring.com/catalog/renameField.html)
+* [Rename Function](https://www.refactoring.com/catalog/changeFunctionDeclaration.html)
+* Rename Class - *Not explicitly in catalog*
+
 # Composing Methods
 * [Extract Function](https://www.refactoring.com/catalog/extractMethod.html)
 * [Inline Function](https://www.refactoring.com/catalog/inlineMethod.html)
-* [Rename Variable](https://refactoring.com/catalog/renameVariable.html)
 * [Inline Variable](https://www.refactoring.com/catalog/inlineTemp.html)
 * [Replace Temp with Query](https://www.refactoring.com/catalog/replaceTempWithQuery.html)
 * [Extract Variable](https://refactoring.com/catalog/extractVariable.html)
@@ -102,10 +108,9 @@ layout: notes
 * [Encapsulate Record](https://refactoring.com/catalog/encapsulateRecord.html)
 * [Replace Type Code with Subclasses](https://www.refactoring.com/catalog/replaceTypeCodeWithSubclasses.html)
 * [Remove Subclass](https://refactoring.com/catalog/removeSubclass.html)
+* [Rename Field](https://refactoring.com/catalog/renameField.html)
 
 # Moving Object Features
-* [Rename Field](https://refactoring.com/catalog/renameField.html)
-* Rename Class
 * [Move Function](https://www.refactoring.com/catalog/moveFunction.html)
 * [Move Field](https://www.refactoring.com/catalog/moveField.html)
 * [Extract Class](https://www.refactoring.com/catalog/extractClass.html)
