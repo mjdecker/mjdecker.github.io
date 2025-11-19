@@ -19,7 +19,7 @@ layout: notes
 * Online catalog at: [https://www.refactoring.com](https://www.refactoring.com)
 
 # Categories
-* *Renames*
+* *Renaming*
 * Composing Methods
 * Organizing Data
 * Moving Features Between Objects
