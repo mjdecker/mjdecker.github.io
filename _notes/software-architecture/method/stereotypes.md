@@ -43,10 +43,13 @@ layout: notes
 
 * The purpose of the method is very simple and primitive
 * Direct access to the data member
+
+<!--
 * C++ Rules:
 	* method is const
 	* returns a data member
 	* return type is a primitive or a container of a primitive
+-->
 
 # Accessor::get - C++
 <script src="https://gist.github.com/mjdecker/90d821299d8fb426a4add92699aa3245.js?file=get.cpp"></script>
@@ -61,9 +64,12 @@ layout: notes
 > Returns a Boolean value that is not a data member
 
 * Result is not a direct data member, but a computation involving data members
+
+<!--
 * C++ Rules:
 	* method is const
 	* returns a Boolean value that is not a data member
+-->
 
 # Accessor::predicate - C++
 <script src="https://gist.github.com/mjdecker/90d821299d8fb426a4add92699aa3245.js?file=predicate.cpp"></script>
@@ -77,11 +83,13 @@ layout: notes
 # Accessor::property
 > Returns information about data members (non-Boolean)
 
+<!--
 * C++ Rules:
 	* method is const
 	* does not return a data member
 	* return type is primitive or container of primitives
 	* return type is not Boolean
+-->
 
 # Accessor::property - C++
 <script src="https://gist.github.com/mjdecker/90d821299d8fb426a4add92699aa3245.js?file=property.cpp"></script>
@@ -115,10 +123,13 @@ layout: notes
 # Mutator::set
 > Directly modifies a data member
 * The parameter value is stored in the data member
+
+<!--
 * C++ Rules:
 	* method is not const
 	* return type is void or Boolean
 	* only one data member is changed
+-->
 
 # Mutator::set - C++
 <script src="https://gist.github.com/mjdecker/90d821299d8fb426a4add92699aa3245.js?file=set.cpp"></script>
@@ -133,10 +144,13 @@ layout: notes
 > Performs a complex change to the object’s state
 * The change may involve several data members 
 * May change the data members either directly or indirectly with another mutator 
+
+<!--
 * C++ Rules:
 	* method is not const
 	* return type is void or Boolean
 	* complex change to the object’s state is performed, e.g., more than one data member is changed
+-->
 
 # Mutator::command - C++
 <script src="https://gist.github.com/mjdecker/90d821299d8fb426a4add92699aa3245.js?file=command.cpp"></script>
@@ -157,9 +171,12 @@ layout: notes
 
 # Collaborational::Collaborator
 >  Works with objects belonging to classes other than itself (parameter, local variable, data member, or return value)
+
+<!--
 * C++ Rules:
 	* returns void and at least one of the method’s parameters or local variables is an object
 	* returns a parameter or local variable that is an object
+-->
 
 # Collaborational::Collaborator - C++
 <script src="https://gist.github.com/mjdecker/90d821299d8fb426a4add92699aa3245.js?file=collaborator.cpp"></script>
