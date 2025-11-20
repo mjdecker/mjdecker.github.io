@@ -3,18 +3,17 @@ title: "Free-Function Stereotypes"
 layout: notes
 ---
 
-# UML Stereotypes
-
+<!--# UML Stereotypes
 <div markdown="1" class="single" style="height: 400px">
 ![](/images/QtUMLExample.png)
 </div>
-
-# Code Stereotype
+-->
+<!--# Code Stereotype
 ![](/images/QtUMLExample.png)
-
 * A label we give to code to further distinguish it
 * Here, we will look at stereotypes from the perspective of *free functions*
 * Separate  stereotypes for *methods* and *class*
+-->
 
 # Why Categorize into Stereotypes?
 {: .center }
