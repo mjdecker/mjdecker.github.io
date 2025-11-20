@@ -15,8 +15,7 @@ layout: notes
 * Application: [Automatically Redocumenting Source Code with Method and Class Stereotypes](http://www.cs.kent.edu/~jmaletic/papers/DySDoc3-Stereotypes.pdf) (DySDoc3'18) Guarnera, D., Collard, M.L., Dragan, N., Maletic, J.I., Newman, C., Decker, M.
 
 # Documentation
-
-<script src="https://gist.github.com/mlcollard/56f67dcea0ad6319d4f83949ac2a55b6.js?file=AccessorGet.cpp"></script>
+<script src="https://gist.github.com/mjdecker/90d821299d8fb426a4add92699aa3245.js?file=get.cpp"></script>
 
 * Method stereotypes can be embedded in the source code as a comment
 * *documentation* if the identification is manual
@@ -34,71 +33,104 @@ layout: notes
 
 | Stereotype | Description |
 |------------|-------------|
-| *get* | returns the value of a data member |
-| *predicate* | returns a Boolean result computed from data members |
-| *property* | returns information based on data member values |
-| *void-accessor* | returns information about data members through a parameter   |
+| *get* | Returns a data member |
+| *predicate* | Returns a Boolean value that is not a data member |
+| *property* | Returns information about data members (non-Boolean) |
+| *void-accessor* | Returns information about data members through method parameters   |
 
 # Accessor::get
+> Returns a data member
 
-<script src="https://gist.github.com/mlcollard/56f67dcea0ad6319d4f83949ac2a55b6.js?file=AccessorGet.cpp"></script>
-
-* *Returns the value of a data member*
 * The purpose of the method is very simple and primitive
-* Direct access to the value of the data member
+* Direct access to the data member
 * C++ Rules:
 	* method is const
 	* returns a data member
-	* return type is primitive or container of a primitive
+	* return type is a primitive or a container of a primitive
+
+# Accessor::get - C++
+<script src="https://gist.github.com/mjdecker/90d821299d8fb426a4add92699aa3245.js?file=get.cpp"></script>
+
+# Accessor::get - C#
+<script src="https://gist.github.com/mjdecker/90d821299d8fb426a4add92699aa3245.js?file=get.cs"></script>
+
+# Accessor::get - Java
+<script src="https://gist.github.com/mjdecker/90d821299d8fb426a4add92699aa3245.js?file=get.java"></script>
 
 # Accessor::predicate
-<script src="https://gist.github.com/mlcollard/56f67dcea0ad6319d4f83949ac2a55b6.js?file=AccessorPredicate.cpp"></script>
+> Returns a Boolean value that is not a data member
 
-* *Returns a Boolean result computed from data members*
 * Result is not a direct data member, but a computation involving data members
 * C++ Rules:
 	* method is const
 	* returns a Boolean value that is not a data member
 
-# Accessor::property
-<script src="https://gist.github.com/mlcollard/56f67dcea0ad6319d4f83949ac2a55b6.js?file=AccessorProperty.cpp"></script>
+# Accessor::predicate - C++
+<script src="https://gist.github.com/mjdecker/90d821299d8fb426a4add92699aa3245.js?file=predicate.cpp"></script>
 
-* *Returns information based on data member values*
+# Accessor::predicate - C#
+<script src="https://gist.github.com/mjdecker/90d821299d8fb426a4add92699aa3245.js?file=predicate.cs"></script>
+
+# Accessor::predicate - Java
+<script src="https://gist.github.com/mjdecker/90d821299d8fb426a4add92699aa3245.js?file=predicate.java"></script>
+
+# Accessor::property
+> Returns information about data members (non-Boolean)
+
 * C++ Rules:
 	* method is const
 	* does not return a data member
 	* return type is primitive or container of primitives
 	* return type is not Boolean
 
-# Accessor::void-accessor
-<script src="https://gist.github.com/mlcollard/56f67dcea0ad6319d4f83949ac2a55b6.js?file=AccessorVoidAccessor.cpp"></script>
+# Accessor::property - C++
+<script src="https://gist.github.com/mjdecker/90d821299d8fb426a4add92699aa3245.js?file=property.cpp"></script>
 
-* *Returns information about data members through a parameter*
+# Accessor::property - C#
+<script src="https://gist.github.com/mjdecker/90d821299d8fb426a4add92699aa3245.js?file=property.cs"></script>
+
+# Accessor::property - Java
+<script src="https://gist.github.com/mjdecker/90d821299d8fb426a4add92699aa3245.js?file=property.java"></script>
+
+# Accessor::void-accessor
+> Returns information about data members through method parameters
+
+# Accessor::void-accessor - C++
+<script src="https://gist.github.com/mjdecker/90d821299d8fb426a4add92699aa3245.js?file=void-accessor.cpp"></script>
+
+# Accessor::void-accessor - Cs
+<script src="https://gist.github.com/mjdecker/90d821299d8fb426a4add92699aa3245.js?file=void-accessor.cs"></script>
+
+# Accessor::void-accessor - Java
+<script src="https://gist.github.com/mjdecker/90d821299d8fb426a4add92699aa3245.js?file=void-accessor.java"></script>
 
 # Mutators
 
 | Stereotype | Description |
 |------------|-------------|
-| *set* | changes the value of a data member |
-| *command* | executes a complex change of the object’s state |
-| *non-void-command* | command which returns a value |
+| *set* | Modifies a data member |
+| *command* | Performs a complex change to the object’s state |
+| *non-void-command* | Command which returns a value |
 
 # Mutator::set
-
-<script src="https://gist.github.com/mlcollard/56f67dcea0ad6319d4f83949ac2a55b6.js?file=MutatorSet.cpp"></script>
-
-* *Directly changes the value of a data member*
+> Directly modifies a data member
 * The parameter value is stored in the data member
 * C++ Rules:
 	* method is not const
 	* return type is void or Boolean
 	* only one data member is changed
 
+# Mutator::set - C++
+<script src="https://gist.github.com/mjdecker/90d821299d8fb426a4add92699aa3245.js?file=set.cpp"></script>
+
+# Mutator::set - C#
+<script src="https://gist.github.com/mjdecker/90d821299d8fb426a4add92699aa3245.js?file=set.cs"></script>
+
+# Mutator::set - Java
+<script src="https://gist.github.com/mjdecker/90d821299d8fb426a4add92699aa3245.js?file=set.java"></script>
+
 # Mutator::command
-
-<script src="https://gist.github.com/mlcollard/56f67dcea0ad6319d4f83949ac2a55b6.js?file=MutatorCommand.cpp"></script>
-
-* *Executes a complex change of the object’s state*
+> Performs a complex change to the object’s state
 * The change may involve several data members 
 * May change the data members either directly or indirectly with another mutator 
 * C++ Rules:
@@ -106,48 +138,82 @@ layout: notes
 	* return type is void or Boolean
 	* complex change to the object’s state is performed, e.g., more than one data member is changed
 
-# Mutator::non-void-command
+# Mutator::command - C++
+<script src="https://gist.github.com/mjdecker/90d821299d8fb426a4add92699aa3245.js?file=command.cpp"></script>
 
-<script src="https://gist.github.com/mlcollard/56f67dcea0ad6319d4f83949ac2a55b6.js?file=MutatorNonVoidCommand.cpp"></script>
+# Mutator::command - C#
+<script src="https://gist.github.com/mjdecker/90d821299d8fb426a4add92699aa3245.js?file=command.cs"></script>
 
-* *Command which returns a value*
+# Mutator::command - Java
+<script src="https://gist.github.com/mjdecker/90d821299d8fb426a4add92699aa3245.js?file=command.java"></script>
 
 # Collaborational Methods
 
 | Stereotype | Description |
 |------------|-------------|
-| *collaborator* | Works on objects of classes different from itself |
-| *controller* | Works only on objects of classes other from itself |
+| *collaborator* | Works with objects belonging to classes other than itself (parameter, local variable, data member, or return value) |
+| *controller* | Changes only an external object’s state (not this)|
+|wrapper|Does not change an object’s state. Has at least one free function call|
 
 # Collaborational::Collaborator
-
-<script src="https://gist.github.com/mlcollard/56f67dcea0ad6319d4f83949ac2a55b6.js?file=CollaboratorCollaborator.cpp"></script>
-
-* *Works on objects of classes different from itself*
+>  Works with objects belonging to classes other than itself (parameter, local variable, data member, or return value)
 * C++ Rules:
 	* returns void and at least one of the method’s parameters or local variables is an object
 	* returns a parameter or local variable that is an object
 
+# Collaborational::Collaborator - C++
+<script src="https://gist.github.com/mjdecker/90d821299d8fb426a4add92699aa3245.js?file=collaborator.cpp"></script>
+
+# Collaborational::Collaborator - C#
+<script src="https://gist.github.com/mjdecker/90d821299d8fb426a4add92699aa3245.js?file=collaborator.cs"></script>
+
+# Collaborational::Collaborator - Java
+<script src="https://gist.github.com/mjdecker/90d821299d8fb426a4add92699aa3245.js?file=collaborator.java"></script>
+
 # Collaborational::Controller
+> Changes only an external object’s state (not this)
 
-<script src="https://gist.github.com/mlcollard/56f67dcea0ad6319d4f83949ac2a55b6.js?file=CollaboratorController.cpp"></script>
+# Collaborational::Controller - C++
+<script src="https://gist.github.com/mjdecker/90d821299d8fb426a4add92699aa3245.js?file=controller.cpp"></script>
 
-* *Works only on objects of classes different from itself*
+# Collaborational::Controller - C#
+<script src="https://gist.github.com/mjdecker/90d821299d8fb426a4add92699aa3245.js?file=controller.cs"></script>
+
+# Collaborational::Controller - Java
+<script src="https://gist.github.com/mjdecker/90d821299d8fb426a4add92699aa3245.js?file=controller.java"></script>
+
+# Collaborational::Wrapper
+> Does not change an object’s state. Has at least one free function call
+
+# Collaborational::Wrapper - C++
+<script src="https://gist.github.com/mjdecker/90d821299d8fb426a4add92699aa3245.js?file=wrapper.cpp"></script>
+
+# Collaborational::Wrapper - C#
+<script src="https://gist.github.com/mjdecker/90d821299d8fb426a4add92699aa3245.js?file=wrapper.cs"></script>
+
+# Collaborational::Wrapper - Java
+<script src="https://gist.github.com/mjdecker/90d821299d8fb426a4add92699aa3245.js?file=wrapper.java"></script>
 
 # Creational Methods
 
 | Stereotype | Example/Description |
 |------------|-------------|
-| *constructor* |<script src="https://gist.github.com/mlcollard/56f67dcea0ad6319d4f83949ac2a55b6.js?file=CreationalConstructor.cpp"></script> |
-| *copy-constructor* | <script src="https://gist.github.com/mlcollard/56f67dcea0ad6319d4f83949ac2a55b6.js?file=CreationalCopyConstructor.cpp"></script>  |
-| *destructor* | <script src="https://gist.github.com/mlcollard/56f67dcea0ad6319d4f83949ac2a55b6.js?file=CreationalDestructor.cpp"></script> |
+| *constructor* | Creates an object |
+| *copy-constructor* | Creates an object |
+| *destructor* | Destoyes an object |
 | *factory* | Object creation method |
 
 # Creational::factory
+> Object creation method with the object returned to to the client
 
-<script src="https://gist.github.com/mlcollard/56f67dcea0ad6319d4f83949ac2a55b6.js?file=CreationalFactory.cpp"></script>
+# Creational::factory - C++
+<script src="https://gist.github.com/mjdecker/90d821299d8fb426a4add92699aa3245.js?file=factory.cpp"></script>
 
-* *Object creation method with the object returned to to the client*
+# Creational::factory - C#
+<script src="https://gist.github.com/mjdecker/90d821299d8fb426a4add92699aa3245.js?file=factory.cs"></script>
+
+# Creational::factory - Java
+<script src="https://gist.github.com/mjdecker/90d821299d8fb426a4add92699aa3245.js?file=factory.java"></script>
 
 # Degenerate Methods
 
@@ -158,40 +224,57 @@ layout: notes
 | *empty* | Method with no statements |
 
 # Degenerate::incidental
+> Does not read/change the object state, and no calls to other methods of the same class
 
-<script src="https://gist.github.com/mlcollard/56f67dcea0ad6319d4f83949ac2a55b6.js?file=DegenerateIncidental.cpp"></script>
+# Degenerate::incidental - C++
+<script src="https://gist.github.com/mjdecker/90d821299d8fb426a4add92699aa3245.js?file=incidental.cpp"></script>
 
-* *Does not read/change the object state, and no calls to other methods of the same class*
+# Degenerate::incidental - C#
+<script src="https://gist.github.com/mjdecker/90d821299d8fb426a4add92699aa3245.js?file=incidental.cs"></script>
+
+# Degenerate::incidental - Java
+<script src="https://gist.github.com/mjdecker/90d821299d8fb426a4add92699aa3245.js?file=incidental.java"></script>
 
 # Degenerate::stateless
+> Does not read/change the object state, with one call to other methods of the same class
 
-<script src="https://gist.github.com/mlcollard/56f67dcea0ad6319d4f83949ac2a55b6.js?file=DegenerateStateless.cpp"></script>
+# Degenerate::stateless - C++
+<script src="https://gist.github.com/mjdecker/90d821299d8fb426a4add92699aa3245.js?file=stateless.cpp"></script>
 
-* *Does not read/change the object state, with one call to other methods of the same class*
+# Degenerate::stateless - C#
+<script src="https://gist.github.com/mjdecker/90d821299d8fb426a4add92699aa3245.js?file=stateless.cs"></script>
+
+# Degenerate::stateless - Java
+<script src="https://gist.github.com/mjdecker/90d821299d8fb426a4add92699aa3245.js?file=stateless.java"></script>
 
 # Degenerate::empty
+>  Method with no statements
 
-<script src="https://gist.github.com/mlcollard/56f67dcea0ad6319d4f83949ac2a55b6.js?file=DegenerateEmpty.cpp"></script>
-
-* *Method with no statements*
 * Typically part of an early implementation
 * Maybe due to functionality moving elsewhere
 
-# Clear Design
+# Degenerate::empty - C++
+<script src="https://gist.github.com/mjdecker/90d821299d8fb426a4add92699aa3245.js?file=empty.cpp"></script>
 
+# Degenerate::empty - C#
+<script src="https://gist.github.com/mjdecker/90d821299d8fb426a4add92699aa3245.js?file=empty.cs"></script>
+
+# Degenerate::empty - Java
+<script src="https://gist.github.com/mjdecker/90d821299d8fb426a4add92699aa3245.js?file=empty.java"></script>
+
+
+# Clear Design
 <script src="https://gist.github.com/mlcollard/e7420f4dacc385e527940da67a8a43ec.js?file=StackInterface.cpp"></script>
 
 * A method should have a single purpose, *single responsibility issue*
 * Conversely, a method should have a single primary *role*, i.e., *single role issue*
 
 # Pop or Top vs. Pop and Top
-
 <script src="https://gist.github.com/mlcollard/e7420f4dacc385e527940da67a8a43ec.js?file=StackTopAndPop.hpp"></script>
 
 <script src="https://gist.github.com/mlcollard/e7420f4dacc385e527940da67a8a43ec.js?file=StackTopOrPop.hpp"></script>
 
 # Automated Detection
-
 <script src="https://gist.github.com/mlcollard/56f67dcea0ad6319d4f83949ac2a55b6.js?file=xpath.xml"></script>
 
 * Tool, *stereocode*, automatically redocuments source code with stereotypes
@@ -199,4 +282,6 @@ layout: notes
 * Very scalable as it redocuments large systems in minutes 
 
 # References
-* Adapted from https://mlcollard.net
+* Adapted from:
+	* https://mlcollard.net
+	* https://github.com/srcML/stereocode/wiki/Method-Stereotypes
