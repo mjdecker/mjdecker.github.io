@@ -100,7 +100,7 @@ layout: notes
 * Entire programming environment, often with a custom language and IDE
 * E.g., iOS, .NET, Android, UNIX/Linux
 * Client code is integrated into multiple frameworks and supporting tools
-* Control: Typically complete*[inversion of control]*
+* Control: Typically complete *[inversion of control]*
 
 # Design Using APIs
 * Use existing APIs as much as possible
