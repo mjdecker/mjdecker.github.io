@@ -3,6 +3,8 @@ title: "API"
 layout: notes
 ---
 
+[separation of concerns]: https://en.wikipedia.org/wiki/Separation_of_concerns
+g
 [libxml2]: https://www.xmlsoft.org
 [libarchive]: https://www.libarchive.org
 [wxWidgets]: https://www.wxwidgets.org
@@ -15,7 +17,7 @@ layout: notes
 * Developers build large programs using existing APIs as much as possible
 * For missing functionality, create new APIs
 * Final application is integrated into existing APIs
-* Large-scale mechanism for *separation of concerns*
+* Large-scale mechanism for *[separation of concerns]*
 
 # Role in Programming Languages [Koenig, Moo]
 > Language design is library design
