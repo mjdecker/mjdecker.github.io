@@ -10,6 +10,7 @@ layout: notes
 [wxWidgets]: https://www.wxwidgets.org
 [cpp-netlib]: https://cpp-netlib.org
 [srcML]: https://www.srcML.org
+[inversion of control]: https://en.wikipedia.org/wiki/Inversion_of_control
 
 # API
 > Application Programming Interface
@@ -76,14 +77,14 @@ layout: notes
 * Functions/classes typically for a single purpose
 * E.g., libxml2, libarchive
 * Used with many other libraries and client code
-* Control: client (small-scale inversion of control)
+* Control: client (small-scale *[inversion of control]*)
  
 # Toolkit
 {: .center }
 
 * Functions/classes for a set of related purposes
 * Used with other toolkits and client code
-* Control: client (small-scale inversion of control)
+* Control: client (small-scale *[inversion of control]*)
 
 # Framework
 {: .center }
@@ -91,7 +92,7 @@ layout: notes
 * Large set of classes for a broad set of purposes
 * E.g., MFC, Qt 
 * Client code is integrated into classes
-* Control: Heavy use of *[inversion of control](https://en.wikipedia.org/wiki/Inversion_of_control)*
+* Control: Heavy use of *[inversion of control]*
 
 # Platform
 {: .center }
@@ -99,7 +100,7 @@ layout: notes
 * Entire programming environment, often with a custom language and IDE
 * E.g., iOS, .NET, Android, UNIX/Linux
 * Client code is integrated into multiple frameworks and supporting tools
-* Control: Typically complete *inversion of control*
+* Control: Typically complete*[inversion of control]*
 
 # Design Using APIs
 * Use existing APIs as much as possible
