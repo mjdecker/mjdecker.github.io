@@ -58,7 +58,7 @@ layout: notes
 * Carefully name any parts of the API
 * Methods are *actions*, and naming should reflect that
 * Look at existing code and see if anything is not in the API that should be
-* Make sure that the API does not contain concerns for a specific client, e.g., `loc` is an srcML concern
+* Make sure that the API does not contain concerns for a specific client, e.g., an XML library referencing `loc`, specific to a source-code XML instance (i.e., srcML)
 * Imagine separate developers working on the different parts (even if you are doing both parts)
 * *Why should they know this concern?*
 * *Where would they have learned this concern*?
