@@ -4,7 +4,7 @@ layout: notes
 ---
 
 [separation of concerns]: https://en.wikipedia.org/wiki/Separation_of_concerns
-g
+
 [libxml2]: https://www.xmlsoft.org
 [libarchive]: https://www.libarchive.org
 [wxWidgets]: https://www.wxwidgets.org
