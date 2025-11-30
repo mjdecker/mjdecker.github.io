@@ -47,7 +47,7 @@ layout: notes
 * Low *external complexity* often means high *internal complexity*
 * Flexibility adds *external complexity* 
 * Partial solution: Good defaults
-* Partial solution: Staged features
+* Partial solution: Staged features (i.e., allow customization)
 
 # Staged Feature: Reading a file into a std::vector
 <script src="https://gist.github.com/mjdecker/a2d9732b6e7781dbf1d170e40278705f.js?file=simplevector.cpp"></script>
