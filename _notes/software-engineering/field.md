@@ -3,14 +3,14 @@ title: "Software Engineering Field"
 layout: notes
 ---
 
-[system-design]:    /images/software-engineeringprocess.png
+[process]:    /images/software-engineering/process.png
 
 # Software
 * *[programming](https://en.wikipedia.org/wiki/Computer_programming)* - Computer Programmer
 * *[software engineering](https://en.wikipedia.org/wiki/Software_engineering)* - [Software Engineer](https://en.wikipedia.org/wiki/Software_engineer)
 
 # Fundamental Activities
-![process.png]
+![process]
 
 # "Software Engineering"
 * [Margaret Hamilton](http://www.vox.com/2015/5/30/8689481/margaret-hamilton-apollo-software)
