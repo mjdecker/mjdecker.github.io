@@ -21,6 +21,7 @@
 [Publications](publications.html "List of all publications")
 [Google Scholar](https://scholar.google.com/citations?user=2E-jE6IAAAAJ&hl=en "Publications and # citations")
 [Teaching](teaching.html "Previous teaching")
+[Linktree](https://linktr.ee/diffdecker "Linktree page")
 
 </div>
 
