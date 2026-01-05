@@ -191,7 +191,7 @@ Your mental health is important to me. If you are currently experiencing a crisi
 |3|Iteration 1 - Spring 1|
 |4|Iteration 1 - Spring 2|
 |5|Iteration 1 - Spring 3|
-|6Iteration 1 Demo & |Iteration 2 - Spring 4|
+|6|Iteration 1 Demo & |Iteration 2 - Spring 4|
 |7|Iteration 2 - Spring 5|
 |8|Iteration 2 - Spring 6|
 |9|Iteration 2 Demo & Iteration 3 - Spring 7|
