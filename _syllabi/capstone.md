@@ -67,10 +67,10 @@ layout: markdown
 <span style="margin-left: 40px;">Ph.D.</span> <span style="margin-left: 10px;">Computer Science</span> <span style="margin-left: 10px;">Kent State University</span> <span style="margin-left: 30px;">Summer 2017</span><br/>
 <span style="margin-left: 40px;">M.S.</span> <span style="margin-left: 20px;">Computer Science</span> <span style="margin-left: 10px;">The University of Akron</span> <span style="margin-left: 10px;">Summer 2012</span><br/>
 <span style="margin-left: 40px;">B.S.</span> <span style="margin-left: 20px;">Computer Science</span> <span style="margin-left: 10px;">The University of Akron <span style="margin-left: 10px;">Spring 2010</span><br/>
-**Class:** Online<br/>
+**Class:** MW 16:30 - 17:45 Education 301<br/>
 **Email:** [mdecke@bgsu.edu][]<br/>
 **Office:** Hayes Hall 242<br/>
-**Office Hours:** MTW 15:30-16:30 and by appointment
+**Office Hours:** MTW 17:45-19:30 and by appointment
 
 ### Course Description: ###
 #### CS 4770
