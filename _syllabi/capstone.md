@@ -158,7 +158,9 @@ Your mental health is important to me. If you are currently experiencing a crisi
 * Examples include Project Selection, Repository Setup, and an Initial Project Plan
 
 #### Sprint Review: ####
-* A weekly report on the week's activities, including work done, time worked, setbacks, accomplishments, etc. More details can be found on Canvas.
+* A weekly report on the week's activities, including work done, time worked, setbacks, accomplishments, etc. 
+* Each week, a student is required to work 510 minutes (8.5 hours) each week. This includes class time
+* More details can be found on Canvas.
 
 #### Demonstration: ####
 * At the end of every Iteration students will give a professional presentation and demonstration on the progress made for the iteration. More details can be found on Canvas.
