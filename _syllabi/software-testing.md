@@ -59,7 +59,7 @@ layout: markdown
 [The Academic Charter]: https://www.bgsu.edu/faculty-senate/academic-charter.html
 
 # SE 4/5560: Software Testing and Quality Assurance #
-## Term: Fall 2025 ##
+## Term: Spring 2026 ##
 ## [Department of Computer Science][] ##
 
 ---
@@ -74,7 +74,7 @@ layout: markdown
 **Office Hours:** MTW 15:30-16:30 and by appointment
 
 ### Course Description: ###
-SE 4/5560. Software Testing and Quality Assurance. 3 Credits. Various aspects of software testing and quality assurance including measurement of software quality, verification and validation of software projects, and unit and integration testing techniques. Prerequisites: Grade of C or better in SE 3540, Admission to MS in CS, Admission to Graduate Certificate in Software Engineering, or Instructor permission. Credits cannot be received for both SE 4560 and SE 5560. Approved for distance education.
+Measurement of software quality. Verification and validation of software projects using various testing techniques. Integration of testing techniques in the build process. Prerequisites: Grade of C or better in SE 3540. Credit cannot be earned for both SE 4560 and SE 5560. Approved for distance education.
 
 ### Course Objectives: ###
 The objectives of the course are for students to learn and successfully apply software testing methods including: code reviewing, writing quality unit tests and integration tests, functional and structural testing, and the calculation, interpretation, and application of software metrics.
@@ -88,18 +88,17 @@ The objectives of the course are for students to learn and successfully apply so
 * I can analyze relevant research and communicate my findings (CS 5560 only).
 
 ### Student Outcomes: ###
-
 * SE 6 An ability to develop and conduct appropriate experimentation, analyze and interpret data, and use engineering judgment to draw conclusions.
 * SE 7 An ability to acquire and apply new knowledge, as needed, using appropriate learning strategies. 
 
 ### Prerequisites: ###
-
 * CS 3540: C or better
 	* Recommend CS 3350 as well
 * Admission to MS in CS or Graduate Certificate in Software Engineering
 
 ### Textbook(s): ###
 Note: if links do not work directly, log first into [O'Reilly Safari Books] from BGSU library
+
 * [Software Testing: A Craftsman's Approach] 4th Ed. - Jorgensen. Auerbach. 978–1–466–56068–0
 * Selected readings from conferences, journals, and other scholarly sources
 
@@ -152,22 +151,22 @@ Your mental health is important to me. If you are currently experiencing a crisi
 
 #### Exercises ####
 * In-class exercises will be given frequently to complement the course material.
-* In general, these are expected to be finished during the class period, however, some leeway may be considered for students with extenuating circumstances.
+* In general, these are expected to be finished during the class period; however, some leeway may be considered for students with extenuating circumstances.
 
 #### Labs ####
 * Laboratory sessions will be conducted to complement lecture and support the application of materials learned.  
-* Attendance and participation is required, however, some leeway may be considered for students with extenuating circumstances
-* The lab will consist in part of short lecture and hands on exercises that will assist in the learning process.
-* For each lab meeting, there will be a score given and is based on attendance and successful completion of lab exercises. 
+* Attendance and participation is required; however, some leeway may be considered for students with extenuating circumstances
+* The lab will consist in part of a short lecture and hands-on exercises that will assist in the learning process.
+* For each lab meeting, there will be a score given, which is based on attendance and successful completion of lab exercises. 
 
 #### Projects ####
 * A number of projects (about 3–5), both programming and written, will be given to further reinforce the concepts covered in class and link multiple topics. Some projects will require the student to be competent in C++.
 * Details on each project and the requirements for that project will be given when assigned.
-* Projects will be assigned at the beginning of the week and be given two weeks for completion. Projects are due before the end of the second week.
+* Projects will be assigned at the beginning of the week and will be given two weeks for completion. Projects are due before the end of the second week.
 
 #### Midterm & Final: ####
 * A midterm and comprehensive final will be given over the material covered in class.
-* Material will come from lectures, as well as, exercises, labs, and projects.
+* Material will come from lectures, as well as exercises, labs, and projects.
 The midterm and final will be in person.
 
 #### Other Notes: ####
@@ -180,7 +179,7 @@ The midterm and final will be in person.
 * Any modifications to the syllabus will be made on this page and noted.
 
 ### Course Timetable ###
-* The following is a sample 7 week timetable for the course.
+* The following is a sample 7-week timetable for the course.
 
 |Week #|Topic|
 |---|---|
@@ -192,7 +191,7 @@ The midterm and final will be in person.
 |6|Integration Testing, Code Reviews, & Software Quality, Measurement, and Metrics|
 |7|Mock Objects, Mocking Frameworks, & Continuous Integration|
 
-* The following is a sample 15 week timetable for the course.
+* The following is a sample 15-week timetable for the course.
 
 |Week #|Topic|
 |---|---|
@@ -255,4 +254,3 @@ All coursework for this class is expected to be *YOUR OWN* work.  The *MINIMUM* 
 1.	[Academic Honesty Policy]
 2.	[Student Handbook]
 3.	[The Academic Charter] Part D, Section G
-g
