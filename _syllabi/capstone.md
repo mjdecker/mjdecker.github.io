@@ -142,9 +142,9 @@ Your mental health is important to me. If you are currently experiencing a crisi
 ### Course Assessment: ###
 * 5% Project Administration
 * 30% Sprint Review
+* 10% Documentation
 * 15% Demonstration
 * 20% Peer Review
-* 10% Documentation
 * 20% Final Assessment
 
 #### Grading Scale (cutoffs): ####
@@ -156,14 +156,18 @@ Your mental health is important to me. If you are currently experiencing a crisi
 #### Project Administration ####
 * Various activities related to the administration of a project, outside of a normal sprint
 * Examples include Project Selection, Repository Setup, and an Initial Project Plan
-
-#### Sprint Review: ####
-* A weekly report on the week's activities, including work done, time worked, setbacks, accomplishments, etc. 
-* Each week, a student is required to work 510 minutes (8.5 hours) each week. This includes class time
 * More details can be found on Canvas.
 
+#### Sprint Review: ####
+* A weekly report on the week's activities, including goals, work done/not done, time worked, bottlenecks/constraints, etc. 
+* Each week, a student is required to work 510 minutes (8.5 hours) each week. This includes class time
+* More details can be found on Canvas
+
+#### Documentation: ####
+* Each sprint, you will need to update project documentation and provide a summary of what was updated
+
 #### Demonstration: ####
-* At the end of every Iteration students will give a professional presentation and demonstration on the progress made for the iteration. More details can be found on Canvas.
+* At the end of every iteration students will give a professional presentation and demonstration on the progress made for the iteration. More details can be found on Canvas.
 
 #### Peer Review: ####
 * You will be evaluated each iteration by your peers (project-mates) on your involvement during the iteration, including:
@@ -172,6 +176,12 @@ Your mental health is important to me. If you are currently experiencing a crisi
 	* Problem-Solving and Initiative
 	* Team Contribution and Engagement
 	* Professionalism and Accountability	
+
+#### Final Assessment: ####
+* You will be evaluated on the final product produced, which may include, but is not limited to:
+	* Final presentation and demonstration
+	* Deliverables
+	* Client feedback
 
 #### Other Notes: ####
 * It is the student’s responsibility to make sure all files are in the repository or Canvas (as required) and thusly, properly submitted by the due date. Files not in the repository/Canvas are not accessible by the instructor and thus are not turned in.
