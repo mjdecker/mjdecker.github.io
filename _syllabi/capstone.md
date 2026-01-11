@@ -176,12 +176,14 @@ Your mental health is important to me. If you are currently experiencing a crisi
 	* Problem-Solving and Initiative
 	* Team Contribution and Engagement
 	* Professionalism and Accountability	
+* This will be given as a Qualtrics survey; explicit instructions will be given in the survey.
 
 #### Final Assessment: ####
 * You will be evaluated on the final product produced, which may include, but is not limited to:
 	* Final presentation and demonstration
 	* Deliverables
 	* Client feedback
+* Details will be provided on Canvas when assigned.
 
 #### Other Notes: ####
 * It is the student’s responsibility to make sure all files are in the repository or Canvas (as required) and thusly, properly submitted by the due date. Files not in the repository/Canvas are not accessible by the instructor and thus are not turned in.
