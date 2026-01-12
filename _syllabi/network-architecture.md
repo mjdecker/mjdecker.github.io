@@ -156,12 +156,13 @@ Your mental health is important to me. If you are currently experiencing a crisi
 Network Architecture & Architecture (NAA) Topics
 
 1. Computer Networks Fundamentals and the Internet
-	* Internet and Open system standards: the OSI reference model
-	* Hierarchical & Layered Architecture
-	* Topologies and the physical layer
-	* Network Edge and Core
-	* Delay, Loss, Throughput,
-	* Quality of Service (QoS)
+	* What Is the Internet
+	* The Network Edge
+	* The Network Core
+	* Delay, Loss, and Throughput in Packet-Switched Networks
+	* Protocol Layers and tTheir Service Models
+	* Networks Under Attack
+	* History of Computer Networking and the Internet
 2. Application Layer
 	* Network Applications & Architectures
 	* Communicating Processes
