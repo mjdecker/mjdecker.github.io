@@ -92,7 +92,7 @@ The objectives of the course are for students to learn and successfully apply so
 * SE 7 An ability to acquire and apply new knowledge, as needed, using appropriate learning strategies. 
 
 ### Prerequisites: ###
-* CS 3540: C or better
+* SE 3540: C or better
 	* Recommend CS 3350 as well
 * Admission to MS in CS or Graduate Certificate in Software Engineering
 
