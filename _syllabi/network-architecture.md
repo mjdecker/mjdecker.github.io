@@ -128,48 +128,21 @@ Looking for help with your research papers? Look no further than the University 
 Your mental health is important to me. If you are currently experiencing a crisis, call (419-372-2081) or visit the [Counseling Center] website. An on-call counselor is available Monday-Friday from 8am-5pm. The [BGSU Counseling Center] also provides a number of services such as [individual counseling], Counseling Center groups, and other [non-emergency services], and pre-recorded workshops. In collaboration with other campus partners, after-hours mental health support is available during the academic year via the [BGSU Crisis Response Team].
 
 ### Course Assessment: ###
-* 5% Project Administration
-* 30% Sprint Review
-* 10% Documentation
-* 15% Demonstration
-* 20% Peer Review
-* 20% Final Assessment
+* HW Assignments -- ((5-20 points each) – 2 to 4 homework assignments will be given related to the subject of the lecture and has short due time.
+* Lab Assignments: -- (20-40 points each) -- 2-4 programming assignments will be given. OMNeT++ (a C++ tool) is used to simulate network communications. Labs can be done in groups of 3-4 students.
+* Reading Assignments & Summary – (2x- 20 points each) – Selected papers on networking trends on chosen chapters are given as reading assignments to read and submit written summary.
+* Weekly Review Questions: 10-12 Thursday, each 5 points, 50 Max, lowest 2 are dropped – RQs are to engage students, with key items of the week in the classroom. Any absence (excused or unexcused) should use the two lowest scores dropped.
+* Term Project & Case Study Presentations – (80 points each) – Students are assigned to specific topics based on chapters with flavor of new trends on network applications to research, develop cases, and present to the class at the end of the term. Term projects are in group of 3-5 students.
+* Exams: (100 points) -- Two one-hour exams (50 points each)
+	* Exam I            Wednesday, Feb 18
+	* Exam II           Wednesday, Apr  08
+* Final Exam -- (60 points) – TBD
 
 #### Grading Scale (cutoffs): ####
 
 | A | B | C | D | F |
 |---|---|---|---|---|
 |90%|80%|70%|60%|0%|
-
-#### Project Administration ####
-* Various activities related to the administration of a project, outside of a normal sprint
-* Examples include Project Selection, Repository Setup, and an Initial Project Plan
-* More details can be found on Canvas.
-
-#### Sprint Review: ####
-* A weekly report on the week's activities, including goals, work done/not done, time worked, bottlenecks/constraints, etc. 
-* Each week, a student is required to work 510 minutes (8.5 hours) each week. This includes class time
-* More details can be found on Canvas
-
-#### Documentation: ####
-* Each sprint, you will need to update project documentation and provide a summary of what was updated
-
-#### Demonstration: ####
-* At the end of every iteration students will give a professional presentation and demonstration on the progress made for the iteration. More details can be found on Canvas.
-
-#### Peer Review: ####
-* You will be evaluated each iteration by your peers (project-mates) on your involvement during the iteration, including:
-	* Quality of Work
-	* Communication and Collaboration
-	* Problem-Solving and Initiative
-	* Team Contribution and Engagement
-	* Professionalism and Accountability	
-
-#### Final Assessment: ####
-* You will be evaluated on the final product produced, which may include, but is not limited to:
-	* Final presentation and demonstration
-	* Deliverables
-	* Client feedback
 
 #### Other Notes: ####
 * It is the student’s responsibility to make sure all files are in the repository or Canvas (as required) and thusly, properly submitted by the due date. Files not in the repository/Canvas are not accessible by the instructor and thus are not turned in.
@@ -179,26 +152,97 @@ Your mental health is important to me. If you are currently experiencing a crisi
 * There will be no make-up exams/presentations/demonstrations.
 * Any modifications to the syllabus will be made on this page and noted.
 
-### Course Timetable ###
-* The following is a sample 15 week timetable for the course.
+### Course Topics ###
+Network Architecture & Architecture (NAA) Topics
 
-|Week #|Topic|
-|---|---|
-|1|Intro & Setup|
-|2|Setup & Project Planning|
-|3|Iteration 1 - Spring 1|
-|4|Iteration 1 - Spring 2|
-|5|Iteration 1 - Spring 3|
-|6|Iteration 1 Demo & Iteration 2 - Spring 4|
-|7|Iteration 2 - Spring 5|
-|8|Iteration 2 - Spring 6|
-|9|Iteration 2 Demo & Iteration 3 - Spring 7|
-|10|Iteration 3 - Spring 8|
-|11|Iteration 3 - Spring 9|
-|12|Iteration 3 Demo & Iteration 4 - Spring 10|
-|13|Iteration 4 - Spring 11|
-|14|Iteration 4 - Spring 12|
-|15|Project Finalizationb & Final Preperation|
+1. Computer Networks Fundamentals and the Internet
+	* Internet and Open system standards: the OSI reference model
+	* Hierarchical & Layered Architecture
+	* Topologies and the physical layer
+	* Network Edge and Core
+	* Delay, Loss, Throughput,
+	* Quality of Service (QoS)
+2. Application Layer
+	* Network Applications & Architectures
+	* Communicating Processes
+	* Application Layer Protocols
+	* HTTP, the Web, and DNS
+	* Peer-to-Peer system
+	* Video Streaming, Socket Programming, VPN
+3. Transport Layer
+	* Transport Layer Services and Roles in Applications and Performance
+	* Multiplexing of signals
+	* Error Handling, and Reliable Data Transport
+	* Connection-Oriented vs Connectionless service
+	* TCP & UDP principles and use
+4. The Network Layer: Data Plane
+	* Network Routing Principles
+	* The Internet Protocol (IP), IPv4, IPv6, NAT
+	* MAC protocols (CSMA/CD and Token passing)
+	* TCP/IP and Client/Server
+	* Generalized Forwarding and SDN
+5. The Network Layer: Control Plane
+	* Routing Algorithms; Distributed (Distance VD), Link-State )LS
+	* The Border Gateway Protocol (BGP)
+	* Routing Policy & Congestion Control
+	* The SDN Control Plane
+	* Network Management SNMP
+6. The Link Layer and LAN
+	* Link Layer Services and Role
+	* Bit-Error Detection and Recovery
+	* CSMA/CD Protocol
+	* LAN standards (IEEE standards 802.11 for LANs)
+	* Interconnecting LANs, VLAN vs WLAN, MPLS
+	* Data Center Networking
+7. Wireless Networks and Communications
+	* Radio Frequencies & Spectrum
+	* Antennas and Radio Signal Coding
+	* CSMA, WLAN, E-LAN, BAN, NFC
+	* Cellular Communications, 5G & 6G
+	* Mobility Management: Principles and Practices
+	* Satellite Communications
+8. Security in Computer networks
+	* Principles Security of Encryption/decryption
+	* Public Key, VPN, SSL
+	* Network attack and Data Integrity
+	* Authentication, and Man in the Loop
+	* Viruses, worms, and hacking
+	* Firewalls & Intrusion Detection
+9. Emerging Technologies and Future Trends [not from textbook]
+	* Virtual Networking
+		* SDN: Software Defined Networking
+		* NFV: Network Functions Virtualization
+		* Cloud-Based Networking
+	* 5G: 5th Generation of Wireless Networks
+		* Massive MIMO, Direct Antennas
+		* MEC: Mobile Edge Computing
+		* Network Slicing
+	* IoT: Internet of Things
+	* ICT: Information and Communication Technology
+	* High Speed Communication and Computation
+
+### Course Timetable ###
+This is a Tentative Class Schedule, helping students what to read. The schedule is subject to change and adjustments.
+
+|Week:|Dates:|Topic:|More:|
+|---|---|---|---|
+|Week 1|Jan 12 - 16|Network Fundamentals and Architecture (Ch. 1)| |
+|Week 2|Jan 19 - 23|Network Fundamentals and Protocols (Apps) (Ch. 1, 2)|1/19 MLK Day, No Classes|
+|Week 3|Jan 26-30|Applications and Data Transport  (Ch. 2, 3)| |
+|Week 4|Feb 2 - 6|Data Transport and Protocols  (Ch. 3)| |
+|Week 5|Feb 9 - 13|The Network Layer & SDN: Data Plane (Ch 4)| |
+|Week 6|Feb 16-20|The Network Layer & SDN: Data Plane (Ch 4)|Exam 1, 2/18||
+|Week 7|Feb 23-27|The Network Layer (cont.) (Ch 4, 5)| |
+| |3/02-06|Spring Break, No Classes| |
+|Week 8|Mar 9 - 13|The Network Layer: Control Plane (Ch 5, Term Project)| |
+|Week 9|Mar 16 - 20|The Network Layer: Control Plane (cont.) (Ch 5, Term Project)| |
+|Week 10|Mar 23 - 27|Wireless Network and 5G/6G (Ch 7, Topic 9)| |
+|Week 11|Mar 30-Apr 3|Wireless Network and 5G/6G, IoT (Ch 7, Topic 9, Term Project)| |
+|Week 12|Apr 6 - 10|The Link Layer and LANs (Ch 6, Term Project)|Exam 2, 4/8|
+|Week 13|Apr 13-17|Network and Security issues (Ch. 8, Term Project)| |
+|Week 14|Apr 20 -24|Emerging Technologies, IoT, 5G/6G, etc. (Outline 9, Term Project)| |
+|Final Exam Week|Apr 27-Ma 1|Final Exam: TBD|Project Presentation|
+
 
 ### University Requirements ###
 
