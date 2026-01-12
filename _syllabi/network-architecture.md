@@ -11,7 +11,6 @@ layout: markdown
 [Discord]: https://discord.com/new 'Discord Website'
 
 [O'Reilly Safari Books]: https://www.oreilly.com/publisher/safari-books-online/
-[Software Testing: A Craftsman's Approach]: https://learning.oreilly.com/library/view/software-testing-4th/9781466560680/
 
 [https://www.bgsu.edu/its]: https://www.bgsu.edu/its
 
@@ -58,7 +57,7 @@ layout: markdown
 [Academic Honesty Policy]: https://www.bgsu.edu/dean-of-students/academic-honesty-policy.html
 [The Academic Charter]: https://www.bgsu.edu/faculty-senate/academic-charter.html
 
-# SE 4/5560: Software Testing and Quality Assurance #
+# CS 4390: Network Architecture and Applications
 ## Term: Spring 2026 ##
 ## [Department of Computer Science][] ##
 
@@ -67,54 +66,46 @@ layout: markdown
 **Degrees:**<br/>
 <span style="margin-left: 40px;">Ph.D.</span> <span style="margin-left: 10px;">Computer Science</span> <span style="margin-left: 10px;">Kent State University</span> <span style="margin-left: 30px;">Summer 2017</span><br/>
 <span style="margin-left: 40px;">M.S.</span> <span style="margin-left: 20px;">Computer Science</span> <span style="margin-left: 10px;">The University of Akron</span> <span style="margin-left: 10px;">Summer 2012</span><br/>
-<span style="margin-left: 40px;">B.S.</span> <span style="margin-left: 20px;">Computer Science</span> <span style="margin-left: 10px;">The University of Akron <span style="margin-left: 10px;">Spring 2010</span><br/>
-**Class:** MWF  15:30 - 16:20 Education 309<br/>
+<span style="margin-left: 40px;">B.S.</span> <span style="margin-left: 20px;">Computer Science</span> <span style="margin-left: 10px;">The University of Akron <span style="margin-left: 10px;">Spring 2010</span><br/><br/>
+**Class:** MW 19:30 - 20:45 Education 209<br/>
 **Email:** [mdecke@bgsu.edu][]<br/>
 **Office:** Hayes Hall 242<br/>
 **Office Hours:** MTW 17:45-19:30 and by appointment
 
-### Course Description: ###
-Measurement of software quality. Verification and validation of software projects using various testing techniques. Integration of testing techniques in the build process. Prerequisites: Grade of C or better in SE 3540. Credit cannot be earned for both SE 4560 and SE 5560. Approved for distance education.
+### Course Description: ###	
+Layered architectures and protocols. TCP/IP protocol suite. Client-server communication paradigm. Application architectures such as push and pull technologies, web services, cloud and microservices, multimedia. Scalability and performance. Credit cannot be earned for both CS 3270 and CS 4390 or CS 5390. Prerequisite: Grade of C or better in CS 3080.
 
-### Course Objectives: ###
-The objectives of the course are for students to learn and successfully apply software testing methods including: code reviewing, writing quality unit tests and integration tests, functional and structural testing, and the calculation, interpretation, and application of software metrics.
-
-### Learning Objectives: ###
-* I can perform code reviews to verify requirements.
-* I know how to write unit tests using a unit testing framework.
-* I understand the difference between unit and integration testing.
-* I can write both functional and structural tests.
-* I can measure software quality metrics on a software system.
-* I can analyze relevant research and communicate my findings (CS 5560 only).
+### Specific Course Goals: ###
+* Justify the need for, and describe the working of, layered protocol suites, such as TCP/IP.
+* Develop client-server applications using TCP/IP.
+* Assemble/disassemble packets and translate address as it traverses networks.
+* Solve sample problems using popular routing protocols.
+* Motivate the need for and summarize the details of service architectures, such as web services and micro-services.
+* Describe the details, including payload types and synchronization of multimedia application protocols.
+* Explain and distinguish the various service types supported by internet applications – for example, best effort, streaming.
+* Construct the working of certain types of congestion control mechanisms.
 
 ### Student Outcomes: ###
-* SE 6 An ability to develop and conduct appropriate experimentation, analyze and interpret data, and use engineering judgment to draw conclusions.
-* SE 7 An ability to acquire and apply new knowledge, as needed, using appropriate learning strategies. 
+* CS 1 Analyze a complex computing problem and to apply principles of computing and other relevant disciplines to identify solutions
+* CS 2 Design, implement, and evaluate a computing-based solution to meet a given set of computing requirements in the context of the program’s discipline
+* CS 6 Apply computer science theory and software development fundamentals to produce computing-based solutions
 
 ### Prerequisites: ###
-* CS 3540: C or better
-	* Recommend CS 3350 as well
-* Admission to MS in CS or Graduate Certificate in Software Engineering
+* C or better in CS 3080
 
 ### Textbook(s): ###
-Note: if links do not work directly, log first into [O'Reilly Safari Books] from BGSU library
-
-* [Software Testing: A Craftsman's Approach] 4th Ed. - Jorgensen. Auerbach. 978–1–466–56068–0
-* Selected readings from conferences, journals, and other scholarly sources
+* Computer Networking: A Top-Down Approach, Kurose & Ross, 8th  Edition, Pearson, ISBN 13: 978-0-13-668155-7 
+* Optional: [Foundations of Modern Networking: SDN, NFV, QoE, IoT, and Cloud, By Stallings; Addison-Wesley Professional, 2015, ISDN: 9780134175478](https://learning.oreilly.com/library/view/foundations-of-modern/9780134175478/?ar)
 
 ### Course Delivery/Organization: ###
 * The instructor will integrate teaching strategies which may include, but are not limited to: lecture, large and small group discussion/exercises, cooperative learning, case studies, internet, and video.
 * Students will be expected to work independently and in groups.
-* The assessment will consist of in-class exercises, labs, projects, a midterm, and a final.
 
 ### Course Communication: ###
 * Office hours will be available in person and via [Discord].
 * Announcements will be made via [Discord].
 * Canvas will be used for posting of course material such as grades/readings/assignments/exams, assignment submission, and use of discussion boards.
-
-### Course and Computer Skill Prerequisites: ###
-* Software engineering background
-* Strong programming skills
+* Git and GitLab will be used for project management and issue tracking
 
 ### Learning Support Services and Resources: ###
 
@@ -137,11 +128,12 @@ Looking for help with your research papers? Look no further than the University 
 Your mental health is important to me. If you are currently experiencing a crisis, call (419-372-2081) or visit the [Counseling Center] website. An on-call counselor is available Monday-Friday from 8am-5pm. The [BGSU Counseling Center] also provides a number of services such as [individual counseling], Counseling Center groups, and other [non-emergency services], and pre-recorded workshops. In collaboration with other campus partners, after-hours mental health support is available during the academic year via the [BGSU Crisis Response Team].
 
 ### Course Assessment: ###
-* 10% Exercises
-* 15% Labs
-* 25% Projects
-* 25% Midterm (~8th week)
-* 25% Final (TBD)
+* 5% Project Administration
+* 30% Sprint Review
+* 10% Documentation
+* 15% Demonstration
+* 20% Peer Review
+* 20% Final Assessment
 
 #### Grading Scale (cutoffs): ####
 
@@ -149,67 +141,64 @@ Your mental health is important to me. If you are currently experiencing a crisi
 |---|---|---|---|---|
 |90%|80%|70%|60%|0%|
 
-#### Exercises ####
-* In-class exercises will be given frequently to complement the course material.
-* In general, these are expected to be finished during the class period; however, some leeway may be considered for students with extenuating circumstances.
+#### Project Administration ####
+* Various activities related to the administration of a project, outside of a normal sprint
+* Examples include Project Selection, Repository Setup, and an Initial Project Plan
+* More details can be found on Canvas.
 
-#### Labs ####
-* Laboratory sessions will be conducted to complement lecture and support the application of materials learned.  
-* Attendance and participation is required; however, some leeway may be considered for students with extenuating circumstances
-* The lab will consist in part of a short lecture and hands-on exercises that will assist in the learning process.
-* For each lab meeting, there will be a score given, which is based on attendance and successful completion of lab exercises. 
+#### Sprint Review: ####
+* A weekly report on the week's activities, including goals, work done/not done, time worked, bottlenecks/constraints, etc. 
+* Each week, a student is required to work 510 minutes (8.5 hours) each week. This includes class time
+* More details can be found on Canvas
 
-#### Projects ####
-* A number of projects (about 3–5), both programming and written, will be given to further reinforce the concepts covered in class and link multiple topics. Some projects will require the student to be competent in C++.
-* Details on each project and the requirements for that project will be given when assigned.
-* Projects will be assigned at the beginning of the week and will be given two weeks for completion. Projects are due before the end of the second week.
+#### Documentation: ####
+* Each sprint, you will need to update project documentation and provide a summary of what was updated
 
-#### Midterm & Final: ####
-* A midterm and comprehensive final will be given over the material covered in class.
-* Material will come from lectures, as well as exercises, labs, and projects.
-The midterm and final will be in person.
+#### Demonstration: ####
+* At the end of every iteration students will give a professional presentation and demonstration on the progress made for the iteration. More details can be found on Canvas.
+
+#### Peer Review: ####
+* You will be evaluated each iteration by your peers (project-mates) on your involvement during the iteration, including:
+	* Quality of Work
+	* Communication and Collaboration
+	* Problem-Solving and Initiative
+	* Team Contribution and Engagement
+	* Professionalism and Accountability	
+
+#### Final Assessment: ####
+* You will be evaluated on the final product produced, which may include, but is not limited to:
+	* Final presentation and demonstration
+	* Deliverables
+	* Client feedback
 
 #### Other Notes: ####
 * It is the student’s responsibility to make sure all files are in the repository or Canvas (as required) and thusly, properly submitted by the due date. Files not in the repository/Canvas are not accessible by the instructor and thus are not turned in.
 * When a version control system is required to be used for an exercise/project, good practices are required (i.e., incrementally developed, committing each increment, and writing [good commit messages]).
-* All programs must compile and run correctly as specified with the exercise/project. This may require running on a remote machine.
 * In order that work can be graded and returned promptly, late work will not be accepted without a valid excuse. It is up to the student to make up any missed material.
 * Make-ups of any work for this class will only be given in the case of a documented, valid emergency. I encourage you to contact me if an emergency arises.
-* There will be no make up exams.
+* There will be no make-up exams/presentations/demonstrations.
 * Any modifications to the syllabus will be made on this page and noted.
 
 ### Course Timetable ###
-* The following is a sample 7-week timetable for the course.
+* The following is a sample 15 week timetable for the course.
 
 |Week #|Topic|
 |---|---|
-|1|Introduction & Basic Testing|
-|2|Functional Testing|
-|3|Structural Testing|
-|4|Unit Testing Frameworks & Test-driven Development|
-|5|Code Smells & Refactoring|
-|6|Integration Testing, Code Reviews, & Software Quality, Measurement, and Metrics|
-|7|Mock Objects, Mocking Frameworks, & Continuous Integration|
-
-* The following is a sample 15-week timetable for the course.
-
-|Week #|Topic|
-|---|---|
-|1|Intro to Software Testing|
-|2|Functional Testing|
-|3|Functional Testing (continued)|
-|4|Structural Testing|
-|5|Structural Testing (continued)|
-|6|Unit Testing Frameworks|
-|7|Test-driven Development|
-|8|Code Smells|
-|9|Refactoring|
-|10|Refactoring (continued)|
-|11|Integration Testing|
-|12|Code Reviews|
-|13|Software Quality, Measurement, and Metrics|
-|14|Mock Objects & Mocking Frameworks|
-|15|Continuous Integration|
+|1|Intro & Setup|
+|2|Setup & Project Planning|
+|3|Iteration 1 - Spring 1|
+|4|Iteration 1 - Spring 2|
+|5|Iteration 1 - Spring 3|
+|6|Iteration 1 Demo & Iteration 2 - Spring 4|
+|7|Iteration 2 - Spring 5|
+|8|Iteration 2 - Spring 6|
+|9|Iteration 2 Demo & Iteration 3 - Spring 7|
+|10|Iteration 3 - Spring 8|
+|11|Iteration 3 - Spring 9|
+|12|Iteration 3 Demo & Iteration 4 - Spring 10|
+|13|Iteration 4 - Spring 11|
+|14|Iteration 4 - Spring 12|
+|15|Project Finalizationb & Final Preperation|
 
 ### University Requirements ###
 
