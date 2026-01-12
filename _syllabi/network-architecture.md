@@ -155,7 +155,7 @@ Your mental health is important to me. If you are currently experiencing a crisi
 ### Course Topics ###
 Network Architecture & Architecture (NAA) Topics
 
-1. Computer Networks Fundamentals and the Internet
+1. Computer Networks and the Internet
 	* What Is the Internet
 	* The Network Edge
 	* The Network Core
@@ -227,7 +227,7 @@ This is a Tentative Class Schedule, helping students what to read. The schedule 
 
 |Week:|Dates:|Topic:|More:|
 |---|---|---|---|
-|Week 1|Jan 12 - 16|Network Fundamentals and Architecture (Ch. 1)| |
+|Week 1|Jan 12 - 16|Computer Networks and Architecture (Ch. 1)| |
 |Week 2|Jan 19 - 23|Network Fundamentals and Protocols (Apps) (Ch. 1, 2)|1/19 MLK Day, No Classes|
 |Week 3|Jan 26-30|Applications and Data Transport  (Ch. 2, 3)| |
 |Week 4|Feb 2 - 6|Data Transport and Protocols  (Ch. 3)| |
