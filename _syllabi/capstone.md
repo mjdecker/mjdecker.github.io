@@ -194,25 +194,25 @@ Your mental health is important to me. If you are currently experiencing a crisi
 * Any modifications to the syllabus will be made on this page and noted.
 
 ### Course Timetable ###
-* The following is a sample 15 week timetable for the course.
+* The following is a sample 15-week timetable for the course.
 
 |Week #|Topic|
 |---|---|
 |1|Intro & Setup|
 |2|Setup & Project Planning|
-|3|Iteration 1 - Spring 1|
-|4|Iteration 1 - Spring 2|
-|5|Iteration 1 - Spring 3|
-|6|Iteration 1 Demo & Iteration 2 - Spring 4|
-|7|Iteration 2 - Spring 5|
-|8|Iteration 2 - Spring 6|
-|9|Iteration 2 Demo & Iteration 3 - Spring 7|
-|10|Iteration 3 - Spring 8|
-|11|Iteration 3 - Spring 9|
-|12|Iteration 3 Demo & Iteration 4 - Spring 10|
-|13|Iteration 4 - Spring 11|
-|14|Iteration 4 - Spring 12|
-|15|Project Finalizationb & Final Preperation|
+|3|Iteration 1 - Sprint 1|
+|4|Iteration 1 - Sprint 2|
+|5|Iteration 1 - Sprint 3|
+|6|Iteration 1 Demo & Iteration 2 - Sprint 4|
+|7|Iteration 2 - Sprint 5|
+|8|Iteration 2 - Sprint 6|
+|9|Iteration 2 Demo & Iteration 3 - Sprint 7|
+|10|Iteration 3 - Sprint 8|
+|11|Iteration 3 - Sprint 9|
+|12|Iteration 3 Demo & Iteration 4 - Sprint 10|
+|13|Iteration 4 - Sprint 11|
+|14|Iteration 4 - Sprint 12|
+|15|Project Finalization & Final Preperation|
 
 ### University Requirements ###
 
