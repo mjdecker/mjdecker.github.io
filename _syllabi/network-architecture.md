@@ -128,15 +128,15 @@ Looking for help with your research papers? Look no further than the University 
 Your mental health is important to me. If you are currently experiencing a crisis, call (419-372-2081) or visit the [Counseling Center] website. An on-call counselor is available Monday-Friday from 8am-5pm. The [BGSU Counseling Center] also provides a number of services such as [individual counseling], Counseling Center groups, and other [non-emergency services], and pre-recorded workshops. In collaboration with other campus partners, after-hours mental health support is available during the academic year via the [BGSU Crisis Response Team].
 
 ### Course Assessment: ###
-* HW Assignments -- ((5-20 points each) – 2 to 4 homework assignments will be given related to the subject of the lecture and has short due time.
-* Lab Assignments: -- (20-40 points each) -- 2-4 programming assignments will be given. OMNeT++ (a C++ tool) is used to simulate network communications. Labs can be done in groups of 3-4 students.
-* Reading Assignments & Summary – (2x- 20 points each) – Selected papers on networking trends on chosen chapters are given as reading assignments to read and submit written summary.
-* Weekly Review Questions: 10-12 Thursday, each 5 points, 50 Max, lowest 2 are dropped – RQs are to engage students, with key items of the week in the classroom. Any absence (excused or unexcused) should use the two lowest scores dropped.
-* Term Project & Case Study Presentations – (80 points each) – Students are assigned to specific topics based on chapters with flavor of new trends on network applications to research, develop cases, and present to the class at the end of the term. Term projects are in group of 3-5 students.
-* Exams: (100 points) -- Two one-hour exams (50 points each)
-	* Exam I            Wednesday, Feb 18
-	* Exam II           Wednesday, Apr  08
-* Final Exam -- (60 points) – TBD
+* **HW Assignments** – (5-20 points each) – 2 to 4 homework assignments will be given related to the subject of the lecture and has a short due time.
+* **Lab Assignments** – (20-40 points each) –  2-4 programming assignments will be given. OMNeT++ (a C++ tool) is used to simulate network communications. Labs can be done in groups of 3-4 students.
+* **Reading Assignments & Summary** – (20 points each) – 2 reading assignments will be given. Selected papers on networking trends on chosen chapters are given as reading assignments to read and submit a written summary.
+* **Weekly Review Questions** – (5 points each) – 10-12 reviews due Friday (50 points max, lowest 2 reviews are dropped) – RQs are to engage students,  with key items of the week in the classroom. An absence (excused or unexcused) will take the place of one of the lowest scores dropped.
+* **Term Project & Case Study Presentations** – (80 points each) – Students are assigned to specific topics based on chapters with flavor of new trends on network applications to research, develop cases, and present to the class at the end of the term. Term projects are in group of 3-5 students.
+* **Exams** – (100 points) -- Two one-hour exams (50 points each)
+	* *Exam I*           Wednesday, Feb 18
+	* *Exam II*          Wednesday, Apr  08
+* **Final Exam** – (60 points) – TBD
 
 #### Grading Scale (cutoffs): ####
 
@@ -242,7 +242,7 @@ This is a Tentative Class Schedule, helping students what to read. The schedule 
 |Week 12|Apr 6 - 10|The Link Layer and LANs (Ch 6, Term Project)|Exam 2, 4/8|
 |Week 13|Apr 13-17|Network and Security issues (Ch. 8, Term Project)| |
 |Week 14|Apr 20 -24|Emerging Technologies, IoT, 5G/6G, etc. (Outline 9, Term Project)| |
-|Final Exam Week|Apr 27-Ma 1|Final Exam: TBD|Project Presentation|
+|Final Exam Week|Apr 27-Ma 1|Project Presentation| |
 
 
 ### University Requirements ###
