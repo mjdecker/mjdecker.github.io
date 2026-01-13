@@ -70,7 +70,7 @@ layout: markdown
 **Class:** MW 16:30 - 17:45 Education 301<br/>
 **Email:** [mdecke@bgsu.edu][]<br/>
 **Office:** Hayes Hall 242<br/>
-**Office Hours:** MTW 17:45-19:30 and by appointment
+**Office Hours:** MW 17:45-19:30, T 13:00-14:30, and by appointment
 
 ### Course Description: ###
 #### CS 4770

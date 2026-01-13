@@ -71,7 +71,7 @@ layout: markdown
 **Class:** MWF  15:30 - 16:20 Education 309<br/>
 **Email:** [mdecke@bgsu.edu][]<br/>
 **Office:** Hayes Hall 242<br/>
-**Office Hours:** MTW 17:45-19:30 and by appointment
+**Office Hours:** MW 17:45-19:30, T 13:00-14:30, and by appointment
 
 ### Course Description: ###
 Measurement of software quality. Verification and validation of software projects using various testing techniques. Integration of testing techniques in the build process. Prerequisites: Grade of C or better in SE 3540. Credit cannot be earned for both SE 4560 and SE 5560. Approved for distance education.
