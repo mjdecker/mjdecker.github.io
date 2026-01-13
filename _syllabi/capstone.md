@@ -57,7 +57,7 @@ layout: markdown
 [Academic Honesty Policy]: https://www.bgsu.edu/dean-of-students/academic-honesty-policy.html
 [The Academic Charter]: https://www.bgsu.edu/faculty-senate/academic-charter.html
 
-# CS 4770/ SE 4770: Capstone Experience/Software Engineering Capstone
+# CS 4770/SE 4770: Capstone Experience/Software Engineering Capstone
 ## Term: Spring 2026 ##
 ## [Department of Computer Science][] ##
 
