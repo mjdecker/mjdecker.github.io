@@ -131,7 +131,7 @@ Your mental health is important to me. If you are currently experiencing a crisi
 * **HW Assignments** – (5-20 points each) – 2 to 4 homework assignments will be given related to the subject of the lecture and has a short due time.
 * **Lab Assignments** – (20-40 points each) –  2-4 programming assignments will be given. OMNeT++ (a C++ tool) is used to simulate network communications. Labs can be done in groups of 3-4 students.
 * **Reading Assignments & Summary** – (20 points each) – 2 reading assignments will be given. Selected papers on networking trends on chosen chapters are given as reading assignments to read and submit a written summary.
-* **Weekly Review Questions** – (5 points each) – 10-12 reviews due Friday (50 points max, lowest 2 reviews are dropped) – RQs are to engage students,  with key items of the week in the classroom. An absence (excused or unexcused) will take the place of one of the lowest scores dropped.
+* **Weekly Review Questions** – (5 points each) – 10-12 reviews due Wednesday (50 points max, lowest 2 reviews are dropped) – RQs are to engage students,  with key items of the week in the classroom. An absence (excused or unexcused) will take the place of one of the lowest scores dropped.
 * **Term Project & Case Study Presentations** – (80 points each) – Students are assigned to specific topics based on chapters with flavor of new trends on network applications to research, develop cases, and present to the class at the end of the term. Term projects are in group of 3-5 students.
 * **Exams** – (100 points) -- Two one-hour exams (50 points each)
 	* *Exam I*           Wednesday, Feb 18
