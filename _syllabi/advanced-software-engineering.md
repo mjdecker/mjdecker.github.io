@@ -44,6 +44,10 @@ layout: markdown
 
 ---
 **Instructor:** [Dr. Michael J. Decker][]<br/>
+**Degrees:**<br/>
+<span style="margin-left: 40px;">Ph.D.</span> <span style="margin-left: 10px;">Computer Science</span> <span style="margin-left: 10px;">Kent State University</span> <span style="margin-left: 30px;">Summer 2017</span><br/>
+<span style="margin-left: 40px;">M.S.</span> <span style="margin-left: 20px;">Computer Science</span> <span style="margin-left: 10px;">The University of Akron</span> <span style="margin-left: 10px;">Summer 2012</span><br/>
+<span style="margin-left: 40px;">B.S.</span> <span style="margin-left: 20px;">Computer Science</span> <span style="margin-left: 10px;">The University of Akron <span style="margin-left: 10px;">Spring 2010</span><br/><br/>
 **Class:** MWF 18:00 - 19:15 Hayes Hall 118<br/>
 **Email:** [mdecke@bgsu.edu][]<br/>
 **Office:** Hayes Hall 242<br/>
