@@ -70,7 +70,7 @@ layout: markdown
 **Class:** MW 19:30 - 20:45 Education 209<br/>
 **Email:** [mdecke@bgsu.edu][]<br/>
 **Office:** Hayes Hall 242<br/>
-**Office Hours:** MW 17:45-19:30, T 13:00-14:30 and by appointment
+**Office Hours:** MW 17:45-19:30, T 13:00-14:30, and by appointment
 
 ### Course Description: ###	
 Layered architectures and protocols. TCP/IP protocol suite. Client-server communication paradigm. Application architectures such as push and pull technologies, web services, cloud and microservices, multimedia. Scalability and performance. Credit cannot be earned for both CS 3270 and CS 4390 or CS 5390. Prerequisite: Grade of C or better in CS 3080.
@@ -105,7 +105,7 @@ Layered architectures and protocols. TCP/IP protocol suite. Client-server commun
 * Office hours will be available in person and via [Discord].
 * Announcements will be made via [Discord].
 * Canvas will be used for posting of course material such as grades/readings/assignments/exams, assignment submission, and use of discussion boards.
-* Git and GitLab will be used for project management and issue tracking
+* Git and GitHub will be used for project management and issue tracking
 
 ### Learning Support Services and Resources: ###
 
