@@ -187,9 +187,9 @@ The midterm and final will be in person.
 |2|Functional Testing|
 |3|Structural Testing|
 |4|Unit Testing Frameworks & Test-driven Development|
-|5|Code Smells & Refactoring|
-|6|Integration Testing, Code Reviews, & Software Quality, Measurement, and Metrics|
-|7|Mock Objects, Mocking Frameworks, & Continuous Integration|
+|5|Mock Object, Mocking Frameworks, & Integration Testing|
+|6|Code Reviews, Software Quality, Measurement, Metrics, & Process Improvement|
+|7|Continuous Integration & Automated Testing|
 
 * The following is a sample 15-week timetable for the course.
 
@@ -202,14 +202,14 @@ The midterm and final will be in person.
 |5|Structural Testing (continued)|
 |6|Unit Testing Frameworks|
 |7|Test-driven Development|
-|8|Code Smells|
-|9|Refactoring|
-|10|Refactoring (continued)|
-|11|Integration Testing|
-|12|Code Reviews|
-|13|Software Quality, Measurement, and Metrics|
-|14|Mock Objects & Mocking Frameworks|
-|15|Continuous Integration|
+|8|Mock Objects and Mocking Frameworks|
+|9|Integration Testing|
+|10|Code Reviews|
+|11|Software Quality, Measurement, and Metrics|
+|12|Process Improvement|
+|13|Continuous Integration|
+|14|Automated Testing|
+|15|Automated Testing (continued)|
 
 ### University Requirements ###
 
