@@ -96,4 +96,6 @@ layout: notes
 * View file in the repository on the browser (reload if necessary)
 
 # Completion Requirements
-* You have committed and pushed a file `my_name_is.cpp` to GitHub
+* You have used [good commit messages](https://cbea.ms/git-commit/)
+* You have committed incrementally
+* You have committed and pushed the completed and correct file `my_name_is.cpp` to GitHub
