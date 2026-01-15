@@ -14,8 +14,13 @@ layout: notes
 
 # Lab Grading Policy
 * Labs are worth 10 points
-	* 6 points for attending
-	* 4 points for completing 
+	* 5 points for attending
+	* 1 point for good commit messages
+	* 1 point for incremental commits
+	* 3 points for completing 
+		* 1 - anything started
+		* 2 - about half complete
+		* 3 - >= mostly complete
 * Labs are due before the following Friday
 
 # Basic Unix Commands
