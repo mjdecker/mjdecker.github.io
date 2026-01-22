@@ -78,11 +78,19 @@ Abort trap: 6
 	* Result is a boolean; nothing special needs to be done
 	* Use a comparison (e.g., `answer == 42`) or helper function (returning a boolean or something that can be compared).
 
-# Lab Task
-* 
-
+# Exercise Requirements
+* The starting code is found in the supplied Git repository (see below)
+* The starting code consists of four files:
+	* `rotate.hpp` - header file for `rotate` function
+	* `rotate.cpp` - implementation file for `rotate` function
+	* `test_rotate.cpp` - file you will write tests for `rotate` function
+	* `CMakeLists.txt` - File to build/test `rotate` function (not required to use)
+* An example test case is given in `test_rotate.cpp`
+* Write 3 additional test cases for the `rotate` function in `test_rotate.cpp` that follow the format and anatomy discussed above
+* All tests **MUST** pass
 
 # Completion Requirements
 * You have used [good commit messages](https://cbea.ms/git-commit/)
 * You have committed incrementally
-* You have committed and pushed the completed and correct file `my_name_is.cpp` to GitHub
+* You have committed and pushed the completed exercise
+* You have written three tests for `rotate` correctly
