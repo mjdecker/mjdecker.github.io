@@ -21,7 +21,7 @@ layout: notes
 * Labs are due before the following Friday
 
 # A Basic Test Format
-<script src="https://gist.github.com/mjdecker/19cf2939d0d752ff5f20c80a8da9e4dc.js"></script>
+<script src="https://gist.github.com/mjdecker/19cf2939d0d752ff5f20c80a8da9e4dc.js?file=test_is_perfect.cpp"></script>
 
 * Each object under test has its own file with a main function
 * All test cases for that test object are written within the main function
