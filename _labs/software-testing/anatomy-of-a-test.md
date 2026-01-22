@@ -1,16 +1,13 @@
 ---
-title: Unix
+title: Anatomy of a Test
 layout: notes
 ---
 
-[Compilation]: /notes/programming-languages/intro.html#/8
 
 # Discussion
-* Login `voyager.cs.bgsu.edu`
-	* Unix: command line
-	* Windows: Putty
-* Using Git
-* Compiling
+* Parts of a single test
+* Learn a basic format of a test
+* Write several tests in this format
 
 # Lab Grading Policy
 * Labs are worth 10 points
@@ -23,77 +20,67 @@ layout: notes
 		* 3 - >= mostly complete
 * Labs are due before the following Friday
 
-# Basic Unix Commands
+# A Basic Test Format
+<script src="https://gist.github.com/mjdecker/19cf2939d0d752ff5f20c80a8da9e4dc.js"></script>
 
-|command|description|
-|---|---|
-|ls|list directory contents|
-|sl|steam locomotive (common misspelling)|
-|man|man pages q to quit, j and k to page (or up and down arrows)|
-|cd|change directory (~, ., and ..)|
+* Each object under test has its own file with a main function
+* All test cases for that test object are written within the main function
+* A single typical test case consists of three parts: setup, test, and verify
+* Repeat this same structure for each test case
 
-# Basic Unix Commands (continued)
+# Basic Test Anatomy
+<script src="https://gist.github.com/mjdecker/19cf2939d0d752ff5f20c80a8da9e4dc.js@filename=test_is_perfect.cpp"></script>
 
-|command|description|
-|---|---|
-|clear|clear screen or (ctrl-l)|
-|cat|concatenate and print files|
-|less|file pager|
-|touch|create file or update timestamp|
-|who|who is logged on|
+* A single test is contained within an expression block (i.e.,`{}`)
+* An expression block helps to isolate the test from others
+	* Success/failure of one test case impacting another
+	*  Reuse variable names
+* Parts - AKA, AAA Testing - Arange, Act, Assert
+	* *setup* gives the code needed to run before the test can be executed (i.e., it sets up the test). Often, this consists of initializing the data for the test
+	* *test* performs the actual test and obtains the results
+	* *verify* verifies that the actual result of the object under test matches the expected
 
-# emacs [filename]
+# More about Verify 
+* `assert` (a feature of many languages) is used to perform the verification
+* Included with `#include <cassert>`
+* Takes a *true*/*false* value corresponding to if the actual result matches the expected (e.g., `result == true`). I
+	* If *true*, does nothing (i.e., the test passes)
+	* if *false*, the test fails, an assertion failure occurs, and the program terminates with an error. 
 
-|command|description|
-|---|---|
-|ctrl x ctrl s|save|
-|ctrl x ctrl c|quit|
-|ctrl k|kill a line (cut)|
-|ctrl y|yield killed lines (paste)|
-|ctrl -|undo & redo|
-|ctrl z| put to background, use fg to get back|
+# Assertion Failure
+* On an assertion failure, the program terminates with a non-zero return status 
+* The assertion failure indicates what file, function, and line the failure occurred at, and therefore, what test case failed
+* Pro Tip: 
+	* Lay out your test cases such that each test case incrementally builds and tests more than the previous test case
+	* When an assertion failure occurs, this can be used to help narrow down the cause and code responsible
 
-# Programs
-* [Compilation]
-* Infinite loop: ctrl-c to quit
-* Use path to run a program
-* < & > are file redirction
+```
+Assertion failed: (result), function main, file test_is_perfect.cpp, line 19.
+Abort trap: 6
+```
 
-# Setup Repository
-<script src="https://gist.github.com/mjdecker/fe8a2a05db380dfd57d49de759862887.js?file=clone.sh"></script>
+# (Good) Testing is Automatic
+* Executing the test file executes all tests
+* No assertion failure means all tests pass, otherwise, something needs fixed (code or test)
+* Can be tied into a build system/CICD to be run automatically
 
-* Use GitHub classroom link on Canvas to create Lab 1 repository
-* Clone repository
+# Developers are Lazy (not a negative)
+<script src="https://gist.github.com/mjdecker/19cf2939d0d752ff5f20c80a8da9e4dc.js@filename=test_is_perfect_short.cpp"></script>
 
-# Directory Creation
-<script src="https://gist.github.com/mjdecker/fe8a2a05db380dfd57d49de759862887.js?file=check_directory.sh"></script>
+* The full three parts were separately shown for illustration/explanation purposes; follow this practice for now
+* In practice, parts may be inlined, especially when they are trivial. 
 
-* Create directory for assignment (# are comments)
+# Other Comments
+* Why test the input`number == 6`?
+	* Helpful to make sure that, if the test is failing, it is the object under test and not an error with the setup.
+	* This is a good habit to form, but it is excessive in the simple example given
+* `assert` takes anything that results in true or false
+	* Result is a boolean; nothing special needs to be done
+	* Use a comparison (e.g., `answer == 42`) or helper function (returning a boolean or something that can be compared).
 
-# My Name Is - Overview
-1. View repository directory via web browser
-2. Log into remove Unix system, create a file, and add to repository via Unix commands
-3. Write and put into a repository that outputs your name
+# Lab Task
+* 
 
-# Viewing Repository
-* Open your favorite browser
-* Enter `<Repo URL from GitHub>`
-* Navigate to view files/folders
-
-# File Manipulation
-<script src="https://gist.github.com/mjdecker/fe8a2a05db380dfd57d49de759862887.js?file=add_file.sh"></script>
-
-* Log onto `voyager` if you are not already
-* Type the following (then verify on GitHub):
-
-# Write My Name Is
-* Implement `my_name_is` in `my_name_is.cpp`
-* The program will print: "My Name is: YOUR NAME"
-* Use whatever development approach you want
-	* `emacs my_name_is.cpp`
-* Make sure the program compiles and runs
-* Commit & push
-* View file in the repository on the browser (reload if necessary)
 
 # Completion Requirements
 * You have used [good commit messages](https://cbea.ms/git-commit/)
