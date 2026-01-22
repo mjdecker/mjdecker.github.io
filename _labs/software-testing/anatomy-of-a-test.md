@@ -69,7 +69,7 @@ layout: notes
 * In practice, parts may be inlined, especially when they are trivial. 
 
 # Other Comments
-* Why test the input (e.g.,`number == 6`)?
+* Why test the input (e.g., g`number == 6`)?
 	* Helpful to make sure that, if the test is failing, it is the object under test and not an error with the setup.
 	* This is a good habit to form, but it is excessive in the simple example given
 * `assert` takes anything that results in true or false
