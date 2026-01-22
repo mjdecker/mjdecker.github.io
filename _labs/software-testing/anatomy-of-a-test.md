@@ -48,16 +48,14 @@ layout: notes
 	* if *false*, the test fails, an assertion failure occurs, and the program terminates with an error. 
 
 # Assertion Failure
+<script src="https://gist.github.com/mjdecker/19cf2939d0d752ff5f20c80a8da9e4dc.js?file=failure.sh"></script>
+
 * On an assertion failure, the program terminates with a non-zero return status 
 * The assertion failure indicates what file, function, and line the failure occurred at, and therefore, what test case failed
 * Pro Tip: 
 	* Lay out your test cases such that each test case incrementally builds and tests more than the previous test case
 	* When an assertion failure occurs, this can be used to help narrow down the cause and code responsible
 
-```
-Assertion failed: (result), function main, file test_is_perfect.cpp, line 19.
-Abort trap: 6
-```
 
 # (Good) Testing is Automatic
 * Executing the test file executes all tests
