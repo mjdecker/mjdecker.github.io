@@ -29,7 +29,7 @@ layout: notes
 * Repeat this same structure for each test case
 
 # Basic Test Anatomy
-<script src="https://gist.github.com/mjdecker/19cf2939d0d752ff5f20c80a8da9e4dc.js@filename=test_is_perfect.cpp"></script>
+<script src="https://gist.github.com/mjdecker/19cf2939d0d752ff5f20c80a8da9e4dc.js?filename=test_is_perfect.cpp"></script>
 
 * A single test is contained within an expression block (i.e.,`{}`)
 * An expression block helps to isolate the test from others
@@ -65,7 +65,7 @@ Abort trap: 6
 * Can be tied into a build system/CICD to be run automatically
 
 # Developers are Lazy (not a negative)
-<script src="https://gist.github.com/mjdecker/19cf2939d0d752ff5f20c80a8da9e4dc.js@filename=test_is_perfect_short.cpp"></script>
+<script src="https://gist.github.com/mjdecker/19cf2939d0d752ff5f20c80a8da9e4dc.js?filename=test_is_perfect_short.cpp"></script>
 
 * The full three parts were separately shown for illustration/explanation purposes; follow this practice for now
 * In practice, parts may be inlined, especially when they are trivial. 
