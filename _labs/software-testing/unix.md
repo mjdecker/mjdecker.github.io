@@ -88,7 +88,8 @@ layout: notes
 
 # Write My Name Is
 * Implement `my_name_is` in `my_name_is.cpp`
-* The program will print: "My Name is: YOUR NAME"
+* The program will print: "My Name is: [YOUR NAME]"
+	* Replace [YOUR NAME] with your preferred name
 * Use whatever development approach you want
 	* `emacs my_name_is.cpp`
 * Make sure the program compiles and runs
