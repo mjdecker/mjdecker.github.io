@@ -3,6 +3,7 @@ title: Anatomy of a Test
 layout: notes
 ---
 
+[standards]: https://mdecker.net/standards/coding-standards.html
 
 # Discussion
 * Parts of a single test
@@ -91,4 +92,5 @@ layout: notes
 * You have used [good commit messages](https://cbea.ms/git-commit/)
 * You have committed incrementally
 * You have committed and pushed the completed exercise
+* Followed the class coding [standards]
 * You have written three tests for `rotate` correctly

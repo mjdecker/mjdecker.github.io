@@ -4,6 +4,7 @@ layout: notes
 ---
 
 [std::initializer_list]: https://en.cppreference.com/w/cpp/utility/initializer_list
+[standards]: https://mdecker.net/standards/coding-standards.html
 
 # Discussion
 * Using CMake
@@ -11,8 +12,13 @@ layout: notes
 
 # Lab Grading Policy
 * Labs are worth 10 points
-	* 6 points for attending
-	* 4 points for completing 
+	* 5 points for attending
+	* 1 point for good commit messages
+	* 1 point for incremental commits
+	* 3 points for completing 
+		* 1 - anything started
+		* 2 - about half complete
+		* 3 - >= mostly complete
 * Labs are due before the following Friday
 
 # Clone Lab
@@ -54,6 +60,9 @@ layout: notes
 <script src="https://gist.github.com/mjdecker/fada6c1f03badcb9d874025b149767ad.js?file=test_union.cpp"></script>
 
 # Completion Requirements
+* You have used [good commit messages](https://cbea.ms/git-commit/)
+* You have committed incrementally
+* You have committed and pushed the completed exercise
+* Followed the class coding [standards]
 * You have correctly applied boundary-value testing for each of the three constructors/methods
-* Each is tested in its own file
-* You have committed and pushed all code to GitHub
+* Each constructor/method is tested in its own file
