@@ -33,8 +33,11 @@ layout: notes
 # Example CMakeLists.txt
 <script src="https://gist.github.com/mjdecker/d4ad62727ebe9a49b7b9b81547efc248.js?file=CMakeLists.txt"></script>
 
-# Example Usage
+# Example Usage - Default
 <script src="https://gist.github.com/mjdecker/d4ad62727ebe9a49b7b9b81547efc248.js?file=cmake.sh"></script>
+
+# Example Usage - Specify a Generator
+<script src="https://gist.github.com/mjdecker/d4ad62727ebe9a49b7b9b81547efc248.js?file=cmake-generator.sh"></script>
 
 # [std::initializer_list]
 <script src="https://gist.github.com/mjdecker/d4ad62727ebe9a49b7b9b81547efc248.js?file=initializer_list.cpp"></script>
