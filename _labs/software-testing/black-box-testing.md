@@ -3,6 +3,9 @@ title: Black-box Testing Lab
 layout: notes
 ---
 
+[standards]: https://mdecker.net/standards/coding-standards.html
+[good commit messages]: https://cbea.ms/git-commit/
+
 # Discussion
 * Sign attendance sheet
 * Short `Makefile` discussion
@@ -58,5 +61,8 @@ layout: notes
 * The following asserts have the `lhs` and `rhs` constructed via the same constructor and are not testing much of anything
 
 # Completion Requirements
+* You have used [good commit messages]
+* You have committed incrementally
+* You have committed and pushed the completed exercise
+* Followed the class coding [standards]
 * Each of the test files rigorously tests the appropriate method
-* You have committed no generated files (except `string.o`)

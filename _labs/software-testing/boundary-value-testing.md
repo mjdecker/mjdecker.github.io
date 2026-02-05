@@ -5,6 +5,7 @@ layout: notes
 
 [std::initializer_list]: https://en.cppreference.com/w/cpp/utility/initializer_list
 [standards]: https://mdecker.net/standards/coding-standards.html
+[good commit messages]: https://cbea.ms/git-commit/
 
 # Discussion
 * Using CMake
@@ -63,7 +64,7 @@ layout: notes
 <script src="https://gist.github.com/mjdecker/fada6c1f03badcb9d874025b149767ad.js?file=test_union.cpp"></script>
 
 # Completion Requirements
-* You have used [good commit messages](https://cbea.ms/git-commit/)
+* You have used [good commit messages]
 * You have committed incrementally
 * You have committed and pushed the completed exercise
 * Followed the class coding [standards]
