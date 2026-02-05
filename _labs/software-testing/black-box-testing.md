@@ -33,9 +33,9 @@ layout: notes
 
 # String class
 * `String` is implemented as fixed-size (7 character + 1 null character) array with the following invariants:
-	* str[length()] == 0
-	* 0 <= length() <= capacity()
-	* capacity() == STRING_SIZE - 1 // (8 - 1)
+	* `str[length()] == 0`
+	* `0 <= length() <= capacity()`
+	* `capacity() == STRING_SIZE - 1 // (8 - 1)`
 * `String` is specifically designed only to work with ASCII characters and you need not worry about non-ASCII characters
 * Use this information when developing tests
 
