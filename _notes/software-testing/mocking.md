@@ -19,8 +19,9 @@ layout: notes
 * Does not yet exist or behavior may change
 * Real object would have to be modified to enable testing
 
-# Live Examples
-* Mock Objects
+# Mock Object Live Examples
+* Motivation
+* Mocking - By hand
 * Turtle - Mocking Framework
 
 # Example 1 Recap - Motivation
