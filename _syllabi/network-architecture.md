@@ -136,7 +136,7 @@ Your mental health is important to me. If you are currently experiencing a crisi
 * **Exams** – (100 points) -- Two one-hour exams (50 points each)
 	* *Exam I*           Wednesday, Feb 18
 	* *Exam II*          Wednesday, Apr  08
-* **Final Exam** – (60 points) – TBD
+* **Final Exam** – (60 points) – Apr 27
 
 #### Grading Scale (cutoffs): ####
 
@@ -242,7 +242,7 @@ This is a Tentative Class Schedule, helping students what to read. The schedule 
 |Week 12|Apr 6 - 10|The Link Layer and LANs (Ch 6, Term Project)|Exam 2, 4/8|
 |Week 13|Apr 13-17|Network and Security issues (Ch. 8, Term Project)| |
 |Week 14|Apr 20 -24|Emerging Technologies, IoT, 5G/6G, etc. (Outline 9, Term Project)| |
-|Final Exam Week|Apr 27-Ma 1|Project Presentation| |
+|Final Exam Week|Apr 27|Project Presentation| |
 
 
 ### University Requirements ###
