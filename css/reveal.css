@@ -119,7 +119,7 @@ section.quote55 > div.outer > ul {
 }
 
 div.outer img {
-    height: 50%;
+    max-height:500px;
 }
 
 .smallestimg {
