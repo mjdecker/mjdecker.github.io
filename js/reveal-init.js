@@ -43,7 +43,7 @@ Reveal.initialize({
   slideNumber: 'c',
   display: 'flex',
   width: "100%",
-  height: "700px",
+  height: "100%",
   fragment: false,
   margin: 0,
   minScale: 1,
