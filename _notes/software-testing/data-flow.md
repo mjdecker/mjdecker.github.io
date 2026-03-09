@@ -105,6 +105,76 @@ layout: notes
 # Graph of Define/Use Paths for Locks
 ![commission-def-use]
 
+# Define/Use Paths for totalLocks
+* Ignore repetitions
+
+* p<sub>1</sub> = 
+* p<sub>2</sub> = 
+* p<sub>3</sub> = 
+* p<sub>4</sub> = 
+* p<sub>5</sub> = 
+* p<sub>3</sub> = 
+
+# Define/Use Paths for totalLocks
+* Ignore repetitions
+
+* p<sub>1</sub> = &lt;10, 11, 12, 13, 14, 15, 16&gt;
+* p<sub>2</sub> = 
+* p<sub>3</sub> = 
+* p<sub>4</sub> = 
+* p<sub>5</sub> = 
+* p<sub>3</sub> = 
+
+# Define/Use Paths for totalLocks
+* Ignore repetitions
+
+* p<sub>1</sub> = &lt;10, 11, 12, 13, 14, 15, 16&gt;
+* p<sub>2</sub> = &lt;10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 14, 21&gt; // not def clear
+* p<sub>3</sub> = 
+* p<sub>4</sub> = 
+* p<sub>5</sub> = 
+* p<sub>3</sub> = 
+
+# Define/Use Paths for totalLocks
+* Ignore repetitions
+
+* p<sub>1</sub> = &lt;10, 11, 12, 13, 14, 15, 16&gt;
+* p<sub>2</sub> = &lt;10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 14, 21&gt; // not def clear
+* p<sub>3</sub> = &lt;p2, 22, 23, 24&gt; // not def clear
+* p<sub>4</sub> = 
+* p<sub>5</sub> = 
+* p<sub>3</sub> = 
+
+# Define/Use Paths for totalLocks
+* Ignore repetitions
+
+* p<sub>1</sub> = &lt;10, 11, 12, 13, 14, 15, 16&gt;
+* p<sub>2</sub> = &lt;10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 14, 21&gt; // not def clear
+* p<sub>3</sub> = &lt;p2, 22, 23, 24&gt; // not def clear
+* p<sub>4</sub> = &lt;16, 16&gt; // separates at machine level, will disallow for du
+* p<sub>5</sub> = 
+* p<sub>3</sub> = 
+
+# Define/Use Paths for totalLocks
+* Ignore repetitions
+
+* p<sub>1</sub> = &lt;10, 11, 12, 13, 14, 15, 16&gt;
+* p<sub>2</sub> = &lt;10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 14, 21&gt; // not def clear
+* p<sub>3</sub> = &lt;p2, 22, 23, 24&gt; // not def clear
+* p<sub>4</sub> = &lt;16, 16&gt; // separates at machine level, will disallow for du
+* p<sub>5</sub> = &lt;16, 17, 18, 19, 20, 14, 21&gt;
+* p<sub>3</sub> = 
+
+# Define/Use Paths for totalLocks
+* Ignore repetitions
+
+* p<sub>1</sub> = &lt;10, 11, 12, 13, 14, 15, 16&gt;
+* p<sub>2</sub> = &lt;10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 14, 21&gt; // not def clear
+* p<sub>3</sub> = &lt;p2, 22, 23, 24&gt; // not def clear
+* p<sub>4</sub> = &lt;16, 16&gt; // separates at machine level, will disallow for du
+* p<sub>5</sub> = &lt;16, 17, 18, 19, 20, 14, 21&gt;
+* p<sub>3</sub> = &lt;p5, 22, 23, 24&gt;
+
 ---
 
 # Define/Use Testing
