@@ -56,21 +56,21 @@ layout: markdown
   * There are three parts to this assignment:
     * The main which parses the command-line arguments and runs the code to profile the project.  For simplicity, the first argument to the command line tool will be the file with the main function.  The remaining arguments will be additional files (with no main) to be profiled.  The main program is provide for you as *main.cpp* (you **MUST** use this).
     * An object to collect the coverage information during runtime.  This is provided for you as *coverage_map.hpp* (you **MUST** use this).
-    * The code that embeds code to collect coverage information.  For this, you finish the implementation of `syntax_tree.cpp`.  You will need to implement the following methods:
-      * `syntax_tree::main_header`
-      * `syntax_tree::file_header`
-      * `syntax_tree::main_report`
-      * `syntax_tree::instrument_functions`
-      * `syntax_tree::count_elements`
-      * `syntax_tree::instrument_statements`
+    * The code that embeds code to collect coverage information.  For this, you finish the implementation of `source_code_tree.cpp`.  You will need to implement the following methods:
+      * `source_code_tree::main_header`
+      * `source_code_tree::file_header`
+      * `source_code_tree::main_report`
+      * `source_code_tree::instrument_functions`
+      * `source_code_tree::count_elements`
+      * `source_code_tree::instrument_statements`
 
   * Coverage information is inserted as follows with an example provided after.  All insertions are plain text nodes (token type)  
-    * `syntax_tree::main_header` inserts an include of *coverage_map.hpp* at the start of the file.  In addition, `syntax_tree::main_header` will also insert global variable declarations (one for each file) with type *coverage_map_t* after the include.  The method parameter contains the names of these variable for you. 
-    * `syntax_tree:file_header` also inserts an include of *coverage_map.hpp* at the start of the file.  However, it inserts one `extern` declaration referencing one of the variables declared in the main file.  The name of the variable is passed to the function for you.
-    * `syntax_tree::main_report` is run on the main file.  It will have to search for the function named `main` and before the return statement (for simplicity, there is guaranteed to be only one return statement, and it will be directly in the function body (i.e., \<body_content>) and not nested in a statement), it will call print on each of the global variables inserted by `syntax_tree::main_header`.  The names of the variables are provided for you as a parameter.
-    * `syntax_tree::instrument_functions` inserts all the coverage instrumentations using `syntax_tree::count_elements` and `syntax_tree::instrument_statements` as helper methods.  For each function found (you will have to search for each), first, `syntax_tree::instrument_functions` finds the function body and then the body's content (i.e., \<body_content>) where it inserts a call to append on the variable name provided as a parameter.  The arguments to this call are the name of the function (use `__FUNCTION__` for simplicity) and the number of statements and conditions.  Use `syntax_tree::count_elements` to get this number.  Lastly, it calls `syntax_tree::instrument_statements` to insert statement coverage and condition coverage.
-    * `syntax_tree::count_elements` counts the number of expression statements (`expr_stmt`), declaration statements (`decl_stmt`), and conditions (`condition`).  This is a recursive function.  `is_coverage_tag` may be of use.  Make sure to call this on the function element.
-    * `syntax_tree::instrument_statements` inserts calls to `executed` immediately after each expression statements (`expr_stmt`) and declaration statements (`decl_stmt`).  It also inserts a call to `executed` at the start of each condition (`condition`).  Some conditions have a `(` and others do not that you will have to place the call after.  The variable the call is placed on is provided as a parameter to `syntax_tree::instrument_statements`.  Additionally, the second parameter to `executed` is a unique (by function) identifier for that statement/condition.  The parameter `current_statement_number` to `syntax_tree::instrument_statements` is used to provide this unique identifier.  Make sure to increment after each call to executed is inserted.  This is a recursive function.
+    * `source_code_tree::main_header` inserts an include of *coverage_map.hpp* at the start of the file.  In addition, `source_code_tree::main_header` will also insert global variable declarations (one for each file) with type *coverage_map_t* after the include.  The method parameter contains the names of these variable for you. 
+    * `source_code_tree:file_header` also inserts an include of *coverage_map.hpp* at the start of the file.  However, it inserts one `extern` declaration referencing one of the variables declared in the main file.  The name of the variable is passed to the function for you.
+    * `source_code_tree::main_report` is run on the main file.  It will have to search for the function named `main` and before the return statement (for simplicity, there is guaranteed to be only one return statement, and it will be directly in the function body (i.e., \<body_content>) and not nested in a statement), it will call print on each of the global variables inserted by `source_code_tree::main_header`.  The names of the variables are provided for you as a parameter.
+    * `source_code_tree::instrument_functions` inserts all the coverage instrumentations using `source_code_tree::count_elements` and `source_code_tree::instrument_statements` as helper methods.  For each function found (you will have to search for each), first, `source_code_tree::instrument_functions` finds the function body and then the body's content (i.e., \<body_content>) where it inserts a call to append on the variable name provided as a parameter.  The arguments to this call are the name of the function (use `__FUNCTION__` for simplicity) and the number of statements and conditions.  Use `source_code_tree::count_elements` to get this number.  Lastly, it calls `source_code_tree::instrument_statements` to insert statement coverage and condition coverage.
+    * `source_code_tree::count_elements` counts the number of expression statements (`expr_stmt`), declaration statements (`decl_stmt`), and conditions (`condition`).  This is a recursive function.  `is_coverage_tag` may be of use.  Make sure to call this on the function element.
+    * `source_code_tree::instrument_statements` inserts calls to `executed` immediately after each expression statements (`expr_stmt`) and declaration statements (`decl_stmt`).  It also inserts a call to `executed` at the start of each condition (`condition`).  Some conditions have a `(` and others do not that you will have to place the call after.  The variable the call is placed on is provided as a parameter to `source_code_tree::instrument_statements`.  Additionally, the second parameter to `executed` is a unique (by function) identifier for that statement/condition.  The parameter `current_statement_number` to `source_code_tree::instrument_statements` is used to provide this unique identifier.  Make sure to increment after each call to executed is inserted.  This is a recursive function.
 
   * Example Before:
     
@@ -140,4 +140,4 @@ layout: markdown
   * You may *ASSUME* that there are no uses of ranged-based for-statement.
   * Coverage assumes the project will run without failure (e.g., seg. fault, exception, or failed assertion).
 * Clarifications
-  * Email me [mdecke@bgsu.edu](mailto:mdecke@bgsu.edu) for clarifications and corrections.
+  * Contact me on Discord for clarifications and corrections.
