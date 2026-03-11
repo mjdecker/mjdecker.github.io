@@ -21,7 +21,7 @@ layout: markdown
 * The program must build and run using the provided *CMakeLists.txt* on voyager and be committed/pushed to your class GitHub repository.
 
 * You will be inserting source-code into a software project that will collect and report coverage information when the project is run.  For this project, we will limit ourself to coverage of conditions, declaration-statements, and expression-statements.
-* As we need knowledge of the program syntax to do this (i.e., we need Abstract Syntax Tree (AST) information), we will use the srcML infrastructure (see [www.srcML.org](www.srcML.org) for more information).  The srcML infrastructure wraps the source-code with AST information in the form of XML tags.  This will be the input to the coverage tool.  The utility *srcml* has been installed on voyager if you wish to play with it, but all the necessary files are provided for you.  It can be run as follows:
+* As we need knowledge of the program syntax to do this (i.e., we need Abstract Syntax Tree (AST) information), we will use the srcML infrastructure (see [www.srcML.org](https://www.srcML.org) for more information).  The srcML infrastructure wraps the source-code with AST information in the form of XML tags.  This will be the input to the coverage tool.  The utility *srcml* has been installed on voyager if you wish to play with it, but all the necessary files are provided for you.  It can be run as follows:
   *   `srcml input_file_name.cpp -o output_file_name.cpp.xml`
 * For this project, only a subset of the srcML tags are relevant.  They are the following:
   * \<name> - an identifier or function name
