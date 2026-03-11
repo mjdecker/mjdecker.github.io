@@ -55,7 +55,7 @@ layout: markdown
 
   * There are three parts to this assignment:
     * The main which parses the command-line arguments and runs the code to profile the project.  For simplicity, the first argument to the command line tool will be the file with the main function.  The remaining arguments will be additional files (with no main) to be profiled.  The main program is provide for you as *main.cpp* (you **MUST** use this).
-    * An object to collect the coverage information during runtime.  This is provided for you as *coverage_map.hpp* (you **MUST** use this).
+    * An object to collect the coverage information during runtime.  This is provided for you as *coverage_map.hpp* (you **MUST** use this **as is**).
     * The code that embeds code to collect coverage information.  For this, you finish the implementation of `source_code_tree.cpp`.  You will need to implement the following methods:
       * `source_code_tree::main_header`
       * `source_code_tree::file_header`
