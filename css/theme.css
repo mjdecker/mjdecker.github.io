@@ -13,7 +13,7 @@ body {
 
 }
 
-li {
+ul, li {
     margin-bottom: 4px;
 }
 
