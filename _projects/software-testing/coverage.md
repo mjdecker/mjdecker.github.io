@@ -124,7 +124,7 @@ layout: markdown
         int main() {<span style="color:#00FA6C">simple_main_cpp.append(__FUNCTION__, 6);</span>
           int i;<span style="color:#00FA6C">simple_main_cpp.executed(__FUNCTION__, 0);</span>
           i = 0;<span style="color:#00FA6C">simple_main_cpp.executed(__FUNCTION__, 1);</span>
-          while (<span style="color:#00FA6C">simple_main_cpp.executed(__FUNCTION__, 2)</span>, i < 10) {   
+          while (<span style="color:#00FA6C">simple_main_cpp.executed(__FUNCTION__, 2),</span> i < 10) {   
             ++i;<span style="color:#00FA6C">simple_main_cpp.executed(__FUNCTION__, 3); </span>  
             std::cout << i;<span style="color:#00FA6C">simple_main_cpp.executed(__FUNCTION__, 4);</span>
           }
