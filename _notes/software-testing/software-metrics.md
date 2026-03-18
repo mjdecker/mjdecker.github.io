@@ -152,7 +152,7 @@ layout: notes
 # Complexity Measures/Metrics
 * LOC - a function of complexity
 * Halstead’s Software Science (entropy measures)
-	- n<sub>1<sub> - number of distinct operators
+	- n<sub>1</sub> - number of distinct operators
 	- n<sub>2</sub> - number of distinct operands
 	- N<sub>1</sub> - total number of operators
 	- N<sub>2</sub> - total number of operands
