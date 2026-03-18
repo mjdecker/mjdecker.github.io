@@ -65,7 +65,7 @@ layout: notes
 * Size of the software produced
 * Lines Of Code (LOC)  
 * 1,000 Lines Of Code (KLOC)
-* 1,000,000 Lines Of Code (MLOC) - more recently
+* 1,000,000 Lines Of Code (MLOC)
 * Statement Lines Of Code (SLOC)
 
 # LOC Uses
