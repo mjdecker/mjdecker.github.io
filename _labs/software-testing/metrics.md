@@ -63,7 +63,7 @@ layout: notes
 * Try wrapping the XPath with count: `"count(xpath-goes-here)"`
 * Adapt this for: `src:for`, `src:while`, and `src:case`
 * Calculate Cyclomatic Complexity for the provided XML file and report on Canvas
-* Compare to running on `cyclomatic.sh` (`bash cyclomatic.sh xml-filename`)
+* Compare to running on `cyclomatic.sh` (`bash cyclomatic.sh filename`)
 
 # Halstead
 * We will use srcML and some UNIX tools to get and count the tokens in a source file/project
