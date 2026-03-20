@@ -36,11 +36,11 @@ layout: notes
 # [XPath]
 * [XPath] or XML Path Language is a language for querying (and as part of something later) to transform XML documents
 * An XPath specifies a path within an XML document with a syntax similar to a UNIX file path 
-* Basics
+* Basics:
 	* Each step in the path is an XML element
 	* `/` separates a parent/child
 	* `//` means any descendant
-* A query in XPath is an XPath expression and what it returned is the elements in the document that match that expression matches
+* A query in XPgath returned the elements in the document that match it
 
 # Example XPath
 <script src="https://gist.github.com/mjdecker/718bbd573ba09674115120abe0f8ee94.js?file=basic.xsl"></script>
