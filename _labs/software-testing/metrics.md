@@ -68,8 +68,8 @@ layout: notes
 # Halstead
 * We will use srcML and some UNIX tools to get and count the tokens in a source file/project
 * Simplifications:
-	* All keywords/symbols are operators
-	* All user-defined identifiers, literals, etc. are operands
+	* All non-type keywords/symbols are operators
+	* All  identifiers, literals, etc., are operands
 
 # XSLT
 * [XSLT] - Extensible Stylesheet Language Transformations
