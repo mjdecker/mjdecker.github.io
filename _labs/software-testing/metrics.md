@@ -104,6 +104,13 @@ layout: notes
 	* Commit and push the output-file to GitHub
 	* Answer Halstead metrics in Canvas 
 
+# Some Tips
+* Since in alphabetical order, front tokens are all operators except strings
+	* Use `grep "'.*'"` to filter out string literals, then look at line the operators end at
+* `word_operators.sh` is provided to filter out word token operators
+* Combine above with: `wc`, `uniq`, etc., as necessary
+
+
 # Completion Requirements
 * You have used [good commit messages](https://cbea.ms/git-commit/)
 * You have committed incrementally
