@@ -57,7 +57,7 @@ layout: notes
 * `src:` is needed as in XPath because srcML elements belong to a namespace  (just accept it, it makes life easier)
 
 # Computing Cyclomatic Complexity
-<script src="https://gist.github.com/mjdecker/718bbd573ba09674115120abe0f8ee94.js?file=xpath.xsl"></script>
+<script src="https://gist.github.com/mjdecker/718bbd573ba09674115120abe0f8ee94.js?file=if.xsl"></script>
 
 * This command will find all if-statements
 * Try wrapping the XPath with count: `"count(xpath-goes-here)"`
