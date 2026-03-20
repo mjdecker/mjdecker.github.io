@@ -40,7 +40,7 @@ layout: notes
 	* Each step in the path is an XML element
 	* `/` separates a parent/child
 	* `//` means any descendant
-* A query in XPath is an XPath and what is returned is what elements in the document that match that XPath
+* A query in XPath is an XPath expression and what it returned is the elements in the document that match that expression matches
 
 # Example XPath
 <script src="https://gist.github.com/mjdecker/718bbd573ba09674115120abe0f8ee94.js?file=basic.xsl"></script>
