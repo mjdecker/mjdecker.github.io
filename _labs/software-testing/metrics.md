@@ -35,7 +35,7 @@ layout: notes
 
 # [XPath]
 * [XPath] or XML Path Language is a language for querying (and as part of something later) to transform XML documents
-* An XPath is specifies a path within an XML document with a syntax similar to a UNIX file path 
+* An XPath specifies a path within an XML document with a syntax similar to a UNIX file path 
 * Basics
 	* Each step in the path is an XML element
 	* `/` separates a parent/child
