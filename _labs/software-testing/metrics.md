@@ -25,7 +25,7 @@ layout: notes
 * Many more ...
 
 # Computing Metrics
-* Will approximate the following using a combination of built-in srcML utilities and UNIX command line tools
+* Will approximate the following using built-in srcML and UNIX tools
 	* Cyclomatic Complexity
 	* Halstead
 
@@ -101,7 +101,7 @@ layout: notes
 # Compute Halstead
 * Run the provided *halstead.sh*: `halstead source output-file`
 	* Name the output file *tokens.txt*
-* Use `uniq`, `wc`, etc. as needed to compute [Halstead]'s Length, Vocabulary, Estimated length, and Purity Ratio
+* Use `uniq`, `wc`, etc., as needed to compute [Halstead]'s Length, Vocabulary, Estimated length, and Purity Ratio
 	* Commit and push the output-file (i.e., *tokens.txt*) to GitHub
 	* Answer Halstead metrics in Canvas 
 
@@ -109,8 +109,6 @@ layout: notes
 * Since in alphabetical order, front tokens are all operators except strings
 	* Use `grep "'.*'"` to filter out string literals, then look at line the operators end at
 * `word_operators.sh` is provided to filter out word token operators
-* Combine above with: `wc`, `uniq`, etc., as necessary
-
 
 # Completion Requirements
 * You have used [good commit messages](https://cbea.ms/git-commit/)
