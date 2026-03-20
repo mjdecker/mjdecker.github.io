@@ -62,7 +62,7 @@ layout: notes
 * This command will find all if-statements
 * Try wrapping the XPath with count: `"count(xpath-goes-here)"`
 * Adapt this for: `src:for`, `src:while`, and `src:case`
-* Calculate Cyclomatic Complexity for the provided XML file and report on Canvas
+* Calculate Cyclomatic Complexity for the provided XML file and report in *results.txt*
 * Compare to running on `cyclomatic.sh` (`bash cyclomatic.sh filename`)
 
 # Halstead
@@ -103,7 +103,7 @@ layout: notes
 	* Name the output file *tokens.txt*
 * Use `uniq`, `wc`, etc., as needed to compute [Halstead]'s Length, Vocabulary, Estimated length, and Purity Ratio
 	* Commit and push the output-file (i.e., *tokens.txt*) to GitHub
-	* Answer Halstead metrics in Canvas 
+	* Answer Halstead metrics in *results.txt*
 
 # Some Tips
 * Since in alphabetical order, front tokens are all operators except strings
