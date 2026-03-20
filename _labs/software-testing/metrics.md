@@ -45,9 +45,9 @@ layout: notes
 # Example XPath
 <script src="https://gist.github.com/mjdecker/718bbd573ba09674115120abe0f8ee94.js?file=basic.xsl"></script>
 
-1. Match the root element `parent`
-2. Match all elements named `child`, which are a child of `root`
-3. Match all `descendant` elements which are descendents of `child`, which it itself is a child of `parent`
+* Match the root element `parent`
+* Match all elements named `child`, which are a child of `root`
+* Match all `descendant` elements which are descendents of `child`, which it itself is a child of `parent`
 
 # srcML XPath
 <script src="https://gist.github.com/mjdecker/718bbd573ba09674115120abe0f8ee94.js?file=xpath.xsl"></script>
