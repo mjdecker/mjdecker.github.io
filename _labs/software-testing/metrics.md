@@ -100,8 +100,9 @@ layout: notes
 
 # Compute Halstead
 * Run the provided *halstead.sh*: `halstead source output-file`
+	* Name the output file *tokens.txt*
 * Use `uniq`, `wc`, etc. as needed to compute [Halstead]'s Length, Vocabulary, Estimated length, and Purity Ratio
-	* Commit and push the output-file to GitHub
+	* Commit and push the output-file (i.e., *tokens.txt*) to GitHub
 	* Answer Halstead metrics in Canvas 
 
 # Some Tips
