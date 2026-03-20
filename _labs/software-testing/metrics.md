@@ -9,6 +9,8 @@ layout: notes
 [LinearB]: https://linearb.io/platform/dora-metrics
 [srcMetrics]: https://github.com/srcML/srcMetrics
 [XPath]: https://en.wikipedia.org/wiki/XPath
+[XSLT]: https://en.wikipedia.org/wiki/XSLT
+[Halstead]: https://mdecker.net/notes/software-testing/software-metrics.html#/19
 
 # Objectives
 * To compute/approximate metrics such as Halstead and Cyclomatic
@@ -54,16 +56,55 @@ layout: notes
 * `unit` is the root of srcML document (i.e., a computational unit)
 * `src:` is needed as in XPath because srcML elements belong to a namespace  (just accept it, it makes life easier)
 
-# Finding all if-statements
+# Computing Cyclomatic Complexity
 <script src="https://gist.github.com/mjdecker/718bbd573ba09674115120abe0f8ee94.js?file=xpath.xsl"></script>
 
 * This command will find all if-statements
 * Try wrapping the XPath with count: `"count(xpath-goes-here)"`
 * Adapt this for: `src:for`, `src:while`, and `src:case`
 * Calculate Cyclomatic Complexity for the provided XML file and report on Canvas
-* Compare to running on `cyclomatic.sh` (`bash cyclomatic.sh xml-filename`
+* Compare to running on `cyclomatic.sh` (`bash cyclomatic.sh xml-filename`)
+
+# Halstead
+* We will use srcML and some UNIX tools to get and count the tokens in a source file/project
+* Simplifications:
+	* All keywords/symbols are operators
+	* All user-defined identifiers, literals, etc. are operands
+
+# XSLT
+* [XSLT] - Extensible Stylesheet Language Transformations
+* Used to transform XML files, specified as XML
+
+# Removing Comments and CPP code
+<script src="https://gist.github.com/mjdecker/718bbd573ba09674115120abe0f8ee94.js?file=remove.xsl"></script>
+
+# Getting the Tokens
+<script src="https://gist.github.com/mjdecker/718bbd573ba09674115120abe0f8ee94.js?file=tokens.xsl"></script>
+
+# sed
+<script src="https://gist.github.com/mjdecker/718bbd573ba09674115120abe0f8ee94.js?file=sed.sh"></script>
+
+* `sed` is a stream editor
+* We will use this to replace tokens with others
+* The command on left replaces all `&lt;` with `&`
+	*  `s` - means substitute
+	* `//` - are separators for specifying the different parts of the substitution
+	* `g` (optional) - perform substitution multiple times (default is at most once)
+
+# Other Unix Commands
+* `grep` regular expression matching
+* `sort` - sort each line
+* `uniq`  - give only unique responses entries (must be sorted)
+* `uniq -c` -  same as above but also count the number of each
+* `wc -l`  - count the number of lines
+
+# Compute Halstead
+* Run the provided *halstead.sh*: `halstead source output-file`
+* Use `uniq`, `wc`, etc. as needed to compute [Halstead]'s Length, Vocabulary, Estimated length, and Purity Ratio
+	* Commit and push the output-file to GitHub
+	* Answer Halstead metrics in Canvas 
 
 # Completion Requirements
 * You have used [good commit messages](https://cbea.ms/git-commit/)
 * You have committed incrementally
-* You have committed and pushed the completed and correct file `my_name_is.cpp` to GitHub
+* You have committed and pushed the output file and answered the Cyclomatic Complexity and Halstead metrics on Canvas
