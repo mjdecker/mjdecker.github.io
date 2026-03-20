@@ -24,8 +24,8 @@ layout: notes
 * [srcMetrics] - Metrics gathering tool based on srcML Infrastructure
 * Many more ...
 
-# Computing Metrics
-* Will approximate the following using built-in srcML and UNIX tools
+# Overview - Computing Metrics
+* Will approximate the following using  srcML and UNIX tools
 	* Cyclomatic Complexity
 	* Halstead
 
