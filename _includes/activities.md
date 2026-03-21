@@ -1,11 +1,13 @@
 ### Activities
 ---
-* Sabbatical in Tokyo working with Shinpei Hayashi from Institute of Science Tokyo
-* Japan conference/presentation
-* ICSME NIER
-* Journal
-* Conference paper?
-* Keynote
+* Program Committee for the 42nd IEEE International Conference of Software Maintenance and Evolution [ICMSE'26](https://conf.researchr.org/home/icsme-2026)
+* Conference publication: *"How Much Can a Behavior-Preserving Changeset Be Decomposed into Refactoring Operations?"* at 41st IEEE International Conference of Software Maintenance and Evolution [ICMSE'25](https://conf.researchr.org/home/icsme-2025), September, 2025, DOI [10.1109/ICSME64153.2025.00084](https://ieeexplore.ieee.org/document/11185948)
+* Conference publication: *"ソースコード置換・変換の実施頻度の調査 (An Investigation into the Frequency and Consequences of Code Replacement and Conversion)"* at 電子情報通信学会技術研究報告, July, 2025, ISSN [0913-5685](https://ken.ieice.org/ken/paper/20250716lcLx/)
+* Journal Publication: *"On the Structure and Semantics of Identifier Names Containing Closed Syntactic Category Words"* in Journal of Empirical Software Engineering, July, 2025, DOI [10.1007/s10664-025-10699-x](https://doi.org/10.1007/s10664-025-10699-x)
+* Conference publication: *"Scalar: A Part-of-Speech Tagger for Identifiers"* in at IEEE/ACM 33rd International Conference on Program Comprehension [ICPC'25](https://conf.researchr.org/home/icpc-2025), April 2025, DOI [10.1109/ICPC66645.2025.00045](https://doi.org/10.1109/ICPC66645.2025.00045)
+* Conference publication: *"Stereocode: A Tool for Automatic Identification of Method and Class Stereotypes for Software Systems"* at 40th International Conference on Software Maintenance and Evolution [ICSME'24](https://conf.researchr.org/home/icsme-2024), October 2024, DOI [10.1109/ICSME58944.2024.00099](https://doi.org/10.1109/ICSME58944.2024.00099)
+* Keynote: *["srcML & srcDiff: Infrastructures to support the Software Evolution Community"](https://cir.nii.ac.jp/crid/1050020054806471296)* at IPSJ/SIGSE Software Engineering Symposium [SES2024](https://ses.sigse.jp/2024)
+* Sabbatical in Tokyo, working with [Shinpei Hayashi](https://se.comp.isct.ac.jp) (林 晋平) from the Institute of Science Tokyo (東京科学大学)
 * Session chair for the *Human Aspects, Testing, and Logs* of 31st IEEE/ACM International Conference on Program Comprehension [ICPC'23](https://conf.researchr.org/home/icpc-2023)
 * Awarded $750K NSF grant: *Collaborative Research: CCRI: New: Syntactic Differencing Infrastructure for Software Evolution Research*
 * Tenure & Promotion to Associate Professor at BGSU
