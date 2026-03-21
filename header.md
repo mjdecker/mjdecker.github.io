@@ -6,7 +6,7 @@
 \# @email  [mdecke@bgsu.edu](mailto:mdecke@bgsu.edu)
 </span>
 
-<span markdown="1" class="position comment">\# @position   Assistant Professor
+<span markdown="1" class="position comment">\# @position   Associate Professor
 \# @university Bowling Green State University
 </span>
 
