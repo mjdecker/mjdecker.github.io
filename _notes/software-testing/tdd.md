@@ -53,7 +53,6 @@ layout: notes
 * We will develop a function to check if a string is a palindrome or not
 * We will develop it using TDD
 * [Source-code]
-* [TTY Plays]
 
 # Iteration 1
 
