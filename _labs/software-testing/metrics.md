@@ -113,4 +113,4 @@ layout: notes
 # Completion Requirements
 * You have used [good commit messages](https://cbea.ms/git-commit/)
 * You have committed incrementally
-* You have committed and pushed the output file and answered the Cyclomatic Complexity and Halstead metrics on Canvas
+* You have committed and pushed the output file and answered the Cyclomatic Complexity and Halstead metrics on *results.txt*
