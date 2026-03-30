@@ -79,8 +79,9 @@ layout: notes
 * {: .fragment } Slow, slow, slow
 
 # Alternative: Document View
-* Comments, whitespace, etc. are vital [Van De Vanter'02]
+* {: .fragment } Comments, whitespace, etc. are vital [Van De Vanter'02]
 * {: .fragment } Markup text with annotations indicating place, etc.
 * {: .fragment } Whole idea behind XML
 * {: .fragment } Why not mark up source code with XML?
 * {: .fragment } [srcML](https://www.srcml.org)
+* {: .fragment } [srcML Organization](https://github.com/srcML)
