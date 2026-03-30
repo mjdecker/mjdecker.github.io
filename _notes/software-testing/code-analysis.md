@@ -3,6 +3,8 @@ title: "Code Analysis"
 layout: notes
 ---
 
+[Van De Vanter'02]: https://www.sciencedirect.com/science/article/pii/S0950584902001039
+
 # Artifacts
 * {: .fragment } UML and design documents
 * {: .fragment } Issue-tracking
@@ -77,6 +79,7 @@ layout: notes
 * {: .fragment } Slow, slow, slow
 
 # Alternative: Document View
+* Comments, whitespace, etc. are vital [Van De Vanter'02]
 * {: .fragment } Markup text with annotations indicating place, etc.
 * {: .fragment } Whole idea behind XML
 * {: .fragment } Why not mark up source code with XML?
