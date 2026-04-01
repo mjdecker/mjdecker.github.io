@@ -31,7 +31,8 @@ layout: notes
 # Source Code Granularity/Levels
 <script src="https://gist.github.com/mjdecker/b5ba25cfea629f315c376ed45149c7d1.js?file=rainfall.cpp"></script>
 
-* {: .fragment } Tokens
+# Source Code Granularity/Levels
+<script src="https://gist.github.com/mjdecker/b5ba25cfea629f315c376ed45149c7d1.js?file=rainfall_half.cpp"></script>* {: .fragment } Tokens
 * {: .fragment } Statements
 * {: .fragment } Methods/functions
 * {: .fragment } Classes
