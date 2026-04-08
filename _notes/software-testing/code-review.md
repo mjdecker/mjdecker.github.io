@@ -99,7 +99,7 @@ layout: notes
 * Possible reinspect: If more than say 5% of product is reworked then a complete inspection is done again
 
 # Inspections: Management concerns
-* Management must accept that inspection will increase costs early in the software process
+* Management must accept that inspection will increase costs early in the software process
 * Management must not use inspections for staff appraisal
 
 # Inspections and Testing
