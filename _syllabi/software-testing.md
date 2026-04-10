@@ -86,7 +86,7 @@ The objectives of the course are for students to learn and successfully apply so
 * I understand the difference between unit and integration testing.
 * I can write both functional and structural tests.
 * I can measure software quality metrics on a software system.
-* I can analyze relevant research and communicate my findings (CS 5560 only).
+* I can analyze relevant research and communicate my findings (SE 5560 only).
 
 ### Student Outcomes: ###
 * SE 6 An ability to develop and conduct appropriate experimentation, analyze and interpret data, and use engineering judgment to draw conclusions.
