@@ -19,7 +19,7 @@ layout: markdown
 * Form a group of 4–5 people, and all members accept and join your group's GitHub repo
 * Identify an open-source project from GitHub
 	* Can be any programming language, as long as you can complete this project's requirements
-	* >= 10KLOC
+	* *>=* 10KLOC
 	* Development process regularly uses issues and pull requests
 * Give statistics on chosen project, include:
 	* LOC (blank-lines, comments, code, total)
