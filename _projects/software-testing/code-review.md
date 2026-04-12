@@ -19,11 +19,11 @@ layout: markdown
 * Form a group of 4–5 people, and all members accept and join your group's GitHub repo
 * Identify an open-source project from GitHub
 	* Can be any programming language, as long as you can complete this project's requirements
-	* *>=* 10KLOC
+	* \>= 10KLOC
 	* Development process regularly uses issues and pull requests
 * Give statistics on chosen project, include:
 	* LOC (blank-lines, comments, code, total)
-	* # files, # classes, & # functions & methods
+	* \# files, \# classes, & \# functions & methods
 	* Halstead's
 		* Length
 		* Vocabulary
@@ -52,7 +52,7 @@ layout: markdown
 				* Original LOC and modified LOC
 				* Code Churn
 				* Original Cyclomatic Complexity and modified Cyclomatic Complexity
-				* # Impacted files, classes, & functions/methods
+				* \# Impacted files, classes, & functions/methods
 				* Any other static analysis (e.g., security tool, code smells) you wish to run (optional)
 		* Organize and commit all input documents for each code review to the assignment repository
 	* Perform each code review:
