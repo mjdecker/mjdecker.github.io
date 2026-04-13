@@ -16,7 +16,7 @@ layout: notes
 [Continuous Delivery]: https://en.wikipedia.org/wiki/Continuous_delivery
 [Continuous Deployment]: https://en.wikipedia.org/wiki/Continuous_deployment
 
-[CD Process]: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Continuous_Delivery_process_diagram.svg/1462px-Continuous_Delivery_process_diagram.svg.png
+[CD Processes]: https://en.wikipedia.org/wiki/File:Continuous_Delivery_Vs._Continuous_Deployment.svg
 
 # [CI/CD]
 * Composed of two combined practices
@@ -51,5 +51,5 @@ layout: notes
 * No human sign off on final release, direct to production
 * Rigorous testing tools and a mature testing culture
 
-# CD Process
-![CD Process]
+# Continuous Delivery vs Continuous Deployment
+![CD Processes]
