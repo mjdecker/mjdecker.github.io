@@ -34,7 +34,7 @@ layout: markdown
 * Pull-request requirements:
 	* Non-trivial
 	* Source-code focused
-	* Has a related issue
+	* Has a related issue(s)
 	* Feature implementation, refactoring, bug fix(s), or adaptive maintenance
 	* ***NOT*** groomative (comment/whitespace), build, test, documentation, or a simple repetitive widespread change (e.g., rename)
 	* Examples: [srcDiff PR #291](https://github.com/srcDiff/srcDiff/pull/291) & [srcDiff PR #322](https://github.com/srcDiff/srcDiff/pull/322)
@@ -47,7 +47,7 @@ layout: markdown
 		* Gather input documents, include:
 			* Checklist - feel free to adapt the one used in class
 			* Pull-request
-			* Related Issue
+			* Related Issue(s)
 			* List of files changed, the original files, modified files, and the changes made
 			* Metrics:
 				* Original LOC and modified LOC
@@ -57,7 +57,7 @@ layout: markdown
 				* Any other static analysis (e.g., security tool, code smells) you wish to run (optional)
 		* Organize and commit all input documents for each code review to the assignment repository
 	* Perform each code review:
-		* You may do all reviews in the same session, with all preparation done for all done ahead of time. However, each review *MUST* be performed and completed by the whole group before moving to the next
+		* You may do all reviews in the same session, with all preparation done done ahead of time. However, each review *MUST* be performed and completed by the whole group before moving to the next
 	* Summarize and report the results of each code review (everyone's responsibility), include:
 		* When/Where/Duration
 		* Roles
@@ -67,13 +67,14 @@ layout: markdown
 			* Alternative implementations & places of improvement
 			* Code requiring additional explanations
 			* Reviewer recommendations
-			* Action: approve, request feedback, deny
+			* Action: approve, request feedback/rework/etc., deny
 
 # Grading Criteria
 * You will be graded on:
 	* Participation is mandatory. A peer review questionnaire may be given and used to adjust your grade
+	* Project and Pull Requests meet requirements
 	* Organization of repository
-	* Organization and content of project report
+	* Organization and content of project report, see *Give report on chosen project*
 	* Organization and content of input documents, see *Preparing for each code review*
 	* Organization and content of report, see *Summarize and report the results of each code review*
 	* Using and filling out the checklist
