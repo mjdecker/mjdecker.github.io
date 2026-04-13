@@ -23,6 +23,8 @@ layout: markdown
 	* Development process regularly uses issues and pull requests
 * Give report on chosen project, include:
 	* Summary of project
+	* Contribution process/requirements
+	* All available coding standards
 	* LOC (blank-lines, comments, code, total)
 	* \# files, \# classes, & \# functions & methods
 	* Halstead's
@@ -43,8 +45,6 @@ layout: markdown
 		* Team Members - remaining actively participate to identify and describe anomalies
 	* Preparing for each code review:
 		* Gather input documents, include:
-			* Contribution process/requirements
-			* All available coding standards
 			* Checklist - feel free to adapt the one used in class
 			* Pull-request
 			* Related Issue
