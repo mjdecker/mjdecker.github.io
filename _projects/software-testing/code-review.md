@@ -31,19 +31,19 @@ layout: markdown
 		* Length
 		* Vocabulary
  * Perform ***3*** code reviews of three different pull-requests (open or closed), details follow
-* Pull-request requirements
+* Pull-request requirements:
 	* Non-trivial
 	* Source-code focused
 	* Has a related issue
 	* Feature implementation, refactoring, bug fix(s), or adaptive maintenance
 	* ***NOT*** groomative (comment/whitespace), build, test, documentation, or a simple repetitive widespread change (e.g., rename)
 	* Examples: [srcDiff PR #291](https://github.com/srcDiff/srcDiff/pull/291) & [srcDiff PR #322](https://github.com/srcDiff/srcDiff/pull/322)
-* Process for each pull request
+* Process for each pull request:
 	* Determine Roles:
 		* Leader - 1 person conducts review (ensuring done orderly) and handles administrative tasks (e.g., document distribution)
 		* Recorder - 1 person takes notes, including anomalies found, decisions/actions arising from the meeting, etc.
 		* Team Members - remaining actively participate to identify and describe anomalies
-	* Preparing for each code review:
+	* Preparing for each code review (done by non leader/recorder):
 		* Gather input documents, include:
 			* Checklist - feel free to adapt the one used in class
 			* Pull-request
