@@ -16,7 +16,7 @@ layout: notes
 [Continuous Delivery]: https://en.wikipedia.org/wiki/Continuous_delivery
 [Continuous Deployment]: https://en.wikipedia.org/wiki/Continuous_deployment
 
-[CD Processes]: https://en.wikipedia.org/wiki/File:Continuous_Delivery_Vs._Continuous_Deployment.svg
+[CD Processes]: https://upload.wikimedia.org/wikipedia/commons/6/62/Continuous_Delivery_Vs._Continuous_Deployment.svg
 
 # [CI/CD]
 * Composed of two combined practices
