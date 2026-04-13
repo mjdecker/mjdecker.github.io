@@ -77,4 +77,4 @@ layout: markdown
 	* Organization and content of input documents, see *Preparing for each code review*
 	* Organization and content of report, see *Summarize and report the results of each code review*
 	* Using and filling out the checklist
-	* * Appropriate usage of Markdown
+	* Appropriate usage of Markdown
