@@ -21,7 +21,8 @@ layout: markdown
 	* Can be any programming language, as long as you can complete this project's requirements
 	* \>= 10KLOC
 	* Development process regularly uses issues and pull requests
-* Give statistics on chosen project, include:
+* Give report on chosen project, include:
+	* Summary of project
 	* LOC (blank-lines, comments, code, total)
 	* \# files, \# classes, & \# functions & methods
 	* Halstead's
@@ -72,6 +73,7 @@ layout: markdown
 * You will be graded on:
 	* Participation is mandatory. A peer review questionnaire may be given and used to adjust your grade
 	* Organization of repository
+	* Organization and content of project report
 	* Organization and content of input documents, see *Preparing for each code review*
 	* Organization and content of report, see *Summarize and report the results of each code review*
 	* Using and filling out the checklist
