@@ -93,7 +93,8 @@ layout: notes
 2. Tell them
 3. Tell them what you told them
 
-* Summarize at beginning and end
+# General Organization (Continued)
+* Summarize at the beginning and end
 * Use this technique for each major section of the presentation
 
 # Emphasize the Important
