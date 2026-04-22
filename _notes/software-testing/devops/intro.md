@@ -66,7 +66,7 @@ layout: notes
 
 # DevOps: Relation to Others
 
-![](https://commons.wikimedia.org/wiki/File:Devops.svgg)
+![](https://upload.wikimedia.org/wikipedia/commons/b/b5/Devops.svg)
 
 # Toolchains
 
