@@ -50,7 +50,7 @@ layout: markdown
 			* Related Issue(s)
 			* List of files changed, the original files, modified files, and the changes made
 			* Metrics:
-				* Original LOC and modified LOC
+				* Original LOC and modified LOC (may be for just impacted files)
 				* Code Churn
 				* Original Cyclomatic Complexity and modified Cyclomatic Complexity
 				* \# Impacted files, classes, & functions/methods
