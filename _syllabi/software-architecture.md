@@ -65,7 +65,7 @@ layout: markdown
 [The Academic Charter]: https://www.bgsu.edu/faculty-senate/academic-charter.html
 
 # SE 4/5550: Software Architecture and Design #
-## Term: Fall 2025 ##
+## Term: Summer 2026 ##
 ## [Department of Computer Science][] ##
 
 ---
