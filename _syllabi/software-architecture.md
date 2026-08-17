@@ -65,7 +65,7 @@ layout: markdown
 [The Academic Charter]: https://www.bgsu.edu/faculty-senate/academic-charter.html
 
 # SE 4/5550: Software Architecture and Design #
-## Term: Summer 2026 ##
+## Term: Fall 2026 ##
 ## [Department of Computer Science][] ##
 
 ---
@@ -74,10 +74,10 @@ layout: markdown
 <span style="margin-left: 40px;">Ph.D.</span> <span style="margin-left: 10px;">Computer Science</span> <span style="margin-left: 10px;">Kent State University</span> <span style="margin-left: 30px;">Summer 2017</span><br/>
 <span style="margin-left: 40px;">M.S.</span> <span style="margin-left: 20px;">Computer Science</span> <span style="margin-left: 10px;">The University of Akron</span> <span style="margin-left: 10px;">Summer 2012</span><br/>
 <span style="margin-left: 40px;">B.S.</span> <span style="margin-left: 20px;">Computer Science</span> <span style="margin-left: 10px;">The University of Akron <span style="margin-left: 10px;">Spring 2010</span><br/><br/>
-**Class:** TR 18:00 - 19:15 Education 301<br/>
+**Class:** TR 14:30 - 15:45 Hayes Hall 117<br/>
 **Email:** [mdecke@bgsu.edu][]<br/>
 **Office:** Hayes Hall 242<br/>
-**Office Hours:** MTW 15:30-16:30 and by appointment
+**Office Hours:** TR 15:45 - 17:15 and by appointment
 
 ### Course Description: ###
 SE 4/5550. Software Architecture and Design. 3 Credits. Principles and concepts of analyzing and designing large software systems. Analysis of software systems. Designing software systems using design patterns and object-oriented techniques. Prerequisite: Grade of C or better in SE 3540 or Admission to MS in Computer Science program. Credit cannot be earned for both SE 4550 and SE 5550. Approved for distance education.
@@ -105,7 +105,7 @@ The objectives of the course are for students to learn and successfully apply pr
 * Admission to MS in CS or Graduate Certificate in Software Engineering
 
 ### Textbook(s): ###
-Note: if links do not work directly, log first into [O'Reilly Safari Books]
+Note: if links do not work directly, login first into [O'Reilly Safari Books]
 
 * [Software Architecture in Practice, Third Edition] - Bass, Clements, and Kazman. Addison-Wesley Professional. 978–0–132–94279–9
 * [Documenting Software Architectures: Views and Beyond, Second Edition] - Clements, Bachmann, Bass, Garlan, Ivers, Little, Merson, Nord, and Stafford. Addison-Wesley Professional. 978–0–321–55268–6
