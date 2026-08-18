@@ -10,10 +10,10 @@
     <div>
     {{ page.content }}
 
-    {% capture support_markdown %}{% include support.md %}{% endcapture %}
+    {% capture support_markdown %}{% include syllabi/support.md %}{% endcapture %}
     {{ support_markdown | markdownify }}
 
-    {% capture requirements_markdown %}{% include requirements.md %}{% endcapture %}
+    {% capture requirements_markdown %}{% include syllabi/requirements.md %}{% endcapture %}
     {{ requirements_markdown | markdownify }}
 
     </div>
