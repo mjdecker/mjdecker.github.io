@@ -8,16 +8,14 @@
 
   <body>
     <div>
-    {% capture syllabus %}
-      {% include syllabi/links.md %}
-
-      {{ page.content }}
-
-      {% include syllabi/support.md %}
-      {% include syllabi/requirements.md %}
-
-    {% endcapture %}
-    {{ syllabus | markdownify }}
+{% capture syllabus %}
+{% include syllabi/links.md        %}
+{{ page.content }}
+{% include syllabi/support.md      %}
+{% include syllabi/requirements.md %}
+{{ page.content }}
+{% endcapture %}
+{{ syllabus | markdownify }}
 
     </div>
   </body>

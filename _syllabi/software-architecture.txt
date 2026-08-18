@@ -1,6 +1,7 @@
 ---
 title: "Syllabus"
 layout: syllabus
+permalink: syllabi/software-architecture.html
 ---
 
 [O'Reilly Safari Books]: https://www.oreilly.com/publisher/safari-books-online/
