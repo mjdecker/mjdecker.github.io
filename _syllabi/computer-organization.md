@@ -1,6 +1,6 @@
 ---
 title: "Syllabus"
-layout: syllabus
+layout: markdown
 ---
 
 [Department of Computer Science]: http://www.bgsu.edu/arts-and-sciences/computer-science.html 'Department of Computer Science'
@@ -64,7 +64,7 @@ layout: syllabus
 [Academic Honesty Policy]: https://www.bgsu.edu/dean-of-students/academic-honesty-policy.html
 [The Academic Charter]: https://www.bgsu.edu/faculty-senate/academic-charter.html
 
-# SE 4/5550: Software Architecture and Design #
+# CS 2190: Computer Organization #
 ## Term: Fall 2026 ##
 ## [Department of Computer Science][] ##
 
@@ -74,7 +74,7 @@ layout: syllabus
 <span style="margin-left: 40px;">Ph.D.</span> <span style="margin-left: 10px;">Computer Science</span> <span style="margin-left: 10px;">Kent State University</span> <span style="margin-left: 30px;">Summer 2017</span><br/>
 <span style="margin-left: 40px;">M.S.</span> <span style="margin-left: 20px;">Computer Science</span> <span style="margin-left: 10px;">The University of Akron</span> <span style="margin-left: 10px;">Summer 2012</span><br/>
 <span style="margin-left: 40px;">B.S.</span> <span style="margin-left: 20px;">Computer Science</span> <span style="margin-left: 10px;">The University of Akron <span style="margin-left: 10px;">Spring 2010</span><br/><br/>
-**Class:** TR 19:30 - 20:45 Hayes Hall 118<br/>
+**Class:** TR 14:30 - 15:45 Hayes Hall 117<br/>
 **Email:** [mdecke@bgsu.edu][]<br/>
 **Office:** Hayes Hall 242<br/>
 **Office Hours:** TR 15:45 - 17:15 and by appointment
