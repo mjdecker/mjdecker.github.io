@@ -7,7 +7,7 @@
   </head>
 
   <body>
-    <div>
+    <div markdown="1">
     {{ page.content }}
 
     {% include support.md %}
