@@ -8,13 +8,16 @@
 
   <body>
     <div>
+    {% capture syllabus_links %}{% include syllabi/links.md %}{% endcapture %}
+    {{ syllabus_links | markdownify }}
+
     {{ page.content }}
 
-    {% capture support_markdown %}{% include syllabi/support.md %}{% endcapture %}
-    {{ support_markdown | markdownify }}
+    {% capture syllabus_support %}{% include syllabi/support.md %}{% endcapture %}
+    {{ syllabus_support | markdownify }}
 
-    {% capture requirements_markdown %}{% include syllabi/requirements.md %}{% endcapture %}
-    {{ requirements_markdown | markdownify }}
+    {% capture syllabus_requirements %}{% include syllabi/requirements.md %}{% endcapture %}
+    {{ syllabus_requirements | markdownify }}
 
     </div>
   </body>
