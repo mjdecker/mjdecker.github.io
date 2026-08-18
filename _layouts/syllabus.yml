@@ -10,9 +10,12 @@
     <div>
     {% capture syllabus %}
       {% include syllabi/links.md %}
+
       {{ page.content }}
+
       {% include syllabi/support.md %}
       {% include syllabi/requirements.md %}
+
     {% endcapture %}
     {{ syllabus | markdownify }}
 
