@@ -7,12 +7,15 @@
   </head>
 
   <body>
-    <div markdown="1">
+    <div>
     {{ page.content }}
 
-    {% include support.md %}
+    {% capture support_markdown %}{% include support.md %}{% endcapture %}
+    {{ support_markdown | markdownify }}
 
-    {% include requirements.md %}
+    {% capture requirements_markdown %}{% include requirements.md %}{% endcapture %}
+    {{ requirements_markdown | markdownify }}
+
     </div>
   </body>
 </html>
