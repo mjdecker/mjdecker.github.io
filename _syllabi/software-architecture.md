@@ -38,7 +38,7 @@ layout: markdown
 
 [good commit messages]: https://chris.beams.io/posts/git-commit/
 
-[odos@bgsu.edu]: mailto:odos@bgsu.edu
+[Dean of Students]: mailto:odos@bgsu.edu
 [Student Handbook]: https://www.bgsu.edu/student-handbook.html 'Student Handbook'
 [Code of Academic Conduct]: https://www.bgsu.edu/dean-of-students/academic-honesty-policy.html
 [Code of Student Conduct]: https://www.bgsu.edu/dean-of-students/rights-and-responsibilities.html
@@ -74,7 +74,7 @@ layout: markdown
 <span style="margin-left: 40px;">Ph.D.</span> <span style="margin-left: 10px;">Computer Science</span> <span style="margin-left: 10px;">Kent State University</span> <span style="margin-left: 30px;">Summer 2017</span><br/>
 <span style="margin-left: 40px;">M.S.</span> <span style="margin-left: 20px;">Computer Science</span> <span style="margin-left: 10px;">The University of Akron</span> <span style="margin-left: 10px;">Summer 2012</span><br/>
 <span style="margin-left: 40px;">B.S.</span> <span style="margin-left: 20px;">Computer Science</span> <span style="margin-left: 10px;">The University of Akron <span style="margin-left: 10px;">Spring 2010</span><br/><br/>
-**Class:** TR 14:30 - 15:45 Hayes Hall 117<br/>
+**Class:** TR 19:30 - 20:45 Hayes Hall 118<br/>
 **Email:** [mdecke@bgsu.edu][]<br/>
 **Office:** Hayes Hall 242<br/>
 **Office Hours:** TR 15:45 - 17:15 and by appointment
@@ -83,7 +83,7 @@ layout: markdown
 SE 4/5550. Software Architecture and Design. 3 Credits. Principles and concepts of analyzing and designing large software systems. Analysis of software systems. Designing software systems using design patterns and object-oriented techniques. Prerequisite: Grade of C or better in SE 3540 or Admission to MS in Computer Science program. Credit cannot be earned for both SE 4550 and SE 5550. Approved for distance education.
 
 ### Course Objectives: ###
-The objectives of the course are for students to learn and successfully apply principles and concepts for the analysis and designing of large software systems including: design principles emphasizing object-oriented design principles, architectural and design patterns, and reverse and forward engineering of software design.
+The objectives of the course are for students to learn and successfully apply principles and concepts for the analysis and design of large software systems including: design principles emphasizing object-oriented design principles, architectural and design patterns, and reverse and forward engineering of software design.
 
 ### Learning Objectives: ###
 * I can select and use appropriate design patterns.
@@ -94,9 +94,9 @@ The objectives of the course are for students to learn and successfully apply pr
 * I can analyze relevant research and communicate my findings (SE 5550 only).
 
 ### Student Outcomes: ###
-* SE 1 An ability to identify, formulate, and solve complex engineering problems by applying principles of engineering, science, and mathematics.
-* SE 2 An ability to apply engineering design to produce solutions that meet specified needs with consideration of public health, safety, and welfare, as well as global, cultural, social, environmental, and economic factors.
-* SE 6 An ability to develop and conduct appropriate experimentation, analyze and interpret data, and use engineering judgment to draw conclusions.
+* SE 1 An ability to identify, formulate, and solve complex engineering problems by applying principles of engineering, science, and mathematics
+* SE 2 An ability to apply engineering design to produce solutions that meet specified needs with consideration of public health, safety, and welfare, as well as global, cultural, social, environmental, and economic factors
+* SE 6 An ability to develop and conduct appropriate experimentation, analyze and interpret data, and use engineering judgment to draw conclusions
 
 ### Prerequisites: ###
 
@@ -118,10 +118,11 @@ Note: if links do not work directly, login first into [O'Reilly Safari Books]
 
 ### Course Delivery/Organization: ###
 * Office hours will be available in person and via [Discord].
-* Instructor is also available via email (above) and can be expected to email you back within 24 hours during weekdays. Announcements will be made via [Discord].
-* The instructor will integrate teaching strategies including, but not limited to: lecture, large and small group discussion/exercises, cooperative learning, case studies, internet, and video.
+* The preferred mode of contact with Instructor is via [Discord]. However, Instructor is also available via email (above) and can be expected to email you back within 24 hours during weekdays.
+* Announcements will be made via [Discord].
+* Instructor will integrate teaching strategies including, but not limited to: lecture, large and small group discussion/exercises, cooperative learning, case studies, internet, and video.
 * Students will be expected to work independently and in groups.
-* The assessment will consist of in-class exercises, projects, a midterm, and a final.
+* Class assessment will consist of in-class exercises, projects, a midterm, and a final.
 
 ### Course and Computer Skill Prerequisites: ###
 * Navigating the Internet
@@ -131,26 +132,6 @@ Note: if links do not work directly, login first into [O'Reilly Safari Books]
 * Using a word processor (changing font, spell check, generate PDF)
 * Software engineering background
 * Strong programming skills
-
-### Learning Support Services and Resources: ###
-
-#### Tech Help: ####
-Information Technology Services (ITS) offers students technical support. Whether you have a question or issue with your computer, or need help getting your devices connected to the campus wireless, ITS is here to help! Visit the service desk in 107 Hayes Hall, chat online and view self-help guides at [https://www.bgsu.edu/its][], or call us at 419–372–0999.
-
-#### Learning Commons ####
-The Learning Commons provides free tutoring services to all BGSU students and is located on the 1st floor of Jerome Library. The Learning Commons provides “one-stop-shop” academic support in the areas of Academic Coaching, Supplemental Instruction, Writing Consultations, Math/Stats Tutoring, subject groups, and individual assistance.
-
-* For more information, visit [The Learning Commons] course-based tutoring page. For support with a course, please contact the Learning Commons using [this form]. 
-* For assistance with the writing process, you may submit your paper for review using the [inquiry form] on the [Online Submission] page.
-
-#### University Libraries: ####
-Looking for help with your research papers? Look no further than the University Libraries! Gain access to a wide array of information services and resources to support your classes, including books, e-books, journal articles, databases, special collections, and comfortable study spaces. Need a charger, laptop, or calculator? We've got you covered! The University Libraries is your go-to resource, anytime, anywhere!
-
-* For immediate assistance with your research, take advantage of our [Ask Us! service], where our knowledgeable librarians and library staff can assist you in person at the Information Desk, via phone, email, or [online chat].
-* You can also schedule an [Individual Research Appointment] with a librarian to receive personalized help with your research assignments, either in person or virtually.
-
-#### Mental Health ####
-Your mental health is important to me. If you are currently experiencing a crisis, call (419-372-2081) or visit the [Counseling Center] website. An on-call counselor is available Monday-Friday from 8am-5pm. The [BGSU Counseling Center] also provides a number of services such as [individual counseling], Counseling Center groups, and other [non-emergency services], and pre-recorded workshops. In collaboration with other campus partners, after-hours mental health support is available during the academic year via the [BGSU Crisis Response Team].
 
 ### Course Assessment: ###
 * 15% Exercises
@@ -164,11 +145,11 @@ Your mental health is important to me. If you are currently experiencing a crisi
 |---|---|---|---|---|
 |90%|80%|70%|60%|0%|
 
-#### Exercises ####
-In-class exercises will be given frequently to complement the course material. In general, these are expected to be finished during the class period, however, some leeway may be considered for students with extenuating circumstances.
+#### Exercises: ####
+In-class exercises will be given frequently to complement the course material. In general, these are expected to be finished during the class period; however, some leeway may be considered for students with extenuating circumstances.
 
-#### Projects ####
-* A number of projects (about 3–5), both programming and written, will be given to further reinforce the concepts covered in class and link multiple topics. Some projects will require the student to be competent in C++, and one project will require students to analyze current and/or seminal research and communicate their findings.
+#### Projects: ####
+* A number of projects (about 3–5), both programming and written, will be given to further reinforce the concepts covered in class and link multiple topics. Some projects will require the student to be competent in C++.
 * Details on each project and the requirements for that project will be given when assigned.
 * Projects will typically be given two weeks for completion from when first assigned.
 
@@ -180,15 +161,15 @@ In-class exercises will be given frequently to complement the course material. I
 
 #### Other Notes: ####
 * It is the student’s responsibility to make sure all files are in the repository or Canvas (as required) and thusly, properly submitted by the due date. Files not in the repository/Canvas are not accessible by the instructor and thus are not turned in.
-* When a version control system is required to be used for an exercise/project, good practices are required (i.e., incrementally developed, committing each increment, and writing [good commit messages].).
+* When a version control system is required to be used for an exercise/project, good practices are required (i.e., incrementally developed, committing each increment, and writing [good commit messages]).
 * All programs must compile and run correctly as specified with the exercise/project. This may require running on a remote machine.
 * In order that work can be graded and returned promptly, late work will not be accepted without a valid excuse. It is up to the student to make up any missed material.
 * Make-ups of any work for this class will only be given in the case of a documented, valid emergency. I encourage you to contact me if an emergency arises.
-* There will be no make up exams.
+* There will be no make-up exams.
 * Any modifications to the syllabus will be made on this page and noted.
 
-### Course Timetable ###
-* The following is a sample 7 week timetable for the course.
+### Course Timetable: ###
+* The following is a sample 7-week timetable for the course.
 
 |Week #|Topic|
 |---|---|
@@ -200,7 +181,7 @@ In-class exercises will be given frequently to complement the course material. I
 |6|Design & OO Metrics|
 |7|Code Smells & Refactoring|
 
-* The following is a sample 15 week timetable for the course.
+* The following is a sample 15-week timetable for the course.
 
 |Week #|Topic|
 |---|---|
@@ -220,7 +201,27 @@ In-class exercises will be given frequently to complement the course material. I
 |14|Refactoring|
 |15|Refactoring (continued)|
 
-### University Requirements ###
+### Learning Support Services and Resources: ###
+
+#### Tech Help: ####
+Information Technology Services (ITS) offers students technical support. Whether you have a question or issue with your computer, or need help getting your devices connected to the campus wireless, ITS is here to help! Visit the service desk in 107 Hayes Hall, chat online and view self-help guides at [https://www.bgsu.edu/its][], or call us at 419–372–0999.
+
+#### Learning Commons: ####
+The Learning Commons provides free tutoring services to all BGSU students and is located on the 1st floor of Jerome Library. The Learning Commons provides “one-stop-shop” academic support in the areas of Academic Coaching, Supplemental Instruction, Writing Consultations, Math/Stats Tutoring, subject groups, and individual assistance.
+
+* For more information, visit [The Learning Commons] course-based tutoring page. For support with a course, please contact the Learning Commons using [this form]. 
+* For assistance with the writing process, you may submit your paper for review using the [inquiry form] on the [Online Submission] page.
+
+#### University Libraries: ####
+Looking for help with your research papers? Look no further than the University Libraries! Gain access to a wide array of information services and resources to support your classes, including books, e-books, journal articles, databases, special collections, and comfortable study spaces. Need a charger, laptop, or calculator? We've got you covered! The University Libraries is your go-to resource, anytime, anywhere!
+
+* For immediate assistance with your research, take advantage of our [Ask Us! service], where our knowledgeable librarians and library staff can assist you in person at the Information Desk, via phone, email, or [online chat].
+* You can also schedule an [Individual Research Appointment] with a librarian to receive personalized help with your research assignments, either in person or virtually.
+
+#### Mental Health: ####
+Your mental health is important to me. If you are currently experiencing a crisis, call (419-372-2081) or visit the [Counseling Center] website. An on-call counselor is available Monday-Friday from 8am-5pm. The [BGSU Counseling Center] also provides a number of services such as [individual counseling], Counseling Center groups, and other [non-emergency services], and pre-recorded workshops. In collaboration with other campus partners, after-hours mental health support is available during the academic year via the [BGSU Crisis Response Team].
+
+### University Requirements: ###
 
 #### Student Conduct: ####
 A community exists on the basis of shared values and principles. At BGSU, students, recognized student organizations, and student groups are expected to uphold and abide by certain standards of conduct. You should familiarize yourself with the Codes, which create a set of expectations for student conduct, ensure a fair process for determining responsibility when student behavior may have deviated from those expectations, and provide appropriate sanctions when a student and/or student organization has violated the Code(s).
@@ -240,7 +241,7 @@ If you have any questions about Title IX, you can contact BGSU’s Title IX Coor
 [Accessibility Services] provides equal access and reasonable accommodations to students with disabilities attending BGSU. Students wishing to discuss their eligibility for such accommodations are encouraged to contact the office at phone: 419-372-8495, fax: 419-372-8496, or email: [access@bgsu.edu].
 
 #### Religious Accommodations: ####
-In addition to participation/attendance/absence policies already listed, you may have up to three (3) excused absences each academic semester, without penalty, to take time off for reasons of faith or religious or spiritual belief system or to participate in organized activities conducted under the auspices of a religious denomination, church, or other religious or spiritual organization. You are required to notify me in writing of specific dates requested for excused absences and/or alternative accommodation no later than fourteen (14) calendar days after the first day of instruction for this course. After necessary notification, you should consult with me to determine an appropriate alternative opportunity that will be provided to help you complete your academic responsibilities for the course. These requests will remain confidential. The Office of Registration & Records maintains a list of [accommodated religious holidays]. Please note that this list is not exhaustive of all holidays. For more information about the [Student Religious Accommodations] policy, you may contact the Dean of Students at [odos@bgsu.edu] or 419-372-2843.
+In addition to participation/attendance/absence policies already listed, you may have up to three (3) excused absences each academic semester, without penalty, to take time off for reasons of faith or religious or spiritual belief system or to participate in organized activities conducted under the auspices of a religious denomination, church, or other religious or spiritual organization. You are required to notify me in writing of specific dates requested for excused absences and/or alternative accommodation no later than fourteen (14) calendar days after the first day of instruction for this course. After necessary notification, you should consult with me to determine an appropriate alternative opportunity that will be provided to help you complete your academic responsibilities for the course. These requests will remain confidential. The Office of Registration & Records maintains a list of [accommodated religious holidays]. Please note that this list is not exhaustive of all holidays. For more information about the [Student Religious Accommodations] policy, you may email the [Dean of Students ] (odos@bgsu.edu) or call 419-372-2843.  
 
 #### Freedom of Expression: ####
 Bowling Green State University, as a public institution, is committed to freedom of expression and the rights protected by the First Amendment. First Amendment rights have implications inside the classroom as well. Review the Office of the Dean of Students page regarding [Freedom of Expression] at Bowling Green State University for more information including the policy. To report concerns please visit the [See It. Hear It. Report It.] page.
@@ -251,14 +252,14 @@ BGSU educators recognize student veterans’ rights when entering and exiting th
 #### University Closure: ####
 In most cases, the University will not close due to inclement weather. This means that for winter conditions, the University will generally remain open unless the Sheriff’s Department from the county in which your campus is located declares a Level 3 emergency. Once the decision is made to delay, cancel or close, individuals will be notified through AlertBG, email, the BGSU homepage, BGSU social media channels and the news media (see the [Emergency Cancellation Delay and Closing Policy and Procedures] document for a list of radio and television stations).
 
-#### Non-Discrimination in Employment and Education ####
+#### Non-Discrimination in Employment and Education: ####
 Bowling Green State University is committed to maintaining an employment and educational environment that is free from unlawful discrimination, harassment, and retaliation. The University prohibits discrimination and harassment on the basis of protected class. Retaliation against any person for asserting their legal rights to be free from discrimination or harassment, for reporting discrimination or harassment, or for participating in activities is strictly prohibited. You may review BGSU’s Non-Discrimination in Employment and Education policy for more information. To report concerns, please visit the [See It. Hear It. Report It.] page.
 
 #### Registration and Withdrawal: ####
 The official registration and withdrawal deadlines for this course can be found on the university’s [calendar][]. Students who are not officially registered for a course by published deadlines should not be attending classes and will not receive credit or a grade for the course. Each student must confirm enrollment by checking his/her class schedule prior to the deadline indicated. Registration errors must be corrected prior to the deadline.
  
 #### Academic Honesty: ####
-All coursework for this class is expected to be *YOUR OWN* work.  The *MINIMUM* penalty for copying someone's work or knowingly allowing someone to copy yours is a zero for the assignment/exam/etc. The offense is also reported to the dean of your college.  Plagiarism detection tools may be used in this course.  The Department’s policies and the University's code of academic conduct as defined in the BGSU Student Handbook will be used in this course.  For details refer to:
+All coursework for this class is expected to be *YOUR OWN* work.  The *MINIMUM* penalty for copying someone's work or knowingly allowing someone to copy yours is a zero for the assignment/exam/etc. The offense is also reported to the dean of your college.  Plagiarism detection tools may be used in this course.  The Department’s policies and the University's code of academic conduct as defined in the BGSU Student Handbook will be used in this course.  For details, refer to:
 
 1.	[Academic Honesty Policy]
 2.	[Student Handbook]
