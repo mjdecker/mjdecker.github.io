@@ -23,7 +23,7 @@
 [BGSU Crisis Response Team]: https://www.bgsu.edu/counseling-center/services/CrisisResponseTeam.html
 [Lisa Weihl]: lweihl@bgsu.edu
 
-[Falcom Food Pantry]: https://www.bgsu.edu/ffrc/falcon-food-pantry.html
+[Falcon Food Pantry]: https://www.bgsu.edu/ffrc/falcon-food-pantry.html
 
 [good commit messages]: https://chris.beams.io/posts/git-commit/
 
