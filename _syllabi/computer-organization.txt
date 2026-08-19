@@ -23,10 +23,10 @@ permalink: syllabi/computer-organization.html
 **Office Hours:** TR 15:45 - 17:15 and by appointment
 
 ### Course Description: ###
-Overview of computer design. Data & instruction representations. Assembly language. Logic esign. Control & data flow. Introduction to Instruction-level parallelism. Memory hierarchy fundamentals. Multiple processor systems. Students cannot get credit for both CS 2170 and CS 2190. Prerequisite: Grade of C or better in CS 2010. Approved for distance education.
+Overview of computer design. Data & instruction representations. Assembly language. Logic design. Control & data flow. Introduction to Instruction-level parallelism. Memory hierarchy fundamentals. Multiple processor systems. Students cannot get credit for both CS 2170 and CS 2190. Prerequisite: Grade of C or better in CS 2010. Approved for distance education.
 
 ### Course Objectives: ###
-The objectives of the course are for students to learn assembly language programming and digital logic design, how high-level languages map to assembly language, how assembly is represented as bits, how computers store and utilize those bits to peform actions/computations (i.e., digital logic). In addition to assembly language still being used today (e.g., for performance, micro-controllers, etc.) these topics help you better understand how the code you write functions, enabling you to become better programmers.
+The objectives of the course are for students to learn assembly language programming and digital logic design, how high-level languages map to assembly language, how assembly is represented as bits, and how computers store and utilize those bits to peform actions/computations (i.e., digital logic). In addition to assembly language still being used today (e.g., for performance, micro-controllers, etc.) these topics help you better understand how the code you write functions, enabling you to become better programmers.
 
 ### Learning Objectives: ###
 * I can explain the fundamental concepts of computer organization.
@@ -60,7 +60,7 @@ Note: you may need to first log into [O'Reilly Safari Books]
 
 ### Course and Computer Skill Prerequisites: ###
 * Basic computer and filesystem usage
-* Navigating the Internet, using an Internet search engine
+* Navigating the Internet and using an Internet search engine
 * Using voice, email, chat, and text messaging for communication and collaboration
 * Sending attachments via email and chats
 * Using a word processor (changing font, spell check, generate PDF)

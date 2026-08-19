@@ -73,8 +73,8 @@ Note: if links do not work directly, login first into [O'Reilly Safari Books]
 * Class assessment will consist of in-class exercises, projects, a midterm, and a final.
 
 ### Course and Computer Skill Prerequisites: ###
-* Navigating the Internet
-* Using an Internet search engine
+* Basic computer and filesystem usage
+* Navigating the Internet and using an Internet search engine
 * Using voice, email, chat, and text messaging for communication and collaboration
 * Sending attachments via email and chats
 * Using a word processor (changing font, spell check, generate PDF)
@@ -91,7 +91,7 @@ Note: if links do not work directly, login first into [O'Reilly Safari Books]
 
 | A | B | C | D | F |
 |---|---|---|---|---|
-|90%|80%|70%|60%|0%|
+|90%|80%|73%|60%|0%|
 
 #### Exercises: ####
 In-class exercises will be given frequently to complement the course material. In general, these are expected to be finished during the class period; however, some leeway may be considered for students with extenuating circumstances.
