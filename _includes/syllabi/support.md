@@ -16,7 +16,7 @@ Looking for help with your research papers? Look no further than the University 
 * You can also schedule an [Individual Research Appointment] with a librarian to receive personalized help with your research assignments, either in person or virtually.
 
 #### Mental Health: ####
-Your mental health is important to me. If you are currently experiencing a crisis, call (419-372-2081) or visit the [Counseling Center] website. An on-call counselor is available Monday-Friday from 8am-5pm. The [BGSU Counseling Center] also provides a number of services such as [individual counseling], Counseling Center groups, and other [non-emergency services], and pre-recorded workshops. In collaboration with other campus partners, after-hours mental health support is available during the academic year via the [BGSU Crisis Response Team].
+Your mental health is important to me. If you are currently experiencing a crisis, call (419-372-2081) or visit the [Counseling Center] website. An on-call counselor is available Monday-Friday from 8am-5pm. The [BGSU Counseling Center] also provides a number of services such as [individual counseling], Counseling Center groups, and other non-emergency services, and pre-recorded workshops. In collaboration with other campus partners, after-hours mental health support is available during the academic year via the BGSU Crisis Response Team.
 
 [Lisa Weihl] (Hayes 225) is a Mental Health Champion, serving as a contact if you or someone you know needs a listening, non-judgmental ear.
 
