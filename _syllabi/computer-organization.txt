@@ -26,7 +26,7 @@ permalink: syllabi/computer-organization.html
 Overview of computer design. Data & instruction representations. Assembly language. Logic design. Control & data flow. Introduction to Instruction-level parallelism. Memory hierarchy fundamentals. Multiple processor systems. Students cannot get credit for both CS 2170 and CS 2190. Prerequisite: Grade of C or better in CS 2010. Approved for distance education.
 
 ### Course Objectives: ###
-The 
+The objectives of the course are for students to learn assembly language programming and digital logic design, how high-level languages map to assembly language, how assembly is represented as bits, how computers store and utilize those bits to peform actions/computations (i.e., digital logic). In addition to assembly language still being used today (e.g., for performance, micro-controllers, etc.) these topics help you better understand how the code you write functions, enabling you to become better programmers.
 
 ### Learning Objectives: ###
 * I can explain the fundamental concepts of computer organization.
