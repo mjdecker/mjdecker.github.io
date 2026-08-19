@@ -18,16 +18,16 @@
 
 [Counseling Center]: https://www.bgsu.edu/counseling-center.html
 [BGSU Counseling Center]: https://www.bgsu.edu/counseling-center.html
-[individual counseling]: https://www.bgsu.edu/counseling-center/how-to-get-started-with-counseling/IAI.html
+[individual counseling]: https://www.bgsu.edu/counseling-center/individual-counseling
 [non-emergency services]: https://www.bgsu.edu/counseling-center/how-to-get-started-with-counseling/NES.html
 [BGSU Crisis Response Team]: https://www.bgsu.edu/counseling-center/services/CrisisResponseTeam.html
-[Lisa Weihl]: lweihl@bgsu.edu
+[Lisa Weihl]: mailto:lweihl@bgsu.edu
 
 [Falcon Food Pantry]: https://www.bgsu.edu/ffrc/falcon-food-pantry.html
 
 [good commit messages]: https://chris.beams.io/posts/git-commit/
 
-[Dean of Students]: mailto:odos@bgsu.edu
+[email the Dean of Students]: mailto:odos@bgsu.edu
 [Student Handbook]: https://www.bgsu.edu/student-handbook.html 'Student Handbook'
 [Code of Academic Conduct]: https://www.bgsu.edu/dean-of-students/academic-honesty-policy.html
 [Code of Student Conduct]: https://www.bgsu.edu/dean-of-students/rights-and-responsibilities.html
@@ -40,7 +40,7 @@
 [access@bgsu.edu]: mailto:access@bgsu.edu
 
 [accommodated religious holidays]: https://www.bgsu.edu/registration-records/academic-calendars/accomodated-religious-holidays-and-festivals.html
-[Student Religious Accommodations]: https://www.bgsu.edu/content/dam/BGSU/general-counsel/policies/academic-affairs/ohio-public-policy-on-student-religious-accommodations.pdf
+[Student Religious Accommodations]: https://www.bgsu.edu/policies/academic-affairs/3341-3-82.html
 
 [Freedom of Expression]: https://www.bgsu.edu/dean-of-students/free-speech/faq.html
 
