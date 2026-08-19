@@ -1,17 +1,11 @@
 ---
 title: "Syllabus"
 layout: syllabus
-permalink: syllabi/software-architecture.html
+permalink: syllabi/computer-organization.html
 ---
 
 [O'Reilly Safari Books]: https://www.oreilly.com/publisher/safari-books-online/
-[Software Architecture in Practice, Third Edition]: https://learning.oreilly.com/library/view/software-architecture-in/9780132942799/
-[Documenting Software Architectures: Views and Beyond, Second Edition]: https://learning.oreilly.com/library/view/documenting-software-architectures/9780132488617/
-[Software Architecture: Foundations, Theory, and Practice]: https://learning.oreilly.com/library/view/software-architecture-foundations/9780470167748/
-[Pattern-Oriented Software Architecture, A System of Patterns: Volume 1]: https://learning.oreilly.com/library/view/pattern-oriented-software-architecture/9781118725269/
-[Design Patterns: Elements of Reusable Object-Oriented Software]: https://learning.oreilly.com/library/view/design-patterns-elements/0201633612/
-[Head First Design Patterns, 2nd Edition]: https://learning.oreilly.com/library/view/head-first-design/9781492077992/
-[UML Distilled: A Brief Guide to the Standard Object Modeling Language, Third Edition]: https://learning.oreilly.com/library/view/uml-distilled-a/0321193687/
+[Computer Organization and Design MIPS Edition, 6th Edition]: https://learning.oreilly.com/library/view/computer-organization-and/9780128226742/
 
 # SE 4/5550: Software Architecture and Design #
 ## Term: Fall 2026 ##
@@ -23,45 +17,37 @@ permalink: syllabi/software-architecture.html
 <span style="margin-left: 40px;">Ph.D.</span> <span style="margin-left: 10px;">Computer Science</span> <span style="margin-left: 10px;">Kent State University</span> <span style="margin-left: 30px;">Summer 2017</span><br/>
 <span style="margin-left: 40px;">M.S.</span> <span style="margin-left: 20px;">Computer Science</span> <span style="margin-left: 10px;">The University of Akron</span> <span style="margin-left: 10px;">Summer 2012</span><br/>
 <span style="margin-left: 40px;">B.S.</span> <span style="margin-left: 20px;">Computer Science</span> <span style="margin-left: 10px;">The University of Akron <span style="margin-left: 10px;">Spring 2010</span><br/><br/>
-**Class:** TR 19:30 - 20:45 Hayes Hall 118<br/>
+**Class:** TR 14:30 - 15:45 Hayes Hall 117<br/>
 **Email:** [mdecke@bgsu.edu][]<br/>
 **Office:** Hayes Hall 242<br/>
 **Office Hours:** TR 15:45 - 17:15 and by appointment
 
 ### Course Description: ###
-Software Architecture and Design. 3 Credits. Principles and concepts of analyzing and designing large software systems. Analysis of software systems. Designing software systems using design patterns and object-oriented techniques. Prerequisite: Grade of C or better in SE 3540 or Admission to MS in Computer Science program. Credit cannot be earned for both SE 4550 and SE 5550. Approved for distance education.
+Overview of computer design. Data & instruction representations. Assembly language. Logic design. Control & data flow. Introduction to Instruction-level parallelism. Memory hierarchy fundamentals. Multiple processor systems. Students cannot get credit for both CS 2170 and CS 2190. Prerequisite: Grade of C or better in CS 2010. Approved for distance education.
 
 ### Course Objectives: ###
-The objectives of the course are for students to learn and successfully apply principles and concepts for the analysis and design of large software systems including: design principles emphasizing object-oriented design principles, architectural and design patterns, and reverse and forward engineering of software design.
+The 
 
 ### Learning Objectives: ###
-* I can select and use appropriate design patterns.
-* I can specify a software system’s architecture using UML.
-* I can understand separation of concerns and its impact on software design.
-* I can architect a software system based on the given requirements.
-* I can perform a design review on a software system.
-* I can analyze relevant research and communicate my findings (SE 5550 only).
+* I can explain the fundamental concepts of computer organization.
+* I can use different data representations.
+* I can design basic circuits using logic gates and flip-flops.
+* I can utilize an assembler tool to write and execute simple assembly language programs.
+* I can explain the data and control hazards in designing instruction sets for pipelining.
+* I can explain basic instruction-level parallelism methods.
+* I can explain how the different memory units work in the memory hierarchy.
 
 ### Student Outcomes: ###
-* SE 1 An ability to identify, formulate, and solve complex engineering problems by applying principles of engineering, science, and mathematics
-* SE 2 An ability to apply engineering design to produce solutions that meet specified needs with consideration of public health, safety, and welfare, as well as global, cultural, social, environmental, and economic factors
-* SE 6 An ability to develop and conduct appropriate experimentation, analyze and interpret data, and use engineering judgment to draw conclusions
+* CS 1 Analyze a complex computing problem and to apply principles of computing and other relevant disciplines to identify solutions
+* CS 2 Design, implement, and evaluate a computing-based solution to meet a given set of computing requirements in the context of the program’s discipline
 
 ### Prerequisites: ###
-* CS 3540: C or better
-* Recommend CS 3350 as well
-* Admission to MS in CS or Graduate Certificate in Software Engineering
+* CS 2010: C or better
 
 ### Textbook(s): ###
-Note: if links do not work directly, login first into [O'Reilly Safari Books]
+Note: you may need to first log into [O'Reilly Safari Books]
 
-* [Software Architecture in Practice, Third Edition] - Bass, Clements, and Kazman. Addison-Wesley Professional. 978–0–132–94279–9
-* [Documenting Software Architectures: Views and Beyond, Second Edition] - Clements, Bachmann, Bass, Garlan, Ivers, Little, Merson, Nord, and Stafford. Addison-Wesley Professional. 978–0–321–55268–6
-* [Software Architecture: Foundations, Theory, and Practice] - Taylor, Medvidović, and Dashofy. Wiley. 978–0–470–16774–8
-* [Pattern-Oriented Software Architecture, A System of Patterns: Volume 1] - Buschmann, Meunier, Rohnert, Sommerlad, and Stal. Wiley. 978–0–471–95869–7
-* [Design Patterns: Elements of Reusable Object-Oriented Software] - Gamma, Helm, Johnson, and Vissides. Addison-Wesley Professional. 978–0–201–63361–0
-* [Head First Design Patterns, 2nd Edition] - Freeman and Robson. Pearson.
-* [UML Distilled: A Brief Guide to the Standard Object Modeling Language, Third Edition] - Folwer. Addison-Wesley Professional. 978–0–321–19368–1
+* [Computer Organization and Design MIPS Edition, 6th Edition] - David A. Patterson, John L. Hennessy. Morgan Kaufmann. 978-0128201091.
 * Selected readings from conferences, journals, and other scholarly sources
 
 ### Course Delivery/Organization: ###
@@ -73,13 +59,11 @@ Note: if links do not work directly, login first into [O'Reilly Safari Books]
 * Class assessment will consist of in-class exercises, projects, a midterm, and a final.
 
 ### Course and Computer Skill Prerequisites: ###
-* Navigating the Internet
-* Using an Internet search engine
+* Basic computer and filesystem usage
+* Navigating the Internet, using an Internet search engine
 * Using voice, email, chat, and text messaging for communication and collaboration
 * Sending attachments via email and chats
 * Using a word processor (changing font, spell check, generate PDF)
-* Software engineering background
-* Strong programming skills
 
 ### Course Assessment: ###
 * 15% Exercises
