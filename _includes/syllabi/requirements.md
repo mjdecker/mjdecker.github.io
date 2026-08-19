@@ -44,3 +44,6 @@ All coursework for this class is expected to be *YOUR OWN* work.  The *MINIMUM* 
 
 #### AI Usage: ####
 The use of generative AI tools such as Claude, ChatGPT, Copilot, etc. are strictly and completely prohibited. Usage of such tools will be treated as a violation of Academic Honesty. However, limited use may be acceptable if noted specifically on an exercise/project.
+
+Generative AI technology is a tool that some individuals and businesses find beneficial. However, in order to effectively utilize such tools, at minimum, strong programming ability and a strong understanding of computer science and software engineering topics is required.  These are only acquired by repeated practice and self-discipline.
+
