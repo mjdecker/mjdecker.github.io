@@ -46,7 +46,7 @@
 
 [Veterans]: https://www.bgsu.edu/nontraditional-and-military-students/veterans.html
 
-[Emergency Cancellation Delay and Closing Policy and Procedures]: https://www.bgsu.edu/content/dam/BGSU/general-counsel/policies/governance/emergency-cancellation-delay-and-closing-policy.pdf
+[Emergency Cancellation Delay and Closing Policy and Procedures]: https://www.bgsu.edu/policies/governance/3341-1-3.html
 
 [calendar]: https://www.bgsu.edu/registration-records/academic-calendars/ 'Academic Calendar'
 
