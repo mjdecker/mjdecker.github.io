@@ -41,3 +41,6 @@ All coursework for this class is expected to be *YOUR OWN* work.  The *MINIMUM* 
 1.	[Academic Honesty Policy]
 2.	[Student Handbook]
 3.	[The Academic Charter] Part D, Section G
+
+#### AI Usage: ####
+The use of generative AI tools such as Claude, ChatGPT, Copilot, etc. are strictly and completely prohibited. Usage of such tools will be treated as a violation of Academic Honesty. However, limited use may be acceptable if noted specifically on an exercise/project.
