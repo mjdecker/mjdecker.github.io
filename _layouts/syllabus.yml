@@ -13,7 +13,6 @@
 {{ page.content }}
 {% include syllabi/support.md      %}
 {% include syllabi/requirements.md %}
-{{ page.content }}
 {% endcapture %}
 {{ syllabus | markdownify }}
 
