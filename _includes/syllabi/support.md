@@ -17,3 +17,8 @@ Looking for help with your research papers? Look no further than the University 
 
 #### Mental Health: ####
 Your mental health is important to me. If you are currently experiencing a crisis, call (419-372-2081) or visit the [Counseling Center] website. An on-call counselor is available Monday-Friday from 8am-5pm. The [BGSU Counseling Center] also provides a number of services such as [individual counseling], Counseling Center groups, and other [non-emergency services], and pre-recorded workshops. In collaboration with other campus partners, after-hours mental health support is available during the academic year via the [BGSU Crisis Response Team].
+
+[Lisa Weihl] (Hayes 225) is a Mental Health Champion, serving as a contact if you or someone you know needs a listening, non-judgmental ear.
+
+#### Falcon Food Pantry: ####
+The [Falcon Food Pantry] is here to support you with nutritious and accessible food. Students, faculty, and staff are welcome to stop by once a week to select a bag of food and hygiene items. The Falcon Food Pantry is located in 109 Central Hall and is open on Mondays and Thursdays from 12:00 PM to 3:00 PM and Wednesdays from 2:30 PM to 5:30 PM. Please bring your BGSU ID card with you.

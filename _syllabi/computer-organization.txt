@@ -7,7 +7,7 @@ permalink: syllabi/computer-organization.html
 [O'Reilly Safari Books]: https://www.oreilly.com/publisher/safari-books-online/
 [Computer Organization and Design MIPS Edition, 6th Edition]: https://learning.oreilly.com/library/view/computer-organization-and/9780128226742/
 
-# SE 4/5550: Software Architecture and Design #
+# CS 2190: Computer Organization #
 ## Term: Fall 2026 ##
 ## [Department of Computer Science][] ##
 
@@ -23,7 +23,7 @@ permalink: syllabi/computer-organization.html
 **Office Hours:** TR 15:45 - 17:15 and by appointment
 
 ### Course Description: ###
-Overview of computer design. Data & instruction representations. Assembly language. Logic design. Control & data flow. Introduction to Instruction-level parallelism. Memory hierarchy fundamentals. Multiple processor systems. Students cannot get credit for both CS 2170 and CS 2190. Prerequisite: Grade of C or better in CS 2010. Approved for distance education.
+Overview of computer design. Data & instruction representations. Assembly language. Logic esign. Control & data flow. Introduction to Instruction-level parallelism. Memory hierarchy fundamentals. Multiple processor systems. Students cannot get credit for both CS 2170 and CS 2190. Prerequisite: Grade of C or better in CS 2010. Approved for distance education.
 
 ### Course Objectives: ###
 The objectives of the course are for students to learn assembly language programming and digital logic design, how high-level languages map to assembly language, how assembly is represented as bits, how computers store and utilize those bits to peform actions/computations (i.e., digital logic). In addition to assembly language still being used today (e.g., for performance, micro-controllers, etc.) these topics help you better understand how the code you write functions, enabling you to become better programmers.
@@ -81,7 +81,7 @@ Note: you may need to first log into [O'Reilly Safari Books]
 In-class exercises will be given frequently to complement the course material. In general, these are expected to be finished during the class period; however, some leeway may be considered for students with extenuating circumstances.
 
 #### Projects: ####
-* A number of projects (about 3–5), both programming and written, will be given to further reinforce the concepts covered in class and link multiple topics. Some projects will require the student to be competent in C++.
+* A number of projects (about 3–5), both programming and written, will be given to further reinforce the concepts covered in class and link multiple topics.
 * Details on each project and the requirements for that project will be given when assigned.
 * Projects will typically be given two weeks for completion from when first assigned.
 
@@ -101,35 +101,22 @@ In-class exercises will be given frequently to complement the course material. I
 * Any modifications to the syllabus will be made on this page and noted.
 
 ### Course Timetable: ###
-* The following is a sample 7-week timetable for the course.
-
-|Week #|Topic|
-|---|---|
-|1|Intro to Software Architecture/Design & Intro to UML|
-|2|Use Cases, UML Use Case Diagrams, & UML Class Diagrams|
-|3|UML Sequence Diagrams & Cohesion/Coupling|
-|4|SOLID Design Principles & Architecture & Architectural Patterns|
-|5|Design & Design Patterns|
-|6|Design & OO Metrics|
-|7|Code Smells & Refactoring|
-
 * The following is a sample 15-week timetable for the course.
 
 |Week #|Topic|
 |---|---|
-|1|Intro to Software Architecture/Design|
-|2|Intro to UML, Use Cases, & UML Use Case Diagrams|
-|3|UML Class Diagrams|
-|4|UML Sequence Diagrams|
-|5|Cohesion & Coupling|
-|6|SOLID Design Principles|
-|7|Design & Design Patterns|
-|8|Design Patterns II|
-|9|Design Patterns III|
-|10|Architecture & Architectural Patterns|
-|11|Architectural Patterns (continued)|
-|12|Design & OO Metrics|
-|13|Code Smells|
-|14|Refactoring|
-|15|Refactoring (continued)|
-
+|1|Overview of Computer Design|
+|2|Data Representations|
+|3|Assembly language|
+|4|Assembly language II|
+|5|Assembly language III|
+|6|Logic Design|
+|7|Logic Design II|
+|8|Instruction Representation|
+|9|Control & Data Flow|
+|10|Control & Data Flow II|
+|11|Control & Data Flow III|
+|12|Introduction to Instruction-level Parallelism|
+|13|Introduction to Instruction-level Parallelism II|
+|14|Memory Hierarchy Fundamentals|
+|15|Multiple Processor Systems|
