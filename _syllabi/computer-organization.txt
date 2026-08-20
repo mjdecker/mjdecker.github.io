@@ -76,7 +76,7 @@ Note: you may need to first log into [O'Reilly Safari Books]
 
 | A | B | C | D | F |
 |---|---|---|---|---|
-|90%|80%|70%|60%|0%|
+|90%|80%|73%|60%|0%|
 
 #### Exercises: ####
 * In-class exercises will be given frequently to complement the course material. In general, these are expected to be finished during the class period; however, some leeway may be considered for students with extenuating circumstances.
