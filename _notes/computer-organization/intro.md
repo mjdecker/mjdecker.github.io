@@ -10,7 +10,7 @@ layout: notes
 [John von Neumann]: https://en.wikipedia.org/wiki/John_von_Neumann
 [Stored Program Computer]: https://en.wikipedia.org/wiki/Stored-program_computer
 [EDVAC]: https://en.wikipedia.org/wiki/EDVAC
-[edvac-image]: https://en.wikipedia.org/wiki/EDVAC#/media/File:Edvac.jpg
+[edvac-image]: https://upload.wikimedia.org/wikipedia/commons/1/17/Edvac.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original
 [Transistor Computers]: https://en.wikipedia.org/wiki/Transistor_computer
 [Third Generation]: https://en.wikipedia.org/wiki/History_of_computing_hardware_(1960s–present)#Third_generation
 [Integrated circuit]: https://en.wikipedia.org/wiki/Integrated_circuit
