@@ -17,7 +17,7 @@ layout: notes
 [Fourth Generation]: https://en.wikipedia.org/wiki/History_of_computing_hardware_(1960s–present)#Fourth_generation
 
 # [Computer Organization/Architecture](https://en.wikipedia.org/wiki/Computer_architecture)
-* Computer Architecture - conceptual design and operational structure of a computer system that defines how component parts are organized and interact to execute programs efficiently. It covers the instruction set architecture, CPU microarchitecture, memory, and input/output systems. [Wikipedia]
+* Computer Architecture - conceptual design and operational structure of a computer system that defines how component parts are organized and interact to execute programs efficiently. It covers the instruction set architecture, CPU microarchitecture, memory, and input/output systems [Wikipedia]
 
 * Microarchitecture (AKA computer organization) -  describes how a particular processor will implement the instruction set architecture [Wikipedia]
 
