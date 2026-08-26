@@ -27,6 +27,7 @@
 
 [good commit messages]: https://chris.beams.io/posts/git-commit/
 
+[odos@bgsu.edu]: mailto:odos@bgsu.edu
 [email the Dean of Students]: mailto:odos@bgsu.edu
 [Student Handbook]: https://www.bgsu.edu/student-handbook.html 'Student Handbook'
 [Code of Academic Conduct]: https://www.bgsu.edu/dean-of-students/academic-honesty-policy.html
