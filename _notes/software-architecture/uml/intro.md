@@ -89,7 +89,7 @@ layout: notes
 # Communication Diagram
 * Structural organization of objects and messages
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/UML_Communication_diagram.svg/2880px-UML_Communication_diagram.svg.png)
+![](https://upload.wikimedia.org/wikipedia/commons/b/b4/UML_Communication_diagram.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # State Machine Diagram
 * Event driven state changes of system
