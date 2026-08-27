@@ -16,11 +16,11 @@ layout: notes
 
 # Modeling History
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/OO-historie-2.svg/1000px-OO-historie-2.svg.png)
+![](https://upload.wikimedia.org/wikipedia/commons/2/2e/OO_Modeling_languages_history.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original)
 
 # Diagram Types
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/UML_diagrams_overview.svg/1000px-UML_diagrams_overview.svg.png)
+![](https://upload.wikimedia.org/wikipedia/commons/e/ed/UML_diagrams_overview.svg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original)
 
 
 # Diagram Views Diagram
