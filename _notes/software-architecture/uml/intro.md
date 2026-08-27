@@ -76,7 +76,7 @@ layout: notes
 
 ![](https://upload.wikimedia.org/wikipedia/commons/a/a8/UML_Diagramme_Deploiement.gif)
 
-# [Package Diagram]:
+# [Package Diagram]g
 * Organization into packages
 
 ![](https://upload.wikimedia.org/wikipedia/commons/8/86/Package_import-1.png)
