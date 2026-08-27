@@ -3,6 +3,18 @@ title: "Introduction to UML"
 layout: notes
 ---
 
+[Class Diagram]: https://en.wikipedia.org/wiki/Class_diagram
+[Object Diagram]: https://en.wikipedia.org/wiki/Object_diagram
+[Component Diagram]: https://en.wikipedia.org/wiki/Component_diagram
+[Deployment Diagram]: https://en.wikipedia.org/wiki/Deployment_diagram
+[Package Diagram]: https://en.wikipedia.org/wiki/Package_diagram
+
+[Use Case Diagram]: https://en.wikipedia.org/wiki/Use_case_diagram
+[Sequence Diagram]: https://en.wikipedia.org/wiki/Sequence_diagram
+[Communication Diagram]: https://en.wikipedia.org/wiki/Communication_diagram
+[State Machine Diagram]: https://en.wikipedia.org/wiki/UML_state_machine
+[Activity Diagram]: https://en.wikipedia.org/wiki/Activity_diagram
+
 # UML
 * *Unified Modeling Language*
 * Standardized, general-purpose modeling language
@@ -44,27 +56,27 @@ layout: notes
 * *Deployment* 
 * *Package* 
 
-# Class Diagrams
+# [Class Diagrams]
 * Set of classes and their relationships. Describes interface to the class
 
 ![](https://upload.wikimedia.org/wikipedia/commons/4/41/BankAccount1.svg)
 
-# Object Diagrams
+# [Object Diagrams]
 * Set of objects (class instances) and their relationships
 
 ![](https://upload.wikimedia.org/wikipedia/commons/8/89/Instance_specification_3.png)
 
-# Component Diagrams
+# [Component Diagrams]
 * Logical groupings of elements and their relationships
 
 ![](https://upload.wikimedia.org/wikipedia/commons/7/74/Component-4.png)
 
-# Deployment Diagrams
+# [Deployment Diagrams]
 * Set of computational resources (nodes) that host each component
 
 ![](https://upload.wikimedia.org/wikipedia/commons/a/a8/UML_Diagramme_Deploiement.gif)
 
-# Package Diagram
+# [Package Diagram]:
 * Organization into packages
 
 ![](https://upload.wikimedia.org/wikipedia/commons/8/86/Package_import-1.png)
@@ -76,27 +88,27 @@ layout: notes
 * *State Chart*
 * *Activity*
 
-# Use Case Diagram
+# [Use Case Diagram]
 * High-level behaviors of the system, user goals, external entities: actors
 
 ![](https://upload.wikimedia.org/wikipedia/commons/1/1d/Use_case_restaurant_model.svg)
 
-# Sequence Diagram
+# [Sequence Diagram]
 * Time ordering of messages
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/CheckEmail.svg/1920px-CheckEmail.svg.png)
 
-# Communication Diagram
+# [Communication Diagram]
 * Structural organization of objects and messages
 
 ![](https://upload.wikimedia.org/wikipedia/commons/b/b4/UML_Communication_diagram.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original)
 
-# State Machine Diagram
+# [State Machine Diagram]
 * Event driven state changes of system
 
 ![](https://upload.wikimedia.org/wikipedia/commons/b/be/UML_state_diagram.png)
 
-# Activity Diagram
+# [Activity Diagram]
 * Flow of control between activities
 
 ![](https://upload.wikimedia.org/wikipedia/commons/e/e7/Activity_conducting.svg)
