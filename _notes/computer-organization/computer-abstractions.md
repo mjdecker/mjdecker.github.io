@@ -102,6 +102,7 @@ layout: notes
 	* Main memory for computer/graphics card
 
 # [Memory Hierarchy]
+![memory-hierarchy]
 
 
 # Seven Great Ideas of Computer Architecture
