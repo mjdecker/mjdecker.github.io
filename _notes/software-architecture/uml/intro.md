@@ -56,22 +56,22 @@ layout: notes
 * *Deployment* 
 * *Package* 
 
-# [Class Diagrams]
+# [Class Diagram]
 * Set of classes and their relationships. Describes interface to the class
 
 ![](https://upload.wikimedia.org/wikipedia/commons/4/41/BankAccount1.svg)
 
-# [Object Diagrams]
+# [Object Diagram]
 * Set of objects (class instances) and their relationships
 
 ![](https://upload.wikimedia.org/wikipedia/commons/8/89/Instance_specification_3.png)
 
-# [Component Diagrams]
+# [Component Diagram]
 * Logical groupings of elements and their relationships
 
 ![](https://upload.wikimedia.org/wikipedia/commons/7/74/Component-4.png)
 
-# [Deployment Diagrams]
+# [Deployment Diagram]
 * Set of computational resources (nodes) that host each component
 
 ![](https://upload.wikimedia.org/wikipedia/commons/a/a8/UML_Diagramme_Deploiement.gif)
