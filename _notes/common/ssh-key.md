@@ -31,7 +31,7 @@ layout: notes
 <script src="https://gist.github.com/mjdecker/e27805da53d2e1329b6d312674310162.js?file=ssh-keygen.sh"></script>
 
 * Each computer you use will need to set this up (but only once)
-* Open up the command-line terminal, e.g., 
+* Open up the command-line terminal
 	* Windows: Windows Command Prompt (*cmd.exe*) or PowerShell
 * Type the shown code snippet
 * You may simply press enter until you return to the command prompt 
