@@ -8,7 +8,7 @@ layout: notes
 [keygen]: https://upload.wikimedia.org/wikipedia/commons/3/32/Public-key-crypto-1.svg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original
 [encryption]: https://upload.wikimedia.org/wikipedia/commons/f/f9/Public_key_encryption.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original
 
-[GitHub SSH Key Illustration]: images/ssh/github-sshkey.png
+[GitHub SSH Key Illustration]: /images/ssh/github-sshkey.png
 
 # SSH Key
 * [SSH] = Secure Shell
