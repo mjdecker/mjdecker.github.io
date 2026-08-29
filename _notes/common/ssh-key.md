@@ -4,7 +4,7 @@ layout: notes
 ---
 
 [SSH]: https://en.wikipedia.org/wiki/Secure_Shell
-[public private key]: https://en.wikipedia.org/wiki/Public-key_cryptography
+[public-private key]: https://en.wikipedia.org/wiki/Public-key_cryptography
 [keygen]: https://upload.wikimedia.org/wikipedia/commons/3/32/Public-key-crypto-1.svg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original
 [encryption]: https://upload.wikimedia.org/wikipedia/commons/f/f9/Public_key_encryption.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original
 
