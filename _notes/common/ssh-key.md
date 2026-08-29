@@ -35,7 +35,7 @@ layout: notes
 	* Windows: Windows Command Prompt (*cmd.exe*) or PowerShell
 * Type the shown code snippet
 * You may simply press enter until you return to the command prompt 
-	* Passphrase adds more seucrity by requiring a password for each use
+	* Passphrase adds more security by requiring a password for each use
 * Go to the next section to see an example
 
 # ssh-keygen Example
