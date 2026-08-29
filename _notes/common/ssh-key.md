@@ -28,7 +28,7 @@ layout: notes
 ![encryption]
 
 # Generating an SSH key
-<script src="https://gist.github.com/mjdecker/e27805da53d2e1329b6d312674310162.js@filename=ssh-keygen.sh"></script>
+<script src="https://gist.github.com/mjdecker/e27805da53d2e1329b6d312674310162.js?filename=ssh-keygen.sh"></script>
 
 * Each computer you use will need to set this up (but only once)
 * Open up the command-line terminal, e.g., 
@@ -39,7 +39,7 @@ layout: notes
 * Go to the next section to see an example
 
 # ssh-keygen Example
-<script src="https://gist.github.com/mjdecker/e27805da53d2e1329b6d312674310162.js@filename=sample-ssh-keygen.sh"></script>
+<script src="https://gist.github.com/mjdecker/e27805da53d2e1329b6d312674310162.js?filename=sample-ssh-keygen.sh"></script>
 
 # Copy the Public Key
 * In your home/user directory, you will have a *.ssh* directory containing the two keys
