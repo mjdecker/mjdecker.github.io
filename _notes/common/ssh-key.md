@@ -35,7 +35,7 @@ layout: notes
 	* Windows: Windows Command Prompt (*cmd.exe*) or PowerShell
 * Type the shown code snippet
 * You may simply press enter until you return to the command prompt 
-	* If you want to enter a password each time your private key is 
+	* Passphrase adds more seucrity by requiring a password for each use
 * Go to the next section to see an example
 
 # ssh-keygen Example
