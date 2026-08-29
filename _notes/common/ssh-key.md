@@ -8,6 +8,8 @@ layout: notes
 [keygen]: https://upload.wikimedia.org/wikipedia/commons/3/32/Public-key-crypto-1.svg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original
 [encryption]: https://upload.wikimedia.org/wikipedia/commons/f/f9/Public_key_encryption.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original
 
+![GitHub SSH Key Illustration]: images/ssh/github-sshkey.png
+
 # SSH Key
 * [SSH] = Secure Shell
 	* Cryptographic network protocol for running network services over an unsecure network
@@ -46,13 +48,14 @@ layout: notes
 * Copy the contents of your public key file (*id_ed25519.pub*)
 
 # Put Public Key on Remote Server
-* The following are instructions for GitHub
-* Click your GitHub user navigation menu image (top-right)
-* Click *Settings*
-* Click *SSH and GPG Keys* (right side, under *Access*)
-* Click *New SSH key* (green button on righ side)
-* In *Title*, give any title you want (e.g., something indicating the computer the key is associated with)
-* Leave Key type alone as *Authentication Key*
-* Paste the contents of the public key in Key
-* Finish with, *Add SSH Key*
+* The following are instructions for GitHub (image in next section)
+1. Click your GitHub user navigation menu image (top-right)
+2. Click *Settings*
+3. Click *SSH and GPG Keys* (right side, under *Access*) and Click *New SSH key* (green button on right side, not shown in image)
+4. In *Title*, give any title you want (e.g., something indicating the computer the key is associated with)
+5. Leave Key type alone as *Authentication Key*
+6. Paste the contents of the public key in Key
+7. Finish with, *Add SSH Key*
 
+# GitHub SSH Key Illustration
+![GitHub SSH Key Illustration]
