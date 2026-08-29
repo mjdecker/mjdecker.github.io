@@ -53,9 +53,9 @@ layout: notes
 2. Click *Settings*
 3. Click *SSH and GPG Keys* (right side, under *Access*) and Click *New SSH key* (green button on right side, not shown in image)
 4. In *Title*, give any title you want (e.g., something indicating the computer the key is associated with)
-5. Leave Key type alone as *Authentication Key*
-6. Paste the contents of the public key in Key
-7. Finish with, *Add SSH Key*
+5. Leave *Key type* alone as *Authentication Key*
+6. Paste the contents of the public key in *Key*
+7. Finish with *Add SSH Key*
 
 # GitHub SSH Key Illustration
 ![GitHub SSH Key Illustration]
