@@ -42,7 +42,7 @@ layout: notes
 * Log in via GitHub
 
 # Visual Studio - Project Select
-![vs-project Select]
+![vs-project-select]
 
 * Select an existing project or select *Clone a repository*
 
