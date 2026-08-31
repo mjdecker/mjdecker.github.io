@@ -52,7 +52,7 @@ layout: notes
 * Use the *GitHub* option
 
 # Visual Studio - GitHub Clone
-![vs-github- clone]
+![vs-github-clone]
 
 * Enter the URL or use it to search for the repo by name
 
@@ -65,18 +65,18 @@ layout: notes
 # Visual Studio - Git Changes
 ![vs-git-changes]
 
-1. If you haven't done so, you need to set your username/email
-2. *Changes* has file status
+* 1. If you haven't done so, you need to set your username/email
+* 2. *Changes* has file status
 	* *M* - modified file
 	* *+* adds a new or modified file, staging it
 
 # Visual Studio - Commit
 ![vs-commit]
 
-1. After clicking *+*,  the file will be staged
-2. Enter a descriptive commit message
-3. Click *Commit Staged* to commit (locally)
-4. Click the up arrow to push commit(s) to GitHub. Down arrow pulls changes (not shown)
+* 1. After clicking *+*,  the file will be staged
+* 2. Enter a descriptive commit message
+* 3. Click *Commit Staged* to commit (locally)
+* 4. Click the up arrow to push commit(s) to GitHub. Down arrow pulls changes (not shown)
 
 # Visual Studio Code
 * See [code]
