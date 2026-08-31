@@ -20,7 +20,7 @@ layout: notes
 * *Command-line terminal*
 	* Windows: Windows Command Prompt (*cmd.exe*) or PowerShell
 *  Integrated via your IDE 
-	* *Visual Studio*
+	* *Visual Studio* - One way of doing so
 	* Visual Studio Code
 * GitHub Desktop
 
@@ -39,7 +39,6 @@ layout: notes
 # Visual Studio - Login
 ![vs-login]
 
-* The following is a single example of how
 * Log in via GitHub
 
 # Visual Studio - Project Select
