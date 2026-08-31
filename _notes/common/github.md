@@ -6,9 +6,10 @@ layout: notes
 [repo-url]: /images/github/repo-url.png
 [ssh-key]: https://mdecker.net/notes/common/ssh-key.html
 [git]: https://mdecker.net/notes/common/git.html
+[code]: https://code.visualstudio.com/docs/sourcecontrol/overview
 
 # Options for Cloning
-* *Command-line terminal*g
+* *Command-line terminal*
 	* Windows: Windows Command Prompt (*cmd.exe*) or PowerShell
 *  Integrated via your IDE 
 	* *Visual Studio*
@@ -16,7 +17,7 @@ layout: notes
 * GitHub Desktop
 
 # Command-line Terminal
-![repo-ur]
+![repo-url]
 
 * Get the repo URL (see image)
 * If using command-line, SSH is recommended (see [ssh-key])
@@ -28,3 +29,7 @@ layout: notes
 * See [git] for details
 
 # Visual Studio
+* 
+
+# Visual Studio Code
+* See [code]
