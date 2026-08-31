@@ -24,10 +24,21 @@ layout: notes
 
 # Relative Performance
 * X is *n* times faster than Y
-	* *Performance<sub>X</sub>/Performance<sub>Y</sub>* = *ExecutionTime<sub>X</sub>/ExecutionTime<sub>Y</sub>*
+	* *Performance<sub>X</sub>/Performance<sub>Y</sub>* = *Execution Time<sub>X</sub>/Execution Time<sub>Y</sub>*
 * A = 10s, B = 15s
-* *ExecutionTime<sub>A</sub>/ExecutionTime<sub>B</sub> = 15s/10s = 1.5
+* *Execution Time<sub>A</sub>/Execution Time<sub>B</sub> = 15s/10s = 1.5
 * A is 1.5 times faster than B
+* So, how do we measure Execution Time?
 
+# Measuring Execution Time - Elapsed Time
+<script src="https://gist.github.com/mjdecker/e95ae3dc206a2f133a64772bfa313b5e.js?file=srcml-build-time.sh"></script>
 
+* Elapsed Time - Total response time including: processing, I/O, OS overhead, idle time
+* Determines system performance 
 
+# Measuring Execution Time - CPU Time
+* CPU Time - Time spent processing a given job; no I/O, other jobs' shares
+* Comprised of user CPU time and system CPU time
+* Different programs are affected differently by CPU and system performance
+
+# 
