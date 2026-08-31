@@ -35,7 +35,9 @@ layout: notes
 
 # Installing Git
 * Unix - install from package manager
-* Windows -  Download from [official website](https://git-scm.com/download/win)
+* Windows
+	* Download from [official website](https://git-scm.com/download/win)
+	* `winget install --id Git.Git -e --source winget`
 
 # Git Commands
 * Git commands have the following format:
