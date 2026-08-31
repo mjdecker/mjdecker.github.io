@@ -343,9 +343,9 @@ section.left .gist .gist-data {
 
 /* Single image on slide at full size */
 section > p > img {
-  height: 80%;
-  max-height: 100vh !important;
-  max-width: 100%;
+  max-width: 100% !important;
+  max-height: 75vh !important;
+  object-fit: contain;
 }
 
 /* Row flexbox of images */
