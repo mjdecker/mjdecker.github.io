@@ -50,7 +50,7 @@ div.outer > div.images {
 }
 
 div.outer > div.images img {
-    width:  90%;
+    max-width:  90%;
 }
 
 .flex2 {
