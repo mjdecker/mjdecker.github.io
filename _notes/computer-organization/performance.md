@@ -29,7 +29,7 @@ layout: notes
 * X is *n* times faster than Y
 	* *Performance<sub>X</sub>/Performance<sub>Y</sub>* = *Execution Time<sub>X</sub>/Execution Time<sub>Y</sub>*
 * A = 10s, B = 15s
-* *Execution Time<sub>A</sub>/Execution Time<sub>B</sub> = 15s/10s = 1.5
+* *Execution Time<sub>A</sub>/Execution Time<sub>B</sub> = 15s/10s = 1.5*
 * A is 1.5 times faster than B
 * So, how do we measure Execution Time?
 
