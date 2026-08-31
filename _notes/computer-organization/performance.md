@@ -3,6 +3,9 @@ title: "Defining Performance"
 layout: notes
 ---
 
+[Clock Rate]: https://en.wikipedia.org/wiki/Clock_rate
+[crystal oscillator]: https://en.wikipedia.org/wiki/Crystal_oscillator
+[clock-cycles]: https://upload.wikimedia.org/wikipedia/commons/d/dd/Clock_signal_and_clock_rate.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original
 
 # How Do You Define Performance
 * How might you define the performance of an Airplane?
@@ -41,4 +44,16 @@ layout: notes
 * Comprised of user CPU time and system CPU time
 * Different programs are affected differently by CPU and system performance
 
-# 
+#  CPU Clocking
+![clock-cycles]
+
+* Operation of digital hardware governed by a constant-rate clock
+* [Clock Rate] - frequency in which a clock generator of a processor generates pulses used to synchronize the operations of its components
+	* Normally a [crystal oscillator]
+* Clock period - duration of a clock cycle
+	* *250ps = 0.25ns = 250x10<sup>-12</sub>s*
+* Clock frequency - 	cycles per second
+	* 4.0GHz = 4000MHz = 4.0x10<sup>9</sup>Hz
+
+#  CPU Cycles
+![clock-cycles]
