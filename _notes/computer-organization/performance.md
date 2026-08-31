@@ -52,8 +52,32 @@ layout: notes
 	* Normally a [crystal oscillator]
 * Clock period - duration of a clock cycle
 	* *250ps = 0.25ns = 250x10<sup>-12</sub>s*
-* Clock frequency - 	cycles per second
+* Clock Rate - cycles per second
 	* 4.0GHz = 4000MHz = 4.0x10<sup>9</sup>Hz
 
 #  CPU Cycles
 ![clock-cycles]
+
+# CPU Time
+* *CPU Time = CPU Clock Cycles x Clock Cycle Time = CPU Clock Cycles/Clock Rate*
+* How do we improve performance?
+
+# CPU Time
+* *CPU Time = CPU Clock Cycles x Clock Cycle Time = CPU Clock Cycles/Clock Rate*
+* How do we improve performance?
+	* Reduce clock cycles something takes
+	* Increase the clock rate
+* Hardware design often needs to trade between clock rate and cycle count
+
+# CPU Time Example
+* Computer A: 2 GHz clock and 10s CPU time
+* Want a Computer (B) with 6s CPU time, but it will increase cycles by 1.2
+* What Clock Rate does Computer B need?
+
+# CPU Time Example
+* Computer A: 2 GHz clock and 10s CPU time
+* Want a Computer (B) with 6s CPU time, but it will increase cycles by 1.2
+* What Clock Rate does Computer B need?
+	* *Clock Rate<sub>B</sub> = Clock Cycles<sub>B</sub>/ CPU Time<sub>B</sub> = 1.2 Clock Cycles<sub>A</sub>/ 6s*
+	* *Clock Cycles<sub>A</sub> = CPU Time<sub>A</sub> x Clock Rate<sub>A</sub> = 10s x 2GHz = 20X 10<sup>9</sup>*
+	*  *Clock Rate<sub>B</sub> = 1.2 x 20 x 10<sup>9</sup>/6s = 124 x 10/<sup>9</sup>/6s = 4GHz*
