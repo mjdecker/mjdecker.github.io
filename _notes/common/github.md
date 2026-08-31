@@ -47,7 +47,6 @@ layout: notes
 
 * Select an existing project or select *Clone a repository*
 
-
 # Visual Studio - Clone
 ![vs-clone]
 
