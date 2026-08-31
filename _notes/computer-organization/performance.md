@@ -6,6 +6,9 @@ layout: notes
 [Clock Rate]: https://en.wikipedia.org/wiki/Clock_rate
 [crystal oscillator]: https://en.wikipedia.org/wiki/Crystal_oscillator
 [clock-cycles]: https://upload.wikimedia.org/wikipedia/commons/d/dd/Clock_signal_and_clock_rate.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original
+[ISA]: https://en.wikipedia.org/wiki/Instruction_set_architecture
+[RISC]: https://en.wikipedia.org/wiki/Reduced_instruction_set_computer
+[CISC]: https://en.wikipedia.org/wiki/Complex_instruction_set_computer
 
 # How Do You Define Performance
 * How might you define the performance of an Airplane?
@@ -84,7 +87,31 @@ layout: notes
 
 # Instruction Count
 * # of instructions
-* Instruction count per program, dependent on the program, assembly language, and compiler
-* CPI = Clock Cycles per Instruction
-* Average cycles per instruction
-	* Determined by CPU hardware
+* Instruction count per program is dependent on the program, assembly language, and compiler
+
+# CPI
+* CPI - Cycles per Instruction
+* Instruction Set Architecture ([ISA]) - defines the programmable interface of a CPU
+	* Reduced Instruction Set Computer ([RISC]) -  most instructions are 1 CPI
+	* Complex Instruction Set Computer ([CISC])  -  average instruction > 1 CPI
+
+# CPI Details
+* *Clock Cycles = Σ CPI<sub>i</sup> * Instruction Count<sub>i</sup>*
+* Weighted average CPI 
+	* *CPI = Clock Cycles /  Instruction Count*
+* *CPU Time = Instruction Count x CPI x Clock Cycle Time = Instruction Count x CPI / Clock Rate*
+
+# CPI Example
+* Same ISA
+* Computer A: *Cycle Time = 250ps CPI = 2.0*
+* Computer B: *Cycle Time = 500ps CPI = 1.2*
+* Which is faster, and by how much?
+	*  *CPU Time<sub>A</sub> = Instruction Count X CPI<sub>A</sub> X Cycle Time<sub>A</sub> = I x 2.0 x 250ps = I x 500ps*
+	* *CPU Time<sub>B</sub> = Instruction Count X CPI<sub>B</sub> X Cycle Time<sub>B</sub> = I x 1.2 x 500ps = I x 600ps*
+	* *Relative Performance = CPU Time<sub>B</sub>/CPU Time<sub>A</sub> =  x 600ps/I x 500ps = 1.2x* 
+
+# Performance Summary
+* *CPU Time = Instructions per Program x Clock Cycles per Instruction x Seconds per Clock cycle*
+
+# Discussion
+* What trends in processor/CPU have you seen in your lifetime?
