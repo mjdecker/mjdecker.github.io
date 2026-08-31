@@ -80,7 +80,7 @@ layout: notes
 * What Clock Rate does Computer B need?
 	* *Clock Rate<sub>B</sub> = Clock Cycles<sub>B</sub>/ CPU Time<sub>B</sub> = 1.2 Clock Cycles<sub>A</sub>/ 6s*
 	* *Clock Cycles<sub>A</sub> = CPU Time<sub>A</sub> x Clock Rate<sub>A</sub> = 10s x 2GHz = 20X 10<sup>9</sup>*
-	*  *Clock Rate<sub>B</sub> = 1.2 x 20 x 10<sup>9</sup>/6s = 24 x 10g<sup>9</sup>/6s = 4GHz*
+	*  *Clock Rate<sub>B</sub> = 1.2 x 20 x 10<sup>9</sup>/6s = 24 x 10<sup>9</sup>/6s = 4GHz*
 
 # Instruction Count
 * # of instructions
