@@ -15,10 +15,10 @@ layout: notes
 
 # How Do You Define Performance
 * How might you define the performance of an Airplane?
-	* Passenger Capacity
-	* Cruising Range
-	* Cruising Speed
-	* Passenger Throughput - Passenger Capacity x Cruising Speed
+	* *Passenger Capacity*
+	* *Cruising Range*
+	* *Cruising Speed*
+	* *Passenger Throughput - Passenger Capacity x Cruising Speed*
 
 # Some Performance Metrics for Computer Architecture
 * Response Time - how long it takes to do a task
