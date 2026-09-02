@@ -98,10 +98,10 @@ layout: notes
 	* Complex Instruction Set Computer ([CISC])  -  average instruction > 1 CPI
 
 # CPI Details
-* $$Clock Cycles = Σ CPI_i * Instruction Count_i$$
+* $$Clock Cycles = \sum_{i=1}^{n}{CPI_i * Instruction Count_i}$$
 * Weighted average CPI 
-	* $$CPI = Clock Cycles /  Instruction Count$$
-* $$CPU Time = Instruction Count x CPI x Clock Cycle Time = Instruction Count x CPI / Clock Rate$$
+	* $$CPI = \frac{Clock Cycles}{Instruction Count}$$
+* $$CPU Time = Instruction Count * CPI x Clock Cycle Time = \frac{Instruction Count * CPI}{Clock Rate}$$
 
 # CPI Example
 * Same ISA
