@@ -18,7 +18,7 @@ layout: notes
 	* $$Passenger Capacity$$
 	* $$Cruising Range$$
 	* $$Cruising Speed$$
-	* $$Passenger Throughput - Passenger Capacity * Cruising Speed$$
+	* $$Passenger Throughput = gPassenger Capacity * Cruising Speed$$
 
 # Some Performance Metrics for Computer Architecture
 * Response Time - how long it takes to do a task
