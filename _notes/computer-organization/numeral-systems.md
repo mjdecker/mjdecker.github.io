@@ -24,11 +24,12 @@ layout: notes
 	* [Arabic Numerals]
 
 # Numeral Systems and Computing
-* Decimal is the numeral system used by humans math and daily life (i.e., by humans)
+* Decimal is the numeral system used for math and daily life (i.e., by humans)
 * Binary is used by computers
 * Octal and Hexadecimal are often used in computing because:
 	* More compact
 	* Direct and simple translation to/from binary
+	* I.e, are a shorthand for binary
 
 # Binary, Octal, and Hexadecimal Example
 * **Decimal:** *42*
@@ -39,3 +40,6 @@ layout: notes
 # Denoting a Base
 * Sub
 * Prefix
+
+# foo
+$$ J(\theta_0,\theta_1) = \sum_{i=0} $$
