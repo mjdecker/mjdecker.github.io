@@ -83,9 +83,9 @@ layout: notes
 * What Clock Rate does Computer B need?
 
 # Computer B Clock Rate
-	* $$Clock Rate_B = \frac{Clock Cycles_B}{CPU Time_B} = \frac{1.2 * Clock Cycles_A}{6s}$$
-	* $$Clock Cycles_A = CPU Time_A * Clock Rate_A = 10s * 2GHz = 20 * 10^9$$
-	* $$Clock Rate_B = \frac{1.2 * 20 * 10^9}{6s} = \frac{24 * 10^9}{6s} = 4GHz$$
+* $$Clock Rate_B = \frac{Clock Cycles_B}{CPU Time_B} = \frac{1.2 * Clock Cycles_A}{6s}$$
+* $$Clock Cycles_A = CPU Time_A * Clock Rate_A = 10s * 2GHz = 20 * 10^9$$
+* $$Clock Rate_B = \frac{1.2 * 20 * 10^9}{6s} = \frac{24 * 10^9}{6s} = 4GHz$$
 
 # Instruction Count
 * \# of instructions
