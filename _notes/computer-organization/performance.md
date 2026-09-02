@@ -113,7 +113,7 @@ layout: notes
 	* $$Relative Performance = \frac{CPU Time_B}{CPU Time_A} = \frac{I * 600ps}{I * 500ps} = 1.2$$
 
 # Performance Summary
-* $$CPU Time = Instructions per Program * Clock Cycles per Instruction * Seconds per Clock cycle$$
+$$CPU Time = Instructions\, per\, Program * Clock\, Cycles\, per\, Instruction s* Seconds\, per\, Clock\, cycle$$
 
 # Discussion
 * What trends in processor/CPU have you seen in your lifetime?
