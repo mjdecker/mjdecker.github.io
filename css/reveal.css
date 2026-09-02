@@ -343,7 +343,9 @@ section.left .gist .gist-data {
 
 /* Katex */
 li .katex-display {
+  font-size: 80%;
   text-align: left;
+  object-fit: contain;
 }
 
 /* Katex */
