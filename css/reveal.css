@@ -341,6 +341,17 @@ section.left .gist .gist-data {
   margin-top: 0;
 }
 
+/* Katex */
+li .katex-display {
+  text-align: left;
+}
+
+/* Katex */
+.katex-display {
+  font-size: 80%;
+  object-fit: contain;
+}
+
 /* Single image on slide at full size */
 section > p > img {
   max-width: 100% !important;

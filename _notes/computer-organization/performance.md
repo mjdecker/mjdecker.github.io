@@ -18,7 +18,7 @@ layout: notes
 	* $$Passenger Capacity$$
 	* $$Cruising Range$$
 	* $$Cruising Speed$$
-	* $$Passenger Throughput = gPassenger Capacity * Cruising Speed$$
+	* $$Passenger Throughput = Passenger Capacity * Cruising Speed$$
 
 # Some Performance Metrics for Computer Architecture
 * Response Time - how long it takes to do a task
@@ -110,7 +110,7 @@ layout: notes
 * Which is faster, and by how much?
 	* $$CPU Time_A = Instruction Count * CPI_A * Cycle Time_A = I * 2.0 * 250ps = I * 500ps$$
 	* $$CPU Time_B = Instruction Count * CPI_B * Cycle Time_B = I * 1.2 * 500ps = I * 600ps$$
-	* $$Relative Performance = CPU Time_B/CPU Time_A = \frac{I * 600ps}{I * 500ps} = 1.2x$$
+	* $$Relative Performance = \frac{CPU Time_B}{CPU Time_A} = \frac{I * 600ps}{I * 500ps} = 1.2$$
 
 # Performance Summary
 * $$CPU Time = Instructions per Program * Clock Cycles per Instruction * Seconds per Clock cycle$$
