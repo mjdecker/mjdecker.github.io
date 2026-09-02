@@ -37,6 +37,7 @@
             </div>
         </div>
 
+        <script src="/js/reveal.js/plugin/math/math.js"></script>
         <script src="/js/reveal-init.js"></script>
         <script src="/js/slides.js"></script>
 
