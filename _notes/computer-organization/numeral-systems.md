@@ -51,17 +51,16 @@ layout: notes
 * **Hexadecimal:** $$2A$$
 	* Each digit is 4 binary digits: $$2 = 0010$$ and $$A = 1010$$
 
-# Position Notation
+# Introducing Position Notation 
 * We use a positional notation when writing ***ANY*** number in a numeral system
 * For example, $$1024_{10}$$ can be written as:
 	* $$1 * 10^3 + 0 * 10^2 + 2 * 10^1 + 4 * 10^0$$
 
-<div>
-For any base ***b***, and a set of digits ($$..., a_i, ..., a_2, a_1, a_0$$
+
+# Introducing Position Notation
+* For any base ***b***, and a set of digits ($$..., a_i, ..., a_2, a_1, a_0$$
 
 |   ...  |   i    |  ...    |  2    |   1   |   0   |
 | ---: | ---: | ---: | ---: | ---: | ---: |
 |...|$$d_i*b^i$$|...|$$d_2*b^2$$|$$d_1*b^1$$|$$d_0*b^0$$|
-
-</div>
 
