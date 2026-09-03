@@ -66,7 +66,7 @@ layout: notes
 * How do we improve performance?
 
 # CPU Time
-* $$CPU Time = CPU Clock Cycles * Clock Cycle Time = \frac{CPU Clock Cycles}{Clock Rate}$$
+* $$CPU Time = CPU Clock Cycles * Clock Period = \frac{CPU Clock Cycles}{Clock Rate}$$
 * How do we improve performance?
 	* Reduce clock cycles something takes
 	* Increase the clock rate
@@ -101,12 +101,12 @@ layout: notes
 * $$Clock Cycles = \sum_{i=1}^{n}{CPI_i * Instruction Count_i}$$
 * Weighted average CPI 
 	* $$CPI = \frac{Clock Cycles}{Instruction Count}$$
-* $$CPU Time = Instruction Count * CPI x Clock Cycle Time = \frac{Instruction Count * CPI}{Clock Rate}$$
+* $$CPU Time = Instruction Count * CPI x Clock Period = \frac{Instruction Count * CPI}{Clock Rate}$$
 
 # CPI Example
 * Same ISA
-* Computer A: $$Cycle Time = 250ps CPI = 2.0$$
-* Computer B: $$Cycle Time = 500ps CPI = 1.2$$
+* Computer A: $$Clock Period = 250ps\, CPI = 2.0$$
+* Computer B: $$Clock Period = 500ps\, CPI = 1.2$$
 * Which is faster, and by how much?
 	* $$CPU Time_A = Instruction Count * CPI_A * Cycle Time_A = I * 2.0 * 250ps = I * 500ps$$
 	* $$CPU Time_B = Instruction Count * CPI_B * Cycle Time_B = I * 1.2 * 500ps = I * 600ps$$
