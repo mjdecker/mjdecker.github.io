@@ -25,9 +25,9 @@ layout: notes
 	* Different *base* values: E.g. 10 (decimal), 16 (hexadecimal)
 
 # Numeral Systems and Computing
-* Decimal (base 10) is the numeral system used for math and daily life (i.e., by humans)
-* Binary (base 2) is used by computers
-* Octal (base 8) and Hexadecimal (base 16) are often used in computing because:
+* Decimal (*base 10*) is the numeral system used for math and daily life (i.e., by humans)
+* Binary (*base 2*) is used by computers
+* Octal (*base 8*) and Hexadecimal (*base 16*) are often used in computing because:
 	* More compact
 	* Direct and simple translation to/from binary
 	* I.e, are a shorthand for binary
