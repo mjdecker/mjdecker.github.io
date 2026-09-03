@@ -53,7 +53,7 @@ layout: notes
 
 # Position Notation
 * We use a positional notation when writing ***ANY*** number in a numeral system
-* For example, $$1024_10$$ can be written as:
+* For example, $$1024_{10}$$ can be written as:
 	* $$1 * 10^3 + 0 * 10^2 + 2 * 10^1 + 4 * 10^0$$
 * For any base ***b***, and a set of digits ($$..., a_i, ..., a_2, a_1, a_0$$
 
