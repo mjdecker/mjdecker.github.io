@@ -101,7 +101,7 @@ layout: notes
 * $$Clock Cycles = \sum_{i=1}^{n}{CPI_i * Instruction Count_i}$$
 * Weighted average CPI 
 	* $$CPI = \frac{Clock Cycles}{Instruction Count}$$
-* $$CPU Time = Instruction Count * CPI x Clock Period = \frac{Instruction Count * CPI}{Clock Rate}$$
+* $$CPU Time = Instruction Count * CPI *Clock Period = \frac{Instruction Count * CPI}{Clock Rate}$$
 
 # CPI Example
 * Same ISA
