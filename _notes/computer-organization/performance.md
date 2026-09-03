@@ -32,7 +32,7 @@ layout: notes
 * X is *n* times faster than Y
 	* $$\frac{Performance_X}{Performance_Y} = \frac{Execution Time_X}{Execution Time_Y}$$
 * A = 10s, B = 15s
-* $$\frac{Execution Time_A}{Execution Time_B} = \frac{15s}{10s} = 1.5$$
+* $$\frac{Execution Time_B}{Execution Time_A} = \frac{15s}{10s} = 1.5$$
 * A is 1.5 times faster than B
 * So, how do we measure Execution Time?
 
