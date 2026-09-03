@@ -32,9 +32,23 @@ layout: notes
 	* Direct and simple translation to/from binary
 	* I.e, are a shorthand for binary
 
+# Symbols in Hexadecimal
+* We need 16 symbols to uniquely represent each digit
+* What do we do for 10-15?
+
+# Symbols in Hexadecimal
+* We need 16 symbols to uniquely represent each digit
+* What do we do for 10-15?
+	* Use letters (case-insensitive)
+
+|  A  |   B  |  C   |   D   |  E  |  F   |
+| --- | --- | --- | --- | --- | --- |
+| 10  |  11 |  12  |  13 |  14 |  15  |   
+
+
 # Denoting a Base
 * Can denote a base in two primary ways: with a subscript or a prefix
-* Subscript - base is used as a suscript after the number
+* Subscript - base is used as a subscript after the number
 	* **Base 2:** *0100<sub>2</sub>* or *0100<sub>two</sub>*
 	* **Base 10:** *42<sub>10</sub>* or *42<sub>ten</sub>*
 * Prefix - certain bases have special prefixes that indicate their use
@@ -51,16 +65,17 @@ layout: notes
 * **Hexadecimal:** $$2A$$
 	* Each digit is 4 binary digits: $$2 = 0010$$ and $$A = 1010$$
 
-# Introducing Position Notation 
+# Introducing Position Notation
 * We use a positional notation when writing ***ANY*** number in a numeral system
 * For example, $$1024_{10}$$ can be written as:
 	* $$1 * 10^3 + 0 * 10^2 + 2 * 10^1 + 4 * 10^0$$
 
 
-# Introducing Position Notation
-* For any base ***b***, and a set of digits ($$..., a_i, ..., a_2, a_1, a_0$$
+# Position Notation
+For any base ***b***, and a set of digits ($$..., d_i, ..., d_2, d_1, d_0)$$
 
 |   ...  |   i    |  ...    |  2    |   1   |   0   |
 | ---: | ---: | ---: | ---: | ---: | ---: |
 |...|$$d_i*b^i$$|...|$$d_2*b^2$$|$$d_1*b^1$$|$$d_0*b^0$$|
 
+# 
