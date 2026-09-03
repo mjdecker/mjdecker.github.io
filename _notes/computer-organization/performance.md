@@ -62,7 +62,7 @@ layout: notes
 ![clock-cycles]
 
 # CPU Time
-* $$CPU Time = CPU Clock Cycles * Clock Cycle Time = \frac{CPU Clock Cycles}{Clock Rate}$$
+* $$CPU Time = CPU Clock Cycles * Clock Period = \frac{CPU Clock Cycles}{Clock Rate}$$
 * How do we improve performance?
 
 # CPU Time
