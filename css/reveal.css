@@ -341,16 +341,8 @@ section.left .gist .gist-data {
   margin-top: 0;
 }
 
-/* Katex */
-li .katex-display {
-  font-size: 80%;
-  text-align: left;
-  object-fit: contain;
-}
-
-/* Katex */
 .katex-display {
-  font-size: 80%;
+  font-size: 70%;
   object-fit: contain;
 }
 

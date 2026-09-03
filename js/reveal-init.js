@@ -35,6 +35,9 @@ if (document.querySelector("div.reveal.present")) {
 
 Reveal.initialize({
   plugins: [RevealMath.KaTeX],
+  katex: {
+    fleqn: true
+  },
   center: false,
   progress: false,
   history: true,
