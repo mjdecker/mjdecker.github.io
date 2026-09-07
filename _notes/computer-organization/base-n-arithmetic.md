@@ -9,7 +9,7 @@ layout: notes
 # Base N Arithmetic
 * ~over-simplification
 	* long addition/subtraction where carry/borrow happens at N
-	* 10 is in base arithemetic is done in
+	* 10 is in the base the arithemetic is done in
 
 # Base N Addition
 * N is the max a number can take
