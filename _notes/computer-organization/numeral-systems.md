@@ -10,27 +10,27 @@ layout: notes
 # [Numeral System]
 * A writing system for expressing numbers without words, equivalently
 * A mathematical notation for representing numbers of a given set in a consistent manner using:
-	* Digits: *0, 1, 2, etc.*
-	* or Other Symbols: *A, B, C, etc.*
+    * Digits: *0, 1, 2, etc.*
+    * or Other Symbols: *A, B, C, etc.*
 * Examples?
 
 # [Numeral System]
 * A writing system for expressing numbers without words, equivalently
 * A mathematical notation for representing numbers of a given set in a consistent manner using:
-	* Digits: *0, 1, 2, etc.*
-	* or Other Symbols: *A, B, C, etc.*
+    * Digits: *0, 1, 2, etc.*
+    * or Other Symbols: *A, B, C, etc.*
 * Examples?
-	* [Roman Numerals]
-	* [Arabic Numerals]
-	* Different *base* values: E.g. 10 (decimal), 16 (hexadecimal)
+    * [Roman Numerals]
+    * [Arabic Numerals]
+    * Different *base* values: E.g. 10 (decimal), 16 (hexadecimal)
 
 # Numeral Systems and Computing
 * Decimal (*base 10*) is the numeral system used for math and daily life (i.e., by humans)
 * Binary (*base 2*) is used by computers
 * Octal (*base 8*) and Hexadecimal (*base 16*) are often used in computing because:
-	* More compact
-	* Direct and simple translation to/from binary
-	* I.e, are a shorthand for binary
+    * More compact
+    * Direct and simple translation to/from binary
+    * I.e, are a shorthand for binary
 
 # Symbols in Hexadecimal
 * We need 16 symbols to uniquely represent each digit
@@ -39,28 +39,28 @@ layout: notes
 # Symbols in Hexadecimal
 * We need 16 symbols to uniquely represent each digit
 * What do we do for 10-15?
-	* Use letters (case-insensitive)
+    * Use letters (case-insensitive)
 
-|  A  |   B  |  C   |   D   |  E  |  F   |
+|  A  |  B  |  C  |  D  |  E  |  F  |
 | --- | --- | --- | --- | --- | --- |
-| 10  |  11 |  12  |  13 |  14 |  15  |   
+| 10  |  11 |  12 |  13 |  14 |  15 |   
 
 
 # Denoting a Base
-* Can denote a base in two primary ways: with a subscript or a prefix
-* Subscript - base is used as a subscript after the number
-	* **Base 2:** *0100<sub>2</sub>* or *0100<sub>two</sub>*
-	* **Base 10:** *42<sub>10</sub>* or *42<sub>ten</sub>*
-* Prefix - certain bases have special prefixes that indicate their use
-	* **Base 2:** prefix is *0b*, e.g., *0b0100*
-	* **Base 8:** prefix is *0*, e.g., *052*
-	* **Base 16:** prefix is *0x*, e.g., *0x2A*
-* Default is decimal
+* Can denote a base in two primary ways: with a *subscript* or a *prefix*
+* *Subscript* - base is used as a subscript after the number
+    * **Base 2:** *0100<sub>2</sub>* or *0100<sub>two</sub>*
+    * **Base 10:** *42<sub>10</sub>* or *42<sub>ten</sub>*
+* *Prefix* - certain bases have special prefixes that indicate their use
+    * **Base 2:** prefix is *0b*, e.g., *0b0100*
+    * **Base 8:** prefix is *0*, e.g., *052*
+    * **Base 16:** prefix is *0x*, e.g., *0x2A*
+* Default (no *subscript*/*prefix*) is decimal
 
 # Leading 0s
 * binary/octal/hex number are often used to represent something with a fixed size and/or where each position has a purpose
 * For example, an RGBA color is $$0xRRGGBBAA$$
-* Leading $$0$$s are used when necessary to make sure each component R, G, B, and A are clear
+* Leading $$0$$s are used when necessary to make sure each digit is is clear (e.g., R, G, B, and A components)
 * **Blue:** $$0x0000FFFF$$
 
 # Binary, Octal, and Hexadecimal Example
@@ -68,17 +68,17 @@ layout: notes
 * **Decimal:** $$42$$
 * **Binary:** $$101010$$
 * **Octal:** $$52$$
-	* *$$8 = 2^3$$*
-	* Each digit is 3 binary digits: $$5 = 101$$ and $$2 = 010$$
+    * *$$8 = 2^3$$*
+    * Each digit is 3 binary digits: $$5 = 101$$ and $$2 = 010$$
 * **Hexadecimal:** $$2A$$
-	* *$$16 = 2^4$$*
-	* Each digit is 4 binary digits: $$2 = 0010$$ and $$A = 1010$$
+    * *$$16 = 2^4$$*
+    * Each digit is 4 binary digits: $$2 = 0010$$ and $$A = 1010$$
 
 # Introducing Positional Notation
 * We use a positional notation when writing ***ANY*** number in a numeral system
 * For example, $$1024_{10}$$ can be written as:
-	* *Descending:* $$1 * 10^3 + 0 * 10^2 + 2 * 10^1 + 4 * 10^0$$
-	* *Ascending:*  $$4 * 10^0 + 2 * 10^1 + 0 * 10^2 + 1 * 10^3$$
+    * *Descending:* $$1 * 10^3 + 0 * 10^2 + 2 * 10^1 + 4 * 10^0$$
+    * *Ascending:*  $$4 * 10^0 + 2 * 10^1 + 0 * 10^2 + 1 * 10^3$$
 
 # Positional Notation
 For any base ***b***, and a set of digits ($$..., d_i, ..., d_2, d_1, d_0)$$
@@ -102,13 +102,16 @@ $$0b1101110 = 110$$
 
 #  More Positional Notation Examples
 * $$0b10011001$$ - its a palindrome
+    * $$1 + 0 + 0 + 8 + 16 + 0 + 0 = 128 = 153$$
 * $$0644$$ - Unix file permisions (user rw, group & other, r)
+    * $$4 * 1 + 4 * 8 + 6 * 64 = 420$$
 * $$0x4F2C1D$$ - BGSU brown
+    * $$13 * 1 + 1 * 16 + 12 * 256 + 2 * 16^3 + 15 * 16^4 + 4 * 16^5 = 5188637$$
 
 # Meaning Behind the Binary
 * A binary system uses two digits: $$0$$ and $$1$$
-	* $$0$$ means no voltage, false, off, etc.
-	* $$1$$ means high voltage, true, on, etc.
+    * $$0$$ means no voltage, false, off, etc.
+    * $$1$$ means high voltage, true, on, etc.
 * In computer science, each digit is a *bit*
 * A binary sequence of $$0$$s and $$1$$s is a bit pattern
 * $$8\,bit = 2\,hex\,digits = 1\,byte$$
@@ -128,5 +131,79 @@ $$0b1101110 = 110$$
 * *$$2^{30} = 1073741824 \approx 10^9$$*
 * *$$2^{31} - 1 = 2147483647$$*
 
- 
+# Base N Addition
+* N is the max a number can take
+* Carry occurs at >= N
+
+# Carry Examples
+
+| base |lhs | op |rhs |carry|result|
+|:---: |---:|---:|---:| ---:| ---: |
+|**2** | 1  | +  | 1  |  1  |  10  |
+|**8** | 4  | +  | 4  |  1  |  10  |
+|**10**| 5  | +  | 5  |  1  |  10  |
+|**16**| 8  | +  | 8  |  1  |  10  |
+
+# Carry Deeper Look
+* **Hex:** $$F + 1$$
+
+|    |    |    |
+|---:|---:|---:|
+|    |    |    |
+|    |    | F  |
+| +  |    | 1  |
+|    |    |    |
+
+# Carry Deeper Look
+* **Hex:** $$*F + 1$$
+
+|    |    |    |
+|---:|---:|---:|
+|    |  1 |    |
+|    |    | F  |
+| +  |    | 1  |
+|    |  1 | 0  |
+
+# Base N Subtraction
+* When subtracting from a smaller number borrow from a more significant digit
+* N is the amount borrowed
+
+# Borrow Examples
+
+| base |lhs | op |rhs |borrow|result|
+|:---: |---:|---:|---:| ---: | ---: |
+|**2** | 10 | -  | 1  |  2   |  1   |
+|**8** | 10 | -  | 1  |  8   |  7   |
+|**10**| 10 | -  | 1  |  10  |  9   |
+|**16**| 10 | -  | 1  |  18  |  F   |
+
+# Borrow Deeper Look
+* **Hex:** $$10 - 1$$
+
+|    |    |    |
+|---:|---:|---:|
+|    |    |    |
+|    | 1  | 0  |
+| -  |    | 1  |
+|    |    |    |
+
+# Borrow Deeper Look
+* **Hex:** $$10 - 1$$
+
+|    |             |              |
+|---:|---:         |---:          |
+|    |     0       | 16           |
+|    |<del>1</del> | <del>0</del> |
+| -  |             | 1            |
+|    |             | F            |
+
+# Borrow Deeper Look
+* **Hex:** $$10 - 1$$
+
+|    |             |              |
+|---:|---:         |---:          |
+|    |     0       | 16           |
+|    |<del>1</del> | <del>0</del> |
+| -  |             | 1            |
+|    |     0       | F            |
 
