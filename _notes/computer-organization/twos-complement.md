@@ -69,6 +69,7 @@ layout: notes
 	* If nth-bit is 1 in positive, nth-bit is 0 in negative
 	* If nth-bit is 0 in positive, nth-bit is 1 in negative
 * Adding positive and corresponding negative results in *all 1s*
+* Equivalently, subtracting a number from *all 1s* results in the corresponding number (i.e., its complement)
 
 # [Ones' Complement] - 8-bit Example
 
@@ -78,18 +79,33 @@ layout: notes
 |     $$-42$$|  1|  1|  0|  1|  0|  1|  0|  1|
 |$$42 + -42$$|  1|  1|  1|  1|  1|  1|  1|  1|
 
-# [Ones' Complement] - Max and Min Examples
+# [Ones' Complement] - 0 and Max Examples
 
-|      number  | 7 |  6|  5|  4|  3|  2|  1|  0|
+|        number| 7 |  6|  5|  4|  3|  2|  1|  0|
 |--:           |--:|--:|--:|--:|--:|--:|--:|--:|
 |         $$0$$|  0|  0|  0|  0|  0|  0|  0|  0|
 |        $$-0$$|  1|  1|  1|  1|  1|  1|  1|  1|
 |    $$0 + -0$$|  1|  1|  1|  1|  1|  1|  1|  1|
 
-|      number  | 7 |  6|  5|  4|  3|  2|  1|  0|
+|        number| 7 |  6|  5|  4|  3|  2|  1|  0|
 |--:           |--:|--:|--:|--:|--:|--:|--:|--:|
 |       $$127$$|  0|  1|  1|  1|  1|  1|  1|  1|
 |      $$-127$$|  1|  0|  0|  0|  0|  0|  0|  0|
 |$$127 + -127$$|  1|  1|  1|  1|  1|  1|  1|  1|
 
+# Problems with [Ones' Complement]
+* Two ways to represent 0
+* Addition/subtaction requires *end-around-carry*
+	* Additional add of carry out of n-th bit
 
+# End-Around-Carry Example
+
+|                number|carry| 7 |  6|  5|  4|  3|  2|  1|  0|
+|--:                   |--:  |--:|--:|--:|--:|--:|--:|--:|--:|
+|                $$-1$$|   na|  1|  1|  1|  1|  1|  1|  1|  0|
+|                 $$2$$|   na|  0|  0|  0|  0|  0|  0|  1|  0|
+|       $$-1 + 2 = 0?$$|    1|  0|  0|  0|  0|  0|  0|  0|  0|
+|             Add carry|   na|  0|  0|  0|  0|  0|  0|  0|  1|
+|$$-1 + 2 + carry = 1$$|   na|  0|  0|  0|  0|  0|  0|  0|  1|
+
+# [Two's Complement]
