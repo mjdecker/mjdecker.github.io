@@ -40,17 +40,56 @@ layout: notes
 	* [Sign Magnitude] - use a bit to indicate $$+$$ and $$-$$
 	* [Ones' Complement]/[Two's Complement] - define a relationship between the positive and negative number
 
-# [Sign Magnitude] 
+# [Sign Magnitude]
 * n-th bit is sign-bit
 	* 0 - positive
 	* 1 - negative
+* 0 - (n-1)th bit is magnitude
 
-|number      | 7 (sign-bit)|  6|  5|  4|  3|  2|  1|  0|
+# [Sign Magnitude] - 8-bit Examples
+
+|      number| 7 (sign-bit)|  6|  5|  4|  3|  2|  1|  0|
 |--:         |--:          |--:|--:|--:|--:|--:|--:|--:|
-|          +0|            0|  0|  0|  0|  0|  0|  0|  0|
-|          -0|            1|  0|  0|  0|  0|  0|  0|  0|
-|         +42|            0|  0|  1|  0|  1|  0|  1|  0|
-|         -42|            1|  0|  1|  0|  1|  0|  1|  0|
-|        +127|            0|  1|  1|  1|  1|  0|  1|  1|
-|        -127|            1|  1|  1|  1|  1|  0|  1|  1|
+|    $$  +0$$|            0|  0|  0|  0|  0|  0|  0|  0|
+|    $$  -0$$|            1|  0|  0|  0|  0|  0|  0|  0|
+|    $$ +42$$|            0|  0|  1|  0|  1|  0|  1|  0|
+|    $$ -42$$|            1|  0|  1|  0|  1|  0|  1|  0|
+|    $$+127$$|            0|  1|  1|  1|  1|  1|  1|  1|
+|    $$-127$$|            1|  1|  1|  1|  1|  1|  1|  1|
+
+# Issues with [Sign Magnitude]
+* Two ways to represent 0 ($$+0$$ and $$-0$$)
+* Addition and subtraction require different handling depending on sign-bit
+* Comparison (i.e., *<*, *>*) requires inspecting the sign-bit
+* Some early binary computers used this
+* Used in floating-point numbers (i.e., `float`/`double`)
+
+# [Ones' Complement]
+* Corresponding numbers are inverses of each other
+	* If nth-bit is 1 in positive, nth-bit is 0 in negative
+	* If nth-bit is 0 in positive, nth-bit is 1 in negative
+* Adding positive and corresponding negative results in *all 1s*
+
+# [Ones' Complement] - 8-bit Example
+
+|      number| 7 |  6|  5|  4|  3|  2|  1|  0|
+|--:         |--:|--:|--:|--:|--:|--:|--:|--:|
+|      $$42$$|  0|  0|  1|  0|  1|  0|  1|  0|
+|     $$-42$$|  1|  1|  0|  1|  0|  1|  0|  1|
+|$$42 + -42$$|  1|  1|  1|  1|  1|  1|  1|  1|
+
+# [Ones' Complement] - Max and Min Examples
+
+|      number  | 7 |  6|  5|  4|  3|  2|  1|  0|
+|--:           |--:|--:|--:|--:|--:|--:|--:|--:|
+|         $$0$$|  0|  0|  0|  0|  0|  0|  0|  0|
+|        $$-0$$|  1|  1|  1|  1|  1|  1|  1|  1|
+|    $$0 + -0$$|  1|  1|  1|  1|  1|  1|  1|  1|
+
+|      number  | 7 |  6|  5|  4|  3|  2|  1|  0|
+|--:           |--:|--:|--:|--:|--:|--:|--:|--:|
+|       $$127$$|  0|  1|  1|  1|  1|  1|  1|  1|
+|      $$-127$$|  1|  0|  0|  0|  0|  0|  0|  0|
+|$$127 + -127$$|  1|  1|  1|  1|  1|  1|  1|  1|
+
 
