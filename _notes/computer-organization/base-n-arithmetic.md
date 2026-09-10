@@ -261,7 +261,7 @@ If a word (8 hexdigits/32 bit), hexdigits > 8 are dropped ([overflow])
 |**2** | 10 | -  | 1  |  2   |  1   |
 |**8** | 10 | -  | 1  |  8   |  7   |
 |**10**| 10 | -  | 1  |  10  |  9   |
-|**16**| 10 | -  | 1  |  18  |  F   |
+|**16**| 10 | -  | 1  |  16  |  F   |
 
 # Borrow Deeper Look
 * All number/math is in base 16
