@@ -39,14 +39,15 @@ layout: notes
 * How might we represent signed integers?
 	* [Sign Magnitude] - use a bit to indicate $$+$$ and $$-$$
 	* [Ones' Complement]/[Two's Complement] - define a relationship between corresponding positive and negative integers
-* Positive integer is unsigned binary representation of a number
+* Half of values used for negative and other half for non-negative numbers
+* For all, a positive integer is unsigned binary representation of a number
 	* Integer must be $$<= 2^{n-1} - 1$$
 
 # [Sign Magnitude]
 * n-th bit is sign-bit
 	* 0 - positive
 	* 1 - negative
-* 0 to ($$n-1$$)th bit is magnitude
+* 0 bit to ($$n-1$$) bit is magnitude
 * Can represent $$2^{n-1}$$ non-negative integers (including $$0$$)
 * Can represent $$2^{n-1}$$ negative integers (including $$-0$$)
 
