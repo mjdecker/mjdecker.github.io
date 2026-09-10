@@ -12,7 +12,7 @@ layout: notes
 	* 10 is in the base the arithemetic is done in
 
 # Base N Addition
-* N is the max a number can take
+* $$N-1$$ is the max a number in Base N a digit can take
 * Carry occurs at >= N
 
 # Carry Examples
