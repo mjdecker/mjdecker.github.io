@@ -133,12 +133,6 @@ layout: notes
 |$$42 + -42$$|    1|  0|  0|  0|  0|  0|  0|  0|  0|
 
 # [Two's Complement] - Deriving Corresponding Integer
-* Positive integer is unsigned binary representation of a number
-	* Remember integer must be $$<= 2^{n-1} - 1$$
-* Negative is ones' complement + 1
-* What about going from negative integer to corresponding positive?
-
-# [Two's Complement] - Deriving Corresponding Integer
 * Corresponding integers are: ones' complement + 1 (ignore overflow)
 
 # [Two's Complement] - Example 42 (8-bit)
