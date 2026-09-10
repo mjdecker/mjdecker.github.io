@@ -12,11 +12,11 @@ layout: notes
 
 # Using Bits to Represent Integers
 * An n-bit representation can represent up to $$2^n$$ different values
-	* $$8-bit = 2^8 = 256$$ different values
-	* $$32-bit = 2^{32} = 4,294,967,296$$ different values
+	* $$8\text{-}bit = 2^8 = 256$$ different values
+	* $$32\text{-}bit = 2^{32} = 4,294,967,296$$ different values
 * $$0$$ requires 1 value, leaving, $$2^n - 1$$ values
-	* $$8-bit = 2^8 - 1 = 255$$ different non-zero values
-	* $$32-bit = 2^{32} - 1 = 4,294,967,295$$ different non-zero values
+	* $$8\text{-}bit = 2^8 - 1 = 255$$ different non-zero values
+	* $$32\text{-}bit = 2^{32} - 1 = 4,294,967,295$$ different non-zero values
 
 # Unsigned Integer
 * Unsigned - non-negative
@@ -39,18 +39,22 @@ layout: notes
 * How might we represent signed integers?
 	* [Sign Magnitude] - use a bit to indicate $$+$$ and $$-$$
 	* [Ones' Complement]/[Two's Complement] - define a relationship between corresponding positive and negative integers
+* Positive integer is unsigned binary representation of a number
+	* Integer must be $$<= 2^{n-1} - 1$$
 
 # [Sign Magnitude]
 * n-th bit is sign-bit
 	* 0 - positive
 	* 1 - negative
-* 0 - (n-1)th bit is magnitude
+* 0 to ($$n-1$$)th bit is magnitude
+* Can represent $$2^{n-1}$$ non-negative integers (including $$0$$)
+* Can represent $$2^{n-1}$$ negative integers (including $$-0$$)
 
 # [Sign Magnitude] - 8-bit Examples
 
 |     integer| 7 (sign-bit)|  6|  5|  4|  3|  2|  1|  0|
 |--:         |--:          |--:|--:|--:|--:|--:|--:|--:|
-|    $$  +0$$|            0|  0|  0|  0|  0|  0|  0|  0|
+|    $$   0$$|            0|  0|  0|  0|  0|  0|  0|  0|
 |    $$  -0$$|            1|  0|  0|  0|  0|  0|  0|  0|
 |    $$ +42$$|            0|  0|  1|  0|  1|  0|  1|  0|
 |    $$ -42$$|            1|  0|  1|  0|  1|  0|  1|  0|
@@ -58,7 +62,7 @@ layout: notes
 |    $$-127$$|            1|  1|  1|  1|  1|  1|  1|  1|
 
 # Issues with [Sign Magnitude]
-* Two ways to represent 0 ($$+0$$ and $$-0$$)
+* Two ways to represent $$0$$ ($$0$$ and $$-0$$)
 * Addition and subtraction require different handling depending on sign-bit
 * Comparison (i.e., *<*, *>*) requires inspecting the sign-bit
 * Some early binary computers used this
@@ -71,8 +75,8 @@ layout: notes
 * Adding positive and corresponding negative results in *all 1s*
 * Equivalently, subtracting an n-bit number from *all 1s* results in the corresponding integer (i.e., its complement)
 * Note: nth bit is still a sign-bit
-* Can represent $$2^{n-1}$$ positive integers
-* Can represent $$2^{n-1}$$ negative integers
+* Can represent $$2^{n-1}$$ non-negative integers (including $$0$$)
+* Can represent $$2^{n-1}$$ negative integers (including $$-0$$)
 
 # [Ones' Complement] - 8-bit Example
 
@@ -97,7 +101,7 @@ layout: notes
 |$$127 + -127$$|  1|  1|  1|  1|  1|  1|  1|  1|
 
 # Problems with [Ones' Complement]
-* Two ways to represent 0
+* Two ways to represent $$0$$ ($$0$$ and $$-0$$)
 * Addition/subtraction requires *end-around-carry*
 	* Additional add of carry out of n-th bit
 
@@ -105,17 +109,18 @@ layout: notes
 
 |               integer|carry| 7 |  6|  5|  4|  3|  2|  1|  0|
 |--:                   |--:  |--:|--:|--:|--:|--:|--:|--:|--:|
-|                $$-1$$|   na|  1|  1|  1|  1|  1|  1|  1|  0|
-|                 $$2$$|   na|  0|  0|  0|  0|  0|  0|  1|  0|
+|                $$-1$$|     |  1|  1|  1|  1|  1|  1|  1|  0|
+|                 $$2$$|     |  0|  0|  0|  0|  0|  0|  1|  0|
 |       $$-1 + 2 = 0?$$|    1|  0|  0|  0|  0|  0|  0|  0|  0|
-|             Add carry|   na|  0|  0|  0|  0|  0|  0|  0|  1|
-|$$-1 + 2 + carry = 1$$|   na|  0|  0|  0|  0|  0|  0|  0|  1|
+|             Add carry|     |  0|  0|  0|  0|  0|  0|  0|  1|
+|$$-1 + 2 + carry = 1$$|     |  0|  0|  0|  0|  0|  0|  0|  1|
 
 # [Two's Complement]
 * Most common method for representing signed integers
 * Corresponding integers add up to 0 with a carry out of nth-bit
 * Note: nth bit is still a sign-bit
-* $$2^{n-1} - 1$$ positive integers + 0
+* $$2^{n-1} - 1$$ positive integers
+* $$0$$
 * $$2^{n-1}$$ negative integers
 
 # [Two's Complement] - 8-bit
@@ -128,17 +133,13 @@ layout: notes
 |$$42 + -42$$|    1|  0|  0|  0|  0|  0|  0|  0|  0|
 
 # [Two's Complement] - Deriving Corresponding Integer
-* Positive integner is unsigned binary representation of a number
+* Positive integer is unsigned binary representation of a number
 	* Remember integer must be $$<= 2^{n-1} - 1$$
 * Negative is ones' complement + 1
 * What about going from negative integer to corresponding positive?
 
 # [Two's Complement] - Deriving Corresponding Integer
-* Positive integer is unsigned binary representation of a number
-	* Remember integer must be $$<= 2^{n-1} - 1$$
-* Negative is ones' complement + 1 (ignore overflow)
-* What about going from negative integer to corresponding positive?
-	* Same as positive to negative
+* Corresponding integers are: ones' complement + 1 (ignore overflow)
 
 # [Two's Complement] - Example 42 (8-bit)
 
@@ -182,7 +183,7 @@ $$-128$$ has no corresponding positive
 * One representation of $$0$$
 * Can represent an additional negative integer ($$-2^{n-1}$$)
 * Addition/subtraction can ignore sign-bit and rely on overflow
-* Comparison can performed via subtraction and if result is positive/negative
+* Comparison can be performed via subtraction and if result is positive/negative
 
 # [Two's Complement] - Ending Remark for Curious Individuals
 * One additional way to convert a positive integer to corresponding negative
