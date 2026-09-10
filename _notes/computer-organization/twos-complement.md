@@ -13,7 +13,7 @@ layout: notes
 # Using Bits to Represent Integers
 * An n-bit representation can represent up to $$2^n$$ different values
 	* $$8-bit = 2^8 = 256$$ different values
-	* $$32-bit = 2^32 = 4,294,967,296$$ different values
+	* $$32-bit = 2^{32} = 4,294,967,296$$ different values
 * $$0$$ requires 1 value, leaving, $$2^n - 1$$ values
 	* $$8-bit = 2^8 - 1 = 255$$ different non-zero values
 	* $$32-bit = 2^{32} - 1 = 4,294,967,295$$ different non-zero values
