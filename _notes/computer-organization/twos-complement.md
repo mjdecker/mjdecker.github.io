@@ -70,6 +70,9 @@ layout: notes
 	* If nth-bit is 0 in positive, nth-bit is 1 in negative
 * Adding positive and corresponding negative results in *all 1s*
 * Equivalently, subtracting an n-bit number from *all 1s* results in the corresponding integer (i.e., its complement)
+* Note: nth bit is still a sign-bit
+* Can represent $$2^{n-1}$$ positive integers
+* Can represent $$2^{n-1}$$ negative integers
 
 # [Ones' Complement] - 8-bit Example
 
@@ -110,4 +113,77 @@ layout: notes
 
 # [Two's Complement]
 * Most common method for representing signed integers
+* Corresponding integers add up to 0 with a carry out of nth-bit
+* Note: nth bit is still a sign-bit
+* $$2^{n-1} - 1$$ positive integers + 0
+* $$2^{n-1}$$ negative integers
 
+# [Two's Complement] - 8-bit
+
+|     integer|carry| 7 |  6|  5|  4|  3|  2|  1|  0|
+|--:         |--:  |--:|--:|--:|--:|--:|--:|--:|--:|
+|       carry|    1|  1|  1|  1|  1|  1|  1|  0|  0|
+|      $$42$$|     |  0|  0|  1|  0|  1|  0|  1|  0|
+|     $$-42$$|     |  1|  1|  0|  1|  0|  1|  1|  0|
+|$$42 + -42$$|    1|  0|  0|  0|  0|  0|  0|  0|  0|
+
+# [Two's Complement] - Deriving Corresponding Integer
+* Positive integner is unsigned binary representation of a number
+	* Remember integer must be $$<= 2^{n-1} - 1$$
+* Negative is ones' complement + 1
+* What about going from negative integer to corresponding positive?
+
+# [Two's Complement] - Deriving Corresponding Integer
+* Positive integer is unsigned binary representation of a number
+	* Remember integer must be $$<= 2^{n-1} - 1$$
+* Negative is ones' complement + 1 (ignore overflow)
+* What about going from negative integer to corresponding positive?
+	* Same as positive to negative
+
+# [Two's Complement] - Example 42 (8-bit)
+
+|                   integer|carry|  7|  6|  5|  4|  3|  2|  1|  0|
+|--:                       |--:  |--:|--:|--:|--:|--:|--:|--:|--:|
+|                    $$42$$|     |  0|  0|  1|  0|  1|  0|  1|  0|
+|          ones' complement|     |  1|  1|  0|  1|  0|  1|  0|  1|
+|$$one's\,complement  + 1$$|    0|  1|  1|  0|  1|  0|  1|  1|  0|
+|                   $$-42$$|     |  1|  1|  0|  1|  0|  1|  1|  0|
+
+# [Two's Complement] - Example 127 (8-bit)
+
+|                   integer|carry|  7|  6|  5|  4|  3|  2|  1|  0|
+|--:                       |--:  |--:|--:|--:|--:|--:|--:|--:|--:|
+|                   $$127$$|     |  0|  1|  1|  1|  1|  1|  1|  1|
+|          ones' complement|     |  1|  0|  0|  0|  0|  0|  0|  0|
+|$$one's\,complement  + 1$$|    0|  1|  0|  0|  0|  0|  0|  0|  1|
+|                  $$-127$$|     |  1|  0|  0|  0|  0|  0|  0|  1|
+
+# [Two's Complement] - Example 0 (8-bit)
+$$0$$ has one representation
+
+|                   integer|carry|  7|  6|  5|  4|  3|  2|  1|  0|
+|--:                       |--:  |--:|--:|--:|--:|--:|--:|--:|--:|
+|                     $$0$$|     |  0|  0|  0|  0|  0|  0|  0|  0|
+|          ones' complement|     |  1|  1|  1|  1|  1|  1|  1|  1|
+|$$one's\,complement  + 1$$|    1|  0|  0|  0|  0|  0|  0|  0|  0|
+|                     $$0$$|     |  0|  0|  0|  0|  0|  0|  0|  0|
+
+# [Two's Complement] - Example -128 (8-bit)
+$$-128$$ has no corresponding positive
+
+|                   integer|carry|  7|  6|  5|  4|  3|  2|  1|  0|
+|--:                       |--:  |--:|--:|--:|--:|--:|--:|--:|--:|
+|                  $$-128$$|     |  1|  0|  0|  0|  0|  0|  0|  0|
+|          ones' complement|     |  0|  1|  1|  1|  1|  1|  1|  1|
+|$$one's\,complement  + 1$$|    0|  1|  0|  0|  0|  0|  0|  0|  0|
+|                  $$-128$$|     |  1|  0|  0|  0|  0|  0|  0|  0|
+
+# [Two's Complement] - Advantages
+* One representation of $$0$$
+* Can represent an additional negative integer ($$-2^{n-1}$$)
+* Addition/subtraction can ignore sign-bit and rely on overflow
+* Comparison can performed via subtraction and if result is positive/negative
+
+# [Two's Complement] - Ending Remark for Curious Individuals
+* One additional way to convert a positive integer to corresponding negative
+* Flip all bits left of the right-most 1
