@@ -11,10 +11,11 @@ layout: notes
 
 
 # Machine Code
+![](https://upload.wikimedia.org/wikipedia/commons/8/8c/Digital_pdp8-e2.jpg)
+
 * Code written in decimal or binary form
 * Read in from punched cards, magnetic tape, or toggled from switches on front panel
 * Error prone and tedious
-![](https://upload.wikimedia.org/wikipedia/commons/8/8c/Digital_pdp8-e2.jpg)
 
 
 # Assembly Language
@@ -35,7 +36,8 @@ layout: notes
 	* Original contribution largely isolated from other development due to WWII  
 * [Language History](http://cdn.oreillystatic.com/news/graphics/prog_lang_poster.pdf)
 
----
+# High-level Example
+<script src="https://gist.github.com/mjdecker/84fce14297425ce748e4f50a2ee79819.js?file=emoji_sort.swift"></script>
 
 # Compilation (C/C++)
 * Take a program in high-level language and produce machine language executable by computer
@@ -49,8 +51,6 @@ layout: notes
 	* Linker - Object code from one or more sources is combined to form *executable program*
 * [Compiler Explorer](https://gcc.godbolt.org/#)
 
----
-
 ## Interpreted and Hybrid Languages
 * Interpreted Language
 	* Program is executed without compilation
@@ -61,8 +61,6 @@ layout: notes
 	* Mixes compilation and interpretation
 	* Example: Java compiles down to Java byte code (an intermediate representation) that is interpreted by the Java Virtual Machine (JVM).  A later addition to Java, can also use a just-in-time (JIT) compiler to optimize a *HotSpot*
 	* E.g, Java and C#
-
----
 
 # Programming Paradigms
 * A classification of a programming language based on its features
