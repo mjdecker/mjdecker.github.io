@@ -51,7 +51,7 @@ layout: notes
 	* Linker - Object code from one or more sources is combined to form *executable program*
 * [Compiler Explorer](https://gcc.godbolt.org/#)
 
-## Interpreted and Hybrid Languages
+# Interpreted and Hybrid Languages
 * Interpreted Language
 	* Program is executed without compilation
 	* Interpreter (another program) executes the program directly
