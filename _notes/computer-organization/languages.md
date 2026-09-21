@@ -3,6 +3,16 @@ title: "Programming Languages"
 layout: notes
 ---
 
+[Software Onion Graph]: https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9780128226742/files/images/F000011f01-03-9780128201091.jpg
+
+# Software Onion Graph
+![Software Onion Graph]
+
+* Application Software - User's program, usualy in a high-level language
+* System Software - OS, compilers, assemblers, loaders
+	* Handles IO, storage/memory, application sharing, etc.
+* Hardware - Processor, memory, I/O controllers. etc.
+
 # [Programming Language](https://en.wikipedia.org/wiki/Programming_language)
 * A formal language that specifies a set of instructions to produce various kinds of output
 * Machine Code - 1<sup>st</sup> generation
