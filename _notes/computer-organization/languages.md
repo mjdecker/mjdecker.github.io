@@ -68,4 +68,3 @@ layout: notes
 	* Object-oriented
 	* Functional
 	* Declarative
-
