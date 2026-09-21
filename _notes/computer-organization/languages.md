@@ -5,6 +5,11 @@ layout: notes
 
 [Software Onion Graph]: https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9780128226742/files/images/F000011f01-03-9780128201091.jpg
 
+# [Programming Language](https://en.wikipedia.org/wiki/Programming_language)
+* A formal language that specifies a set of instructions to produce various kinds of output
+* Machine Code - 1<sup>st</sup> generation
+* Assembly Language -  2<sup>nd</sup> generation
+* High-level Languages - 3<sup>rd</sup> generation
 
 # Machine Code
 ![](https://upload.wikimedia.org/wikipedia/commons/8/8c/Digital_pdp8-e2.jpg)
@@ -42,12 +47,6 @@ layout: notes
 * System Software - OS, compilers, assemblers, loaders
 	* Handles IO, storage/memory, application sharing, etc.
 * Hardware - Processor, memory, I/O controllers. etc.
-
-# [Programming Language](https://en.wikipedia.org/wiki/Programming_language)
-* A formal language that specifies a set of instructions to produce various kinds of output
-* Machine Code - 1<sup>st</sup> generation
-* Assembly Language -  2<sup>nd</sup> generation
-* High-level Languages - 3<sup>rd</sup> generation
 
 # Compilation (C/C++)
 * Take a program in high-level language and produce machine language executable by computer
