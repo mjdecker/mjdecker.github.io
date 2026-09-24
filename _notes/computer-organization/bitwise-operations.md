@@ -11,7 +11,7 @@ layout: notes
 
 * ~ NOT - bitwise negation
 * & AND - bitwise logical and
-* | OR - bitwise logical inclusive or
+* \| OR - bitwise logical inclusive or
 * ^ XOR - bitwise logical exclusive or
 * Bit shifts (coming later)
 
@@ -22,34 +22,34 @@ layout: notes
 
 # ~ NOT
 
-| p |~p |
-|---|---|
-| T | F |
-| F | T |
+| p   | ~p  |
+|:---:|:---:|
+|  T  |  F  |
+|  F  |  T  |
 
 # & AND
 
-| p | q |p & q|
-|---|---|-----|
-| T | T |  T  |
-| T | F |  F  |
-| F | T |  F  |
-| F | F |  F  |
+| p   |  q  |p & q|
+|:---:|:---:|:---:|
+|  T  |  T  |  T  |
+|  T  |  F  |  F  |
+|  F  |  T  |  F  |
+|  F  |  F  |  F  |
 
 # | OR
 
-| p | q |p | q|
-|---|---|-----|
-| T | T |  T  |
-| T | F |  T  |
-| F | T |  T  |
-| F | F |  F  |
+| p   |  q  |p \| q|
+|:---:|:---:|:----:|
+|  T  |  T  |   T  |
+|  T  |  F  |   T  |
+|  F  |  T  |   T  |
+|  F  |  F  |   F  |
 
 # ^ XOR
 
-| p | q |p | q|
-|---|---|-----|
-| T | T |  F  |
-| T | F |  T  |
-| F | T |  T  |
-| F | F |  F  |
+| p   |  q  |p ^ q|
+|:---:|:---:|:---:|
+|  T  |  T  |  F  |
+|  T  |  F  |  T  |
+|  F  |  T  |  T  |
+|  F  |  F  |  F  |
