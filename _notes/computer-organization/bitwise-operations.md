@@ -15,6 +15,8 @@ layout: notes
 * \| OR - bitwise logical inclusive or
 * ^ XOR - bitwise logical exclusive or
 * Bit shifts
+	* << left shift
+	* >> right shift
 
 # [Truth Table]
 * Definition: mathematical table/chart for a logical expression that displays all possibly combinations and their corresponding results
@@ -58,8 +60,8 @@ layout: notes
 # [Bit shifts]
 * Digits are moved (i.e., shifted) left or right
 * Each shift:
-	* Left is a $* 2$
-	* Right is a $/ 2$
+	* Left (<<) is a $* 2$
+	* Right (>>) is a $/ 2$
 
 # [Bit shifts] - Procedures
 * Shifted-out bits are discarded
@@ -69,3 +71,33 @@ layout: notes
 * Arithmetic (AKA sticky shift) - best for signed numbers
 	* left - shift-in zero
 	* right - shift-in sign-bit
+
+# Logical and Arithmetic Left Shift
+$0xB5 = 181 = -54$
+
+|      |     |     |     |     |     |     |     |     |
+|:----:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|   a  |  1  |  0  |  1  |  1  |  0  |  1  |  0  |  1  |
+|a << 1|  0  |  1  |  1  |  0  |  1  |  0  |  1  |  0  |
+|a << 2|  1  |  1  |  0  |  1  |  0  |  1  |  0  |  0  |
+|a << 3|  1  |  0  |  1  |  0  |  1  |  0  |  0  |  0  |
+
+# Logical Right Shift
+$0xB5 = 181 = -54$
+
+|      |     |     |     |     |     |     |     |     |
+|:----:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|   a  |  1  |  0  |  1  |  1  |  0  |  1  |  0  |  1  |
+|a >> 1|  0  |  1  |  0  |  1  |  1  |  0  |  1  |  0  |
+|a >> 2|  0  |  0  |  1  |  0  |  1  |  1  |  0  |  1  |
+|a >> 3|  0  |  0  |  0  |  1  |  0  |  1  |  1  |  0  |
+
+# Arithmetic Right Shift
+$0xB5 = 181 = -54$
+
+|      |     |     |     |     |     |     |     |     |
+|:----:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|   a  |  1  |  0  |  1  |  1  |  0  |  1  |  0  |  1  |
+|a >> 1|  1  |  1  |  0  |  1  |  1  |  0  |  1  |  0  |
+|a >> 2|  1  |  1  |  1  |  0  |  1  |  1  |  0  |  1  |
+|a >> 3|  1  |  1  |  1  |  1  |  0  |  1  |  1  |  0  | 
