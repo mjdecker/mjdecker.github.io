@@ -57,6 +57,11 @@ layout: notes
 
 # [Bit shifts]
 * Digits are moved (i.e., shifted) left or right
+* Each:
+	* Shift left is a $* 2$
+	* Shift right is a $/ 2$
+
+# [Bit shifts] - Procedures
 * Shifted-out bits are discarded
 * Differences in what is done with shifted-in bits
 * Logical - best for unsigned numbers
