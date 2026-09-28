@@ -57,9 +57,9 @@ layout: notes
 
 # [Bit shifts]
 * Digits are moved (i.e., shifted) left or right
-* Each:
-	* Shift left is a $* 2$
-	* Shift right is a $/ 2$
+* Each shift:
+	* Left is a $* 2$
+	* Right is a $/ 2$g
 
 # [Bit shifts] - Procedures
 * Shifted-out bits are discarded
