@@ -5,6 +5,7 @@ layout: notes
 
 [Bitwise Operation]: https://en.wikipedia.org/wiki/Bitwise_operation
 [Truth Table]: https://en.wikipedia.org/wiki/Truth_table
+[Bit shifts]: https://en.wikipedia.org/wiki/Bitwise_operation#Bit_shifts
 
 # [Bitwise Operation]
 > An operation that operates on bit pattern (aka bit string, a bit array, or a binary numeral) at the level of its individual bits
@@ -13,7 +14,7 @@ layout: notes
 * & AND - bitwise logical and
 * \| OR - bitwise logical inclusive or
 * ^ XOR - bitwise logical exclusive or
-* Bit shifts (coming later)
+* Bit shifts
 
 # [Truth Table]
 * Definition: mathematical table/chart for a logical expression that displays all possibly combinations and their corresponding results
@@ -53,3 +54,13 @@ layout: notes
 |  T  |  F  |  T  |
 |  F  |  T  |  T  |
 |  F  |  F  |  F  |
+
+# [Bit shifts]
+* Digits are moved (i.e., shifted) left or right
+* Shifted-out bits are discarded
+* Differences in what is done with shifted-in bits
+* Logical - best for unsigned numbers
+	* left & right - shift-in zero
+* Arithmetic (AKA sticky shift) - best for signed numbers
+	* left - shift-in zero
+	* right - shift-in sign-bit
