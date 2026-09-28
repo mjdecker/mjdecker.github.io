@@ -59,7 +59,7 @@ layout: notes
 * Digits are moved (i.e., shifted) left or right
 * Each shift:
 	* Left is a $* 2$
-	* Right is a $/ 2$g
+	* Right is a $/ 2$
 
 # [Bit shifts] - Procedures
 * Shifted-out bits are discarded
