@@ -10,10 +10,10 @@ layout: notes
 # [Bitwise Operation]
 > An operation that operates on bit pattern (aka bit string, a bit array, or a binary numeral) at the level of its individual bits
 
-* $~$ NOT - bitwise negation
-* $&$ AND - bitwise logical and
-* $\|$ OR - bitwise logical inclusive or
-* $^$ XOR - bitwise logical exclusive or
+* \~ NOT - bitwise negation
+* \& AND - bitwise logical and
+* \| OR - bitwise logical inclusive or
+* \^ XOR - bitwise logical exclusive or
 * Bit shifts
 	* $<<$ left shift
 	* $>>$ right shift
