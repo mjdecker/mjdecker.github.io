@@ -10,13 +10,13 @@ layout: notes
 # [Bitwise Operation]
 > An operation that operates on bit pattern (aka bit string, a bit array, or a binary numeral) at the level of its individual bits
 
-* ~ NOT - bitwise negation
-* & AND - bitwise logical and
-* \| OR - bitwise logical inclusive or
-* ^ XOR - bitwise logical exclusive or
+* $~$ NOT - bitwise negation
+* $&$ AND - bitwise logical and
+* $\|$ OR - bitwise logical inclusive or
+* $^$ XOR - bitwise logical exclusive or
 * Bit shifts
-	* << left shift
-	* >> right shift
+	* $<<$ left shift
+	* $>>$ right shift
 
 # [Truth Table]
 * Definition: mathematical table/chart for a logical expression that displays all possibly combinations and their corresponding results
@@ -27,35 +27,35 @@ layout: notes
 
 | p   | ~p  |
 |:---:|:---:|
-|  T  |  F  |
-|  F  |  T  |
+|  1  |  0  |
+|  0  |  1  |
 
 # & AND
 
 | p   |  q  |p & q|
 |:---:|:---:|:---:|
-|  T  |  T  |  T  |
-|  T  |  F  |  F  |
-|  F  |  T  |  F  |
-|  F  |  F  |  F  |
+|  1  |  1  |  1  |
+|  1  |  0  |  0  |
+|  0  |  1  |  0  |
+|  0  |  0  |  0  |
 
 # | OR
 
 | p   |  q  |p \| q|
 |:---:|:---:|:----:|
-|  T  |  T  |   T  |
-|  T  |  F  |   T  |
-|  F  |  T  |   T  |
-|  F  |  F  |   F  |
+|  1  |  1  |   1  |
+|  1  |  0  |   1  |
+|  0  |  1  |   1  |
+|  0  |  0  |   0  |
 
 # ^ XOR
 
 | p   |  q  |p ^ q|
 |:---:|:---:|:---:|
-|  T  |  T  |  F  |
-|  T  |  F  |  T  |
-|  F  |  T  |  T  |
-|  F  |  F  |  F  |
+|  1  |  1  |  0  |
+|  1  |  0  |  1  |
+|  0  |  1  |  1  |
+|  0  |  0  |  0  |
 
 # [Bit shifts]
 * Digits are moved (i.e., shifted) left or right
