@@ -15,7 +15,7 @@ layout: markdown
 ## Overview
 * In a group of 3-5, write a series of Use Cases, a UML Use Case Diagram, a UML Class Diagram, and UML Sequence Diagrams for the following client statement:
 
-> I want a system that will generate different types of charts from supplied data.  The data may be in any number of formats including JSON and YAML.  From the data, it will generate a line chart or scatterplot, possibly others.  Charts should be able to be output into different image formats such as SVG or PDF.
+> I want software that annotates any source-code file with information from the abstract syntax tree.  I envision the system taking a language grammar specified in either XML or a text file containing EBNF, a source-code file in that language, and it will generate an annotated version of that source-code in XML, JSON, or YAML.
 
 * Notes
   * Dr. Decker is the client for this project. Contact him with questions and clarifications in person or via Discord. For Discord, ask general questions in the public channel for the project and others to the private channel or via direct message.
