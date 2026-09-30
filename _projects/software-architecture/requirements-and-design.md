@@ -39,8 +39,8 @@ layout: markdown
   * Diagrams can be made using a tool or hand drawn
 
 ## Submission Requirements
-* Work is submitted to the supplied Git repository. The GitHub Classroom link is: https://classroom.github.com/a/_QZUCwpv
-* All work is to be formatted nicely in a Markdown file named: chart_generator.md. Any images (i.e., diagrams) must be committed to the repository and embedded in the Markdown file
+* Work is submitted to the supplied Git repository. The GitHub Classroom link is: see Canvas
+* All work is to be formatted nicely in a Markdown file named: *chart_generator.md*. Any images (i.e., diagrams) must be committed to the repository and embedded in the Markdown file
 
 ## Grading Criteria
 * You have used [good commit messages](https://cbea.ms/git-commit/)
