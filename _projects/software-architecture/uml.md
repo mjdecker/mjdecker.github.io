@@ -6,9 +6,11 @@ layout: markdown
 # Project: Coverage #
 
 ## Objective(s)
-* Use UML to model a client statement
-* Work as a group to develop UML models
+* Apply techniques of requirements elicitation
 * Interact with a client for clarification
+* Use Use Cases to specify requirements
+* Use UML to model design a solution that will satisfy the user's requirements
+* Work as a group to develop the UML models
 
 ## Overview
 * In a group of 3-5, write a series of Use Cases, a UML Use Case Diagram, a UML Class Diagram, and UML Sequence Diagrams for the following client statement:
@@ -16,7 +18,7 @@ layout: markdown
 > I want a system that will generate different types of charts from supplied data.  The data may be in any number of formats including JSON and YAML.  From the data, it will generate a line chart or scatterplot, possibly others.  Charts should be able to be output into different image formats such as SVG or PDF.
 
 * Notes
-  * Dr. Decker is the client for this project. Contact him with questions and clarifications via Discord. Ask general questions in the public channel for the project and others to the private channel or via direct message. You may also schedule time as a group to speak in a voice channel
+  * Dr. Decker is the client for this project. Contact him with questions and clarifications in person or via Discord. For Discord, ask general questions in the public channel for the project and others to the private channel or via direct message.
   * There may be more work here than you think and more dependency between the diagrams. Start earlier than later.
 
 ## Exercise Requirements
@@ -25,6 +27,7 @@ layout: markdown
   * Form a series of Use Cases that will satisfy the client statement (hint: there should be at least 4; e.g., 1 for input, 1 for chart generation, 1 for output, and 1 for illustrating entire process)
   * The use case must be in the Fowler Style, however, you may extend the Fowler format if necessary
   * All parts of the Fowler style must be present (Title, Main Success Scenario, Extensions)
+    * If not applicable, they may be empty
 * Use Case Diagram
   * Write ONE (in total) UML Use Case Diagram for ALL your Use Cases
   * Diagram can be made using a tool or hand drawn
