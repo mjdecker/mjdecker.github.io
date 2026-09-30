@@ -41,13 +41,13 @@ layout: markdown
 ## Submission Requirements
 * Work is submitted to the supplied Git repository. The GitHub Classroom link is: https://classroom.github.com/a/_QZUCwpv
 * All work is to be formatted nicely in a Markdown file named: chart_generator.md. Any images (i.e., diagrams) must be committed to the repository and embedded in the Markdown file
-Grading Criteria
-* You will be graded on:
-  * How well and accurately each artifact reflects the client statement and each other
-  * Proper writeup of Use Cases
-  * Proper use of UML syntax
-  * Effort put forth as part of the group
-  * How well best practices have been followed for Git:
-  * Good commit messages
-    * Incremental development
-    * No generated (or additional files) besides those required are in the repository
+
+## Grading Criteria
+* You have used [good commit messages](https://cbea.ms/git-commit/)
+* You have committed incrementally
+* You have committed and pushed the completed exercise
+* Followed the class [coding standards](https://mdecker.net/standards/coding-standards.html)
+* How well and accurately each artifact reflects the client statement and each other
+* Proper writeup of Use Cases
+* Proper use of UML syntax
+* Effort put forth as part of the group
