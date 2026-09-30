@@ -1,9 +1,9 @@
 ---
-title: "Project: Coverage"
+title: "Project: Requirements & Design"
 layout: markdown
 ---
 
-# Project: Coverage #
+# Project: Requirements & Design
 
 ## Objective(s)
 * Apply techniques of requirements elicitation
