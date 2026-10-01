@@ -24,7 +24,7 @@ layout: markdown
 ## Exercise Requirements
 * Group members and roles
 * Use Cases
-  * Form a series of Use Cases that will satisfy the client statement (hint: there should be at least 4; e.g., 1 for input, 1 for chart generation, 1 for output, and 1 for illustrating entire process)
+  * Form a series of Use Cases that will satisfy the client statement (hint: there should be at least 4; e.g., 1 for input processing the input gramamr, 1 for generating a parser, 1 for annotating the source code, and 1 for illustrating entire process)
   * The use case must be in the Fowler Style, however, you may extend the Fowler format if necessary
   * All parts of the Fowler style must be present (Title, Main Success Scenario, Extensions)
     * If not applicable, they may be empty
@@ -40,7 +40,7 @@ layout: markdown
 
 ## Submission Requirements
 * Work is submitted to the supplied Git repository. The GitHub Classroom link is: see Canvas
-* All work is to be formatted nicely in a Markdown file named: *chart_generator.md*. Any images (i.e., diagrams) must be committed to the repository and embedded in the Markdown file
+* All work is to be formatted nicely in a Markdown file named: *source_annotator.md*. Any images (i.e., diagrams) must be committed to the repository and embedded in the Markdown file
 
 ## Grading Criteria
 * You have used [good commit messages](https://cbea.ms/git-commit/)
