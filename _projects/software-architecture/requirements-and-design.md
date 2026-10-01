@@ -24,7 +24,7 @@ layout: markdown
 ## Exercise Requirements
 * Group members and roles
 * Use Cases
-  * Form a series of Use Cases that will satisfy the client statement (hint: there should be at least 4; e.g., 1 for processing the input grammar, 1 for generating a parser from grammarg, 1 for annotating the source code, and 1 for illustrating entire process)
+  * Form a series of Use Cases that will satisfy the client statement (hint: there should be at least 4; e.g., 1 for processing the input grammar, 1 for generating a parser from grammar, 1 for annotating the source code, and 1 for illustrating entire process)
   * The use case must be in the Fowler Style, however, you may extend the Fowler format if necessary
   * All parts of the Fowler style must be present (Title, Main Success Scenario, Extensions)
     * If not applicable, they may be empty
