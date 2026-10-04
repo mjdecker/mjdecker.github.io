@@ -20,9 +20,10 @@ layout: notes
 * Each sequence represents the interactions of things outside the system (actors) with the system itself (and key abstractions)
 * Use cases represent the functional requirements of the system (non-functional requirements are specified elsewhere)
 
+
 # Use Case
 <div markdown="1" class="nosize">
-![](https://app.yuml.me/diagram/v1/usecase/%28Verb%20Object%29)
+![](https://app.yuml.me/diagram/v1/usecase/clean/(Verb%20Object).svg)
 </div>
 * Each use case has a descriptive name
 * Describes *what* not *how*
@@ -31,7 +32,7 @@ layout: notes
 
 # Actor
 <div markdown="1" class="nosize">
-![](https://app.yuml.me/diagram/v1/usecase/[Actor])
+![](https://app.yuml.me/diagram/v1/usecase/clean/[Actor].svg)
 </div>
 * Actors have a name
 * An actor is a set of roles that users of use cases play when interacting with the system
@@ -46,15 +47,15 @@ layout: notes
 
 # Point of Sale Terminal
 <div markdown="1" class="nosize">
-![](https://app.yuml.me/diagram/v1/usecase/[Cashier]-%28Login%29,[Cashier]-%28Buy%20Item%29,[Cashier]-%28Refund%20Purchase%29,[Customer]-%28Buy%20Item%29,[Customer]-%28Refund%20Purchase%29)
+![](https://app.yuml.me/diagram/v1/usecase/clean/[Cashier]-(Login),[Cashier]-(Buy%20Item),[Cashier]-(Refund%20Purchase),[Customer]-(Buy%20Item),[Customer]-(Refund%20Purchase))
 </div>
 
 # Extend and Include
-![](https://app.yuml.me/diagram/v1/usecase/[User]-%28Display%20Highest%20and%20Lowest%29,[User]-%28Change%20Time%20or%20Date%29,[Clock]-%28Change%20Time%20or%20Date%29,%28Display%20Highest%20and%20Lowest%29%3e%28Select%20an%20Option%29,%28Change%20Time%20or%20Date%29%3e%28Select%20an%20Option%29,%28Change%20Time%20or%20Date%29%3c%28Fix%20Invalid%20Date%29)
+![](https://app.yuml.me/diagram/v1/usecase/clean/[User]-(Display%20Highest%20and%20Lowest),[User]-(Change%20Time%20or%20Date),[Clock]-(Change%20Time%20or%20Date),(Display%20Highest%20and%20Lowest)%3e(Select%20an%20Option),(Change%20Time%20or%20Date)%3e(Select%20an%20Option),(Change%20Time%20or%20Date)%3c(Fix%20Invalid%20Date))
 
 # Generalization
 <div markdown="1" class="smallestimg">
-![](https://app.yuml.me/diagram/v1/usecase/[Customer]-%28Perform%20Card%20Transaction%29,[Customer]-%28Process%20Customer%20Bills%29,[Customer]-%28Reconcile%20Transaction%29,[Customer]-%28Manage%20Customer%20Account%29,[Individual%20Customer]^[Customer],[Corporate%20Customer]^[Customer],[Retail%20Institution]-%28Perform%20Card%20Transaction%29,[Retail%20Institution]-%28Process%20Customer%20Bills%29,[Financial%20Institution]-%28Process%20Customer%20Bills%29,[Financial%20Institution]-%28Reconcile%20Transaction%29,[Financial%20Institution]-%28Manage%20Customer%20Account%29)
+![](https://app.yuml.me/diagram/v1/usecase/clean/[Customer]-(Perform%20Card%20Transaction),[Customer]-(Process%20Customer%20Bills),[Customer]-(Reconcile%20Transaction),[Customer]-(Manage%20Customer%20Account),[Individual%20Customer]^[Customer],[Corporate%20Customer]^[Customer],[Retail%20Institution]-(Perform%20Card%20Transaction),[Retail%20Institution]-(Process%20Customer%20Bills),[Financial%20Institution]-(Process%20Customer%20Bills),[Financial%20Institution]-(Reconcile%20Transaction),[Financial%20Institution]-(Manage%20Customer%20Account))
 </div>
 
 # Use Case Diagram
