@@ -22,7 +22,7 @@ layout: notes
 
 # Use Case
 <div markdown="1" class="nosize">
-![](https://yuml.me/diagram/boring/usecase/%28Verb%20Object%29)
+![](https://app.yuml.me/diagram/v1/usecase/%28Verb%20Object%29)
 </div>
 * Each use case has a descriptive name
 * Describes *what* not *how*
@@ -31,7 +31,7 @@ layout: notes
 
 # Actor
 <div markdown="1" class="nosize">
-![](https://yuml.me/diagram/boring/usecase/[Actor])
+![](https://app.yuml.me/diagram/v1/usecase/[Actor])
 </div>
 * Actors have a name
 * An actor is a set of roles that users of use cases play when interacting with the system
@@ -46,15 +46,15 @@ layout: notes
 
 # Point of Sale Terminal
 <div markdown="1" class="nosize">
-![](https://yuml.me/diagram/boring/usecase/[Cashier]-%28Login%29,[Cashier]-%28Buy%20Item%29,[Cashier]-%28Refund%20Purchase%29,[Customer]-%28Buy%20Item%29,[Customer]-%28Refund%20Purchase%29)
+![](https://app.yuml.me/diagram/v1/usecase/[Cashier]-%28Login%29,[Cashier]-%28Buy%20Item%29,[Cashier]-%28Refund%20Purchase%29,[Customer]-%28Buy%20Item%29,[Customer]-%28Refund%20Purchase%29)
 </div>
 
 # Extend and Include
-![](https://yuml.me/diagram/boring/usecase/[User]-%28Display%20Highest%20and%20Lowest%29,[User]-%28Change%20Time%20or%20Date%29,[Clock]-%28Change%20Time%20or%20Date%29,%28Display%20Highest%20and%20Lowest%29%3e%28Select%20an%20Option%29,%28Change%20Time%20or%20Date%29%3e%28Select%20an%20Option%29,%28Change%20Time%20or%20Date%29%3c%28Fix%20Invalid%20Date%29)
+![](https://app.yuml.me/diagram/v1/usecase/[User]-%28Display%20Highest%20and%20Lowest%29,[User]-%28Change%20Time%20or%20Date%29,[Clock]-%28Change%20Time%20or%20Date%29,%28Display%20Highest%20and%20Lowest%29%3e%28Select%20an%20Option%29,%28Change%20Time%20or%20Date%29%3e%28Select%20an%20Option%29,%28Change%20Time%20or%20Date%29%3c%28Fix%20Invalid%20Date%29)
 
 # Generalization
 <div markdown="1" class="smallestimg">
-![](https://yuml.me/diagram/boring/usecase/[Customer]-%28Perform%20Card%20Transaction%29,[Customer]-%28Process%20Customer%20Bills%29,[Customer]-%28Reconcile%20Transaction%29,[Customer]-%28Manage%20Customer%20Account%29,[Individual%20Customer]^[Customer],[Corporate%20Customer]^[Customer],[Retail%20Institution]-%28Perform%20Card%20Transaction%29,[Retail%20Institution]-%28Process%20Customer%20Bills%29,[Financial%20Institution]-%28Process%20Customer%20Bills%29,[Financial%20Institution]-%28Reconcile%20Transaction%29,[Financial%20Institution]-%28Manage%20Customer%20Account%29)
+![](https://app.yuml.me/diagram/v1/usecase/[Customer]-%28Perform%20Card%20Transaction%29,[Customer]-%28Process%20Customer%20Bills%29,[Customer]-%28Reconcile%20Transaction%29,[Customer]-%28Manage%20Customer%20Account%29,[Individual%20Customer]^[Customer],[Corporate%20Customer]^[Customer],[Retail%20Institution]-%28Perform%20Card%20Transaction%29,[Retail%20Institution]-%28Process%20Customer%20Bills%29,[Financial%20Institution]-%28Process%20Customer%20Bills%29,[Financial%20Institution]-%28Reconcile%20Transaction%29,[Financial%20Institution]-%28Manage%20Customer%20Account%29)
 </div>
 
 # Use Case Diagram
