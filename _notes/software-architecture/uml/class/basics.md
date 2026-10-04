@@ -72,12 +72,12 @@ layout: notes
 * `+ draw(inout picture : Picture)`
 
 # Alternate Diagrams
-![](https://yuml.me/diagram/class/[Student%7C-%20name%20:%20Name%7C+Student%28name%20:%20Name%29;+getName%28%29%20:%20Name;+setName%28name%20:%20Name%29])
-![](https://yuml.me/diagram/class/[Student%7C+%20name%20:%20Name%7C])
+![](https://app.yuml.me/diagram/v1/class/clean/%5BStudent%7C-%20name%20:%20Name%7C+Student%28name%20:%20Name%29;+getName%28%29%20:%20Name;+setName%28name%20:%20Name%29%5D.svg)
+![](https://app.yuml.me/diagram/v1/class/clean/%5BStudent%7C+%20name%20:%20Name%7C%5D.svg)
 
 # Guideline
-![](https://yuml.me/diagram/class/[Student%7C-%20name%20:%20Name%7C+Student%28name%20:%20Name%29;+getName%28%29%20:%20Name;+setName%28name%20:%20Name%29])
-![](https://yuml.me/diagram/class/[Student%7C+%20name%20:%20Name%7C])
+![](https://app.yuml.me/diagram/v1/class/clean/%5BStudent%7C-%20name%20:%20Name%7C+Student%28name%20:%20Name%29;+getName%28%29%20:%20Name;+setName%28name%20:%20Name%29%5D.svg)
+![](https://app.yuml.me/diagram/v1/class/clean/%5BStudent%7C+%20name%20:%20Name%7C%5D.svg)
 
 * Attributes show the state of the objects
 * Attribute types may not map directly into types in the implementation language
@@ -86,7 +86,7 @@ layout: notes
 
 #  Guideline (continued)
 
-![](https://yuml.me/diagram/class/[Student%7C+%20name%20:%20Name%7C])
+![](https://app.yuml.me/diagram/v1/class/clean/%5BStudent%7C+%20name%20:%20Name%7C%5D.svg)
 
 * In a high-level view, avoid *get()*/*set()* operations (methods) for attributes
 * In a high-level view, avoid constructors
