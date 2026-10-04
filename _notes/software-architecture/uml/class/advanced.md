@@ -7,15 +7,15 @@ layout: notes
 * UML Class Diagram shows overview of important classes in a system, and (more importantly) the relationship between them
 
 # Properties: Attributes & Association
-![](https://yuml.me/diagram/class/[Student%7C+%20name%20:%20Name%7C])
-![](https://yuml.me/diagram/class/[Student]1-˖name%201%3E[Name])
+![](https://app.yuml.me/diagram/v1/class/clean/%5BStudent%7C+%20name%20:%20Name%7C%5D.svg)
+![](https://app.yuml.me/diagram/v1/class/clean/%5BStudent%5D1-˖name%201%3E%5BName%5D.svg)
 
 * Another notation for property (alternative to attribute)
 * Use attributes for properties that are types, e.g., primitive types, or whatever is considered a type in your design
 * Use associations for types that will be implemented as classes, and   whose methods are of interest at the design level
 
 # Classes
-![](https://yuml.me/diagram/class/[Student],[Name])
+![](https://app.yuml.me/diagram/v1/class/clean/%5BStudent%5D,%5BName%5D.svg)
 
 # Class Relationships
 * Relationships between classes form a coupling between the classes
@@ -36,7 +36,7 @@ layout: notes
 
 # UML: Association
 
-![](https://yuml.me/diagram/class/[Student]1-%20˖names%20*>[Name])
+![](https://app.yuml.me/diagram/v1/class/clean/%5BStudent%5D1-%20˖names%20*>%5BName%5D.svg)
 
 * In association, a class (e.g., Student) uses another class as a field type (e.g., Name)
 * This is a [has-a](https://en.wikipedia.org/wiki/Has-a) relationship and has
@@ -51,7 +51,7 @@ layout: notes
 
 # UML:  Association (Bidirectional)
 
-![](https://yuml.me/diagram/class/[Student]-[Course])
+![](https://app.yuml.me/diagram/v1/class/clean/%5BStudent%5D-%5BCourse%5D.svg)
 
 * Implementation and testing of class Course requires class Student, and vice-versa
 * Classes Student and Course cannot be used independently
@@ -65,7 +65,7 @@ layout: notes
 
 # UML: Generalization
 
-![](https://yuml.me/diagram/class/[Student]^[GradStudent])
+![](https://app.yuml.me/diagram/v1/class/clean/%5BStudent%5D^%5BGradStudent%5D.svg)
 
 * Expression of is a relationship:  [Substitutability](https://en.wikipedia.org/wiki/Liskov_substitution_principle)
 * Maps directly to inheritance in most OOP languages
@@ -79,7 +79,7 @@ layout: notes
 
 # UML: Dependency
 
-![](https://yuml.me/diagram/class/[Student]%20-.->[Name])
+![](https://app.yuml.me/diagram/v1/class/clean/%5BStudent%5D%20-.->%5BName%5D.svg)
 
 * Changes to the definition of the supplier/source may cause changes to the client/target
 * Code: Class used as a parameter or local variable only (**not** a data member/field) results in a dependency
@@ -90,7 +90,7 @@ layout: notes
 
 # UML: Aggregation
 
-![](https://yuml.me/diagram/class/[Club]<>-*>[Person])
+![](https://app.yuml.me/diagram/v1/class/clean/%5BClub%5D<>-*>%5BPerson%5D.svg)
 
 * *part of* relationship
 * Special kind of association
@@ -104,7 +104,7 @@ layout: notes
 
 # UML: Composition
 
-![](https://yuml.me/diagram/class/[Shape]++-*>[Point])
+![](https://app.yuml.me/diagram/v1/class/clean/%5BShape%5D++-*>%5BPoint%5D.svg)
 
 * Often confused with aggregation
 * Target belongs only to the source
@@ -114,8 +114,8 @@ layout: notes
 
 # Keywords/Stereotypes
 
-![](https://yuml.me/diagram/class/[&laquo;entity&raquo;%0aSession])
-![](https://yuml.me/diagram/class/[&laquo;entity&raquo;%0aSession{bg:green}])
+![](https://app.yuml.me/diagram/v1/class/clean/%5B&laquo;entity&raquo;%0aSession%5D.svg)
+![](https://app.yuml.me/diagram/v1/class/clean/%5B&laquo;entity&raquo;%0aSession{bg:green}%5D.svg)
 
 * Stereotype is an extension mechanism to UML used as part of profiles
 * Keyword is a formally defined stereotype
@@ -124,7 +124,7 @@ stereotype
 
 # Abstract Classes/Methods
 
-![](https://yuml.me/diagram/class/[｛abstract｝;Event%7C%7C+getDescription%28%29｛abstract｝]^-[DateEvent])
+![](https://app.yuml.me/diagram/v1/class/clean/%5B｛abstract｝;Event%7C%7C+getDescription%28%29｛abstract｝%5D^-%5BDateEvent%5D.svg)
 
 * Abstract classes do not support direct instantiation. I.e., you can't create an object from that class, you have to create an object of a derived class. E.g., you can create a *DateEvent* object, but not an *Event* object.
 * An abstract class has one or more abstract methods. An abstract method is one that is declared, but not defined, and must be defined in a derived class.
@@ -132,7 +132,7 @@ stereotype
 
 # Interfaces
 
-![](https://yuml.me/diagram/class/[&laquo;Interface&raquo;;Event]^-.-[Widget])
+![](https://app.yuml.me/diagram/v1/class/clean/%5B&laquo;Interface&raquo;;Event%5D^-.-%5BWidget%5D.svg)
 
 * No data, all operations are public, and no operation has a method body
 * Cleanly models interfaces in Java, COM, CORBA
@@ -143,14 +143,14 @@ stereotype
 
 # Notes
 
-![](https://yuml.me/diagram/class/[note%3A%20for%20observer%20in%20ObserverCollection%20call%20observer.notify%28%29])
+![](https://app.yuml.me/diagram/v1/class/clean/%5Bnote%3A%20for%20observer%20in%20ObserverCollection%20call%20observer.notify%28%29%5D.svg)
 
 * Using text to clarify diagram/design
 * No format definition of note content
 
 # Products
 
-![](https://yuml.me/diagram/class/[note%3A%20Current%20design%20for%20Order%20Project{bg:cornsilk}],[Customer]<>1-orders%200..*>[Order],%20[Order]++*-*>[LineItem],%20[Order]-1>[DeliveryMethod],%20[Order]*-*>[Product],%20[Category]<->[Product],%20[DeliveryMethod]^[National],%20[DeliveryMethod]^[International])
+![](https://app.yuml.me/diagram/v1/class/clean/%5Bnote%3A%20Current%20design%20for%20Order%20Project{bg:cornsilk}%5D,%5BCustomer%5D<>1-orders%200..*>%5BOrder%5D,%20%5BOrder%5D++*-*>%5BLineItem%5D,%20%5BOrder%5D-1>%5BDeliveryMethod%5D,%20%5BOrder%5D*-*>%5BProduct%5D,%20%5BCategory%5D<->%5BProduct%5D,%20%5BDeliveryMethod%5D^%5BNational%5D,%20%5BDeliveryMethod%5D^%5BInternational%5D.svg)
 
 # Role in Process
 * Forward Engineering:
