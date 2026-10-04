@@ -47,7 +47,7 @@ layout: notes
 
 # Point of Sale Terminal
 <div markdown="1" class="nosize">
-![](https://app.yuml.me/diagram/v1/usecase/clean/%5BCashier%5D-(Login),%5BCashier%5D-(Buy%20Item),%5BCashier%5D-(Refund%20Purchase),%5BCustomer%5D-(Buy%20Item),%5BCustomer%5D-(Refund%20Purchase))
+![](https://app.yuml.me/diagram/v1/usecase/clean/%5BCashier%5D-(Login),%5BCashier%5D-(Buy%20Item),%5BCashier%5D-(Refund%20Purchase),%5BCustomer%5D-(Buy%20Item),%5BCustomer%5D-(Refund%20Purchase).svg)
 </div>
 
 # Extend and Include
