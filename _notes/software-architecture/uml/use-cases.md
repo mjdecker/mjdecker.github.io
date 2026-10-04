@@ -32,7 +32,7 @@ layout: notes
 
 # Actor
 <div markdown="1" class="nosize">
-![](https://app.yuml.me/diagram/v1/usecase/clean/[Actor].svg)
+![](https://app.yuml.me/diagram/v1/usecase/clean/%5BActor%5D.svg)
 </div>
 * Actors have a name
 * An actor is a set of roles that users of use cases play when interacting with the system
@@ -47,15 +47,15 @@ layout: notes
 
 # Point of Sale Terminal
 <div markdown="1" class="nosize">
-![](https://app.yuml.me/diagram/v1/usecase/clean/[Cashier]-(Login),[Cashier]-(Buy%20Item),[Cashier]-(Refund%20Purchase),[Customer]-(Buy%20Item),[Customer]-(Refund%20Purchase))
+![](https://app.yuml.me/diagram/v1/usecase/clean/%5BCashier%5D-(Login),%5BCashier%5D-(Buy%20Item),%5BCashier%5D-(Refund%20Purchase),%5BCustomer%5D-(Buy%20Item),%5BCustomer%5D-(Refund%20Purchase))
 </div>
 
 # Extend and Include
-![](https://app.yuml.me/diagram/v1/usecase/clean/[User]-(Display%20Highest%20and%20Lowest),[User]-(Change%20Time%20or%20Date),[Clock]-(Change%20Time%20or%20Date),(Display%20Highest%20and%20Lowest)%3e(Select%20an%20Option),(Change%20Time%20or%20Date)%3e(Select%20an%20Option),(Change%20Time%20or%20Date)%3c(Fix%20Invalid%20Date).svg)
+![](https://app.yuml.me/diagram/v1/usecase/clean/%5BUser%5D-(Display%20Highest%20and%20Lowest),%5BUser%5D-(Change%20Time%20or%20Date),%5BClock%5D-(Change%20Time%20or%20Date),(Display%20Highest%20and%20Lowest)%3e(Select%20an%20Option),(Change%20Time%20or%20Date)%3e(Select%20an%20Option),(Change%20Time%20or%20Date)%3c(Fix%20Invalid%20Date).svg)
 
 # Generalization
 <div markdown="1" class="smallestimg">
-![](https://app.yuml.me/diagram/v1/usecase/clean/[Customer]-(Perform%20Card%20Transaction),[Customer]-(Process%20Customer%20Bills),[Customer]-(Reconcile%20Transaction),[Customer]-(Manage%20Customer%20Account),[Individual%20Customer]^[Customer],[Corporate%20Customer]^[Customer],[Retail%20Institution]-(Perform%20Card%20Transaction),[Retail%20Institution]-(Process%20Customer%20Bills),[Financial%20Institution]-(Process%20Customer%20Bills),[Financial%20Institution]-(Reconcile%20Transaction),[Financial%20Institution]-(Manage%20Customer%20Account).svg)
+![](https://app.yuml.me/diagram/v1/usecase/clean/%5BCustomer%5D-(Perform%20Card%20Transaction),%5BCustomer%5D-(Process%20Customer%20Bills),%5BCustomer%5D-(Reconcile%20Transaction),%5BCustomer%5D-(Manage%20Customer%20Account),%5BIndividual%20Customer%5D^%5BCustomer%5D,%5BCorporate%20Customer%5D^%5BCustomer%5D,%5BRetail%20Institution%5D-(Perform%20Card%20Transaction),%5BRetail%20Institution%5D-(Process%20Customer%20Bills),%5BFinancial%20Institution%5D-(Process%20Customer%20Bills),%5BFinancial%20Institution%5D-(Reconcile%20Transaction),%5BFinancial%20Institution%5D-(Manage%20Customer%20Account).svg)
 </div>
 
 # Use Case Diagram
