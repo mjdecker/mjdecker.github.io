@@ -14,11 +14,11 @@ layout: notes
 * Operations (methods)
 
 # UML Class Examples
-![](https://app.yuml.me/diagram/v1/class/clean/%5BProject%5D)
-![](https://yuml.me/diagram/class/%5BProject|%20|%20%5D)
-![](https://yuml.me/diagram/class/%5BProject|-%20name%20:%20Name|%5D)
-![](https://yuml.me/diagram/class/%5BProject|%20|+%20view%28%29%5D)
-![](https://yuml.me/diagram/class/%5BProject|-%20name%20:%20Name|+%20view%28%29%5D)
+![](https://app.yuml.me/diagram/v1/class/clean/%5BProject%5D.svg)
+![](https://yuml.me/diagram/class/%5BProject|%20|%20%5D.svg)
+![](https://yuml.me/diagram/class/%5BProject|-%20name%20:%20Name|%5D.svg)
+![](https://yuml.me/diagram/class/%5BProject|%20|+%20view%28%29%5D.svg)
+![](https://yuml.me/diagram/class/%5BProject|-%20name%20:%20Name|+%20view%28%29%5D.svg)
 
 
 # Visibility
