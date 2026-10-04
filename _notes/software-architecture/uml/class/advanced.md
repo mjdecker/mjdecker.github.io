@@ -124,7 +124,7 @@ stereotype
 
 # Abstract Classes/Methods
 
-![](https://app.yuml.me/diagram/v1/class/clean/%5B｛abstract｝;Event%7C%7C+getDescription%28%29｛abstract｝%5D^-%5BDateEvent%5D.svg)
+![](https://app.yuml.me/diagram/v1/class/clean/%5B｛abstract｝Event%7C%7C+getDescription%28%29｛abstract｝%5D^-%5BDateEvent%5D.svg)
 
 * Abstract classes do not support direct instantiation. I.e., you can't create an object from that class, you have to create an object of a derived class. E.g., you can create a *DateEvent* object, but not an *Event* object.
 * An abstract class has one or more abstract methods. An abstract method is one that is declared, but not defined, and must be defined in a derived class.
@@ -132,7 +132,7 @@ stereotype
 
 # Interfaces
 
-![](https://app.yuml.me/diagram/v1/class/clean/%5B&laquo;Interface&raquo;;Event%5D^-.-%5BWidget%5D.svg)
+![](https://app.yuml.me/diagram/v1/class/clean/%5B&laquo;Interface&raquo;Event%5D^-.-%5BWidget%5D.svg)
 
 * No data, all operations are public, and no operation has a method body
 * Cleanly models interfaces in Java, COM, CORBA
