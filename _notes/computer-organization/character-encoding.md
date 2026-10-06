@@ -40,7 +40,3 @@ layout: notes
 * [ISO-8859] (Latin) - 8-bit encoding, E.g., Latin-1
 * [Unicode] - Succeeds [ISO-8859], supports all the world's writing systems
     * UTF-8, UTF-16, UTF-32
-* [EBCDIC] - 8-bit basic Latin encodings (non‑ASCII), primarily for IBM Mainframe
-
-# A
-
