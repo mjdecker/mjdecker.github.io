@@ -24,10 +24,9 @@ layout: notes
 
 
 # [C-String] (aka [String Literal])
-* A sequence of characters stored consecutively in memory (i.e., an array of characters), terminated with a null-character
-* "Hello"
+A sequence of characters stored consecutively in memory (i.e., an array of characters), terminated with a null-character
 
 |   pos |  0  |  1  |  2  |  3  |  4  |  5  |
 |------:|:---:|:---:|:---:|:---:|:---:|:---:|
-|  array|  H  |  e  |  l  |  l  |  o  | \0  |
+|"Hello"|  H  |  e  |  l  |  l  |  o  | \0  |
 |address|0xFF0|0xFF1|0xFF2|0xFF3|0xFF4|0xFF5|
