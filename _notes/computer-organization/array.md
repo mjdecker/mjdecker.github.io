@@ -14,14 +14,20 @@ layout: notes
 
 # Array Example
 
-|   pos |  4  |  3  |  2  |  1  |  0  |
+|   pos |  0  |  1  |  2  |  3  |  4  |
 |------:|:---:|:---:|:---:|:---:|:---:|
 |  array|  42 |  7  |  3  | 127 |  16 |
-|address|0xFF8|0xFF6|0xFF4|0xFF2|0xFF0| 
+|address|0xFF0|0xFF2|0xFF4|0xFF6|0xFF8| 
 
-* $short\, array = {16, 127, 3, 7, 42};$
-* $array[3] = 0xFF0 + 3 * 2$
+* $short\, array = {42, 7, 3, 127, 16};$
+* $array[3] = 127 = 0xFF0 + 3 * 2$
 
 
 # [C-String] (aka [String Literal])
 * A sequence of characters stored consecutively in memory (i.e., an array of characters), terminated with a null-character
+* "Hello"
+
+|   pos |  0  |  1  |  2  |  3  |  4  |  5  |
+|------:|:---:|:---:|:---:|:---:|:---:|:---:|
+|  array|  H  |  e  |  l  |  l  |  o  | \0  |
+|address|0xFF0|0xFF1|0xFF2|0xFF3|0xFF4|0xFF5|
