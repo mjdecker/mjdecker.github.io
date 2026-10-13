@@ -3,7 +3,7 @@ title: "Character Encodings"
 layout: notes
 ---
 
-[Numeral System]: https://en.wikipedia.org/wiki/Character_encoding
+[Character Encodings]: https://en.wikipedia.org/wiki/Character_encoding
 [ASCII]: https://en.wikipedia.org/wiki/ASCII
 [ASCII Table]: https://www.asciitable.com
 [Extended ASCII]: https://en.wikipedia.org/wiki/Extended_ASCII
