@@ -22,10 +22,12 @@ layout: markdown
 
 ## Submission Requirements
 * Work is submitted to the supplied Git repository. The GitHub Classroom link is: see Canvas
+* DON'T commit changes to the <code>.data</code> section.
 
 ## Grading Criteria
 * You have used [good commit messages](https://cbea.ms/git-commit/)
 * You have committed incrementally
 * You have committed and pushed the completed exercise
 * Followed the class [coding standards](https://mdecker.net/standards/coding-standards.html)
-* Tasks are correctly implemented in MIPS for MARS as described
+* You ahve implementd the tasks correctly in MIPS for MARS as described
+* You have not commited changes to the <code>.data</code> section
