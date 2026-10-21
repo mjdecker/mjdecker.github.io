@@ -31,10 +31,10 @@ layout: notes
 	* Easier to maintain
 
 # SRP - Multiple Responsibilities
-![](https://yuml.me/diagram/class/[spaceship|%20+name%20:%20string|%20+takeoff%28%29;+fly%28%29;+land%28%29;+approve_landing%28%29])
+![](https://app.yuml.me/diagram/v1/class/clean/%5Bspaceship|%20+name%20:%20string|%20+takeoff%28%29;+fly%28%29;+land%28%29;+approve_landing%28%29%5D.svg)
 
 # SRP - Single Responsibility
-![](https://yuml.me/diagram/class/[spaceship|%20+name%20:%20string|%20+takeoff%28%29;+fly%28%29;+land%28%29;],%20[spaceport|%20|%20+approve_landing%28:spaceship%29;],%20[spaceport]-.-%3E[spaceship])
+![](https://app.yuml.me/diagram/v1/class/clean/%5Bspaceship|%20+name%20:%20string|%20+takeoff%28%29;+fly%28%29;+land%28%29;],%20%5Bspaceport|%20|%20+approve_landing%28:spaceship%29;],%20%5Bspaceport]-.-%3E[spaceship%5D.svg)
 
 # Open/closed Principle
 > Software entities (classes, function, etc.) should be open for extension, but closed for modification
@@ -47,13 +47,13 @@ layout: notes
 	* Less code to review
 
 # OCP - Meyer's open/close principle
-![](https://yuml.me/diagram/class/[parser||+parse%28%29;]^-[new_parser||+parse%28%29;])
+![](https://app.yuml.me/diagram/v1/class/clean/%5Bparser||+parse%28%29;]^-%5Bnew_parser||+parse%28%29;%5D.svg)
 
 * Implementation is extended through inheritance
 
 
 # OCP - Polymorphic open/closed principle
-![](https://yuml.me/diagram/class/[&laquo;abstract&raquo;%20parser||+parse%28%29;],%20[&laquo;abstract&raquo;%20parser]^-[parser_impl||+parse%28%29;],%20[&laquo;abstract&raquo;%20parser]^-[new_parser_impl||+parse%28%29;])
+![](https://app.yuml.me/diagram/v1/class/clean/%5B&laquo;abstract&raquo;%20parser||+parse%28%29;],%20%5B&laquo;abstract&raquo;%20parser]^-%5Bparser_impl||+parse%28%29;],%20%5B&laquo;abstract&raquo;%20parser]^-%5Bnew_parser_impl||+parse%28%29;%5D.svg)
 
 * abstract base class and multiple implementations that can be substituted foreach other
 
@@ -71,10 +71,10 @@ layout: notes
 	* Easier to maintain
 
 # LSP - Not substitutable
-![](https://yuml.me/diagram/class/[immutable_point|-x%20:%20int;%20-y%20:%20int|%20+get_x%28%29%20:%20int;%20+get_y%28%29%20:%20int;]^-[mutable_point||+set_x%28%29;%20+set_y%28%29;])
+![](https://app.yuml.me/diagram/v1/class/clean/%5Bimmutable_point|-x%20:%20int;%20-y%20:%20int|%20+get_x%28%29%20:%20int;%20+get_y%28%29%20:%20int;]^-%5Bmutable_point||+set_x%28%29;%20+set_y%28%29;%5D.svg)
 
 # LSP - Substitutable
-![](https://yuml.me/diagram/class/[immutable_point|%20-x%20:%20int;%20-y%20:%20int|%20+get_x%28%29%20:%20int;%20+get_y%28%29%20:%20int]^-[fixed_circle|%20+radius%20:%20int|%20])
+![](https://app.yuml.me/diagram/v1/class/clean/%5Bimmutable_point|%20-x%20:%20int;%20-y%20:%20int|%20+get_x%28%29%20:%20int;%20+get_y%28%29%20:%20int]^-%5Bfixed_circle|%20+radius%20:%20int|%20%5D.svg)
 
 # Interface Segregation Principle
 > Many client specific interfaces are better than one general-purpose interface
@@ -87,10 +87,10 @@ layout: notes
 	* Easier to maintain
 
 # ISP - General Interface
-![](https://yuml.me/diagram/plain/class/[xerox_job||+print%28%29;+staple%28%29;])
+![](https://app.yuml.me/diagram/v1/class/clean/%5Bxerox_job||+print%28%29;+staple%28%29;%5D.svg)
 
 # ISP - Multiple Specific Interfaces
-![](https://yuml.me/diagram/plain/class/[xerox_print_job||+print%28%29;],%20[xerox_staple_job||+staple%28%29;])
+![](https://app.yuml.me/diagram/v1/class/clean/%5Bxerox_print_job||+print%28%29;],%20%5Bxerox_staple_job||+staple%28%29;%5D.svg)
 
 # Dependency Inversion Principle
 > Depend upon abstractions not concretions
@@ -106,10 +106,10 @@ layout: notes
 	* Easier to maintain
 
 # DIP - Traditional Layered Architecture (violates principle)
-![](https://yuml.me/diagram/class/[Policy%20Layer]-.-%3E[Mechanism%20Layer])
+![](https://app.yuml.me/diagram/v1/class/clean/%5BPolicy%20Layer%5D-.-%3E%5BMechanism%20Layer%5D.svg)
 
 # DIP - Ownership Inversion (upholds principle)
-![](https://yuml.me/diagram/plain/class/[Policy%20Layer]-.-%3E[&laquo;interface&raquo;%20Policy%20Service%20Interface],%20[&laquo;interface&raquo;%20Policy%20Service%20Interface]^-[Mechanism%20Layer])
+![](https://app.yuml.me/diagram/v1/class/clean/%5BPolicy%20Layer%5D-.-%3E%5B&laquo;interface&raquo;%20Policy%20Service%20Interface%5D,%20%5B&laquo;interface&raquo;%20Policy%20Service%20Interface%5D^-%5BMechanism%20Layer%5D.svg)
 
 # Ending Remarks
 * Meant to be applied together
