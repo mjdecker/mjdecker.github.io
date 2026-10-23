@@ -96,8 +96,13 @@ layout: notes
 
 # Design Choices
 
+Design 1
 ![](https://yuml.me/collard/software-design-methodcount-internal.svg)
+
+Design 2
 ![](https://yuml.me/collard/software-design-methodcount-external.svg)
+
+Design 3
 ![](https://yuml.me/collard/software-design-methodcount-parser.svg)
 
 # Software Design Characteristics
