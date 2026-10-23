@@ -94,16 +94,24 @@ layout: notes
 
 > Count the number of methods per class for a software system written in C++.
 
-# Design Choices
+# Design Choice #1
 
-Design 1
 ![](https://yuml.me/collard/software-design-methodcount-internal.svg)
 
-Design 2
+# Design Choices #2
+
 ![](https://yuml.me/collard/software-design-methodcount-external.svg)
 
-Design 3
+# Design Choices #3
+
 ![](https://yuml.me/collard/software-design-methodcount-parser.svg)
+
+# Design Choices
+
+![](https://yuml.me/collard/software-design-methodcount-internal.svg)
+![](https://yuml.me/collard/software-design-methodcount-external.svg)
+![](https://yuml.me/collard/software-design-methodcount-parser.svg)
+
 
 # Software Design Characteristics
 
