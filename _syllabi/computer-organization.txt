@@ -6,6 +6,7 @@ permalink: syllabi/computer-organization.html
 
 [O'Reilly Safari Books]: https://www.oreilly.com/publisher/safari-books-online/
 [Computer Organization and Design MIPS Edition, 6th Edition]: https://learning.oreilly.com/library/view/computer-organization-and/9780128226742/
+[Digital Design and Computer Architecture, 2nd Edition]: https://learning.oreilly.com/library/view/digital-design-and/9780123944245/
 
 # CS 2190: Computer Organization #
 ## Term: Fall 2026 ##
@@ -47,7 +48,8 @@ The objectives of the course are for students to learn assembly language program
 ### Textbook(s): ###
 Note: you may need to first log into [O'Reilly Safari Books]
 
-* [Computer Organization and Design MIPS Edition, 6th Edition] - David A. Patterson, John L. Hennessy. Morgan Kaufmann. 978-0128201091.
+* [Computer Organization and Design MIPS Edition, 6th Edition] - David A. Patterson, John L. Hennessy. Morgan Kaufmann. 9780128201091.
+* [Digital Design and Computer Architecture, 2nd Edition] - David Harris and Sarah Harris. Morgan Kaufmann. 9780123978165
 * Selected readings from conferences, journals, and other scholarly sources
 
 ### Course Delivery/Organization: ###
