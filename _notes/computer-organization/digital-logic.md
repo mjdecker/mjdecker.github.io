@@ -10,7 +10,7 @@ layout: notes
 # [NOT Gate]
 
 <div>
-<iframe src="https://circuitverse.org/users/479923/projects/not-gate-66a046a6-3edf-48d7-b415-e082e9decf7e/simulator/embed?theme=color-blind&display_title=false&clock_time=false&fullscreen=true&zoom_in_out=true" style="border-width:2px; border-style: solid; border-color:;" name="myiframe" id="projectPreview" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="500" width="500" allowFullScreen></iframe>
+<iframe src="https://circuitverse.org/users/479923/projects/not-gate-66a046a6-3edf-48d7-b415-e082e9decf7e/simulator/embed?theme=color-blind&display_title=false&clock_time=false&fullscreen=true&zoom_in_out=false" style="border-width:2px; border-style: solid; border-color:;" name="myiframe" id="projectPreview" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="500" width="500" allowFullScreen></iframe>
 </div>
 
 # [AND Gate]
