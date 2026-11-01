@@ -89,4 +89,15 @@ layout: notes
 	3. OR
 
 # Boolean Equation Example
-* 
+* $$A + BC = \,?$$
+* $$\overline{A}B + BC\overline{D} = \,?$$
+
+# Boolean Equation Example
+* NOTE: Lowercase is used for NOT, AND, and OR 
+* $$A + BC = A\, or\, (B \, and \, C)$$
+* $$\overline{A}B + BC\overline{D} = ((not \, A)\, and\, B) \, or \, (B \, and \, C \, and \, (not \, D))$$
+
+# Boolean Equation Example
+* Note: Variables replaced with lowercase for clarity
+* $$A + BC = a\, OR\, (b\, AND\, c)$$
+* $$\overline{A}B+ BC\overline{D} = ((NOT\, a)\, AND\, b)\, OR\, (b\, AND\, c\, AND\, (NOT\, d))$$
