@@ -151,5 +151,47 @@ layout: notes
 <iframe src="https://circuitverse.org/users/479923/projects/nand-gate-ceaf01ea-af6f-4a00-8362-57fddd5debf8/simulator/embed?theme=color-blind&display_title=false&clock_time=false&fullscreen=true&zoom_in_out=false" style="border-width:2px; border-style: solid; border-color:;" name="myiframe" id="projectPreview" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="500" width="500" allowFullScreen></iframe>
 </div>
 
-# Reduced Set of Basic Gates  ![The More You Know]
-* You can build any digital logic circurit with just NAND and NOR
+# Reduced Set of Basic Gates ![The More You Know]
+* You can build any digital logic circuit with just NAND and NOR
+
+# Product of Sums
+* Digital logic can be represented as the product of maxterms where the result of the row is $$0$$/FALSE
+	* $$maxterm = $$ sum of row terms 
+	* $$Product = AND$$
+	* $$Sum = OR$$
+* Sum of Products is better when $$1$$/TRUE are fewer
+* Product of Sums is better when  $$0$$/FALSE are fewer
+
+# Truth Table to Logic Example
+
+| A   |   B  |   C  |   Y  |
+|:---:|:---:|:---:|:---:|
+|  1   |   1   |   1   |   0  |
+|  1   |   1   |   0  |   0  |
+|  1   |   0  |   1   |   1  |
+|  1   |   0  |   0  |   1  |
+|  0  |    1  |   1   |   0  |
+|  0   |   1  |   0  |   0  |
+|  0   |   0  |   1  |   0  |
+|  0   |   0  |   0  |   1  |
+
+# Truth Table to Logic Example
+
+| A   |   B  |   C  |   Y  |
+|:---:|:---:|:---:|:---:|
+|  1   |   1   |   1   |   0  |
+|  1   |   1   |   0  |   0  |
+|  1   |   0  |   1   |   1  |
+|  1   |   0  |   0  |   1  |
+|  0  |    1  |   1   |   0  |
+|  0   |   1  |   0  |   0  |
+|  0   |   0  |   1  |   0  |
+|  0   |   0  |   0  |   1  |
+
+* $$Y = \overline{A}\overline{B}\overline{C} + A\overline{B}\overline{C} + A\overline{B}C$$
+
+# Truth Table to Logic Example Diagram
+
+<div>
+<iframe src="https://circuitverse.org/users/479923/projects/another-example/simulator/embed?theme=color-blind&display_title=false&clock_time=false&fullscreen=true&zoom_in_out=false" style="border-width:2px; border-style: solid; border-color:;" name="myiframe" id="projectPreview" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="500" width="500" allowFullScreen></iframe>
+</div>
