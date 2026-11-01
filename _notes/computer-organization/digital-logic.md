@@ -3,9 +3,20 @@ title: "Introduction to Digital Logic"
 layout: notes
 ---
 
+[Logic Gate]: https://en.wikipedia.org/wiki/Logic_gate
 [NOT Gate]: https://en.wikipedia.org/wiki/Inverter_(logic_gate)
 [AND Gate]: https://en.wikipedia.org/wiki/AND_gate
 [OR Gate]: https://en.wikipedia.org/wiki/OR_gate
+
+[The More You Know]: /images/common/The_More_You_Know.png
+
+# [Logic Gate]s
+* Simple digital circuits that take one or more binary inputs and produce a binary output
+
+
+# Logic Convention  ![The More You Know]
+* Positive logic convention: $$highVoltage = 1$$
+* Negative logic convention:  $$lowVoltage = 1$$
 
 # [NOT Gate]
 
