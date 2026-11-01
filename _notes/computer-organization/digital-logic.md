@@ -15,6 +15,7 @@ layout: notes
 [NAND Gate]: https://en.wikipedia.org/wiki/NAND_gate
 
 [Boolean Equation]: https://en.wikipedia.org/wiki/Boolean_algebra
+[De Morgan's Laws]: https://en.wikipedia.org/wiki/De_Morgan%27s_laws
 [Sum of Products]: https://en.wikipedia.org/wiki/Canonical_normal_form
 
 [The More You Know]: /images/common/The_More_You_Know.png
@@ -26,8 +27,6 @@ layout: notes
 	* NOT (AKA inverter) - [logical negation] - outputs a bit opposite of input
 	* AND - [logical conjunction] (∧) - outputs 1 if all input bits are 1
 	* OR - [logical disjunction] (∨) - outputs 1 if any input bit is 1
-*  
-
 
 # Logic Convention  ![The More You Know]
 * Positive logic convention: $$highVoltage = 1$$
@@ -97,14 +96,13 @@ layout: notes
 * $$\overline{A}B + BC\overline{D} = \,?$$
 
 # Boolean Equation Example
-* NOTE: Lowercase is used for NOT, AND, and OR 
-* $$A + BC = A\, or\, (B \, and \, C)$$
-* $$\overline{A}B + BC\overline{D} = ((not \, A)\, and\, B) \, or \, (B \, and \, C \, and \, (not \, D))$$
-
-# Boolean Equation Example
 * Note: Variables replaced with lowercase for clarity
 * $$A + BC = a\, OR\, (b\, AND\, c)$$
 * $$\overline{A}B+ BC\overline{D} = ((NOT\, a)\, AND\, b)\, OR\, (b\, AND\, c\, AND\, (NOT\, d))$$
+
+# [De Morgan's Laws]
+* $$\overline{AB} = \overline{A} + \overline{B}$$
+* $$\overline{A + B} = \overline{A}\,\overline{B}$$
 
 # [Sum of Products]
 * A truth table for a Boolean Equation has $$2^N$$ rows
@@ -122,7 +120,7 @@ layout: notes
 |  0  |   1   |   0  |$$\overline{A}B$$|
 |  0  |   0   |   1  |$$\overline{A}\overline{B}$$|
 
-* $$Y = \overline{(A + B)}$$
+* $$Y = \overline{A + B}$$
 
 # Sum of Products Example Circuit
 
