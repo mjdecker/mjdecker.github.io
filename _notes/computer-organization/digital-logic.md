@@ -5,13 +5,21 @@ layout: notes
 
 [Logic Gate]: https://en.wikipedia.org/wiki/Logic_gate
 [NOT Gate]: https://en.wikipedia.org/wiki/Inverter_(logic_gate)
+[logical negation]: https://en.wikipedia.org/wiki/Negation
 [AND Gate]: https://en.wikipedia.org/wiki/AND_gate
+[logical conjunction]: https://en.wikipedia.org/wiki/Logical_conjunction
 [OR Gate]: https://en.wikipedia.org/wiki/OR_gate
+[logical disjunction]: https://en.wikipedia.org/wiki/Logical_disjunction
 
 [The More You Know]: /images/common/The_More_You_Know.png
 
-# [Logic Gate]s
-* Simple digital circuits that take one or more binary inputs and produce a binary output
+# [Logic Gate]
+* A simple digital circuits that take one or more binary inputs and produce a binary output
+* The building blocks of a computer
+* Fundamental Gates
+	* NOT (AKA inverter) - [logical negation] - outputs a bit opposite of input
+	* AND - [logical conjunction] (∧) - outputs 1 if all input bits are 1
+	* OR - [logical disjunction] (∨) - outputs 1 if any input bit is 1
 
 
 # Logic Convention  ![The More You Know]
