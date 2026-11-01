@@ -11,6 +11,9 @@ layout: notes
 [OR Gate]: https://en.wikipedia.org/wiki/OR_gate
 [logical disjunction]: https://en.wikipedia.org/wiki/Logical_disjunction
 
+[NOR Gate]: https://en.wikipedia.org/wiki/NOR_gate
+[NAND Gate]: https://en.wikipedia.org/wiki/NAND_gate
+
 [Boolean Equation]: https://en.wikipedia.org/wiki/Boolean_algebra
 [Sum of Products]: https://en.wikipedia.org/wiki/Canonical_normal_form
 
@@ -127,15 +130,26 @@ layout: notes
 <iframe src="https://circuitverse.org/users/479923/projects/sum-of-products-nor/simulator/embed?theme=color-blind&display_title=false&clock_time=false&fullscreen=true&zoom_in_out=false" style="border-width:2px; border-style: solid; border-color:;" name="myiframe" id="projectPreview" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="500" width="500" allowFullScreen></iframe>
 </div>
 
-# Sum of Products Example Circuit - Alternative
-<div>
-<iframe src="https://circuitverse.org/users/479923/projects/combinational-nor-gate/simulator/embed?theme=color-blind&display_title=false&clock_time=false&fullscreen=true&zoom_in_out=false" style="border-width:2px; border-style: solid; border-color:;" name="myiframe" id="projectPreview" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="500" width="500" allowFullScreen></iframe>
-</div>
 
-# Sum of Products Example Circuit - Compare
+# Alternative Logic Comparison  ![The More You Know]
 
 <div>
 <iframe src="https://circuitverse.org/users/479923/projects/sum-of-products-nor/simulator/embed?theme=color-blind&display_title=false&clock_time=false&fullscreen=true&zoom_in_out=false" style="border-width:2px; border-style: solid; border-color:;" name="myiframe" id="projectPreview" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="500" width="500" allowFullScreen></iframe>
 
 <iframe src="https://circuitverse.org/users/479923/projects/combinational-nor-gate/simulator/embed?theme=color-blind&display_title=false&clock_time=false&fullscreen=true&zoom_in_out=false" style="border-width:2px; border-style: solid; border-color:;" name="myiframe" id="projectPreview" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="500" width="500" allowFullScreen></iframe>
 </div>
+
+# [NOR Gate]  ![The More You Know]
+
+<div>
+<iframe src="https://circuitverse.org/users/479923/projects/nor-gate-277af15f-b5c2-47b0-a814-047e3e938922/simulator/embed?theme=color-blind&display_title=false&clock_time=false&fullscreen=true&zoom_in_out=false" style="border-width:2px; border-style: solid; border-color:;" name="myiframe" id="projectPreview" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="500" width="500" allowFullScreen></iframe>
+</div>
+
+# [NAND Gate]  ![The More You Know]
+
+<div>
+<iframe src="https://circuitverse.org/users/479923/projects/nand-gate-ceaf01ea-af6f-4a00-8362-57fddd5debf8/simulator/embed?theme=color-blind&display_title=false&clock_time=false&fullscreen=true&zoom_in_out=false" style="border-width:2px; border-style: solid; border-color:;" name="myiframe" id="projectPreview" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="500" width="500" allowFullScreen></iframe>
+</div>
+
+# Reduced Set of Basic Gates  ![The More You Know]
+* You can build any digital logic circurit with just NAND and NOR
