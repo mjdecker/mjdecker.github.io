@@ -20,6 +20,7 @@ layout: notes
 	* NOT (AKA inverter) - [logical negation] - outputs a bit opposite of input
 	* AND - [logical conjunction] (∧) - outputs 1 if all input bits are 1
 	* OR - [logical disjunction] (∨) - outputs 1 if any input bit is 1
+*  
 
 
 # Logic Convention  ![The More You Know]
@@ -63,3 +64,14 @@ layout: notes
 <div>
 <iframe src="https://circuitverse.org/users/479923/projects/or-gate-2e2c3094-cb19-4063-946b-2f70fc68c48c/simulator/embed?theme=color-blind&display_title=false&clock_time=false&fullscreen=true&zoom_in_out=false" style="border-width:2px; border-style: solid; border-color:;" name="myiframe" id="projectPreview" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="500" width="500" allowFullScreen></iframe>
 </div>
+
+# Types of Digital Circuits
+* Combinational - depend only on current input values (e.g., logic gates)
+* Sequential - depends on both current and previous values
+* Combinational are *memoryless*, while sequential have a *memory*
+
+# Combinational Composition
+* Use smaller combinational circuits to build larger ones
+	* All are combinational
+	* Either input circuits or connect to one output
+	* No cycles
