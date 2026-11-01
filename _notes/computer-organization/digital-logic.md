@@ -11,6 +11,8 @@ layout: notes
 [OR Gate]: https://en.wikipedia.org/wiki/OR_gate
 [logical disjunction]: https://en.wikipedia.org/wiki/Logical_disjunction
 
+[Boolean Equation]: https://en.wikipedia.org/wiki/Boolean_algebra
+
 [The More You Know]: /images/common/The_More_You_Know.png
 
 # [Logic Gate]
@@ -75,3 +77,16 @@ layout: notes
 	* All are combinational
 	* Either input circuits or connect to one output
 	* No cycles
+* Use Truth Tables or Boolean equations as a combinational circuit specification
+
+# [Boolean Equation]
+* NOT A $$= \neg A= \overline{A}$$
+* A AND B $$= A ∧ B = AB$$
+* A OR B $$= A ∨ B = A + B$$
+* Precedence:
+	1. NOT
+	2. AND 
+	3. OR
+
+# Boolean Equation Example
+* 
