@@ -14,7 +14,7 @@ layout: notes
 [The More You Know]: /images/common/The_More_You_Know.png
 
 # [Logic Gate]
-* A simple digital circuits that take one or more binary inputs and produce a binary output
+* A simple digital circuit that takes one or more binary inputs and produce a binary output
 * The building blocks of a computer
 * Fundamental Gates
 	* NOT (AKA inverter) - [logical negation] - outputs a bit opposite of input
@@ -27,6 +27,11 @@ layout: notes
 * Negative logic convention:  $$lowVoltage = 1$$
 
 # [NOT Gate]
+
+| p   | ~p  |
+|:---:|:---:|
+|  1  |  0  |
+|  0  |  1  |
 
 <div>
 <iframe src="https://circuitverse.org/users/479923/projects/not-gate-66a046a6-3edf-48d7-b415-e082e9decf7e/simulator/embed?theme=color-blind&display_title=false&clock_time=false&fullscreen=true&zoom_in_out=false" style="border-width:2px; border-style: solid; border-color:;" name="myiframe" id="projectPreview" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="500" width="500" allowFullScreen></iframe>

@@ -482,6 +482,29 @@ sections.forEach(function(section) {
     // console.log("NARROW")
 });
 
+/* Slide format: Side-by-side of table with div */
+sections.forEach(function(section) {
+
+    /* At least a table */
+    var tables = section.querySelectorAll("section > table")
+    if (!tables.length)
+      return;
+    var divs = section.querySelectorAll("section > div");
+    if (divs.length != 1)
+        return;
+
+    console.log(section.children[0].innerText + "table + div")
+
+    /* Wrap the table */
+    var tableWrapper = wrapInner(tables)
+    tableWrapper.classList.add('quotes')
+
+    /* Wrap both the table div and the list */
+    var outerWrapper = wrapOuter(tableWrapper, divs[0])
+    outerWrapper.classList.add('outer')
+    section.appendChild(outerWrapper)
+});
+
 sections.forEach(function(section) {
 
     /* A single list */
