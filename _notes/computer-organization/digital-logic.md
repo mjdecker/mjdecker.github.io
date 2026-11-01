@@ -12,6 +12,7 @@ layout: notes
 [logical disjunction]: https://en.wikipedia.org/wiki/Logical_disjunction
 
 [Boolean Equation]: https://en.wikipedia.org/wiki/Boolean_algebra
+[Sum of Products]: https://en.wikipedia.org/wiki/Canonical_normal_form
 
 [The More You Know]: /images/common/The_More_You_Know.png
 
@@ -101,3 +102,40 @@ layout: notes
 * Note: Variables replaced with lowercase for clarity
 * $$A + BC = a\, OR\, (b\, AND\, c)$$
 * $$\overline{A}B+ BC\overline{D} = ((NOT\, a)\, AND\, b)\, OR\, (b\, AND\, c\, AND\, (NOT\, d))$$
+
+# [Sum of Products]
+* A truth table for a Boolean Equation has $$2^N$$ rows
+* Digital logic can be represented as the sum of minterms where the result of the row is $$1$$/TRUE
+	* $$minterm = $$ product of row terms 
+	* $$Product = AND$$
+	* $$Sum = OR$$
+
+# Sum of Products Example
+
+| A   |  B  |Y|minterm|
+|:---:|:---:|:---:|:---:|
+|  1   |   1   |   0  |$$AB$$|
+|  1   |   0  |   0  |$$A\overline{B}$$|
+|  0  |   1   |   0  |$$\overline{A}B$$|
+|  0  |   0   |   1  |$$\overline{A}\overline{B}$$|
+
+* $$Y = \overline{(A + B)}$$
+
+# Sum of Products Example Circuit
+
+<div>
+<iframe src="https://circuitverse.org/users/479923/projects/sum-of-products-nor/simulator/embed?theme=color-blind&display_title=false&clock_time=false&fullscreen=true&zoom_in_out=false" style="border-width:2px; border-style: solid; border-color:;" name="myiframe" id="projectPreview" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="500" width="500" allowFullScreen></iframe>
+</div>
+
+# Sum of Products Example Circuit - Alternative
+<div>
+<iframe src="https://circuitverse.org/users/479923/projects/combinational-nor-gate/simulator/embed?theme=color-blind&display_title=false&clock_time=false&fullscreen=true&zoom_in_out=false" style="border-width:2px; border-style: solid; border-color:;" name="myiframe" id="projectPreview" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="500" width="500" allowFullScreen></iframe>
+</div>
+
+# Sum of Products Example Circuit - Compare
+
+<div>
+<iframe src="https://circuitverse.org/users/479923/projects/sum-of-products-nor/simulator/embed?theme=color-blind&display_title=false&clock_time=false&fullscreen=true&zoom_in_out=false" style="border-width:2px; border-style: solid; border-color:;" name="myiframe" id="projectPreview" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="500" width="500" allowFullScreen></iframe>
+
+<iframe src="https://circuitverse.org/users/479923/projects/combinational-nor-gate/simulator/embed?theme=color-blind&display_title=false&clock_time=false&fullscreen=true&zoom_in_out=false" style="border-width:2px; border-style: solid; border-color:;" name="myiframe" id="projectPreview" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="500" width="500" allowFullScreen></iframe>
+</div>
