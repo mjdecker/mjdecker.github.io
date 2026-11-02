@@ -129,7 +129,7 @@ layout: notes
 </div>
 
 
-# Alternative Logic Comparison  ![The More You Know]
+# De Morgan's
 
 <div>
 <iframe src="https://circuitverse.org/users/479923/projects/sum-of-products-nor/simulator/embed?theme=color-blind&display_title=false&clock_time=false&fullscreen=true&zoom_in_out=false" style="border-width:2px; border-style: solid; border-color:;" name="myiframe" id="projectPreview" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="500" width="500" allowFullScreen></iframe>
