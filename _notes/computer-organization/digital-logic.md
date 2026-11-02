@@ -25,8 +25,8 @@ layout: notes
 * The building blocks of a computer
 * Fundamental Gates
 	* NOT (AKA inverter) - [logical negation] - outputs a bit opposite of input
-	* AND - [logical conjunction] (∧) - outputs 1 if all input bits are 1
-	* OR - [logical disjunction] (∨) - outputs 1 if any input bit is 1
+	* AND - [logical conjunction] - outputs 1 if all input bits are 1
+	* OR - [logical disjunction] - outputs 1 if any input bit is 1
 
 # Logic Convention  ![The More You Know]
 * Positive logic convention: $$highVoltage = 1$$
