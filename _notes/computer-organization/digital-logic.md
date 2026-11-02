@@ -188,8 +188,18 @@ layout: notes
 
 * $$Y = \overline{A}\overline{B}\overline{C} + A\overline{B}\overline{C} + A\overline{B}C$$
 
-# Truth Table to Logic Example Diagram
+# Truth Table to Logic Example - Schematic
 
 <div>
 <iframe src="https://circuitverse.org/users/479923/projects/another-example/simulator/embed?theme=color-blind&display_title=false&clock_time=false&fullscreen=true&zoom_in_out=false" style="border-width:2px; border-style: solid; border-color:;" name="myiframe" id="projectPreview" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="500" width="500" allowFullScreen></iframe>
 </div>
+
+# Schematic ![The More You Know]
+* Diagram of a digital circuit showing wires that connect them together
+	* 	Inputs: left (or top)
+	* Outputs: right (or bottom)
+	* As possible, gates flow left -> right
+	* Straight wires are better than wires with multiple corners
+	* Wires always connect at a T junction.
+	* A dot where wires cross indicates a connection
+	* Wires crossing without a dot make no connection
