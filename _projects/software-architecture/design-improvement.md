@@ -1,9 +1,9 @@
 ---
-title: "Project: Requirements & Design"
+title: "Project: Design Improvementg"
 layout: markdown
 ---
 
-# Project: Requirements & Design
+# Project: Design Improvement
 
 ## Objective(s)
 * Reflect on the design (UML Class & Sequence Diagrams) from Project 1
@@ -15,7 +15,6 @@ layout: markdown
 
 * Here is a repeat of the client statement from Project 1:
 > I want software that annotates any source-code file with information from the abstract syntax tree.  I envision the system taking a language grammar specified in either XML or a text file containing EBNF, a source-code file in that language, and it will generate an annotated version of that source-code in XML, JSON, or YAML.
-
 
 ## Exercise Requirements
 * From the design in Project 1, discuss the cohesion and coupling of the:
