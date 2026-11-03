@@ -18,7 +18,7 @@ layout: markdown
 
 ## Exercise Requirements
 * Fix issues with Project 1 (no separate submission), update *source_annotator.md*.
-* g* From the design in Project 1, discuss the cohesion and coupling of the:
+* From the design in Project 1, discuss the cohesion and coupling of the:
 	* Grammar Input Subsystem
 	* Parser Generator Subsystem
 	* Annotating Source-Code/Output Subsystem
