@@ -17,12 +17,12 @@ layout: markdown
 > I want software that annotates any source-code file with information from the abstract syntax tree.  I envision the system taking a language grammar specified in either XML or a text file containing EBNF, a source-code file in that language, and it will generate an annotated version of that source-code in XML, JSON, or YAML.
 
 ## Exercise Requirements
-* From the design in Project 1, discuss the cohesion and coupling of the:
+* Fix issues with Project 1 (no separate submission), update *source_annotator.md*.
+* g* From the design in Project 1, discuss the cohesion and coupling of the:
 	* Grammar Input Subsystem
 	* Parser Generator Subsystem
 	* Annotating Source-Code/Output Subsystem
 	* Entire Process Overall
-* Fix issues with Project 1 (no separate submission), update *source_annotator.md*.
 * As applicable, identify and apply SOLID Design Principles and/or Design Patterns to improve your design from Project 1.
 	* Organized by each part of the system (input, parser generator, output,  and overall), identify where you can apply (or are currently applying) SOLID Design Principles and Design Patterns. For each, give a brief description of where they apply/applied, why they apply/applied, and the change required (if any)
 	* Update the UML Class Diagram and UML Sequence Diagram to apply the SOLID Design Principles and Design Patterns identified
