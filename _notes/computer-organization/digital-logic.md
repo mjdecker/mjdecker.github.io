@@ -154,7 +154,7 @@ layout: notes
 
 # Product of Sums
 * Digital logic can be represented as the product of maxterms where the result of the row is $$0$$/FALSE
-	* $$maxterm = $$ sum of row terms 
+	* $$maxterm = $$ sum of each negated row term ($$A=1$$, $$B=1$$, $$Y=0$$ is $$\overline{A}+\overline{B}$$ 
 	* $$Product = AND$$
 	* $$Sum = OR$$
 * Sum of Products is better when $$1$$/TRUE are fewer
