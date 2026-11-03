@@ -108,6 +108,7 @@ layout: notes
 * A truth table for a Boolean Equation has $$2^N$$ rows
 * Digital logic can be represented as the sum of minterms where the result of the row is $$1$$/TRUE
 	* $$minterm = $$ product of row terms 
+		* $$A=1$$, $$B=0$$, $$Y=1$$ is $$A\overline{B}$$ 
 	* $$Product = AND$$
 	* $$Sum = OR$$
 
@@ -154,7 +155,8 @@ layout: notes
 
 # Product of Sums
 * Digital logic can be represented as the product of maxterms where the result of the row is $$0$$/FALSE
-	* $$maxterm = $$ sum of each negated row term ($$A=1$$, $$B=1$$, $$Y=0$$ is $$\overline{A}+\overline{B}$$ 
+	* $$maxterm = $$ sum of each negated row term 
+		* $$A=1$$, $$B=0$$, $$Y=0$$ is $$\overline{A}+B$$ 
 	* $$Product = AND$$
 	* $$Sum = OR$$
 * Sum of Products is better when $$1$$/TRUE are fewer
