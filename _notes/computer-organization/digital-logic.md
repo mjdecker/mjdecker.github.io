@@ -119,7 +119,7 @@ layout: notes
 |  1   |   1   |   0  |$$AB$$|
 |  1   |   0  |   0  |$$A\overline{B}$$|
 |  0  |   1   |   0  |$$\overline{A}B$$|
-|  0  |   0   |   1  |$$\overline{A}\,\overline{B}$$|
+|  0  |   0   |   1  |$$\overline{A}\, \overline{B}$$|
 
 * $$Y = \overline{A + B}$$
 
