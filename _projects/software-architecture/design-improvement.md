@@ -18,7 +18,7 @@ layout: markdown
 
 ## Exercise Requirements
 * Fix issues with Project 1 (no separate submission), update *source_annotator.md*.
-* From the design in Project 1, discuss the cohesion and coupling of the:
+* From the design in Project 1, discuss the general cohesion and coupling of the:
 	* Grammar Input Subsystem
 	* Parser Generator Subsystem
 	* Annotating Source-Code/Output Subsystem
@@ -42,7 +42,7 @@ layout: markdown
 * How well and accurately each artifact reflects the client statement and each other
 * Proper writeup of Use Cases
 * Proper use of UML syntax
-* Proper identification and correct description of where and why SOLID Design Principles and Design Patterns can be or are applied
-* Correct description of changes required to apply SOLID Design Principles and Design Patterns
+* Proper and correct description of general coupling/cohesion
+* Proper identification and correct description of where, why, and how SOLID Design Principles and Design Patterns can be or are applied
 * Correct application of the SOLID Design Principles and Design Patterns to UML Class & Sequence Diagrams
 * Effort put forth as part of the group
