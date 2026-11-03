@@ -29,7 +29,7 @@ layout: markdown
 
 ## Submission Requirements
 * Work is submitted to the supplied Git repository. Use the repository from Project 1
-* All work is to be formatted nicely in Markdowns named: 
+* All work is to be formatted nicely in Markdown files named: 
 	* Use-cases and charts in: *source_annotator.md*.
 	* Design improvement discussion/everything-else in: *design_improvement.md*
 
