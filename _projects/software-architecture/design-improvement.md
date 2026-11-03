@@ -1,5 +1,5 @@
 ---
-title: "Project: Design Improvementg"
+title: "Project: Design Improvement"
 layout: markdown
 ---
 
