@@ -22,7 +22,7 @@ layout: markdown
 |:-------:|:-------:|:---------------------:|
 | sign-bit| exponent|fraction (aka mantissa)|
 
-* This is: $$(-1)^{sign-bit} * 2^(exponent - 127) * (1 + \sum_{i=1}^{23}b_{22-i}2)^{}-i)
+* Formula: $$(-1)^{sign\text{-}bit} * 2^{(exponent - 127)} * (1 + \sum_{i=1}^{23}b_{22-i}*2^{-i})$$
 * Bits 0-22 represent the fractional part of the representation.
 * 
 * The right-most bit (31<sup>st</sup> bit) is a sign-bit

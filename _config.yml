@@ -35,6 +35,7 @@ highlighter: rouge
 
 kramdown:
   smart_quotes: ['apos', 'apos', 'quot', 'quot']
+  math_engine: katex
 
 collections:
   syllabi:
