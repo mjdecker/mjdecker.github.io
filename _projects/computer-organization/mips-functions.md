@@ -18,10 +18,11 @@ layout: markdown
 * We will focus on converting the numbers in the IEEE 754 format to a decimal number. The following wiki how shows how to go from a decimal number to IEEE 754: [wikihow](https://www.wikihow.com/Convert-a-Number-from-Decimal-to-IEEE-754-Floating-Point-Representation)
 * A single floating point number is a 32-bit number with the following format:
 
-|  31    | 30-23  |        22-0           |
-|:------:|:------:|:---------------------:|
-|sign-bit|exponent|fraction (aka mantissa)|
+	|  31    | 30-23  |        22-0           |
+	|:------:|:------:|:---------------------:|
+	|sign-bit|exponent|fraction (aka mantissa)|
 
+<br/>
 * Formula: $$(-1)^{sign\text{-}bit} * 2^{(exponent - 127)} * (1 + \sum_{i=1}^{23}b_{23-i}*2^{-i})$$
 * The 32-bits are broken down into the sign-bit, exponent, and the fraction/mantissa. 
 * Fraction: $$1 + \sum_{i=1}^{23}b_{23-i}*2^{-i}$$
@@ -39,11 +40,10 @@ layout: markdown
 	* Fraction $$= 110...0 = \frac{1}{2} + \frac{1}{4} = 1.75$$ 
 	* Result $$= -1 * 2 * 1.75 = -3.5$$
 
-
 ## Exercise Requirements
-* Write MIPS assembly for the MARS simulator to do each of the task below. A file is provided for you for each task with the task also described in the comments of that file. Implement that task only in the file belonging to that task.
+* Write MIPS assembly for the MARS simulator to do  task below. A file is provided for you for the task with the task also described in the comments of that file. Implement that task only in the file belonging to that task.
 
-1. In the file <code>to_lower.asm</code>, convert all characters at a static location to lowercase. Input will be a null-terminated string in the data section with label STRING.
+* In the file <code>float_conversion.asm</code>, implement a function <code>convert_float</code> that takes an array of 32 integers, representing a IEEE 754 single floating point number, and convert it to its equivalent decimal number. Bonus if  <code>convert_float</code> is implemented recursively (each bit is handled in a recursive call).
 
 ## Submission Requirements
 * Work is submitted to the supplied Git repository. The GitHub Classroom link is: see Canvas
