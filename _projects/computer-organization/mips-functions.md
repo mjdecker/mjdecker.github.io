@@ -26,7 +26,7 @@ layout: markdown
 * Formula: $$(-1)^{sign\text{-}bit} * 2^{(exponent - 127)} * (1 + \sum_{i=1}^{23}b_{23-i}*2^{-i})$$
 * The 32-bits are broken down into the sign-bit, exponent, and the fraction/mantissa. 
 * Fraction: $$1 + \sum_{i=1}^{23}b_{23-i}*2^{-i}$$
-	* Represents a number in the range of: ($$1 <= mantissa < 2$$)
+	* Represents a number in the range of: ($$1 <= fraction < 2$$)
 	* Each set bit adds a power of $$\frac{1}{2}$$ ($$22^{nd}$$-bit is $$\frac{1}{2}$$ and $$21^{st}$$-bit is $$\frac{1}{4}$$)
 * Exponent: $$2^{(exponent - 127)}$$
 	* Multiplier applied to the fraction
