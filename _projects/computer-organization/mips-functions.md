@@ -43,7 +43,16 @@ layout: markdown
 ## Exercise Requirements
 * Write MIPS assembly for the MARS simulator to do  task below. A file is provided for you for the task with the task also described in the comments of that file. Implement that task only in the file belonging to that task.
 
-* In the file <code>float_conversion.asm</code>, implement a function <code>convert_float</code> that takes an array of 32 integers, representing a IEEE 754 single floating point number, and convert it to its equivalent decimal number. Bonus if  <code>convert_float</code> is implemented recursively (each bit is handled in a recursive call).
+* In the file <code>float_conversion.asm</code>, implement a function <code>convert_float</code> that takes an array of 32 integers, representing a IEEE 754 single floating point number, and convert it to its equivalent decimal number.
+* Bonus (10 points): if <code>convert_float</code> is implemented recursively (each bit is handled in a recursive call).
+* Bonus (10 points): Implemen the full IEEE 754 standard.
+	* Above applies only when: $$0x00 < exponent < 0xFF$$, and it is intepretted differently if the exponent is $$0x00$$ or $$0xFF$$
+	* If $$exponent == 0x00$$,
+		* Formula: $$(-1)^{sign\text{-}bit} * 2^{-126)} * (\sum_{i=1}^{23}b_{23-i}*2^{-i})$$
+		* Note: this is how +/- is specified
+	* If $$exponent == 0xFF$$
+		* If $$fraction == 0$$, +/- infinity
+		* Else, [NaN](https://en.wikipedia.org/wiki/NaN)
 
 ## Submission Requirements
 * Work is submitted to the supplied Git repository. The GitHub Classroom link is: see Canvas
