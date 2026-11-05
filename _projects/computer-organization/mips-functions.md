@@ -18,15 +18,27 @@ layout: markdown
 * We will focus on converting the numbers in the IEEE 754 format to a decimal number. The following wiki how shows how to go from a decimal number to IEEE 754: [wikihow](https://www.wikihow.com/Convert-a-Number-from-Decimal-to-IEEE-754-Floating-Point-Representation)
 * A single floating point number is a 32-bit number with the following format:
 
-|  31     |  30-23  |        22-0           |
-|:-------:|:-------:|:---------------------:|
-| sign-bit| exponent|fraction (aka mantissa)|
+|  31    | 30-23  |        22-0           |
+|:------:|:------:|:---------------------:|
+|sign-bit|exponent|fraction (aka mantissa)|
 
-* Formula: $$(-1)^{sign\text{-}bit} * 2^{(exponent - 127)} * (1 + \sum_{i=1}^{23}b_{22-i}*2^{-i})$$
-* Bits 0-22 represent the fractional part of the representation.
-* 
-* The right-most bit (31<sup>st</sup> bit) is a sign-bit
-* 
+* Formula: $$(-1)^{sign\text{-}bit} * 2^{(exponent - 127)} * (1 + \sum_{i=1}^{23}b_{23-i}*2^{-i})$$
+* The 32-bits are broken down into the sign-bit, exponent, and the fraction/mantissa. 
+* Fraction: $$1 + \sum_{i=1}^{23}b_{23-i}*2^{-i}$$
+	* Represents a number in the range of: ($$1 <= mantissa < 2$$)
+	* Each set bit adds a power of $$\frac{1}{2}$$ ($$22^{nd}$$-bit is $$\frac{1}{2}$$ and $$21^{st}$$-bit is $$\frac{1}{4}$$)
+* Exponent: $$2^{(exponent - 127)}$$
+	* Multiplier applied to the fraction
+	* Exponent is the unsigned binary representation of a number
+	* E.g., $$Exponent = 0b01111111 = 127$$ so $$2^{127 - 127} = 1$$
+* Sign-bit: $$(-1)^{sign\text{-}bit}$$
+	* 1 if negative, 0 if non-negative
+* Example: 
+	* sign-bit $$= 1$$
+	* Exponent $$= 0b10000000 = 128 = 2^{128 - 127} = 2$$
+	* Fraction $$= 110...0 = \frac{1}{2} + \frac{1}{4} = 1.75$$ 
+	* Result $$= -1 * 2 * 1.75 = -3.5$$
+
 
 ## Exercise Requirements
 * Write MIPS assembly for the MARS simulator to do each of the task below. A file is provided for you for each task with the task also described in the comments of that file. Implement that task only in the file belonging to that task.

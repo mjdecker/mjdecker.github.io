@@ -40,6 +40,14 @@ div {
     display:  block;
 }
 
+table {
+    border-collapse: collapse; 
+}
+th, td {
+    border: 2px solid #ffffff;
+    padding: 8px;
+}
+
 .comment {
 
 	font-family: Menlo, "Courier New", monospace;
