@@ -15,7 +15,7 @@ layout: markdown
 ## Background
 * [IEEE 754](https://en.wikipedia.org/wiki/IEEE_754) defines the various formats to represent floating-point-numbers (e.g., floats and doubles)
 * We will investigate these using [floats](https://en.wikipedia.org/wiki/Single-precision_floating-point_format) or the single-precision floating point format
-* We will focus on converting the numbers in the IEEE 754 format to a decimal number. The following wiki how shows how to go from a decimal number to IEEE 754: [wikihow](https://www.wikihow.com/Convert-a-Number-from-Decimal-to-IEEE-754-Floating-Point-Representation)
+* We will focus on converting the numbers in the IEEE 754 format to a decimal number. The following wikihow shows how to go from a decimal number to IEEE 754: [wikihow](https://www.wikihow.com/Convert-a-Number-from-Decimal-to-IEEE-754-Floating-Point-Representation)
 * A single floating point number is a 32-bit number with the following format:
 
 	|  31    | 30-23  |        22-0           |
