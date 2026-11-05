@@ -10,7 +10,7 @@ layout: markdown
 * Learn how decimal (i.e., floating point numbers) are represented
 
 ## Overview
-* You will use MIPS for (MARS simulator) to accomplish implement a function, while also learning more about the how decimal numbers are represented
+* You will use MIPS for (MARS simulator) to implement a function, while also learning more about how decimal numbers are represented
 
 ## Background
 * [IEEE 754](https://en.wikipedia.org/wiki/IEEE_754) defines the various formats to represent floating-point-numbers (e.g., floats and doubles)
