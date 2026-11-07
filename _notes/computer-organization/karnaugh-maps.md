@@ -70,6 +70,46 @@ layout: notes
 |  0  |  1  |  0  |  0  |  0  |
 |  1  |  1  |  0  |  0  |  0  |
 
+# K-Map Property
+
+| C\AB|  00 |  01 |  11 |  10 |
+|:---:|:---:|:---:|:---:|:---:|
+|  0  |  1  |  0  |  0  |  0  |
+|  1  |  1  |  0  |  0  |  0  |
+
+* Each cell up/down or left/right differs by one bit
+* This property also applies when you wrap it around (last column -> first column)
+
+# K-Map & Minterms
+
+| C\AB|  00 |  01 |  11 |  10 |
+|:---:|:---:|:---:|:---:|:---:|
+|  0  |  1  |  0  |  0  |  0  |
+|  1  |  1  |  0  |  0  |  0  |
+
+| C\AB|  00 |  01 |  11 |  10 |
+|:---:|:---:|:---:|:---:|:---:|
+|  0  |$$\mathbf{\overline{A}\,\overline{B}\,\overline{C}}$$|$$\overline{A}B\overline{C}$$|$$AB\overline{C}$$|$$A\overline{B}\,\overline{C}$$|
+|  1  |$$\mathbf{\overline{A}\,\overline{B}C}$$|$$\overline{A}BC$$|$$ABC$$|$$A\overline{B}C$$|
+
+# Do They Combine?
+
+| C\AB|  00 |  01 |  11 |  10 |
+|:---:|:---:|:---:|:---:|:---:|
+|  0  |$$\mathbf{\overline{A}\,\overline{B}\,\overline{C}}$$|$$\overline{A}B\overline{C}$$|$$AB\overline{C}$$|$$A\overline{B}\,\overline{C}$$|
+|  1  |$$\mathbf{\overline{A}\,\overline{B}C}$$|$$\overline{A}BC$$|$$ABC$$|$$A\overline{B}C$$|
+
+
+# Do They Combine? Yes
+
+| C\AB|  00 |  01 |  11 |  10 |
+|:---:|:---:|:---:|:---:|:---:|
+|  0  |$$\mathbf{\overline{A}\,\overline{B}\,\overline{C}}$$|$$\overline{A}B\overline{C}$$|$$AB\overline{C}$$|$$A\overline{B}\,\overline{C}$$|
+|  1  |$$\mathbf{\overline{A}\,\overline{B}C}$$|$$\overline{A}BC$$|$$ABC$$|$$A\overline{B}C$$|
+
+* First column is true in all cases, C does not matter if it is 0 or 1
+* $$ Y = \overline{A}\,\overline{B}$$
+
 
 # Logic Convention  ![The More You Know]
 * Positive logic convention: $$highVoltage = 1$$
