@@ -9,7 +9,7 @@ layout: notes
 # Laws of Boolean Algebra
 
 |                  Law        |   Equation|Equivalency|
-|         ------------------:|   :------:|:---------:|
+|          ------------------:|   :------:|:---------:|
 |         Associativity of AND|    A(BC)  |   (AB)C   |
 |          Associativity of OR|A + (B + C)|(A + B) + C|
 |         Commutativity of AND|    AB     |     BA    |
@@ -22,7 +22,7 @@ layout: notes
 # Laws of Boolean Algebra - Non Math
 
 |                  Law        |   Equation|   Equivalency|
-|         ------------------:|   :------:|   :---------:|
+|          ------------------:|   :------:|   :---------:|
 |           Annihilator for OR|    1 + A  |       1      |
 |           Idempotence of AND|    AA     |       A      |
 |           Idempotence of OR |   A + A   |       A      |
@@ -32,6 +32,7 @@ layout: notes
 
 # [Karnaugh Map]
 * Graphical method for simplifying Boolean equations
+	* Use with Sum of Products
 * K-Map for short
 * Introduced by Maurice Karnaugh, a telecommunications engineer at Bell Labs, in 1953
 
@@ -135,5 +136,27 @@ layout: notes
 * $$Y = \overline{A}\,\overline{B}C + \overline{A}\,\overline{B}\,\overline{C} = \overline{A}\,\overline{B}(C + \overline{C}) = \overline{A}\,\overline{B}$$
 
 
-# Logic Convention  ![The More You Know]
-* Positive logic convention: $$highVoltage = 1$$
+# K-Map Simplification
+* Circle 1s in map according to:
+* Use fewest circles necessary to cover all the 1’s
+	* 1's may be circles multiple times as long as it is still the fewest
+* All circles encompass only 1s
+*  Each circle must span a rectangular block that is a power of 2 (i.e., 1, 2, or 4) squares in each direction
+	* A circle may wrap around
+* Each circle should be as large as possible
+
+# K-Map Example
+
+| C\AB|  00 |  01 |  11 |  10 |
+|:---:|:---:|:---:|:---:|:---:|
+|  0  |  1  |  0  |  1  |  1  |
+|  1  |  1  |  0  |  0  |  1  |
+
+# K-Map Example
+
+| C\AB|  00 |  01 |  11 |   10  |
+|:---:|:---:|:---:|:---:| :---: |
+|  0  |**1**|  0  |<u>1</u>|**<u>1</u>**|
+|  1  |**1**|  0  |  0  | **1** |
+
+* $$Y = A\overline{C} + \overline{B}$$
