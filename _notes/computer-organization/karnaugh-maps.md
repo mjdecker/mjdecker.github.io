@@ -7,8 +7,9 @@ layout: notes
 [Gray Code]: https://en.wikipedia.org/wiki/Gray_code
 
 # Laws of Boolean Algebra
+
 |                  Law        |   Equation|Equivalency|
-|         :------------------:|   :------:|:---------:|
+|         ------------------:|   :------:|:---------:|
 |         Associativity of AND|    A(BC)  |   (AB)C   |
 |          Associativity of OR|A + (B + C)|(A + B) + C|
 |         Commutativity of AND|    AB     |     BA    |
@@ -19,8 +20,9 @@ layout: notes
 |          Annihilator for AND|    0A     |     0     |
 
 # Laws of Boolean Algebra - Non Math
+
 |                  Law        |   Equation|   Equivalency|
-|         :------------------:|   :------:|   :---------:|
+|         ------------------:|   :------:|   :---------:|
 |           Annihilator for OR|    1 + A  |       1      |
 |           Idempotence of AND|    AA     |       A      |
 |           Idempotence of OR |   A + A   |       A      |
