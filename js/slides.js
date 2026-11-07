@@ -194,6 +194,29 @@ sections.forEach(function(section) {
     section.appendChild(outerWrapper)
 });
 
+/* Slide format: Side-by-side of tables */
+sections.forEach(function(section) {
+
+    /* Two images side-by-side */
+    var par = section.querySelectorAll("section > table")
+    if (par.length != 2)
+      return;
+
+    console.log(section.children[0].innerText + " table + table")
+
+    /* Wrap the images */
+    var table1 = wrapInnerItem(par[0])
+    table1.classList.add('images')
+
+    var table2 = wrapInnerItem(par[1])
+    table2.classList.add('images')
+
+    /* Wrap both the blockquotes div and the list */
+    var outerWrapper = wrapOuter(table1, table2)
+    outerWrapper.classList.add('outer')
+    section.appendChild(outerWrapper)
+});
+
 /* Slide format: Side-by-side of image with single list */
 sections.forEach(function(section) {
 

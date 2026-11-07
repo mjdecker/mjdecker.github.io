@@ -1,5 +1,5 @@
 ---
-title: "Introduction to Digital Logic"
+title: "Karnaugh Maps"
 layout: notes
 ---
 
