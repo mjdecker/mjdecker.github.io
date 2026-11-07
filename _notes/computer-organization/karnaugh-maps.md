@@ -6,6 +6,28 @@ layout: notes
 [Karnaugh Map]: https://en.wikipedia.org/wiki/Karnaugh_map
 [Gray Code]: https://en.wikipedia.org/wiki/Gray_code
 
+# Laws of Boolean Algebra
+|                  Law        |   Equation|Equivalency|
+|         :------------------:|   :------:|:---------:|
+|         Associativity of AND|    A(BC)  |   (AB)C   |
+|          Associativity of OR|A + (B + C)|(A + B) + C|
+|         Commutativity of AND|    AB     |     BA    |
+|         Commutativity of OR |   A + B   |   B + A   |
+|Distributivity of AND over OR|  A(B + C) | AB + AC   |
+|             Identify for AND|    1A     |     A     |
+|              Identify for OR|   0 + A   |     A     |
+|          Annihilator for AND|    0A     |     0     |
+
+# Laws of Boolean Algebra - Non Math
+|                  Law        |   Equation|   Equivalency|
+|         :------------------:|   :------:|   :---------:|
+|           Annihilator for OR|    1 + A  |       1      |
+|           Idempotence of AND|    AA     |       A      |
+|           Idempotence of OR |   A + A   |       A      |
+|               Absorption AND|  A(A + B) |       A      |
+|               Absorption OR |  A + (AB) |       A      |
+|Distributivity of OR over AND|  A + (BC) |(A + B)(A + C)|
+
 # [Karnaugh Map]
 * Graphical method for simplifying Boolean equations
 * K-Map for short
@@ -108,7 +130,7 @@ layout: notes
 |  1  |$$\mathbf{\overline{A}\,\overline{B}C}$$|$$\overline{A}BC$$|$$ABC$$|$$A\overline{B}C$$|
 
 * First column is true in all cases, C does not matter if it is 0 or 1
-* $$ Y = \overline{A}\,\overline{B}$$
+* $$Y = \overline{A}\,\overline{B}C + \overline{A}\,\overline{B}\,\overline{C} = \overline{A}\,\overline{B}(C + \overline{C}) = \overline{A}\,\overline{B}$$
 
 
 # Logic Convention  ![The More You Know]
