@@ -17,6 +17,7 @@ layout: notes
 [Boolean Equation]: https://en.wikipedia.org/wiki/Boolean_algebra
 [De Morgan's Laws]: https://en.wikipedia.org/wiki/De_Morgan%27s_laws
 [Sum of Products]: https://en.wikipedia.org/wiki/Canonical_normal_form
+[PLA]: https://en.wikipedia.org/wiki/Programmable_logic_array
 
 [The More You Know]: /images/common/The_More_You_Know.png
 
@@ -111,6 +112,8 @@ layout: notes
 		* $$A=1$$, $$B=0$$, $$Y=1$$ is $$A\overline{B}$$ 
 	* $$Product = AND$$
 	* $$Sum = OR$$
+* The two-level combinational logic resulting from sum-of-products is a Programmable logic array (PLA) . 
+* [PLA] - programmable logic device used to implement combinational logic circuits, built from an AND array followed by an OR array
 
 # Sum of Products Example
 
