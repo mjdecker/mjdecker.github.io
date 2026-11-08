@@ -108,8 +108,7 @@ layout: notes
 # [Sum of Products]
 * A truth table for a Boolean Equation has $$2^N$$ rows
 * Digital logic can be represented as the sum of minterms where the result of the row is $$1$$/TRUE
-	* $$minterm = $$ product of row terms 
-		* $$A=1$$, $$B=0$$, $$Y=1$$ is $$A\overline{B}$$ 
+	* $$minterm = $$ product of row terms ($$A=1$$, $$B=0$$, $$Y=1$$ is $$A\overline{B}$$)
 	* $$Product = AND$$
 	* $$Sum = OR$$
 * The two-level combinational logic resulting from sum-of-products is a Programmable logic array (PLA) . 
