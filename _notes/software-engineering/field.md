@@ -64,7 +64,7 @@ layout: notes
 * Developers' management
 * Other parts of the company
 * Users
-* Osers' management
+* Users' management
 * Other parts of the users' company
 * Others in same industry
 * Reviewers and the outside world
