@@ -15,7 +15,7 @@ layout: notes
 # Add with Carry
 * 1-bit addition depends on three inputs, the two bits that are added and if there is carry into that operation
 
-# Add with Carry Truth Table
+# Add with Carry -  Truth Table
 
 |Left-bit|Right-bit|Carry|Result|
 |:---:|:---:|:---:|:---:|
@@ -27,3 +27,12 @@ layout: notes
 |  1  |  1  |  1  |  1  |
 |  1  |  0  |  1  |  0  |
 |  1  |  0  |  0  |  1  |
+
+# Add with Carry - K Map
+
+|C\L|R| 00  | 01  | 11  | 10  |
+|:---:|:---:|:---:|:---:|:---:|
+|  0  |  0  |  1  |  0  |  1  |
+|  1  |  1  |  0  |  1  |  0  |
+
+# Boolean
