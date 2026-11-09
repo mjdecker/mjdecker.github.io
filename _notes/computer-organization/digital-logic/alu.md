@@ -76,6 +76,7 @@ layout: notes
 * A multiplexer can be used for each 1-bit to select between operations
 * This forms a 1-bit ALU
 * Link n 1-bit ALUs to make a n-bit ALUY
+* A control unit (CU) is used to select the correct operation
 
 # A Simplistic ALU - Digital Logic
 <div>
