@@ -71,3 +71,13 @@ layout: notes
 <div>
 <iframe src="https://circuitverse.org/users/479923/projects/ripple-carry-adder-a2040106-2ded-46d1-9281-e0448ad4f431/simulator/embed?theme=color-blind&display_title=false&clock_time=false&fullscreen=true&zoom_in_out=false" style="border-width:2px; border-style: solid; border-color:;" name="myiframe" id="projectPreview" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="500" width="500" allowFullScreen></iframe>
 </div>
+
+# A Simplistic ALU
+* A multiplexer can be used for each 1-bit to select between operations
+* This forms a 1-bit ALU
+* Link n 1-bit ALUs to make a n-bit ALUY
+
+# A Simplistic ALU - Digital Logic
+<div>
+<iframe src="https://circuitverse.org/users/479923/projects/alu-1591e9fe-4f02-417c-9f62-26283ad442d0/simulator/embed?theme=color-blind&display_title=false&clock_time=false&fullscreen=true&zoom_in_out=false" style="border-width:2px; border-style: solid; border-color:;" name="myiframe" id="projectPreview" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="500" width="500" allowFullScreen></iframe>
+</div>
