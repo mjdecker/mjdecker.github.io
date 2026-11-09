@@ -17,25 +17,47 @@ layout: notes
 
 # Add with Carry -  Truth Table
 
-|Left-bit|Right-bit|Carry|Result|
-|:---:|:---:|:---:|:---:|
-|  0  |  0  |  0  |  0  |
-|  0  |  0  |  1  |  1  |
-|  0  |  1  |  1  |  0  |
-|  0  |  1  |  0  |  1  |
-|  1  |  1  |  0  |  0  |
-|  1  |  1  |  1  |  1  |
-|  1  |  0  |  1  |  0  |
-|  1  |  0  |  0  |  1  |
+|Left-bit|Right-bit|Carry|Sum|Out|
+|:---:|:---:|:---:|:---:|:---:|
+|  0  |  0  |  0  |  0  |  0  |
+|  0  |  0  |  1  |  1  |  0  |
+|  0  |  1  |  1  |  0  |  1  |
+|  0  |  1  |  0  |  1  |  0  |
+|  1  |  1  |  0  |  0  |  1  |
+|  1  |  1  |  1  |  1  |  1  | 
+|  1  |  0  |  1  |  0  |  1  | 
+|  1  |  0  |  0  |  1  |  0  | 
 
-* $$Y = \overline{L}\overline{R}C + \overline{L}R\overline{C} + LRC + L\overline{R}\overline{C}$$
+* $$S = \overline{L}\,\overline{R}C + \overline{L}R\overline{C} + LRC + L\overline{R}\,\overline{C}$$
+* $$O = \overline{L}RC + LR\overline{C} + LRC + L\overline{R}C$$
 
-# Add with Carry - K Map
+# Add with Carry - Sum K Map
 
 |C\L|R| 00  | 01  | 11  | 10  |
 |:---:|:---:|:---:|:---:|:---:|
 |  0  |  0  |  1  |  0  |  1  |
 |  1  |  1  |  0  |  1  |  0  |
 
-* $$Y = \overline{L}\overline{R}C + \overline{L}R\overline{C} + LRC + L\overline{R}\overline{C}$$
+* $$S = \overline{L}\,\overline{R}C + \overline{L}R\overline{C} + LRC + L\overline{R}\,\overline{C}$$
+
+# Simplifying the Sum Equation
+* K Map didn't help
+* Looking at top row, it is: L XOR R
+* An XOR also has the effect of flipping bits. Second row is flip/mirror of top
+	* So, $$S = L\,XOR\,R\,XOR\,C$$
+
+# Add with Carry - Carry-Out K Map
+
+|O\L|R| 00  | 01  | 11  | 10  |
+|:---:|:---:|:---:|:---:|:---:|
+|  0  |  0  |  0  |  1  |  0  |
+|  1  |  0  |  1  |  1  |  1  |
+
+* $$O = LR + RC + LC$$
  
+# Add with Carry - Digital Logic
+
+<div>
+<iframe src="https://circuitverse.org/users/479923/projects/add-with-carry-4601e2b5-93db-4e20-a7a9-51fcc18a6edf/simulator/embed?theme=color-blind&display_title=false&clock_time=false&fullscreen=true&zoom_in_out=false" style="border-width:2px; border-style: solid; border-color:;" name="myiframe" id="projectPreview" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="500" width="500" allowFullScreen></iframe>
+</div>
+
