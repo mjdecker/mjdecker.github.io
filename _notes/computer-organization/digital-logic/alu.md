@@ -3,8 +3,27 @@ title: "Arithmetic Logic Unit"
 layout: notes
 ---
 
-[Logic Gate]: https://en.wikipedia.org/wiki/Logic_gate
+[ALU]: https://en.wikipedia.org/wiki/Arithmetic_logic_unit
 
 
-# [Logic Gate]
-* A simple digital circuit that takes one or more binary inputs and produce a binary output
+# [ALU]
+* A n-bit ALU is formed from connecting n 1-bit ALUs
+* Logical operations map directly to their digital logic equivalents
+* We use the Truth Tables/Boolean equations to design the digital logic to represent other operations
+* We will show this via Add with Carry
+
+# Add with Carry
+* 1-bit addition depends on three inputs, the two bits that are added and if there is carry into that operation
+
+# Add with Carry Truth Table
+
+|Left-bit|Right-bit|Carry|Result|
+|:---:|:---:|:---:|:---:|
+|  0  |  0  |  0  |  0  |
+|  0  |  0  |  1  |  1  |
+|  0  |  1  |  1  |  0  |
+|  0  |  1  |  0  |  1  |
+|  1  |  1  |  0  |  0  |
+|  1  |  1  |  1  |  1  |
+|  1  |  0  |  1  |  0  |
+|  1  |  0  |  0  |  1  |
