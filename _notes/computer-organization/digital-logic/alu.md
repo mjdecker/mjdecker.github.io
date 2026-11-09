@@ -85,4 +85,4 @@ layout: notes
 # Control Unit
 * A control unit (CU) is used to select the correct ALU operation
 * Other non-ALU ops are also selected via a multiplexer
-* A Decoder is used to convert instructions into control signals needed for multiplexe
+* A Decoder is used to convert instructions into control signals needed for multiplexer
