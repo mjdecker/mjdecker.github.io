@@ -44,7 +44,7 @@ layout: notes
 * K Map didn't help
 * Looking at top row, it is: L XOR R
 * An XOR also has the effect of flipping bits. Second row is flip/mirror of top
-	* So, $$S = L\,XOR\,R\,XOR\,C$$
+	* So, $$S =$$ L XOR R XOR C
 
 # Add with Carry - Carry-Out K Map
 
@@ -61,3 +61,13 @@ layout: notes
 <iframe src="https://circuitverse.org/users/479923/projects/add-with-carry-4601e2b5-93db-4e20-a7a9-51fcc18a6edf/simulator/embed?theme=color-blind&display_title=false&clock_time=false&fullscreen=true&zoom_in_out=false" style="border-width:2px; border-style: solid; border-color:;" name="myiframe" id="projectPreview" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="500" width="500" allowFullScreen></iframe>
 </div>
 
+# Ripple Carry
+* Link 1-bit add logic together such that carry from previous 1-bit feeds into next (i.e., *ripples*)
+* Carry-in in first-bit and Carry-out in last-bit
+	* For example: chaining adders, subtraction
+
+# Ripple Carry - Digital Logic
+
+<div>
+<iframe src="https://circuitverse.org/users/479923/projects/ripple-carry-adder-a2040106-2ded-46d1-9281-e0448ad4f431/simulator/embed?theme=color-blind&display_title=false&clock_time=false&fullscreen=true&zoom_in_out=false" style="border-width:2px; border-style: solid; border-color:;" name="myiframe" id="projectPreview" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="500" width="500" allowFullScreen></iframe>
+</div>
