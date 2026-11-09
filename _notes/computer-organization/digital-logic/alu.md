@@ -28,6 +28,8 @@ layout: notes
 |  1  |  0  |  1  |  0  |
 |  1  |  0  |  0  |  1  |
 
+* $$Y = \overline{L}\overline{R}C + \overline{L}R\overline{C} + LRC + L\overline{R}\overline{C}$$
+
 # Add with Carry - K Map
 
 |C\L|R| 00  | 01  | 11  | 10  |
@@ -35,4 +37,5 @@ layout: notes
 |  0  |  0  |  1  |  0  |  1  |
 |  1  |  1  |  0  |  1  |  0  |
 
-# Boolean
+* $$Y = \overline{L}\overline{R}C + \overline{L}R\overline{C} + LRC + L\overline{R}\overline{C}$$
+ 
