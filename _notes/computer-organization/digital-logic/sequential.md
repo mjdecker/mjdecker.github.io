@@ -23,6 +23,7 @@ layout: notes
 
 # [SR Latch] - Table
 * X means don't care
+* $$\overline{Q} left off for simplicity
 
 |  S  |  R  |  Q  |   Action  |
 |:---:|:---:|:---:|:---------:|
@@ -38,3 +39,26 @@ layout: notes
 </div>
 
 # [D Latch]
+* SR-Latch is awkward because of the behavior when S and R are set
+* S and are used to dictate both:
+	* What the state should be
+	* When the state should change
+* D-Latch separates these:
+	* D - controls what the state should be
+	* CLK - the clock controls when the state should change
+
+# [D Latch] - Table
+* $$\overline{Q} left off for simplicity
+
+| CLK |  D  |  Q  |   Action  |
+|:---:|:---:|:---:|:---------:|
+|  0  |  X  |  Q  | Hold state|
+|  1  |  0  |  0  |   Reset   |
+|  1  |  1  |  1  |    Set    |
+
+# [D Latch] - Digital Logic
+
+<div>
+<iframe src="https://circuitverse.org/users/479923/projects/d-latch-e4db526c-f682-4c20-81e8-23eb51005ec4/simulator/embed?theme=color-blind&display_title=false&clock_time=false&fullscreen=true&zoom_in_out=false" style="border-width:2px; border-style: solid; border-color:;" name="myiframe" id="projectPreview" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="500" width="500" allowFullScreen></iframe>
+</div>
+
