@@ -21,10 +21,20 @@ layout: notes
 	* Input: $$S$$ - *Set* output $$Q$$ ($$Q = 1$$)
 	* Input: $$R$$ - *Reset* output $$Q$$ ($$Q = 0$$)
 
+# [SR Latch] - Table
+* X means don't care
+
+|  S  |  R  |  Q  |   Action  |
+|:---:|:---:|:---:|:---------:|
+|  0  |  0  |  Q  | Hold state|
+|  0  |  1  |  0  |   Reset   |
+|  1  |  0  |  0  |    Set    |
+|  1  |  1  |  X  |Not allowed|
+
 # [SR Latch] - Digital Logic
 
 <div>
 <iframe src="https://circuitverse.org/users/479923/projects/sr-latch-ebfa584a-c5b1-41ae-8d13-192ccedf254a/simulator/embed?theme=color-blind&display_title=false&clock_time=false&fullscreen=true&zoom_in_out=false" style="border-width:2px; border-style: solid; border-color:;" name="myiframe" id="projectPreview" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="500" width="500" allowFullScreen></iframe>
 </div>
 
-# [D Latch] - Digital Logic
+# [D Latch]
