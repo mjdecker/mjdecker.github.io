@@ -6,6 +6,7 @@ layout: notes
 [Sequential Logic]: https://en.wikipedia.org/wiki/Sequential_logic
 
 [SR Latch]: https://en.wikipedia.org/wiki/Flip-flop_(electronics)#SR_NOR_latch
+[Flip Flop]: https://en.wikipedia.org/wiki/Flip-flop_(electronics)
 
 # [Sequential Logic]
 * Depend on current and previous values, forming memory
@@ -61,4 +62,11 @@ layout: notes
 <div>
 <iframe src="https://circuitverse.org/users/479923/projects/d-latch-e4db526c-f682-4c20-81e8-23eb51005ec4/simulator/embed?theme=color-blind&display_title=false&clock_time=false&fullscreen=true&zoom_in_out=false" style="border-width:2px; border-style: solid; border-color:;" name="myiframe" id="projectPreview" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="500" width="500" allowFullScreen></iframe>
 </div>
+
+# [Flip Flop]
+* D Latch is transparent or level-sensitive
+	* Transparent - while $$CLK=1$$ data flows through, setting Q
+	* Opaque - while $$CLK=0$$ data is blocked, retaining old Q
+* Want to be able to update only at specific instances
+* D [Flip Flop] is built from two D Latches
 
