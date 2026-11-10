@@ -67,6 +67,10 @@ layout: notes
 * D Latch is transparent or level-sensitive
 	* Transparent - while $$CLK=1$$ data flows through, setting Q
 	* Opaque - while $$CLK=0$$ data is blocked, retaining old Q
-* Want to be able to update only at specific instances
+* Want to be able to update only at specific instances, e.g.,
+	* When CLK transitions from 0 to 1 (rising edge)
+	* When CLK transitions from 1 to 0 (falling edge)
 * D [Flip Flop] is built from two D Latches
+	* master
+	* slave
 
