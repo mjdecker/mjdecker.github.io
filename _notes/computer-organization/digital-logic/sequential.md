@@ -102,9 +102,22 @@ layout: notes
 # [Register] & [Register File]
 * A register is built by linking flip-flops (with common CLK) together 1 flip-flop per bit
 * [Register File] - a set of registers that can be read-from/written-to via supplied register number
+	* Read two registers (input: register # output: register data)
+	* Write one register (input: register #, write register data, clock signal to control write)
 
 # [Register] - Digital Logic
 
 <div>
 <iframe src="https://circuitverse.org/users/479923/projects/register-3f12e4e4-e042-42d2-9cc2-05c85c67ea9b/simulator/embed?theme=color-blind&display_title=false&clock_time=false&fullscreen=true&zoom_in_out=false" style="border-width:2px; border-style: solid; border-color:;" name="myiframe" id="projectPreview" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="500" width="500" allowFullScreen></iframe>
+</div>
+
+# [Register File] - Read Digital Logic
+
+<div>
+<iframe src="https://circuitverse.org/users/479923/projects/register-file-read/simulator/embed?theme=color-blind&display_title=false&clock_time=false&fullscreen=true&zoom_in_out=false" style="border-width:2px; border-style: solid; border-color:;" name="myiframe" id="projectPreview" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="500" width="500" allowFullScreen></iframe>
+</div>
+
+# [Register File] - Write Digital Logic
+
+<div>
 </div>
