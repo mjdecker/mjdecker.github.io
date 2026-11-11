@@ -11,10 +11,10 @@ layout: notes
 
 # [Sequential Logic]
 * Depend on current and previous values, forming memory
+* While power is supplied, store 1 bit
 * Used to build:
 	* Latches
 	* Flip-flops
-	* Register files
 
 # [SR Latch]
 * A sequential circuit consisting of two NOR gates with the following inputs and outputs
@@ -50,7 +50,7 @@ layout: notes
 	* CLK - the clock controls when the state should change
 
 # [D Latch] - Table
-* $$\overline{Q} left off for simplicity
+* $$\overline{Q}$$ left off for simplicity
 
 | CLK |  D  |  Q  |   Action  |
 |:---:|:---:|:---:|:---------:|
@@ -66,8 +66,8 @@ layout: notes
 
 # [Flip Flop]
 * D Latch is transparent or level-sensitive
-	* Transparent - while $$CLK=1$$ data flows through, setting Q
-	* Opaque - while $$CLK=0$$ data is blocked, retaining old Q
+	* Transparent - while $$CLK=1$$, data flows through (sets Q)
+	* Opaque - while $$CLK=0$$, data is blocked (retains old Q)
 * Want to be able to update only at specific instances, e.g.,
 	* When CLK transitions from 0 to 1 (rising edge)
 	* When CLK transitions from 1 to 0 (falling edge)
@@ -82,3 +82,8 @@ layout: notes
 <div>
 <iframe src="https://circuitverse.org/users/479923/projects/flip-flop-a88e5beb-e251-48c6-8904-aad5ab63d6ba/simulator/embed?theme=color-blind&display_title=false&clock_time=false&fullscreen=true&zoom_in_out=false" style="border-width:2px; border-style: solid; border-color:;" name="myiframe" id="projectPreview" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="500" width="500" allowFullScreen></iframe>
 </div>
+
+# Registers & Register files
+* A register is built by linking flip-flops together 1 flip-flop per bit
+* Register File - a set of registers that can be read-from/written-to via supplied register number
+
