@@ -82,6 +82,12 @@ layout: notes
 <iframe src="https://circuitverse.org/users/479923/projects/alu-1591e9fe-4f02-417c-9f62-26283ad442d0/simulator/embed?theme=color-blind&display_title=false&clock_time=false&fullscreen=true&zoom_in_out=false" style="border-width:2px; border-style: solid; border-color:;" name="myiframe" id="projectPreview" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="500" width="500" allowFullScreen></iframe>
 </div>
 
+# ALU as a Black-box
+
+<div>
+<iframe src="https://circuitverse.org/users/479923/projects/alu-black-box/simulator/embed?theme=color-blind&display_title=false&clock_time=false&fullscreen=true&zoom_in_out=false" style="border-width:2px; border-style: solid; border-color:;" name="myiframe" id="projectPreview" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="500" width="500" allowFullScreen></iframe>
+</div>
+
 # Control Unit
 * A control unit (CU) is used to select the correct ALU operation
 * Other non-ALU ops are also selected via a multiplexer
