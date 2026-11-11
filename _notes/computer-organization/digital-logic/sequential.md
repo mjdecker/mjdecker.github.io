@@ -6,6 +6,7 @@ layout: notes
 [Sequential Logic]: https://en.wikipedia.org/wiki/Sequential_logic
 
 [SR Latch]: https://en.wikipedia.org/wiki/Flip-flop_(electronics)#SR_NOR_latch
+[D Latch]: https://en.wikipedia.org/wiki/Flip-flop_(electronics)#Gated_D_latch
 [Flip Flop]: https://en.wikipedia.org/wiki/Flip-flop_(electronics)
 
 # [Sequential Logic]
@@ -71,6 +72,13 @@ layout: notes
 	* When CLK transitions from 0 to 1 (rising edge)
 	* When CLK transitions from 1 to 0 (falling edge)
 * D [Flip Flop] is built from two D Latches
-	* master
-	* slave
+	* master - transparent when $$CLK=0$$, opaque when $$CLK=1$$
+	* slave - opaque when $$CLK=0$$, transparent when $$CLK=1$$
+	* $$Q_{master}$$ propogates to $$Q_{slave}$$ when $$CLK$$ transitions form $$0$$ to $$1$$
+	* Otherwise, $$Q$$ (i.e., $$Q_{slave}$$) remains the same
 
+# [Flip Flop] - Digital Logic
+
+<div>
+<iframe src="https://circuitverse.org/users/479923/projects/flip-flop-a88e5beb-e251-48c6-8904-aad5ab63d6ba/simulator/embed?theme=color-blind&display_title=false&clock_time=false&fullscreen=true&zoom_in_out=false" style="border-width:2px; border-style: solid; border-color:;" name="myiframe" id="projectPreview" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="500" width="500" allowFullScreen></iframe>
+</div>
