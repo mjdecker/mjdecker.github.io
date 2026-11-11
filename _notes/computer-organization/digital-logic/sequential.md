@@ -9,6 +9,9 @@ layout: notes
 [D Latch]: https://en.wikipedia.org/wiki/Flip-flop_(electronics)#Gated_D_latch
 [Flip Flop]: https://en.wikipedia.org/wiki/Flip-flop_(electronics)
 
+[Register]: https://en.wikipedia.org/wiki/Hardware_register
+[Register File]: https://en.wikipedia.org/wiki/Register_file
+
 [The More You Know]: /images/common/The_More_You_Know.png
 
 # [Sequential Logic]
@@ -96,11 +99,11 @@ layout: notes
 * RESET - Forces the primary output Q to PRESET value
 * Note: normally PRESET forces $$Q=1$$ and RESET $$Q=0$$
 
-# Registers & Register files
+# [Register] & [Register File]
 * A register is built by linking flip-flops (with common CLK) together 1 flip-flop per bit
-* Register File - a set of registers that can be read-from/written-to via supplied register number
+* [Register File] - a set of registers that can be read-from/written-to via supplied register number
 
-# Register - Digital Logic
+# [Register] - Digital Logic
 
 <div>
 <iframe src="https://circuitverse.org/users/479923/projects/register-3f12e4e4-e042-42d2-9cc2-05c85c67ea9b/simulator/embed?theme=color-blind&display_title=false&clock_time=false&fullscreen=true&zoom_in_out=false" style="border-width:2px; border-style: solid; border-color:;" name="myiframe" id="projectPreview" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="500" width="500" allowFullScreen></iframe>
