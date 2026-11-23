@@ -11,15 +11,19 @@ layout: markdown
 
 ## Overview
 * You will take the digital logic we learned in class to build a simple processor
-	* 9-bit registers
-	* 4 registers 
+	* 4 x 9-bit registers
 	* 9-bit PC
-	* 
+	* 8 Instructions
+	* Single instruction format
+	* Memory:
+		* Data: 0x000 - 0x0FF 
+		* Text: 0x100 - 0x1FF (PC starts at 0x100)
+	* Use a Button in CircuitVerse (or something similar) to launch fetch-decode-execute
 
 ## Instruction Set
 * Format:
 
-|      |     |     |     |
+|      |      |      |      |
 |:----:|:----:|:----:|:----:|
 |opcode|  dr  |  lr  |  rr  |
 |3-bits|2-bits|2-bits|2-bits|
@@ -46,12 +50,10 @@ layout: markdown
 
 ## Submission Requirements
 * Work is submitted to the supplied Git repository. The GitHub Classroom link is: see Canvas
-* DON'T commit changes to the <code>.data</code> section.
 
 ## Grading Criteria
 * You have used [good commit messages](https://cbea.ms/git-commit/)
 * You have committed incrementally
 * You have committed and pushed the completed exercise
 * Followed the class [coding standards](https://mdecker.net/standards/coding-standards.html)
-* You have implementd the tasks correctly in MIPS for MARS as described
-* You have not commited changes to the <code>.data</code> section
+* You have designed a working processor as described above
